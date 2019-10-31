@@ -36,6 +36,7 @@ body {
   background: url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background.jpg');
   background-size: contain;
   background-repeat: no-repeat;
+  margin: 0% 20% 0% 20%;
 }
 
 h1{
@@ -70,9 +71,10 @@ h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
+  color: #000000;
   font-style: italic;
   font-weight: bold;
-  font-size: 200%;
+  font-size: 100%;
 }
 
 h3{
