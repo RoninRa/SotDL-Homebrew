@@ -39,6 +39,9 @@ body {
   background-position: center center;
   margin: 0 auto;
   padding: 0 10%;
+}
+
+#main_content {
   column-count: 2;
   column-fill: auto;
   column-gap: 1cm;
