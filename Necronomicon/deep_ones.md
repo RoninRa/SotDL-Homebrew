@@ -1,6 +1,4 @@
-<head>
-<link rel = "stylesheet" type = "text/css" href = "../assets/css/style.scss" />
-</head>
+<!-- <link rel = "stylesheet" type = "text/css" href = "../assets/css/style.scss" /> -->
 
 <style>
   .phb#p1{ text-align:center; }
