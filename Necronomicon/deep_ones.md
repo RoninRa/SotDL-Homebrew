@@ -1,4 +1,6 @@
+<head>
 <link rel = "stylesheet" type = "text/css" href = "./assets/homebrewery-sotdl.css" />
+</head>
 
 <style>
   .phb#p1{ text-align:center; }
