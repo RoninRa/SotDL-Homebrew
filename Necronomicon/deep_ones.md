@@ -16,7 +16,7 @@
 *Necronomicon for Shadow of the Demon Lord* -- Need a header with italics and bold
 <br/><br/>
 
-Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga 
+Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga 
 
 
 >### ~CREDITS~  -- Need to center!

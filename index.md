@@ -4,5 +4,5 @@
 
 A collection of all my Lovecraftian creations for SotDL
 
-- [Deep Ones](necronomicon/deep_ones.md)
-<!-- - [Ghouls(Mythos)](necronomicon/ghouls_mythos.md) -->
+- [Deep Ones](Necronomicon/deep_ones.md)
+<!-- - [Ghouls(Mythos)](Necronomicon/ghouls_mythos.md) -->
