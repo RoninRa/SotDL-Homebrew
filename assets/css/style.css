@@ -34,9 +34,9 @@ body {
   font-family: Athelas;
   /* background: url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background-small.jpg'); */
   background: url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background.jpg');
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
-  margin: 0% 20% 0% 20%;
+  margin: 0% 15% 0% 15%;
 }
 
 h1{
@@ -74,7 +74,7 @@ h2 {
   color: #000000;
   font-style: italic;
   font-weight: bold;
-  font-size: 100%;
+  font-size: 150%;
 }
 
 h3{
