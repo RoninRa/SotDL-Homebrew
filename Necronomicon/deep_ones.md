@@ -1,5 +1,5 @@
 <head>
-<link rel = "stylesheet" type = "text/css" href = "./assets/homebrewery-sotdl.css" />
+<link rel = "stylesheet" type = "text/css" href = "../assets/css/style.scss" />
 </head>
 
 <style>
