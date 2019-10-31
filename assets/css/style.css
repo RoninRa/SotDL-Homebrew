@@ -32,8 +32,8 @@
 
 body {
   font-family: Athelas;
-  
-  background: url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background-small.jpg');
+  /* background: url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background-small.jpg'); */
+  background: url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background.jpg');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -60,13 +60,19 @@ h1+p::first-letter {
   line-height: inherit;
 }
 
-h2, h3, h4, h5, h6,h7 { 
+h2, h3, h4, h5, h6, h7 { 
   font-family: "Portmanteau",'IM Fell English';
   text-transform : uppercase;
   text-align: left;
   color: rgb(155,7,25);
   font-weight: 500;
   line-height: 1.1;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 200%;
 }
 
 h3{
@@ -131,23 +137,23 @@ strong em, em strong{
 
 blockquote{
 	border-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment.png') 50 round;
-    background-color: transparent;
-    background-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment-back.png');
-    box-shadow: none;
-    padding-left: 20px;
-    padding-right:20px;
-    padding-top:10px;
-    text-align: center;
+  background-color: transparent;
+  background-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment-back.png');
+  box-shadow: none;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top:10px;
 }
 
 blockquote h5{
 	border: none;
-    text-align: center;
-    padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 blockquote p{
-	font-size:0.83em;
+  font-size:0.83em;
+  text-align: center;
 }
 
 .descriptive{
