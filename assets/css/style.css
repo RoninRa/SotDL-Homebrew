@@ -30,7 +30,7 @@
 
 /**  **/
 
-.phb {
+.body {
   font-family: Athelas;
   
   background: url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background-small.jpg');
@@ -38,7 +38,7 @@
   background-repeat: no-repeat;
 }
 
-.phb h1{
+.body h1{
   font-family: "First Order";
   font-size: 400%;
   text-align: center;
@@ -52,7 +52,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.phb h1+p::first-letter {
+.body h1+p::first-letter {
   float: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -60,7 +60,7 @@
   line-height: inherit;
 }
 
-.phb h2,.phb  h3,.phb  h4,.phb  h5,.phb  h6,.phb h7 { 
+.body h2,.body  h3,.body  h4,.body  h5,.body  h6,.body h7 { 
   font-family: "Portmanteau",'IM Fell English';
   text-transform : uppercase;
   text-align: left;
@@ -69,22 +69,22 @@
   line-height: 1.1;
 }
 
-.phb h3{
+.body h3{
   border-bottom-style: none;
 }
 
-.phb h4{
+.body h4{
 	font-size: .425cm;
 }
 
-.phb h5{
+.body h5{
 	font-size: .375cm;
   border-bottom-style: solid;
   border-bottom-color: black;
   border-bottom-width: 1px;
 }
 
-.phb h6{
+.body h6{
 	font-size: .33cm;
     border-bottom-style: solid;
     border-bottom-color: black;
@@ -92,13 +92,13 @@
     color: black;
 }
 
-.phb p, .phb li, .phb ol{
+.body p, .body li, .body ol{
 	font-family: 'GothamBook';
     font-size: 1em;
   text-align: left;    
 }
 
-.phb table thead th {
+.body table thead th {
   background-color: #000000;
   color: #ffffff;
   font-family: "GothamBook";
@@ -106,30 +106,30 @@
   padding-top: 3px;
   padding-bottom: 3px;
 }
-.phb table tbody tr{
+.body table tbody tr{
   font-family: "GothamBook";
   font-size:.85em;
 }
 
-.phb table tbody tr:nth-child(odd){
+.body table tbody tr:nth-child(odd){
     background-color: initial;
     font-family: "GothamBook";
   font-size:.85em;
 }
 
-.phb table tbody tr:nth-child(even) {
+.body table tbody tr:nth-child(even) {
   background-color: #fff;
   font-family: "GothamBook";
   font-size:.85em;
 }
 
-.phb strong em, .phb em strong{
+.body strong em, .body em strong{
   color: rgb(155,7,25);
   font-style : normal;
   font-weight: bold;
 }
 
-.phb blockquote{
+.body blockquote{
 	border-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment.png') 50 round;
     background-color: transparent;
     background-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment-back.png');
@@ -140,17 +140,17 @@
     text-align: center;
 }
 
-.phb blockquote h5{
+.body blockquote h5{
 	border: none;
     text-align: center;
     padding-bottom: 10px;
 }
 
-.phb blockquote p{
+.body blockquote p{
 	font-size:0.83em;
 }
 
-.phb .descriptive{
+.body .descriptive{
 	border: none;
     background-color: transparent;
     box-shadow: none;
@@ -158,13 +158,13 @@
     padding-left:30px;
 }
 
-.phb .descriptive h5{
+.body .descriptive h5{
 	font-style:normal;
     color:black;
     text-align:center;
 }
 
-.phb .footnote{
+.body .footnote{
 	color:#222;
     font-family: "First Order";
     font-size: 2.5em;
@@ -172,20 +172,20 @@
     bottom:0px;
 }
 
-.phb .pageNumber {
+.body .pageNumber {
     bottom:0px;
     vertical-align: middle;
 }
 
-.phb .pageNumber.auto{
+.body .pageNumber.auto{
 	bottom:22px;
 }
 
-.phb .pageNumber.auto::after{
+.body .pageNumber.auto::after{
 	height:22px;
 }
 
-.phb .pageNumber p, .phb .pageNumber.auto p{
+.body .pageNumber p, .body .pageNumber.auto p{
 	font-family: "First Order";
     font-size: 2.5em;
     color: #222;
@@ -199,7 +199,7 @@
     font-family: 'Lucida Console'
 }
 
-.phb hr{
+.body hr{
 	visibility: visible;
     border-style : solid;
     border-color: black;
@@ -207,22 +207,22 @@
     position: relative;
 }
 
-.phb p+hr{
+.body p+hr{
 	top: -5px;
 }
 
 
-.phb .spell h4{
+.body .spell h4{
 	font-size: 0.5em;
 }
 
-.phb hr+blockquote{
+.body hr+blockquote{
 	border-style : none;
     background-image: none;
     background-color : transparent;
 }
 
-.phb::after {
+.body::after {
 	background: none;
     background-image: url(https://groumy.github.io/homebrewery-sotdl/images/page-number-pentagram.png);
     background-size: 100px 100px; 
@@ -232,22 +232,22 @@
 }
 
 
-.phb:nth-child(odd):after {
+.body:nth-child(odd):after {
     transform: scaleX(-1);
 }
 
-.phb:nth-child(even):after {
+.body:nth-child(even):after {
     transform: scaleX(1);
 }
 
 
 /** Monster Stat Block **/
 
-.phb hr+blockquote{
+.body hr+blockquote{
 	padding : 0px;
 }
 
-.phb hr+blockquote h1{
+.body hr+blockquote h1{
 	font-family : Athelas;
     background-color: black;
     background-image : none;
@@ -261,7 +261,7 @@
     text-align: left;
 }
 
-.phb hr+blockquote h2{
+.body hr+blockquote h2{
 	font-family : Athelas;
     background-color: black;
     color : white;
@@ -274,7 +274,7 @@
     text-align:right;
 }
 
-.phb hr+blockquote h3{
+.body hr+blockquote h3{
   background-color: #BBB;
   color: black;
   padding: 3px;
@@ -285,7 +285,7 @@
   border-style : none;
 }
 
-.phb hr+blockquote h2+p{
+.body hr+blockquote h2+p{
     clear : both;
     background-color : darkred;
     color: white;
@@ -293,17 +293,17 @@
     padding-left: 5px;
 }
 
-.phb hr+blockquote h2+p+hr,
-.phb hr+blockquote h3+hr{
+.body hr+blockquote h2+p+hr,
+.body hr+blockquote h3+hr{
 	display:none;
 }
 
-.phb hr+blockquote hr+ul li {
+.body hr+blockquote hr+ul li {
 	margin-left: 5px;
     font-family: Athelas;
 }
 
-.phb hr+blockquote hr {
+.body hr+blockquote hr {
 	background-image : none;
     visibility: visible;
     border-style: solid;
@@ -312,6 +312,6 @@
     position: relative;
 }
 
-.phb hr+blockquote h2:before{
+.body hr+blockquote h2:before{
 	content: "Difficulty ";
 }
