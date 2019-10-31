@@ -34,9 +34,11 @@ body {
   font-family: Athelas;
   /* background: url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background-small.jpg'); */
   background: url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background.jpg');
-  background-size: 100%;
+  background-size: 86%;
   background-repeat: no-repeat;
-  margin: 0% 15% 0% 15%;
+  background-position: center center;
+  margin: 0 auto;
+  padding: 0 10%;
 }
 
 h1{
@@ -44,7 +46,7 @@ h1{
   font-size: 400%;
   text-align: center;
   text-shadow: 0px 0px 5px black;
-  color:white;
+  color: #C3C3AE;
   text-transform: uppercase;
   background-image: url('https://groumy.github.io/homebrewery-sotdl/images/h1.banner-large.png');
   background-size: 100% 100%;

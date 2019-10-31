@@ -1,11 +1,11 @@
 # Deep Ones
 
-<div style='margin-top:25px'></div>
-
+<div style="float:left;">
 ## Pages of Necronomicon for Shadow of the Demon Lord
 
 Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga Baba yaga 
 
+</div>
 
 >### ~CREDITS~  -- Need to center!
 >#### WRITING AND DESIGN:
