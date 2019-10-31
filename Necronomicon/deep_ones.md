@@ -5,10 +5,6 @@
   .phb#p1:after{ display:none; }
   </style>
 
-<img src='http://schwalbentertainment.com/wp-content/uploads/2015/01/red-logo-transparent-200px.png' style='position:absolute;width:280px; left: 264px;' />
-
-<div style='margin-top:450px;'></div>
-
 # Deep Ones
 
 <div style='margin-top:25px'></div>
