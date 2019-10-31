@@ -1,5 +1,4 @@
-
-<h1 class="banner"> Deep Ones</h1>
+# Deep Ones
 
 ## Pages of Necronomicon for Shadow of the Demon Lord
 
