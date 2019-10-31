@@ -96,16 +96,17 @@ h5{
 
 h6{
 	font-size: .33cm;
-    border-bottom-style: solid;
-    border-bottom-color: black;
-    border-bottom-width: 1px;
-    color: black;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  color: black;
 }
 
 p, li, ol{
 	font-family: 'GothamBook';
-    font-size: 1em;
-  text-align: left;    
+  font-size: 1em;
+  text-align: left;
+  float: left;
 }
 
 table thead th {
@@ -147,6 +148,7 @@ blockquote{
   padding-left: 20px;
   padding-right:20px;
   padding-top:10px;
+  float: left;
 }
 
 blockquote h5{
