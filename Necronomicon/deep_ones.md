@@ -1,4 +1,4 @@
-<link rel = "stylesheet" type = "text/css" href = "https://groumy.github.io/homebrewery-sotdl/homebrewery-sotdl.css" />
+<link rel = "stylesheet" type = "text/css" href = "ArtAndStyle\homebrewery-sotdl.css" />
 
 <style>
   .phb#p1{ text-align:center; }
