@@ -1,28 +1,30 @@
-
----
----
-
-@import "";
+--- --- @import "";
 /** Import Fonts **/
+
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
 @import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
 /** Defining fonts **/
+
 @font-face {
   font-family: 'First Order';
   src: url('https://groumy.github.io/homebrewery-sotdl/fonts/firstv2.ttf')
 }
+
 @font-face {
   font-family: 'GothamBold';
   src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBold%20Regular.otf')
 }
+
 @font-face {
   font-family: 'GothamBook';
   src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBook%20Regular.otf')
 }
+
 @font-face {
   font-family: 'JSL Ancient';
   src: url('https://groumy.github.io/homebrewery-sotdl/fonts/jancieni.ttf')
 }
+
 @font-face {
   font-family: 'Poison Hope';
   src: url('https://groumy.github.io/homebrewery-sotdl/fonts/PoisonHope-Regular.otf')
@@ -56,7 +58,7 @@ body {
   page-break-after: always;
 }
 
-h1{
+h1 {
   all: initial;
   font-family: "First Order";
   font-size: 400%;
@@ -67,7 +69,7 @@ h1{
   background-image: url('https://groumy.github.io/homebrewery-sotdl/images/h1.banner-large.png');
   background-size: 100% 100%;
   padding-top: 0.45em;
-  padding-bottom : 25px;
+  padding-bottom: 25px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -79,11 +81,11 @@ h1+p::first-letter {
   line-height: inherit;
 }
 
-h2, h3, h4, h5, h6, h7 { 
-  font-family: "Portmanteau",'IM Fell English';
-  text-transform : uppercase;
+h2, h3, h4, h5, h6, h7 {
+  font-family: "Portmanteau", 'IM Fell English';
+  text-transform: uppercase;
   text-align: left;
-  color: rgb(155,7,25);
+  color: rgb(155, 7, 25);
   font-weight: 500;
   line-height: 1.1;
 }
@@ -95,31 +97,31 @@ h2 {
   font-size: 150%;
 }
 
-h3{
+h3 {
   border-bottom-style: none;
 }
 
-h4{
-	font-size: .425cm;
+h4 {
+  font-size: .425cm;
 }
 
-h5{
-	font-size: .375cm;
+h5 {
+  font-size: .375cm;
   border-bottom-style: solid;
   border-bottom-color: black;
   border-bottom-width: 1px;
 }
 
-h6{
-	font-size: .33cm;
+h6 {
+  font-size: .33cm;
   border-bottom-style: solid;
   border-bottom-color: black;
   border-bottom-width: 1px;
   color: black;
 }
 
-p, li, ol{
-	font-family: 'GothamBook';
+p, li, ol {
+  font-family: 'GothamBook';
   font-size: 1em;
   text-align: left;
   float: left;
@@ -129,180 +131,178 @@ table thead th {
   background-color: #000000;
   color: #ffffff;
   font-family: "GothamBook";
-  font-size:.85em;
+  font-size: .85em;
   padding-top: 3px;
   padding-bottom: 3px;
 }
-table tbody tr{
+
+table tbody tr {
   font-family: "GothamBook";
-  font-size:.85em;
+  font-size: .85em;
 }
 
-table tbody tr:nth-child(odd){
-    background-color: initial;
-    font-family: "GothamBook";
-  font-size:.85em;
+table tbody tr:nth-child(odd) {
+  background-color: initial;
+  font-family: "GothamBook";
+  font-size: .85em;
 }
 
 table tbody tr:nth-child(even) {
   background-color: #fff;
   font-family: "GothamBook";
-  font-size:.85em;
+  font-size: .85em;
 }
 
-strong em, em strong{
-  color: rgb(155,7,25);
-  font-style : normal;
+strong em, em strong {
+  color: rgb(155, 7, 25);
+  font-style: normal;
   font-weight: bold;
 }
 
-blockquote{
-	border-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment.png') 50 round;
+blockquote {
+  border-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment.png') 50 round;
   background-color: transparent;
   background-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment-back.png');
   box-shadow: none;
   padding-left: 20px;
-  padding-right:20px;
-  padding-top:10px;
+  padding-right: 20px;
+  padding-top: 10px;
   float: left;
 }
 
-blockquote h5{
-	border: none;
+blockquote h5 {
+  border: none;
   text-align: center;
   padding-bottom: 10px;
 }
 
-blockquote p{
-  font-size:0.83em;
+blockquote p {
+  font-size: 0.83em;
   text-align: center;
 }
 
-.descriptive{
-	border: none;
-    background-color: transparent;
-    box-shadow: none;
-    font-style: italic;
-    padding-left:30px;
+.descriptive {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  font-style: italic;
+  padding-left: 30px;
 }
 
-.descriptive h5{
-	font-style:normal;
-    color:black;
-    text-align:center;
+.descriptive h5 {
+  font-style: normal;
+  color: black;
+  text-align: center;
 }
 
-.footnote{
-	color:#222;
-    font-family: "First Order";
-    font-size: 2.5em;
-    width:100%;
-    bottom:0px;
+.footnote {
+  color: #222;
+  font-family: "First Order";
+  font-size: 2.5em;
+  width: 100%;
+  bottom: 0px;
 }
 
 .pageNumber {
-    bottom:0px;
-    vertical-align: middle;
+  bottom: 0px;
+  vertical-align: middle;
 }
 
-.pageNumber.auto{
-	bottom:22px;
+.pageNumber.auto {
+  bottom: 22px;
 }
 
-.pageNumber.auto::after{
-	height:22px;
+.pageNumber.auto::after {
+  height: 22px;
 }
 
-.pageNumber p, .pageNumber.auto p{
-	font-family: "First Order";
-    font-size: 2.5em;
-    color: #222;
-    text-align: center;
+.pageNumber p, .pageNumber.auto p {
+  font-family: "First Order";
+  font-size: 2.5em;
+  color: #222;
+  text-align: center;
 }
 
-.html-code code{
-	visibility: visible;
-    box-shadow: 1px 1px 1px black;
-    background-color: #aaa;
-    font-family: 'Lucida Console'
+.html-code code {
+  visibility: visible;
+  box-shadow: 1px 1px 1px black;
+  background-color: #aaa;
+  font-family: 'Lucida Console'
 }
 
-hr{
-	visibility: visible;
-    border-style : solid;
-    border-color: black;
-    border-width: 1px 0px 0px 0px;
-    position: relative;
+hr {
+  visibility: visible;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0px 0px 0px;
+  position: relative;
 }
 
-p+hr{
-	top: -5px;
+p+hr {
+  top: -5px;
 }
 
-
-.spell h4{
-	font-size: 0.5em;
+.spell h4 {
+  font-size: 0.5em;
 }
 
-hr+blockquote{
-	border-style : none;
-    background-image: none;
-    background-color : transparent;
+hr+blockquote {
+  border-style: none;
+  background-image: none;
+  background-color: transparent;
 }
 
 .body::after {
-	background: none;
-    background-image: url(https://groumy.github.io/homebrewery-sotdl/images/page-number-pentagram.png);
-    background-size: 100px 100px; 
-    background-repeat: no-repeat;   
-    background-position: 0px calc(100% - 0px);
-    height: 100px
+  background: none;
+  background-image: url(https://groumy.github.io/homebrewery-sotdl/images/page-number-pentagram.png);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: 0px calc(100% - 0px);
+  height: 100px
 }
 
-
 .body:nth-child(odd):after {
-    transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .body:nth-child(even):after {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
-
 
 /** Monster Stat Block **/
 
-hr+blockquote{
-	padding : 0px;
+hr+blockquote {
+  padding: 0px;
 }
 
-hr+blockquote h1{
-	font-family : Athelas;
-    background-color: black;
-    background-image : none;
-    color : white;
-    font-weight: bold;
-    font-size: 1em;
-    padding: 5px;
-    float:left;
-    margin: 0px;
-    width:60%;
-    text-align: left;
+hr+blockquote h1 {
+  font-family: Athelas;
+  background-color: black;
+  background-image: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 5px;
+  float: left;
+  margin: 0px;
+  width: 60%;
+  text-align: left;
 }
 
-hr+blockquote h2{
-	font-family : Athelas;
-    background-color: black;
-    color : white;
-    font-weight: bold;
-    font-size: 0.9em;
-    padding: 5px;
-    float:right;
-    width: 40%;
-    margin : 0px;
-    text-align:right;
+hr+blockquote h2 {
+  font-family: Athelas;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 5px;
+  float: right;
+  width: 40%;
+  margin: 0px;
+  text-align: right;
 }
 
-hr+blockquote h3{
+hr+blockquote h3 {
   background-color: #BBB;
   color: black;
   padding: 3px;
@@ -310,36 +310,35 @@ hr+blockquote h3{
   font-size: 0.8em;
   font-family: 'GothamBook';
   font-weight: bold;
-  border-style : none;
+  border-style: none;
 }
 
-hr+blockquote h2+p{
-    clear : both;
-    background-color : darkred;
-    color: white;
-    padding : 3px;
-    padding-left: 5px;
+hr+blockquote h2+p {
+  clear: both;
+  background-color: darkred;
+  color: white;
+  padding: 3px;
+  padding-left: 5px;
 }
 
-hr+blockquote h2+p+hr,
-hr+blockquote h3+hr{
-	display:none;
+hr+blockquote h2+p+hr, hr+blockquote h3+hr {
+  display: none;
 }
 
 hr+blockquote hr+ul li {
-	margin-left: 5px;
-    font-family: Athelas;
+  margin-left: 5px;
+  font-family: Athelas;
 }
 
 hr+blockquote hr {
-	background-image : none;
-    visibility: visible;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0px 0px 0px;
-    position: relative;
+  background-image: none;
+  visibility: visible;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0px 0px 0px;
+  position: relative;
 }
 
-hr+blockquote h2:before{
-	content: "Difficulty ";
+hr+blockquote h2:before {
+  content: "Difficulty ";
 }

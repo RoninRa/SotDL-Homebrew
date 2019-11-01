@@ -1,8 +1,9 @@
 /** Import Fonts **/
+
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
 @import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
-
 /** Defining fonts **/
+
 @font-face {
     font-family: 'First Order';
     src: url('https://groumy.github.io/homebrewery-sotdl/fonts/firstv2.ttf')
@@ -69,11 +70,7 @@
     line-height: inherit;
 }
 
-.phb h3,
-.phb h4,
-.phb h5,
-.phb h6,
-.phb h7 {
+.phb h3, .phb h4, .phb h5, .phb h6, .phb h7 {
     font-family: "Portmanteau", 'IM Fell English';
     text-transform: uppercase;
     text-align: left;
@@ -116,9 +113,7 @@
     color: black;
 }
 
-.phb p,
-.phb li,
-.phb ol {
+.phb p, .phb li, .phb ol {
     font-family: 'GothamBook';
     font-size: 1em;
     text-align: left;
@@ -150,8 +145,7 @@
     font-size: .85em;
 }
 
-.phb strong em,
-.phb em strong {
+.phb strong em, .phb em strong {
     color: rgb(155, 7, 25);
     font-style: normal;
     font-weight: bold;
@@ -231,8 +225,7 @@
     height: 22px;
 }
 
-.phb .pageNumber p,
-.phb .pageNumber.auto p {
+.phb .pageNumber p, .phb .pageNumber.auto p {
     font-family: "First Order";
     font-size: 2.5em;
     color: #222;
@@ -258,7 +251,6 @@
     top: -5px;
 }
 
-
 .phb .spell h4 {
     font-size: 0.5em;
 }
@@ -278,7 +270,6 @@
     height: 100px
 }
 
-
 .phb:nth-child(odd):after {
     transform: scaleX(-1);
 }
@@ -287,6 +278,10 @@
     transform: scaleX(1);
 }
 
+.phb ul {
+    text-indent: -1em;
+    list-style-type: none;
+}
 
 /** Monster Stat Block **/
 
@@ -342,15 +337,18 @@
     padding-left: 5px;
 }
 
-.phb hr+blockquote h2+p+hr,
-.phb hr+blockquote h3+hr {
+.phb hr+blockquote h2+p+hr, .phb hr+blockquote h3+hr {
     display: none;
 }
 
 .phb hr+blockquote hr+ul li {
     margin-left: 5px;
-    font-family: Athelas;
+    font-family: GothamBook;
     letter-spacing: -0.04em;
+}
+
+.phb hr+blockquote ul strong {
+    font-family: GothamBold;
 }
 
 .phb hr+blockquote hr {
