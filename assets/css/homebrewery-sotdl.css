@@ -180,17 +180,17 @@
     text-align: center;
 }
 
-.phb blockquote p span.before-colon {
+.phb blockquote.credits p span.before-colon {
     color: rgb(155, 7, 25);
     font-weight: bold;
 }
 
-.phb blockquote p span.after-colon {
+.phb blockquote.credits p span.after-colon {
     font-weight: bold;
 }
 
-.phb blockquote p.acknowledgements {
-    font-size: 0.9em;
+.phb blockquote.credits p.acknowledgements {
+    font-size: 0.8em;
 }
 
 .phb .descriptive {

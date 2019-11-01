@@ -13,11 +13,10 @@
 
 From the vast and unknown oceans, come the Deep Ones. Living in ancient underwater cities like Y'ha-nthlei
 
-<blockquote>
+<blockquote class="credits">
     <h5> ~CREDITS~ </h5>
     <p>
-        <span class="before-colon" style="font-size:1.25em">WRITING AND DESIGN:</span><br/>
-        <span class="after-colon">RONNY ANDERSSEN</span>
+        <span class="before-colon">WRITING AND DESIGN:</span><span class="after-colon">RONNY ANDERSSEN</span>
     </p>
     <p>
         <span class="before-colon">ILLUSTRATION:</span><span class="after-colon">BJØRN AKSEL HENSVOLD</span>
@@ -28,3 +27,27 @@ From the vast and unknown oceans, come the Deep Ones. Living in ancient underwat
         This documents was created with [The Homebrewery](https://homebrewery.naturalcrit.com).
     </p>
 </blockquote>
+
+\page
+
+---
+> # Deep One
+> ## 10
+>*Size 1 frightening Deep One (amphibious)*
+> ___
+> - **Perception ** 12 (+2), shadowsight
+> - **Defense** 14 (natural armor); **Health** 18
+> - **Strength** 12 (+2), **Agility** 9 (-1), **Intellect** 10 (+0), **Will** 12 (+2)
+> - **Speed** 8; swimmer
+> - **Immune** gaining Insanity
+> - **Deep Dweller** The deep one gains 1 boon on Stealth checks while underwater. In addition, it can’t be harmed by water pressure.
+> 
+>### Attack Options
+> ___
+> - **Spear** (melee or short range) +2 with 1 boon (1d6)
+> - **claws** (melee) +2 with 1 boon (1d6)
+>
+>### Special Attacks
+> ___
+> - **Multiattack** The deep one can use its trigger action to attack with its claws in addition to any normal attacks.
+>___
