@@ -283,6 +283,10 @@
     list-style-type: none;
 }
 
+.phb ul strong {
+    font-family: GothamBold;
+}
+
 /** Monster Stat Block **/
 
 .phb hr+blockquote {
