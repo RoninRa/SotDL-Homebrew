@@ -173,9 +173,12 @@
 }
 
 .phb blockquote p {
+    font-size: 0.83em;
+}
+
+.phb blockquote.credits p {
     color: #000000;
     font-family: Athelas;
-    font-size: 0.83em;
     margin-top: 5px;
     text-align: center;
 }
