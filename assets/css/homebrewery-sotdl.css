@@ -56,6 +56,8 @@
     background-size: 100% 100%;
     padding-top: 0.45em;
     padding-bottom: 25px;
+    margin-left: -65px;
+    margin-right: -65px;
     -webkit-font-smoothing: antialiased;
 }
 

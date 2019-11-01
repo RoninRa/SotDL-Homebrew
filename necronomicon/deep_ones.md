@@ -1,8 +1,8 @@
 <link rel = "stylesheet" type = "text/css" href = "https://roninra.github.io/SotDL-Homebrew/assets/css/homebrewery-sotdl.css" />
 
-<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/deep_one.png' style='position:absolute;width:100%; height: auto;' />
+<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/deep_one.png' class="header-image" />
 
-<div style='margin-top:450px;'></div>
+<div style='margin-top:813px;'></div>
 
 # Deep Ones
 
