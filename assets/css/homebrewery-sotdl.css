@@ -166,6 +166,7 @@
 
 .phb blockquote p {
     font-size: 0.83em;
+    margin-top:5px;
 }
 
 .phb blockquote p span.before-colon {
