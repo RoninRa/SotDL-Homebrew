@@ -19,7 +19,12 @@ From the vast and unknown oceans, come the Deep Ones. Living in ancient underwat
         <span class="before-colon" style="font-size:1.25em">WRITING AND DESIGN:</span><br/>
         <span class="after-colon">RONNY ANDERSSEN</span>
     </p>
+    <p>
+        <span class="before-colon">ILLUSTRATION:</span><span class="after-colon">BJØRN AKSEL HENSVOLD</span>
+    </p>
     <p class="acknowledgements">
-        Schwalb Entertainment, Shadow of the Demon Lord, and their associated logos are trademarks of Schwalb Entertainment, LLC. [© Schwalb Entertainment](http://schwalbentertainment.com/). All Rights Reserved.
+        Schwalb Entertainment, Shadow of the Demon Lord, and their associated logos are trademarks of Schwalb Entertainment, LLC. [© Schwalb Entertainment](http://schwalbentertainment.com/).
+        Deep One illustration is copyrighted to Kybernesis AS [© Kybernesis](https://kybernesis.com).
+        This documents was created with [The Homebrewery](https://homebrewery.naturalcrit.com).
     </p>
 </blockquote>
