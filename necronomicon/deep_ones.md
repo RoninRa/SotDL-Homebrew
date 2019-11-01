@@ -40,14 +40,48 @@ From the vast and unknown oceans, come the Deep Ones. Living in ancient underwat
 > - **Strength** 12 (+2), **Agility** 9 (-1), **Intellect** 10 (+0), **Will** 12 (+2)
 > - **Speed** 8; swimmer
 > - **Immune** gaining Insanity
-> - **Deep Dweller** The deep one gains 1 boon on Stealth checks while underwater. In addition, it can’t be harmed by water pressure.
+> - **Amphibious** The Deep One can survive equally well in water or on land.
+> - **Deep Dweller** The Deep One gains 1 boon on Stealth checks while underwater. In addition, it can’t be harmed by water pressure.
 > 
 >### Attack Options
 > ___
-> - **Spear** (melee or short range) +2 with 1 boon (1d6)
+> - **Trident** (melee or short range) +2 with 1 boon (1d6)
 > - **claws** (melee) +2 with 1 boon (1d6)
 >
 >### Special Attacks
 > ___
 > - **Multiattack** The deep one can use its trigger action to attack with its claws in addition to any normal attacks.
->___
+
+---
+> # Deep One Hybrid
+> ## 1
+>*Size 1 Deep One*
+> ___
+> - **Perception ** 10 (+0), shadowsight
+> - **Defense** 13 (Hard Leather); **Health** 10
+> - **Strength** 11 (+1), **Agility** 10 (+0), **Intellect** 10 (+0), **Will** 11 (+1)
+> - **Speed** 8; swimmer
+> - **Dark Devotion** Deep One hybrids gain 1 boon on all challenge rolls against being charmed or frightened.
+> - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
+> 
+>### Attack Options
+> ___
+> - **Trident** (melee or short range) +1 (1d6)
+
+### Deep One Characters
+
+Use the following rules to create your own Deep One characters. At your GM's discretion, these rules can also be used to create Deep One player characters, but keep in mind their Doomed trait. All Deep Ones must eventually live beneath the sea.
+
+#### Creating a Deep One
+___
+- **Attribute Scores** Check out Skinchanger et al
+- **Perception** equals Intellect score +??
+- **Defense** equals its Intellect score +??
+- **Health** equals its Strength score
+- **Healing Rate** equals one-quarter its Health
+- **Size** 1, **Speed** 10, **Power** 0
+- 0 **Damage**, 1d3 **Insanity**, 1d3 **Corruption**
+- **Languages and Professions** Deep One hybrids keep any languages and professions from their base ancestry.
+- **Shadowsight** The lizardman can see into areas obscured by shadows as if those areas were lit.
+
+### Customizing Deep Ones
