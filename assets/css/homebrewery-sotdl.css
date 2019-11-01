@@ -345,6 +345,7 @@
 .phb hr+blockquote hr+ul li {
     margin-left: 5px;
     font-family: Athelas;
+    letter-spacing: -0.04em;
 }
 
 .phb hr+blockquote hr {
