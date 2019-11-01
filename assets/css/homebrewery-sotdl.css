@@ -37,11 +37,12 @@
     background-repeat: no-repeat;
 }
 
-.phb#p1 {
-    background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/deep_one.png'), url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background-small.jpg');
-    background-repeat: no-repeat, no-repeat;
-    background-size: 50% 100%;
-    background-position: top left, center left;
+.phb img.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
 }
 
 .phb h1 {
