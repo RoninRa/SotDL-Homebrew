@@ -312,10 +312,10 @@
     font-family: Athelas;
     background-color: black;
     color: white;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 0.9em;
     font-style: initial;
-    letter-spacing: 1em;
+    letter-spacing: 0.04em;
     padding: 5px;
     float: right;
     width: 40%;
@@ -363,5 +363,5 @@
 }
 
 .phb hr+blockquote h2:before {
-    content: "Difficulty ";
+    content: "DIFFICULTY ";
 }
