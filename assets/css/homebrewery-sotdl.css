@@ -81,7 +81,8 @@
     font-size: 150%;
     text-align: center;
     padding: 0 10% 0 10%;
-  }
+    letter-spacing: -0.04em;
+}
 
 .phb h3 {
     border-bottom-style: none;
@@ -155,16 +156,26 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
+    text-align: center;
 }
 
 .phb blockquote h5 {
     border: none;
-    text-align: center;
-    padding-bottom: 10px;
+    font-weight: bold;
 }
 
 .phb blockquote p {
     font-size: 0.83em;
+}
+
+.phb blockquote p span.before-colon {
+    color: rgb(155, 7, 25);
+    font-weight: bold;
+}
+
+.phb blockquote p span.after-colon {
+    color: #000000;
+    font-weight: bold;
 }
 
 .phb .descriptive {
