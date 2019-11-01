@@ -1,3 +1,5 @@
+<link rel = "stylesheet" type = "text/css" href = "https://roninra.github.io/SotDL-Homebrew/assets/css/homebrewery-sotdl.css" />
+
 # Deep Ones
 
 ## Pages of Necronomicon for Shadow of the Demon Lord
