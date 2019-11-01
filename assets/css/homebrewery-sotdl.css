@@ -60,7 +60,6 @@
     line-height: inherit;
 }
 
-.phb h2,
 .phb h3,
 .phb h4,
 .phb h5,
@@ -74,11 +73,13 @@
     line-height: 1.1;
 }
 
-h2 {
+.phb h2 {
+    font-family: "Portmanteau", 'IM Fell English';
     color: #000000;
     font-style: italic;
     font-weight: bold;
     font-size: 150%;
+    text-align: center;
   }
 
 .phb h3 {
