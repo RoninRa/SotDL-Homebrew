@@ -44,6 +44,16 @@ Use the following rules to create your own Deep One hybrid characters. Add any b
 
 At your GM's discretion, these rules can also be used to create Deep One player characters, but keep in mind that all Deep One hybrids become full fledged Deep Ones eventually.
 
+##### Great Cthulhu
+
+*"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn"*
+
+In his house at R'lyeh, dead Cthulhu waits dreaming-At the deepest point of the ocean lays the city of R'lyeh, where it sank during time immemorial as Great Cthulhu and his Spawn fought against the Old Ones and their Shoggoth soldiers. 
+
+Among those who dwell in the ocean, many have seen Great Cthulhu in their dreams and there are those among them who have tried to communicate with him through these dreams. Many have gone irreparably mad, but those who did not became the High Priests of Great Cthulhu, devoted to get everyone ready for when the stars are right once again, and Great Cthulhu stirs in his sunken city of R'lyeh. 
+
+Those who practice the religion have access to the traditions of Divination, Madness, and Water.
+
 ##### Starting Ancestry
 
 Deep Ones can breed with living creatures, mortals and immortals alike, as long as their not created by magic-so no vampires, clockworks, changelings, et al.
@@ -60,13 +70,13 @@ Since all Deep One hybrids are born that way, only starting characters can ever 
 - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
 - **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One list below.
 
+```
+```
+
 ##### Level 4 Deep One Expert
 
 - **Characteristics** As your base ancestry.
 You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One list below.
-
-```
-```
 
 ##### Deep One Traits
 
@@ -126,7 +136,7 @@ When Deep Ones breed with other creatures, the result is a Deep One hybrid. Hybr
 >*Size 1 Deep One hybrid*
 > ___
 > - **Perception ** 11 (+1), shadowsight
-> - **Defense** 13 (Hard Leather); **Health** 10
+> - **Defense** 13 (Hard Leather); **Health** 10; **Insanity** 3; **Corruption** 1
 > - **Strength** 12 (+1), **Agility** 10 (+0), **Intellect** 9 (-1), **Will** 10 (+0)
 > - **Speed** 8;
 > - **Shadowsight** The Deep One can see into areas obscured by shadows as if those areas were lit.
@@ -170,22 +180,23 @@ Deep Ones are even known to breed with apes, resulting in horrifying Deep One hy
 > ___
 > - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
 
-#### Deep One High Priest
+#### Deep One Priest
 
 Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among them teach are the first Deep Ones since time immemorial. But even above them stands their mightiest god, the Great Old One, Cthulhu, who lay dreaming in his sunken city of R'lyeh. Among the Deep Ones, some are chosen by the Great Cthulhu, through dreams, to make sure the Deep Ones stay loyal to the God until that time when the stars are right and the Great Cthulhu stirs in his sleep and primordial R'lyeh rises to the surface once again.
 
 ---
-> # Deep One High Priest
-> ## 10
+> # Deep One Novice Priest
+> ## 25
 >*Size 1 frightening Deep One (aquatic)*
 > ___
 > - **Perception ** 12 (+2), shadowsight
-> - **Defense** 14 (natural armor); **Health** 18
-> - **Strength** 12 (+2), **Agility** 9 (-1), **Intellect** 10 (+0), **Will** 12 (+2)
+> - **Defense** 14 (natural armor); **Health** 26; **Insanity** 4; **Corruption** 2
+> - **Strength** 12 (+2), **Agility** 9 (-1), **Intellect** 11 (+0), **Will** 13 (+3)
 > - **Speed** 8; swimmer 12
 > - **Immune** gaining Insanity
 > - **Amphibious** The Deep One can survive equally well in water or on land.
 > - **Deep Dweller** The Deep One has a natural resistance to cold, halving all damage from cold. And can never be harmed by water pressure.
+> - **Priestly stuff**
 > 
 >### Attack Options
 > ___
@@ -196,3 +207,41 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 >### Special Attacks
 > ___
 > - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
+>
+>### Magic
+> ___
+> - **Power** 1
+> - **Water** 
+> - **Madness** 
+> 
+
+---
+> # Deep One High Priest
+> ## 250
+>*Size 1 frightening Deep One (aquatic)*
+> ___
+> - **Perception ** 12 (+2), shadowsight
+> - **Defense** 14 (natural armor); **Health** 54; **Insanity** 4; **Corruption** 2
+> - **Strength** 15 (+5), **Agility** 9 (-1), **Intellect** 13 (+3), **Will** 13 (+3)
+> - **Speed** 8; swimmer 12
+> - **Immune** gaining Insanity
+> - **Amphibious** The Deep One can survive equally well in water or on land.
+> - **Deep Dweller** The Deep One has a natural resistance to cold, halving all damage from cold. And can never be harmed by water pressure.
+> - **Priestly stuff**
+> - **Combat Prowess** Your attacks with weapons deal 1d6 extra damage.
+> 
+>### Attack Options
+> ___
+> - **Trident** (melee or short range) +2 with 1 boon (2d6)
+> - **Claws** (melee) +2 with 1 boon (1d6)
+> - **Teeth** (melee) +2 with 1 boon (1d6)
+>
+>### Special Attacks
+> ___
+> - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
+>
+>### Magic
+> ___
+> - **Power** 5
+> - **Divination** 
+> - **Madness** 
