@@ -47,8 +47,9 @@ At your GM's discretion, these rules can also be used to create Deep One player 
 ##### Great Cthulhu
 
 *"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn"*
+In his house at R'lyeh, dead Cthulhu waits dreaming
 
-In his house at R'lyeh, dead Cthulhu waits dreaming-At the deepest point of the ocean lays the city of R'lyeh, where it sank during time immemorial as Great Cthulhu and his Spawn fought against the Old Ones and their Shoggoth soldiers. 
+At the deepest point of the ocean lays the city of R'lyeh, where it sank during time immemorial as Great Cthulhu and his Spawn fought against the Old Ones and their Shoggoth soldiers. 
 
 Among those who dwell in the ocean, many have seen Great Cthulhu in their dreams and there are those among them who have tried to communicate with him through these dreams. Many have gone irreparably mad, but those who did not became the High Priests of Great Cthulhu, devoted to get everyone ready for when the stars are right once again, and Great Cthulhu stirs in his sunken city of R'lyeh. 
 
@@ -213,7 +214,6 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 > - **Power** 1
 > - **Water** 
 > - **Madness** 
-> 
 
 ---
 > # Deep One High Priest
