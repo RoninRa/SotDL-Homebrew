@@ -70,17 +70,18 @@ You either learn one spell, gain the level 4 benefit from your ancestry, or choo
 
 ##### Deep One Traits
 
-| &nbsp;3D6&nbsp; | Deep One Trait                                                                                                                                                                                                                                                   |
-| :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|        3        | **Longing for the Deep** Every week you spend more than 10 miles (15 km) from the sea, you must succeed on a Will Challenge Roll or reduce your Will by 1 until you travel to the sea.                                                                           |
-|       4-5       | **Amphibious** You can now survive equally well in water or on land. You gain a swimming speed of 12.                                                                                                                                                            |
-|       6-7       | **Deep Dweller** You get a natural resistance to cold, halving all damage from cold. And can never be harmed by water pressure.                                                                                                                                  |
-|       8-9       | **Claws** One or both of your hands morph into claws or pincers, you can now use them as natural weapons that function as basic weapons with the finesse property and deal 1d6 damage.                                                                           |
-|      10-11      | **Something Fishy** Your body odour starts to smell strongly of fish, others usually don't like interacting with you. Gain +1 bane on all social interaction rolls.                                                                                              |
-|      12-13      | **Swimmer** You ignore difficult terrain while swimming and never need to make a challenge roll to swim.                                                                                                                                                         |
-|      14-15      | **Scales** Your skin has been replaced with fish-like scales, the scales count as natural armor and gives Agility +2 in Defense when not wearing any other armor. However, due to your strange new appearance, you gain +1 bane on all social interaction rolls. |
-|      16-17      | **Dark Devotion** After years of nightmares of Deep Ones and their gods, Father Dagon and Mother Hydra, you have become hardened against being charmed or frightened. Gain 1 boon on all challenge rolls against being charmed or frightened.                    |
-|       18        | **Frightening** You have transformed to such an extent that you gain the *frightening* trait.                                                                                                                                                                    |
+| &nbsp;3D6&nbsp; | Deep One Trait                                                                                                                                                                                                                                                              |
+| :-------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|        3        | **Longing for the Deep** Every week you spend more than 10 miles (15 km) from the sea, you must succeed on a Will Challenge Roll or reduce your Will by 1 until you travel to the sea.                                                                                      |
+|       4-5       | **Amphibious** You can now survive equally well in water or on land. You gain a swimming speed of 12.                                                                                                                                                                       |
+|       6-7       | **Deep Dweller** You get a natural resistance to cold, halving all damage from cold. And can never be harmed by water pressure.                                                                                                                                             |
+|       8-9       | **Claws** One or both of your hands morph into claws or pincers, you can now use them as natural weapons that function as basic weapons with the finesse property and deal 1d6 damage.                                                                                      |
+|       10        | **Something Fishy** Your body odour starts to smell strongly of fish, others usually don't like interacting with you. Gain +1 bane on all social interaction rolls.                                                                                                         |
+|       11        | **Dark Devotion** After years of nightmares of Deep Ones and their gods, Father Dagon and Mother Hydra, you have become hardened against being charmed or frightened. Gain 1 boon on all challenge rolls against being charmed or frightened.                               |
+|      12-13      | **Swimmer** You ignore difficult terrain while swimming and never need to make a challenge roll to swim.                                                                                                                                                                    |
+|      14-15      | **Scales** Your skin has been replaced with fish-like scales, the scales count as natural armor and gives Agility +2 in Defense when not wearing any other armor. However, due to your strange new appearance, you gain +1 bane on all social interaction rolls.            |
+|       16        | **Snapping Bite** Your mouth grows extra rows of razor sharp teeth. Your teeth can be used as natural weapons that function as basic weapons that deal 1d6 damage. In addition you can use your trigger action to attack with your teeth in addition to any normal attacks. |
+|       18        | **Frightening** You have transformed to such an extent that you gain the *frightening* trait.                                                                                                                                                                               |
 
 \page
 
@@ -115,7 +116,7 @@ The most basic type of Deep Ones
 ---
 > # Deep One
 > ## 10
->*Size 1 frightening Deep One (amphibious)*
+>*Size 1 frightening Deep One (aquatic)*
 > ___
 > - **Perception ** 12 (+2), shadowsight
 > - **Defense** 14 (natural armor); **Health** 18
@@ -128,8 +129,9 @@ The most basic type of Deep Ones
 >### Attack Options
 > ___
 > - **Trident** (melee or short range) +2 with 1 boon (1d6)
-> - **claws** (melee) +2 with 1 boon (1d6)
+> - **Claws** (melee) +2 with 1 boon (1d6)
+> - **Teeth** (melee) +2 with 1 boon (1d6)
 >
 >### Special Attacks
 > ___
-> - **Multiattack** The deep one can use its trigger action to attack with its claws in addition to any normal attacks.
+> - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
