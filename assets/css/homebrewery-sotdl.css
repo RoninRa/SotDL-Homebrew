@@ -355,7 +355,7 @@
 .phb hr+blockquote ul strong {
     font-family: GothamBold;
     font-weight: 500;
-    letter-spacing: 0.08em;
+    letter-spacing: -0.08em;
 }
 
 .phb hr+blockquote hr {
