@@ -389,7 +389,7 @@
     color: rgb(155, 7, 25);
     font-weight: bold;
     font-size: .33cm;
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
     float: left;
     margin: 0px;
     width: 50%;
@@ -405,7 +405,7 @@
     font-style: initial;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    padding: 8px 5px 5px 5px;
+    padding: 8px 5px 0px 5px;
     float: right;
     width: 50%;
     margin: 0px;
@@ -431,5 +431,4 @@
 
 .phb div.spell ul li {
     letter-spacing: -0.04em;
-    font-size: 0.7em;
 }
