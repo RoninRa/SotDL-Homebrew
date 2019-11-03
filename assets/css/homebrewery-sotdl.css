@@ -388,7 +388,7 @@
     background-image: none;
     color: rgb(155, 7, 25);
     font-weight: bold;
-    font-size: 1em;
+    font-size: .33cm;
     padding: 5px;
     float: left;
     margin: 0px;
@@ -401,11 +401,11 @@
     font-family: Athelas;
     color: rgb(155, 7, 25);
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: .25cm;
     font-style: initial;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 8px 5px 5px 5px;
     float: right;
     width: 50%;
     margin: 0px;
@@ -419,4 +419,17 @@
     border-color: black;
     border-width: 1px 0px 0px 0px;
     position: relative;
+}
+
+.phb div.spell ul {
+    margin-top: .25em;
+    margin-bottom: .25em;
+    padding-left: 1em;
+    text-indent: initial;
+    list-style-type: none;
+}
+
+.phb div.spell ul li {
+    letter-spacing: -0.04em;
+    font-size: 0.7em;
 }
