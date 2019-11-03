@@ -402,10 +402,11 @@
     font-family: Athelas;
     /* background-color: transparent; */
     color: rgb(155, 7, 25);
-    font-weight: normal;
+    font-weight: bold;
     font-size: 0.9em;
     font-style: initial;
-    letter-spacing: 0.04em;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
     padding: 5px;
     float: right;
     width: 40%;
