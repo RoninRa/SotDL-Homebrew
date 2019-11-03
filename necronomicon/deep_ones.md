@@ -43,7 +43,7 @@ No-one is entirely sure where Deep Ones come from or why they are able to breed 
 
 ##### Great Cthulhu
 
-*"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn"*
+*"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn"*<br />
 In his house at R'lyeh, dead Cthulhu waits dreaming
 
 At the deepest point of the ocean lays the city of R'lyeh, where it sank during time immemorial as Great Cthulhu and his Spawn fought against the Old Ones and their Shoggoth soldiers. 
