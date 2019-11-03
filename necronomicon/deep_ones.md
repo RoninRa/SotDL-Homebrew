@@ -38,11 +38,9 @@ No-one is entirely sure where Deep Ones come from or why they are able to breed 
 
 \page
 
-#### Deep One Hybrid Characters
+### Deep One Hybrids
 
-Use the following rules to create your own Deep One hybrid characters. Add any benefits from paths you choose to these benefits to create more powerful Deep Ones, there are some sample Deep One hybrid and Deep One characters at the end of this supplement. 
-
-At your GM's discretion, these rules can also be used to create Deep One player characters, but keep in mind that all Deep One hybrids become full fledged Deep Ones eventually.
+<div style="margin-top:10px;"></div>
 
 ##### Great Cthulhu
 
@@ -54,6 +52,12 @@ At the deepest point of the ocean lays the city of R'lyeh, where it sank during 
 Among those who dwell in the ocean, many have seen Great Cthulhu in their dreams and there are those among them who have tried to communicate with him through these dreams. Many have gone irreparably mad, but those who did not became the High Priests of Great Cthulhu, devoted to get everyone ready for when the stars are right once again, and Great Cthulhu stirs in his sunken city of R'lyeh. 
 
 Those who practice the religion have access to the traditions of Divination, Madness, and Water.
+
+#### Deep One Hybrid Characters
+
+Use the following rules to create your own Deep One hybrid characters. Add any benefits from paths you choose to these benefits to create more powerful Deep Ones, there are some sample Deep One hybrid and Deep One characters at the end of this supplement. 
+
+At your GM's discretion, these rules can also be used to create Deep One player characters, but keep in mind that all Deep One hybrids become full fledged Deep Ones eventually.
 
 ##### Starting Ancestry
 
@@ -69,21 +73,24 @@ Since all Deep One hybrids are born that way, only starting characters can ever 
 - **Characteristics** Increase Perception by 1. Gain 1d3 Insanity and 1 Corruption. Reduce Speed by 2.
 - **Shadowsight** The Deep One can see into areas obscured by shadows as if those areas were lit.
 - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
-- **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One list below.
+- **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One traits list.
 
 ##### Level 4 Deep One Expert
 
 - **Characteristics** As your base ancestry.
-- You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One list below.
+- You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One traits list.
 
-```
-```
+\page
 
-##### Deep One Traits
+### Deep One Tables
+
+The following tables is used to gain Deep One traits when instructed to, and the others can be used to flesh out your Deep One ancestry.
+
+#### Deep One Traits
 
 | &nbsp;3D6&nbsp; | Deep One Trait                                                                                                                                                                                                                                                                                                                                                       |
 | :-------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|        3        | **Longing for the Deep** Every week you spend more than 10 miles (15 km) from the sea, you must succeed on a Will Challenge Roll or reduce your Will by 1 until you travel to the sea.                                                                                                                                                                               |
+|        3        | **Longing for the Deep** Every week you spend more than 10 miles (15 km) from the sea, you must succeed on a Will Challenge Roll or gain 1d3 Insanity.                                                                                                                                                                                                               |
 |       4-5       | **Amphibious** You can now survive equally well in water or on land.                                                                                                                                                                                                                                                                                                 |
 |        6        | **Fins** You grow fins, either as a finned tail or along your calves, body or whatever you choose that makes sense. Your swimming speed increases by +3.                                                                                                                                                                                                             |
 |        7        | **Bulging Eyes** Instead of shadowsight you know have darksight.                                                                                                                                                                                                                                                                                                     |
@@ -96,11 +103,56 @@ Since all Deep One hybrids are born that way, only starting characters can ever 
 |       16        | **In Hydra's Image** Your Deep One metamorphosis is growing faster then normal. Your body grows with +1 Size and any natural weapons you manifest gain +1d6 to damage. *This trait can be rolled or chosen multiple times*                                                                                                                                           |
 |       17        | **Snapping Bite** Your mouth grows extra rows of razor sharp teeth. Your teeth can be used as natural weapons that function as basic weapons that deal 1d6 damage. You can use your trigger action to attack with your teeth in addition to any normal attacks. *If rolled or chosen a second time, your bite has a chance to inflict the disease, Dagon's Mind Rot* |
 |       18        | **Frightening** You have transformed to such an extent that you gain the *frightening* trait.                                                                                                                                                                                                                                                                        |
+
+```
+```
+
+#### Deep One Background
+
+| &nbsp;3D6&nbsp; | Background |
+| :-------------: | :--------- |
+|        3        |            |
+|        4        |            |
+|        5        |            |
+|        6        |            |
+|        7        |            |
+|        8        |            |
+|        9        |            |
+|       10        |            |
+|       11        |            |
+|       12        |            |
+|       13        |            |
+|       14        |            |
+|       15        |            |
+|       16        |            |
+|       17        |            |
+|       18        |            |
+
 \page
 
-#### New Disease - Dagon's Mind Rot
+### New Disease
 
-When a Deep One bites you, there is a chance you will get diseased. Deep Ones and Deep One hybrids are immune to this disease, but everyone else must make a Strength challenge roll with 2 banes or get infected. Each time an infected creature completes a rest, it must make a new Strength challenge roll. On a failure, it takes a -1 penalty to Will. If this penalty reduces its Will to 0, the creature becomes a mindless thrall to whichever Deep One infected them and will automatically seek it out to its bidding. After three successes, the creature removes the diseased affliciton; and the next time it completes a rest, the reduction to Will ends.
+Some Deep Ones can infect their victims with their bite.
+
+#### Dagon's Mind Rot
+
+When a Deep One bites you, there is a chance you will get diseased. Deep Ones and Deep One hybrids are immune to this disease, but everyone else must make a Strength challenge roll with 2 banes or get infected. Each time an infected creature completes a rest, it must make a new Strength challenge roll, on a failure, it gains 1d3 Insanity. Whenever an infected creature goes mad, it becomes a mindless thrall to whichever Deep One infected them and becomes compelled to seek it out and do its bidding. After three successes, the creature removes the diseased affliction.
+
+### New Spells
+
+The following spells expand on those presented in other materials for *Shadow of the Demon Lord*
+
+<div class="spell">
+  <h1>Rally The Deep</h1>
+  <h2>Madness Attack spell 2</h2>
+  <hr>
+  <ul>
+    <li><strong>Target</strong> One creature you can see within medium range</li>
+    <li><strong>Duration</strong> Number of rounds equal to caster's Power</li>
+  </ul>
+  <hr>
+  <p>You rally all of Mother Hydra's children to aid you against those who would do you harm. All aquatic creatures within long range must succeed on a Will challenge roll or become compelled to attack your target. Your target is impaired and if they fail any rolls while impaired in this way, they also suffer 2d6 damage.</p>
+</div>
 
 \page
 
