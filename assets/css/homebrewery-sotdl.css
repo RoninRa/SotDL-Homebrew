@@ -201,6 +201,12 @@
     font-size: 0.8em;
 }
 
+.phb blockquote.credits img.credits-image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
 .phb .descriptive {
     border: none;
     background-color: transparent;
