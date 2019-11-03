@@ -42,7 +42,7 @@ No-one is entirely sure where Deep Ones come from or why they are able to breed 
 
 ### Deep One Hybrids
 
-<div style="margin-top:10px;"></div>
+<div style="margin-top:10px"></div>
 
 ##### Great Cthulhu
 
@@ -82,19 +82,24 @@ Since all Deep One hybrids are born that way, only starting characters can ever 
 - **Characteristics** As your base ancestry.
 - You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One traits list.
 
-```
-```
-
-<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/deep_one_portrait.png' />
 \page
 
 ### Deep One Tables
 
 The following tables is used to gain Deep One traits when instructed to, and the others can be used to flesh out your Deep One ancestry.
 
-#### The Deep One Look
+#### Appearance
 
-Roll once on this table to determine what sets you apart from others of your ancestry.
+Roll once on this table to determine how your Deep One blood sets you apart from others among your ancestry.
+
+| &nbsp;1D6&nbsp; | Appearance                                                                                                                            |
+| :-------------: | :------------------------------------------------------------------------------------------------------------------------------------ |
+|        1        | You have peculiar folds of extra skin on your neck, resembling non-functional gills.                                                  |
+|        2        | You have bulging eyes that protrudes out of your socket, giving you a sort of toad-like look.                                         |
+|        3        | Your skin has a scaly appearance, almost like that of a fish.                                                                         |
+|        4        | Your finger and toes has an extra webbing of skin between them.                                                                       |
+|        5        | Your jaw is unnaturally wide, giving your face a sort of fish-like or toad-like peculiarity.                                          |
+|        6        | Your appearance is a mix of all of the above, you gain 1 bane on all social interactions with those who are not Deep Ones or hybrids. |
 
 #### Background
 
@@ -169,7 +174,12 @@ Here you will find a diverse selection of Deep One and Hybrid characters for use
 
 ##### Deep One
 
-The most basic type of Deep Ones
+When a Deep One hybrid reaches a certain age, typically between 35 and 45, they have a particular dream of great underwater cities and their inhabitants, the Deep Ones. The dream usually culminates in the hybrid being accepted among their ranks by Father Dagon and Mother Hydra. When they awake from this dream, the hybrid's metamorphosis into a Deep One accelerates considerably and have typically evolved into a full-fledged Deep One by the end of the next fortnight.
+
+<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/deep_one_portrait.png' />
+
+```
+```
 
 ---
 > # Deep One
@@ -217,12 +227,39 @@ When Deep Ones breed with other creatures, the result is a Deep One hybrid. Hybr
 > ___
 > - **Trident** (melee or short range) +1 (1d6)
 
+\page
+
+##### Deep One Hybrid animals
+
+Deep Ones are even known to breed with animals, resulting in horrifying Deep One hybrids.
+
+---
+> # Deep One Hybrid Bear
+> ## 100
+>*Size 3 frightening Deep One hybrid*
+> ___
+> - **Perception ** 13 (+3), shadowsight
+> - **Defense** 14; **Health** 70; **Insanity** 3; **Corruption** 7
+> - **Strength** 17 (+7), **Agility** 10 (+0), **Intellect** 6 (-4), **Will** 9 (-1)
+> - **Speed** 10; Swimmer 12
+> - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
+> - **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One list below.
+> - **Longing for the Deep** Every week the ape spend more than 10 miles (15 km) from the sea, it must succeed on a Will Challenge Roll or reduce its Will by 1 until it travels to the sea.
+> - **In Hydra's Image** The hybrid's metamorphosis is growing faster then normal. Its body grows with +1 Size and any natural weapons gain +1d6 to damage.
+> - **Frightening** The hybrid has transformed to such an extent that it gains the *frightening* trait.
+> - **Spew Acid** Once per rest, the hybrid can use an action to spit at an object or creature within short range, making a Strength attack roll against the target's Agility. On a success, the acid hits and deals 6d6 damage.
+> 
+>### Attack Options
+> ___
+> - **Claw** (melee) +7 (3d6 + 1, or 3d6 + 13 on attack roll 20+)
+>
+>### Special Attacks
+> ___
+> - **Maul** The bear attacks twice with its claw against one target creature. If it gets a success on both attack rolls, the target takes 2d6 extra damage.
+> - **Acid Spit** The hybrid can spit at an object or creature within short range, making a Strength attack roll vs Agility. On a success, deal 6d6 damage.
+
 ```
 ```
-
-##### Deep One Hybrid Ape
-
-Deep Ones are even known to breed with apes, resulting in horrifying Deep One hybrid apes. They are usually covered with hard scales erupting from their matted fur, giving them a look of ancient primordial sea monsters.
 
 ---
 > # Deep One Hybrid Ape
@@ -230,15 +267,14 @@ Deep Ones are even known to breed with apes, resulting in horrifying Deep One hy
 >*Size 1 frightening Deep One hybrid*
 > ___
 > - **Perception ** 13 (+3), shadowsight
-> - **Defense** 16; **Health** 24; **Insanity** 3; **Corruption** 8
+> - **Defense** 16; **Health** 24; **Insanity** 3; **Corruption** 5
 > - **Strength** 14 (+4), **Agility** 13 (+3), **Intellect** 5 (-5), **Will** 10 (+0)
-> - **Speed** 8; Swimmer 12
-> - 
-> - **Shadowsight** The Deep One can see into areas obscured by shadows as if those areas were lit.
+> - **Speed** 8; climber; swimmer 12
 > - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
 > - **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One list below.
-> - **Scales** Hard fish-like scales has erupted from the ape's body, giving it +1 to its natural armor. The ape has +1 bane on all social interaction rolls.
-> - **Longing for the Deep** Every week the ape spend more than 10 miles (15 km) from the sea, it must succeed on a Will Challenge Roll or reduce its Will by 1 until it travels to the sea.
+> - **Scales** Hard fish-like scales has erupted from the hybrid's body, giving it +1 to its natural armor. The hybrid has +1 bane on all social interaction rolls.
+> - **Longing for the Deep** Every week the hybrid spend more than 10 miles (15 km) from the sea, it must succeed on a Will Challenge Roll or reduce its Will by 1 until it travels to the sea.
+> - **Frightening** The hybrid has transformed to such an extent that it gains the *frightening* trait.
 > 
 >### Attack Options
 > ___
