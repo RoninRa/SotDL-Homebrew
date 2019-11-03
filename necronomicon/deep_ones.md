@@ -74,7 +74,8 @@ Since all Deep One hybrids are born that way, only starting characters can ever 
 ##### Level 4 Deep One Expert
 
 - **Characteristics** As your base ancestry.
-You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One list below.
+- You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One list below.
+
 
 ##### Deep One Traits
 
@@ -224,7 +225,7 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 
 ---
 > # Deep One High Priest
-> ## 250
+> ## 100
 >*Size 1 frightening Deep One (aquatic)*
 > ___
 > - **Perception ** 12 (+2), shadowsight
