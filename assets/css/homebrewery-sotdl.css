@@ -202,7 +202,7 @@
 }
 
 .phb blockquote.credits img.credits-image {
-    position: absolute;
+    position: initial;
     width: 100px;
     height: auto;
 }
