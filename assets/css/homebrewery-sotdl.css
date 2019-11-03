@@ -417,13 +417,12 @@
     visibility: visible;
     border-style: solid;
     border-color: black;
-    border-width: 1px 0px 0px 0px;
+    border-width: 2px 0px 0px 0px;
     position: relative;
 }
 
 .phb div.spell h2+hr {
-    border-width: 2px 0px 0px 0px;
-    margin-top: 22px;
+    margin-top: 18px;
 }
 
 .phb div.spell ul+hr {
