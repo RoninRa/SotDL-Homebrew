@@ -69,6 +69,10 @@ Create your character according to your base ancestry first, then apply the foll
 
 Since all Deep One hybrids are born that way, only starting characters can ever become a Deep One hybrid.
 
+##### Deep One Hybrids and Corruption
+
+Mark of Darkness, deep one evolution, corruption 9+ never dragged to hell, instead travel to the underwater world for eternity.
+
 ##### Creating a Deep One Hybrid
 
 - **Attribute Scores** Increase Strength by 1 and decrease Intellect by 1
