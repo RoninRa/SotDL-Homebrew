@@ -383,7 +383,7 @@
 
 /** Spells **/
 
-.phb div.spell h1 {
+.phb div.spell+h1 {
     font-family: Athelas;
     /* background-color: transparent; */
     background-image: none;
@@ -398,7 +398,7 @@
     text-shadow: none;
 }
 
-.phb div.spell h2 {
+.phb div.spell+h2 {
     font-family: Athelas;
     /* background-color: transparent; */
     color: rgb(155, 7, 25);
