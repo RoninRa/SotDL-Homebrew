@@ -1,6 +1,6 @@
 <link rel = "stylesheet" type = "text/css" href = "https://roninra.github.io/SotDL-Homebrew/assets/css/homebrewery-sotdl.css" />
 
-<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/deep_one.png' class="header-image" />
+<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/from_the_deep_wide.png' class="header-image" />
 
 <div style='margin-top:813px;'></div>
 
@@ -82,6 +82,10 @@ Since all Deep One hybrids are born that way, only starting characters can ever 
 - **Characteristics** As your base ancestry.
 - You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One traits list.
 
+```
+```
+
+<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/deep_one_portrait.png' />
 \page
 
 ### Deep One Tables
