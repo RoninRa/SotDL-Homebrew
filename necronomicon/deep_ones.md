@@ -27,13 +27,12 @@ No-one is entirely sure where Deep Ones come from or why they are able to breed 
         <span class="before-colon">ILLUSTRATION: </span><span class="after-colon">BJØRN AKSEL HENSVOLD</span>
     </p>
     <p class="acknowledgements">
-        Schwalb Entertainment, Shadow of the Demon Lord, <br/>
-        and their associated logos are trademarks of<br/>
-        Schwalb Entertainment, LLC. [© Schwalb Entertainment](http://schwalbentertainment.com/).<br/>
-        Deep One illustration is copyrighted to <br/>
-        Kybernesis AS [© Kybernesis](https://kybernesis.com).<br/>
-        This documents was created with [The Homebrewery](https://homebrewery.naturalcrit.com).
+        *Deep Ones*, *Pages of the Necronomicon* and associated artwork is ©2019 Kybernesis AS.<br />
+        All rights reserved.<br />
+        Schwalb Entertainment, Shadow of the Demon Lord, and their associated logos are trademarks of Schwalb Entertainment, LLC. © Schwalb Entertainment.<br/>
+        This documents was created with The Homebrewery: https://homebrewery.naturalcrit.com.
     </p>
+    <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/kybernesis_logo.png'/>
 </blockquote>
 
 \page
