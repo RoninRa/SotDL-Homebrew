@@ -76,6 +76,8 @@ Since all Deep One hybrids are born that way, only starting characters can ever 
 - **Characteristics** As your base ancestry.
 - You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One list below.
 
+```
+```
 
 ##### Deep One Traits
 
@@ -116,8 +118,8 @@ The most basic type of Deep Ones
 >*Size 1 frightening Deep One (aquatic)*
 > ___
 > - **Perception ** 12 (+2), shadowsight
-> - **Defense** 14 (natural armor); **Health** 18
-> - **Insanity** 3; **Corruption** 1
+> - **Defense** 14 (natural armor); **Health** 18; **Insanity** 3; 
+> - **Corruption** 1
 > - **Strength** 12 (+2), **Agility** 9 (-1), **Intellect** 10 (+0), **Will** 12 (+2)
 > - **Speed** 8; swimmer 12
 > - **Immune** gaining Insanity
@@ -144,8 +146,8 @@ When Deep Ones breed with other creatures, the result is a Deep One hybrid. Hybr
 >*Size 1 Deep One hybrid*
 > ___
 > - **Perception ** 11 (+1), shadowsight
-> - **Defense** 13 (Hard Leather); **Health** 10
-> - **Insanity** 3; **Corruption** 1
+> - **Defense** 13 (Hard Leather); **Health** 10; **Insanity** 3; 
+> - **Corruption** 1
 > - **Strength** 12 (+1), **Agility** 10 (+0), **Intellect** 9 (-1), **Will** 10 (+0)
 > - **Speed** 8;
 > - **Shadowsight** The Deep One can see into areas obscured by shadows as if those areas were lit.
@@ -169,8 +171,7 @@ Deep Ones are even known to breed with apes, resulting in horrifying Deep One hy
 >*Size 1 frightening Deep One hybrid*
 > ___
 > - **Perception ** 13 (+3), shadowsight
-> - **Defense** 16; **Health** 24
-> - **Insanity** 3; **Corruption** 8
+> - **Defense** 16; **Health** 24; **Insanity** 3; **Corruption** 8
 > - **Strength** 14 (+4), **Agility** 13 (+3), **Intellect** 5 (-5), **Will** 10 (+0)
 > - **Speed** 8; Swimmer 12
 > - 
@@ -202,8 +203,7 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 >*Size 1 frightening Deep One (aquatic)*
 > ___
 > - **Perception ** 12 (+2), shadowsight
-> - **Defense** 14 (natural armor); **Health** 26
-> - **Insanity** 4; **Corruption** 2
+> - **Defense** 14 (natural armor); **Health** 26; **Insanity** 4; **Corruption** 2
 > - **Strength** 12 (+2), **Agility** 9 (-1), **Intellect** 11 (+0), **Will** 13 (+3)
 > - **Speed** 8; swimmer 12
 > - **Immune** gaining Insanity
@@ -233,8 +233,7 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 >*Size 1 frightening Deep One (aquatic)*
 > ___
 > - **Perception ** 12 (+2), shadowsight
-> - **Defense** 14 (natural armor); **Health** 54
-> - **Insanity** 4; **Corruption** 2
+> - **Defense** 14 (natural armor); **Health** 54; **Insanity** 4; **Corruption** 2
 > - **Strength** 15 (+5), **Agility** 9 (-1), **Intellect** 13 (+3), **Will** 13 (+3)
 > - **Speed** 8; swimmer 12
 > - **Immune** gaining Insanity
