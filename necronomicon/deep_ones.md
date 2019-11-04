@@ -331,7 +331,7 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 >
 >### Magic
 > ___
-> - **Power** 1
+> - **Power** 1 - three rank 0 or 1 spells
 > - **Water** 
 > - **Madness** 
 > ___
@@ -363,7 +363,8 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 >
 >### Magic
 > ___
-> - **Power** 5
+> - **Power** 5 - 2 Rank 0 or 1 spells, two Rank 2 spells, two Rank 3 spells, two Rank 4 spells, and one rank 5 spell
 > - **Divination** 
-> - **Madness** 
+> - **Madness** Rally The Deep (2)
+> - **Water**
 > ___
