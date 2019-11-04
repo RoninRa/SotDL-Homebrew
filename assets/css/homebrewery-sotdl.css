@@ -85,9 +85,8 @@
     color: #000000;
     font-style: italic;
     font-weight: bold;
-    font-size: 24pt;
+    font-size: 19pt;
     text-align: center;
-    padding: 0 10% 0 10%;
     text-transform: none;
     /* letter-spacing: -0.04em; */
 }
@@ -426,14 +425,14 @@
     margin-left: 5px;
     font-family: 'GothamBook';
     font-size: 8pt;
-    /* letter-spacing: -0.1em; */
+    color: #000000;
 }
 
 .phb hr+blockquote ul li strong {
     font-family: 'GothamBold';
     font-weight: bold;
     font-size: 8pt;
-    /* letter-spacing: -0.08em; */
+    color: #000000;
 }
 
 .phb hr+blockquote ul+hr {
