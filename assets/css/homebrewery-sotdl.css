@@ -80,11 +80,7 @@
     line-height: inherit;
 }
 
-.phb h3,
-.phb h4,
-.phb h5,
-.phb h6,
-.phb h7 {
+.phb h3, .phb h4, .phb h5, .phb h6, .phb h7 {
     font-family: "Portmanteau", 'IM Fell English';
     text-transform: uppercase;
     text-align: left;
@@ -129,9 +125,7 @@
     color: black;
 }
 
-.phb p,
-.phb li,
-.phb ol {
+.phb p, .phb li, .phb ol {
     font-family: 'GothamBook';
     font-size: 1em;
     text-align: left;
@@ -163,8 +157,7 @@
     font-size: .85em;
 }
 
-.phb strong em,
-.phb em strong {
+.phb strong em, .phb em strong {
     color: rgb(155, 7, 25);
     font-style: normal;
     font-weight: bold;
@@ -250,8 +243,7 @@
     height: 22px;
 }
 
-.phb .pageNumber p,
-.phb .pageNumber.auto p {
+.phb .pageNumber div, .phb .pageNumber.auto div {
     font-family: "First Order";
     font-size: 2.5em;
     color: #222;
@@ -368,8 +360,7 @@
     padding-left: 5px;
 }
 
-.phb hr+blockquote h2+p+hr,
-.phb hr+blockquote h3+hr {
+.phb hr+blockquote h2+p+hr, .phb hr+blockquote h3+hr {
     display: none;
 }
 
