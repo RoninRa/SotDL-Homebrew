@@ -71,7 +71,12 @@ Since all Deep One hybrids are born that way, only starting characters can ever 
 
 ##### Deep One Hybrids and Corruption
 
-Mark of Darkness, deep one evolution, corruption 9+ never dragged to hell, instead travel to the underwater world for eternity.
+Whenever a Deep One hybrid gain corruption and their new corruption total is equal to or more than the next even number, e.g. they increase their corruption from 3 to 5; they just triggered an even number, they must roll for a new trait on the Deep One Trait table. This is in addition to checking to see if they gain any Mark of Darkness as normal.
+
+As the hybrid gains corruption, they gain Deep One traits which in turn evolve them ever closer to becoming a full-fledged Deep One. If a hybrid ever has a total corruption score of 9+ they will have the dream and start turning into a Deep One. Every time the hybrid completes a rest, they need to roll a d20 minus any corruption above 9. On a natural 1 or a total of 0 or below, the hybrid will wake up completely metamorphosed into a Deep One and immediately start their trip to the nearest Deep One underwater habitat, where they will spend the rest of eternity. The character becomes an NPC at this point.
+
+```
+```
 
 ##### Creating a Deep One Hybrid
 
