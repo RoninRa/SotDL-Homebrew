@@ -385,7 +385,7 @@
 }
 
 .phb hr+blockquote ul+hr {
-    color: rgb(155, 7, 25);
+    border-color: rgb(155, 7, 25);
 }
 
 .phb hr+blockquote hr {
