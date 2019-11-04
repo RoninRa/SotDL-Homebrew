@@ -62,6 +62,7 @@
     font-family: "First Order";
     font-size: 50pt;
     text-align: center;
+    font-weight: normal;
     text-shadow: 0px 0px 5px black;
     color: white;
     text-transform: uppercase;
@@ -96,9 +97,10 @@
 
 .phb h1, .phb h2, .phb h3, .phb h4, .phb h5, .phb h6, .phb h7 {
     font-family: 'Poison Hope';
-    text-transform: uppercase;
+    font-weight: normal;
     text-align: left;
     color: #9C0719;
+    text-transform: uppercase;
     /* font-weight: 500; */
     /* line-height: 1.1; */
 }
