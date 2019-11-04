@@ -176,26 +176,36 @@
     background-color: #000000;
     color: #ffffff;
     font-family: "GothamBook";
-    font-size: .85em;
+    font-size: 8pt;
     padding-top: 3px;
     padding-bottom: 3px;
 }
 
 .phb table tbody tr {
     font-family: "GothamBook";
-    font-size: .85em;
+    font-size: 8pt;
 }
 
 .phb table tbody tr:nth-child(odd) {
     background-color: initial;
     font-family: "GothamBook";
-    font-size: .85em;
+    font-size: 8pt;
 }
 
 .phb table tbody tr:nth-child(even) {
     background-color: #fff;
     font-family: "GothamBook";
-    font-size: .85em;
+    font-size: 8pt;
+}
+
+.phb table tbody tr td {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+}
+
+.phb table strong {
+    font-family: 'GothamBold';
+    font-size: 8pt;
 }
 
 .phb strong em, .phb em strong {
@@ -344,7 +354,8 @@
 }
 
 .phb ul strong {
-    font-family: GothamBold;
+    font-family: 'GothamBold';
+    font-size: 11pt;
 }
 
 /** Monster Stat Block **/
@@ -413,13 +424,13 @@
 
 .phb hr+blockquote hr+ul li {
     margin-left: 5px;
-    font-family: GothamBook;
+    font-family: 'GothamBook';
     font-size: 8pt;
     /* letter-spacing: -0.1em; */
 }
 
 .phb hr+blockquote ul li strong {
-    font-family: GothamBold;
+    font-family: 'GothamBold';
     font-weight: bold;
     font-size: 8pt;
     /* letter-spacing: -0.08em; */
@@ -506,7 +517,7 @@
 }
 
 .phb div.spell ul li strong {
-    font-family: 'GothamBook';
+    font-family: 'GothamBold';
     font-size: 8pt;
     font-weight: bold;
     /* letter-spacing: -0.04em; */
