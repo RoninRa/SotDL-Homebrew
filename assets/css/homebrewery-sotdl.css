@@ -222,24 +222,46 @@
     font-size: 0.83em;
 }
 
+/* Credits block */
+
+.phb blockquote.credits {
+    border-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment.png') 40 round;
+    background-color: transparent;
+    background-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment-back.png');
+    box-shadow: 3px 3px 10px #000;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.phb blockquote.credits h1.credits {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 18pt;
+    text-align: center;
+    border: none;
+}
+
 .phb blockquote.credits p {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 18pt;
     color: #000000;
-    font-family: Athelas;
     margin-top: 5px;
     text-align: center;
 }
 
 .phb blockquote.credits p span.before-colon {
     color: #9C0719;
-    font-weight: bold;
 }
 
-.phb blockquote.credits p span.after-colon {
+/* .phb blockquote.credits p span.after-colon {
     font-weight: bold;
-}
+} */
 
 .phb blockquote.credits p.acknowledgements {
-    font-size: 0.8em;
+    font-family: Athelas;
+    font-weight: normal;
+    font-size: 8pt;
 }
 
 .phb blockquote.credits img.credits-image {
@@ -247,6 +269,8 @@
     width: 100px;
     height: auto;
 }
+
+/* Credits block END */
 
 .phb .descriptive {
     border: none;
@@ -442,6 +466,8 @@
     content: "DIFFICULTY ";
 }
 
+/* Monster Stats END */
+
 /** Spells **/
 
 .phb div.spell h1 {
@@ -465,7 +491,6 @@
     color: #9C0719;
     font-weight: normal;
     font-style: initial;
-    /* letter-spacing: -0.04em; */
     padding: 8px 5px 0px 5px;
     float: right;
     width: 50%;
@@ -487,10 +512,6 @@
     margin-top: 18px;
 }
 
-/* .phb div.spell ul+hr {
-    border-color: #9C0719;
-} */
-
 .phb div.spell ul {
     margin-top: .25em;
     margin-bottom: .25em;
@@ -502,12 +523,12 @@
 .phb div.spell ul li {
     font-family: 'GothamBook';
     font-size: 8pt;
-    /* letter-spacing: -0.04em; */
 }
 
 .phb div.spell ul li strong {
     font-family: 'GothamBold';
     font-size: 8pt;
     font-weight: bold;
-    /* letter-spacing: -0.04em; */
 }
+
+/* Spells END */
