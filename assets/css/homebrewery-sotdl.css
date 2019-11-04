@@ -280,9 +280,10 @@
 }
 
 .phb .pageNumber, .phb .pageNumber.auto {
-    font-family: "First Order";
-    font-size: 2.5em;
-    color: #222;
+    font-family: "Poison Hope";
+    font-size: 13pt;
+    color: #ffffff;
+    text-emphasis-color: #000000;
     text-align: center;
 }
 
