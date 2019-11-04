@@ -4,16 +4,18 @@
 
 <div style='margin-top:813px;'></div>
 
-# Deep Ones
+<h1 class="title">From The Deep</h1>
 
 <div style='margin-top:25px'></div>
 
-## Pages of The Necronomicon for 
-## Shadow of the Demon Lord
+<h2 class="title"> Pages of The Necronomicon for Shadow of the Demon Lord </h2>
 
 From the vast and unknown oceans come the Deep Ones. Living in ancient underwater cities like Y'ha-nthlei and it is said that they are descended from the ancient gods Father Dagon and Mother Hydra. Some even whispers of Deep Ones devoted to the High-Priest of the Great Old One, Great Cthulhu, who dreams in his sunken city of R'lyeh.
 
 No-one is entirely sure where Deep Ones come from or why they are able to breed with any living creatures, mortals and immortals alike, but they all agree that these amphibian humanoids are themselves immortal.
+
+<img src='URL' style='width:200px' />
+Replace with DotDL
 
 ```
 ```
@@ -27,24 +29,27 @@ No-one is entirely sure where Deep Ones come from or why they are able to breed 
         <span class="before-colon">ILLUSTRATION: </span><span class="after-colon">BJØRN AKSEL HENSVOLD</span>
     </p>
     <p class="acknowledgements">
-        *Deep Ones*, *Pages of the Necronomicon* and associated artwork is ©2019 Kybernesis AS.<br />
-        All rights reserved.<br />
-        Schwalb Entertainment, Shadow of the Demon Lord, and their associated logos are trademarks of Schwalb Entertainment, LLC. © Schwalb Entertainment.<br/>
-        This documents was created with The Homebrewery: https://homebrewery.naturalcrit.com.<br /><br />
-        Kybernesis AS<br />
+        *Deep Ones*, *Pages of the Necronomicon* and associated artwork is ©2019 Kybernesis AS.<br/>
+        All rights reserved.<br/>
+        This product was created under license. Shadow of the Demon Lord is a trademark of Schwalb Entertainment, LLC.<br/>
+        This work contains material that is copyright Schwalb Entertainment, LLC. Such material is used with permission under the Community Content Agreement for the Disciples of the Demon Lord CC.<br/>
+        All other original material in this work is copyright ©2019 by Kybernesis AS and published under the Community Content Agreement for the Disciples of the Demon Lord CC.<br/><br/>
+        <strong>KYBERNESIS</strong><br />
         <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/kybernesis_logo.png' class="credits-image" /><br />
         contact@kybernesis.com<br />
         www.kybernesis.com
     </p>
 </blockquote>
 
+<div class='pageNumber auto'></div>
+
 \page
 
-### Deep One Hybrids
+# Deep One Hybrids
 
 <div style="margin-top:10px"></div>
 
-##### Great Cthulhu
+## Great Cthulhu
 
 *"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn"*<br />
 In his house at R'lyeh, dead Cthulhu waits dreaming
@@ -55,13 +60,13 @@ Among those who dwell in the ocean, many have seen Great Cthulhu in their dreams
 
 Those who practice the religion have access to the traditions of Divination, Madness, and Water.
 
-#### Deep One Hybrid Characters
+## Deep One Hybrid Characters
 
 Use the following rules to create your own Deep One hybrid characters. Add any benefits from paths you choose to these benefits to create more powerful Deep Ones, there are some sample Deep One hybrid and Deep One characters at the end of this supplement. 
 
 At your GM's discretion, these rules can also be used to create Deep One player characters, but keep in mind that all Deep One hybrids become full fledged Deep Ones eventually.
 
-##### Starting Ancestry
+### Starting Ancestry
 
 Deep Ones can breed with living creatures, mortals and immortals alike, as long as their not created by magic-so no vampires, clockworks, changelings, et al.
 
@@ -69,16 +74,15 @@ Create your character according to your base ancestry first, then apply the foll
 
 Since all Deep One hybrids are born that way, only starting characters can ever become a Deep One hybrid.
 
-##### Deep One Hybrids and Corruption
+### Deep One Hybrids and Corruption
 
 Whenever a Deep One hybrid gain corruption and their new corruption total is equal to or more than the next even number, e.g. they increase their corruption from 3 to 5; they just triggered an even number, they must roll for a new trait on the Deep One Trait table. This is in addition to checking to see if they gain any Mark of Darkness as normal.
 
-As the hybrid gains corruption, they gain Deep One traits which in turn evolve them ever closer to becoming a full-fledged Deep One. If a hybrid ever has a total corruption score of 9+ they will have the dream and start turning into a Deep One. Every time the hybrid completes a rest, they need to roll a d20 minus any corruption above 9. On a natural 1 or a total of 0 or below, the hybrid will wake up completely metamorphosed into a Deep One and immediately start their trip to the nearest Deep One underwater habitat, where they will spend the rest of eternity. The character becomes an NPC at this point.
+As the hybrid gains corruption, they gain Deep One traits which in turn evolve them ever closer to becoming a full-fledged Deep One. If a hybrid ever has a total corruption score of 9+ they will have the dream and start turning into a Deep One. Every time the hybrid completes a rest, they need to roll a d20 minus any corruption above 9. On a natural 1 or a total of 0 or below, the hybrid will wake up completely metamorphosed into a Deep One and immediately start their trip to the nearest Deep One underwater habitat, where they will spend the rest of eternity. 
 
-```
-```
+The character becomes an NPC at this point.
 
-##### Creating a Deep One Hybrid
+### Creating a Deep One Hybrid
 
 - **Attribute Scores** Increase Strength by 1 and decrease Intellect by 1
 - **Characteristics** Increase Perception by 1. Gain 1d3 Insanity and 1 Corruption. Reduce Speed by 2.
@@ -86,10 +90,12 @@ As the hybrid gains corruption, they gain Deep One traits which in turn evolve t
 - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
 - **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One traits list.
 
-##### Level 4 Deep One Expert
+### Level 4 Deep One Expert
 
 - **Characteristics** As your base ancestry.
 - You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One traits list.
+
+<div class='pageNumber auto'></div>
 
 \page
 
@@ -97,7 +103,7 @@ As the hybrid gains corruption, they gain Deep One traits which in turn evolve t
 
 The following tables is used to gain Deep One traits when instructed to, and the others can be used to flesh out your Deep One ancestry.
 
-#### Appearance
+<h4 class="table">Appearance</h4>
 
 Roll once on this table to determine how your Deep One blood sets you apart from others among your ancestry.
 
@@ -110,7 +116,7 @@ Roll once on this table to determine how your Deep One blood sets you apart from
 |        5        | Your jaw is unnaturally wide, giving your face a sort of fish-like or toad-like peculiarity.                                          |
 |        6        | Your appearance is a mix of all of the above, you gain 1 bane on all social interactions with those who are not Deep Ones or hybrids. |
 
-#### Background
+<h4 class="table">Background</h4>
 
 You can choose to roll on this background table in addition to your ancestry table. Be warned however, everything comes with a cost...
 
@@ -126,7 +132,7 @@ You can choose to roll on this background table in addition to your ancestry tab
 ```
 ```
 
-#### Deep One Traits
+<h4 class="table">Deep One Traits</h4>
 
 When creating NPC Deep Ones and hybrids, increase their difficulty level by 1 for each 3 positive traits chosen for it.
 
@@ -149,17 +155,19 @@ When creating NPC Deep Ones and hybrids, increase their difficulty level by 1 fo
 |       17        | **Snapping Bite** Your mouth grows extra rows of razor sharp teeth. Your teeth can be used as natural weapons that function as basic weapons that deal 1d6 damage. You can use your trigger action to attack with your teeth in addition to any normal attacks. *If rolled or chosen a second time, your bite has a chance to inflict the disease, Dagon's Mind Rot*         |
 |       18        | **Frightening** You have transformed to such an extent that you gain the *frightening* trait.                                                                                                                                                                                                                                                                                |
 
+<div class='pageNumber auto'></div>
+
 \page
 
-### New Disease
+# New Disease
 
 Some Deep Ones can infect their victims with their bite.
 
-#### Dagon's Mind Rot
+## Dagon's Mind Rot
 
 When a Deep One bites you, there is a chance you will get diseased. Deep Ones and Deep One hybrids are immune to this disease, but everyone else must make a Strength challenge roll with 2 banes or get infected. Each time an infected creature completes a rest, it must make a new Strength challenge roll, on a failure, it gains 1d3 Insanity. Whenever an infected creature goes mad, it becomes a mindless thrall to whichever Deep One infected them and becomes compelled to seek it out and do its bidding. After three successes, the creature removes the diseased affliction.
 
-### New Spells
+# New Spells
 
 The following spells expand on those presented in other materials for *Shadow of the Demon Lord*
 
@@ -175,13 +183,15 @@ The following spells expand on those presented in other materials for *Shadow of
   <p>You rally all of Mother Hydra's children to aid you against those who would do you harm. All aquatic creatures within long range must succeed on a Will challenge roll or become compelled to attack your target. Your target is impaired and if they fail any rolls while impaired in this way, they also suffer 2d6 damage.</p>
 </div>
 
+<div class='pageNumber auto'></div>
+
 \page
 
-#### Sample Deep Ones and Hybrids
+## Sample Deep Ones and Hybrids
 
 Here you will find a diverse selection of Deep One and Hybrid characters for use in adventures you create. 
 
-##### Deep One
+### Deep One
 
 When a Deep One hybrid reaches a certain age, typically between 35 and 45, they have a particular dream of great underwater cities and their inhabitants, the Deep Ones. The dream usually culminates in the hybrid being accepted among their ranks by Father Dagon and Mother Hydra. When they awake from this dream, the hybrid's metamorphosis into a Deep One accelerates considerably and have typically evolved into a full-fledged Deep One by the end of the next fortnight.
 
@@ -213,9 +223,8 @@ When a Deep One hybrid reaches a certain age, typically between 35 and 45, they 
 >### Special Attacks
 > ___
 > - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
-> ___
 
-##### Deep One Hybrid
+### Deep One Hybrid
 
 When Deep Ones breed with other creatures, the result is a Deep One hybrid. Hybrids are born normally and grow just like their main ancestry, but as they age they slowly turn more and more into a Deep One until they are fully Deep Ones and move to live below water for all eternity.
 
@@ -236,11 +245,12 @@ When Deep Ones breed with other creatures, the result is a Deep One hybrid. Hybr
 >### Attack Options
 > ___
 > - **Trident** (melee or short range) +1 (1d6)
-> ___
+
+<div class='pageNumber auto'></div>
 
 \page
 
-##### Deep One Hybrid animals
+### Deep One Hybrid animals
 
 Deep Ones are even known to breed with animals, resulting in horrifying Deep One hybrids.
 
@@ -268,7 +278,6 @@ Deep Ones are even known to breed with animals, resulting in horrifying Deep One
 > ___
 > - **Maul** The bear attacks twice with its claw against one target creature. If it gets a success on both attack rolls, the target takes 2d6 extra damage.
 > - **Acid Spit** The hybrid can spit at an object or creature within short range, making a Strength attack roll vs Agility. On a success, deal 6d6 damage.
-> ___
 
 ```
 ```
@@ -297,11 +306,12 @@ Deep Ones are even known to breed with animals, resulting in horrifying Deep One
 >### Special Attacks
 > ___
 > - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
-> ___
+
+<div class='pageNumber auto'></div>
 
 \page
 
-##### Deep One Priests
+### Deep One Priests
 
 Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among them teach are the first Deep Ones since time immemorial. But even above them stands their mightiest god, the Great Old One, Cthulhu, who lay dreaming in his sunken city of R'lyeh. Among the Deep Ones, some are chosen by the Great Cthulhu, through dreams, to make sure the Deep Ones stay loyal to the God until that time when the stars are right and the Great Cthulhu stirs in his sleep and primordial R'lyeh rises to the surface once again.
 
@@ -334,7 +344,6 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 > - **Power** 1 - three rank 0 or 1 spells
 > - **Water** 
 > - **Madness** 
-> ___
 
 ---
 > # Deep One High Priest
@@ -367,4 +376,5 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 > - **Divination** 
 > - **Madness** Rally The Deep (2)
 > - **Water**
-> ___
+
+<div class='pageNumber auto'></div>
