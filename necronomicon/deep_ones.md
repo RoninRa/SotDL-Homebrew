@@ -21,9 +21,9 @@ Replace with DotDL
 ```
 
 <blockquote class="credits">
-    <h5> ~CREDITS~ </h5>
+    <h1 class="credits"> ~CREDITS~ </h1>
     <p>
-        <span class="before-colon">WRITING AND DESIGN: </span><span class="after-colon">RONNY ANDERSSEN</span>
+        <span class="before-colon" style="font-size:13pt;">WRITING AND DESIGN: </span><span class="after-colon">RONNY ANDERSSEN</span>
     </p>
     <p>
         <span class="before-colon">ILLUSTRATION: </span><span class="after-colon">BJØRN AKSEL HENSVOLD</span>
