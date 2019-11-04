@@ -88,7 +88,6 @@
     font-size: 19pt;
     text-align: center;
     text-transform: none;
-    /* letter-spacing: -0.04em; */
 }
 
 .phb h1+p::first-letter {
@@ -105,8 +104,6 @@
     text-align: left;
     color: #9C0719;
     text-transform: uppercase;
-    /* font-weight: 500; */
-    /* line-height: 1.1; */
 }
 
 .phb h1 {
@@ -124,7 +121,6 @@
 
 .phb h4 {
     font-size: 13pt;
-    /* text-align: center; */
 }
 
 .phb h4.traits {
@@ -164,12 +160,6 @@
     font-size: 11pt;
     text-align: left;
 }
-
-/* .phb p, .phb li, .phb ol {
-    font-family: 'GothamBook';
-    font-size: 1em;
-    text-align: left;
-} */
 
 .phb table thead th {
     background-color: #000000;
