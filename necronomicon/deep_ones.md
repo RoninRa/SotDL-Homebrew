@@ -208,6 +208,7 @@ When a Deep One hybrid reaches a certain age, typically between 35 and 45, they 
 >### Special Attacks
 > ___
 > - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
+> ___
 
 ##### Deep One Hybrid
 
@@ -230,6 +231,7 @@ When Deep Ones breed with other creatures, the result is a Deep One hybrid. Hybr
 >### Attack Options
 > ___
 > - **Trident** (melee or short range) +1 (1d6)
+> ___
 
 \page
 
@@ -261,6 +263,7 @@ Deep Ones are even known to breed with animals, resulting in horrifying Deep One
 > ___
 > - **Maul** The bear attacks twice with its claw against one target creature. If it gets a success on both attack rolls, the target takes 2d6 extra damage.
 > - **Acid Spit** The hybrid can spit at an object or creature within short range, making a Strength attack roll vs Agility. On a success, deal 6d6 damage.
+> ___
 
 ```
 ```
@@ -289,6 +292,7 @@ Deep Ones are even known to breed with animals, resulting in horrifying Deep One
 >### Special Attacks
 > ___
 > - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
+> ___
 
 \page
 
@@ -325,6 +329,7 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 > - **Power** 1
 > - **Water** 
 > - **Madness** 
+> ___
 
 ---
 > # Deep One High Priest
@@ -356,3 +361,4 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 > - **Power** 5
 > - **Divination** 
 > - **Madness** 
+> ___
