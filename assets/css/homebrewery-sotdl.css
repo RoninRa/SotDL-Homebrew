@@ -56,9 +56,9 @@
     height: auto;
 }
 
-.phb h1 {
+.phb h1.title {
     font-family: "First Order";
-    font-size: 400%;
+    font-size: 50pt;
     text-align: center;
     text-shadow: 0px 0px 5px black;
     color: white;
@@ -72,6 +72,17 @@
     -webkit-font-smoothing: antialiased;
 }
 
+.phb h2.title {
+    font-family: Athelas;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24pt;
+    text-align: center;
+    padding: 0 10% 0 10%;
+    /* letter-spacing: -0.04em; */
+}
+
 .phb h1+p::first-letter {
     float: inherit;
     font-family: inherit;
@@ -80,56 +91,76 @@
     line-height: inherit;
 }
 
-.phb h3, .phb h4, .phb h5, .phb h6, .phb h7 {
-    font-family: "Portmanteau", 'IM Fell English';
+.phb h1, .phb h2, .phb h3, .phb h4, .phb h5, .phb h6, .phb h7 {
+    font-family: 'Posion Hope';
     text-transform: uppercase;
     text-align: left;
-    color: rgb(155, 7, 25);
-    font-weight: 500;
-    line-height: 1.1;
+    color: #9C0719;
+    /* font-weight: 500; */
+    /* line-height: 1.1; */
+}
+
+.phb h1 {
+    font-size: 32pt;
 }
 
 .phb h2 {
-    font-family: Athelas;
-    color: #000000;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 150%;
-    text-align: center;
-    padding: 0 10% 0 10%;
-    letter-spacing: -0.04em;
+    font-size: 25pt;
 }
 
 .phb h3 {
-    border-bottom-style: none;
-    font-size: 0.55cm;
+    /* border-bottom-style: none; */
+    font-size: 18pt;
 }
 
 .phb h4 {
-    font-size: .425cm;
+    font-size: 13pt;
+    /* text-align: center; */
+}
+
+.phb h4.traits {
+    font-size: 14pt;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1.1px;
+}
+
+.phb h4.table {
+    font-size: 14pt;
     text-align: center;
 }
 
 .phb h5 {
-    font-size: .375cm;
+    font-size: 12pt;
     border-bottom-style: solid;
     border-bottom-color: black;
-    border-bottom-width: 1px;
+    border-bottom-width: 1.1px;
+}
+
+.phb h5.sidebar {
+    font-size: 12pt;
+    text-align: center;
 }
 
 .phb h6 {
-    font-size: .33cm;
+    font-size: 10pt;
     border-bottom-style: solid;
-    border-bottom-color: black;
-    border-bottom-width: 1px;
-    color: black;
+    border-bottom-color: #9C0719;
+    border-bottom-width: 1.1px;
 }
 
 .phb p, .phb li, .phb ol {
+    font-family: 'Athelas';
+    font-size: 11pt;
+    text-align: left;
+}
+
+/* .phb p, .phb li, .phb ol {
     font-family: 'GothamBook';
     font-size: 1em;
     text-align: left;
-}
+} */
 
 .phb table thead th {
     background-color: #000000;
@@ -158,7 +189,7 @@
 }
 
 .phb strong em, .phb em strong {
-    color: rgb(155, 7, 25);
+    color: #9C0719;
     font-style: normal;
     font-weight: bold;
 }
@@ -190,7 +221,7 @@
 }
 
 .phb blockquote.credits p span.before-colon {
-    color: rgb(155, 7, 25);
+    color: #9C0719;
     font-weight: bold;
 }
 
@@ -318,44 +349,49 @@
     background-image: none;
     color: white;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 12pt;
     padding: 5px;
     float: left;
     margin: 0px;
     width: 60%;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .phb hr+blockquote h2 {
     font-family: Athelas;
-    background-color: black;
-    color: white;
     font-weight: normal;
-    font-size: 0.9em;
+    font-size: 8pt;
     font-style: initial;
-    letter-spacing: 0.04em;
+    color: white;
+    background-color: black;
     padding: 5px;
     float: right;
     width: 40%;
     margin: 0px;
     text-align: right;
+    /* letter-spacing: 0.04em; */
 }
 
 .phb hr+blockquote h3 {
-    background-color: #BBB;
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 9pt;
     color: black;
+    background-color: #A7A9AC;
     padding: 3px;
     padding-left: 5px;
-    font-size: 0.8em;
-    font-family: 'GothamBook';
-    font-weight: bold;
     border-style: none;
+    text-transform: uppercase;
 }
 
 .phb hr+blockquote h2+p {
     clear: both;
-    background-color: darkred;
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 9pt;
     color: white;
+    background-color: #9C0719;
     padding: 3px;
     padding-left: 5px;
 }
@@ -367,27 +403,29 @@
 .phb hr+blockquote hr+ul li {
     margin-left: 5px;
     font-family: GothamBook;
-    letter-spacing: -0.1em;
+    font-size: 8pt;
+    /* letter-spacing: -0.1em; */
 }
 
-.phb hr+blockquote ul strong {
+.phb hr+blockquote ul li strong {
     font-family: GothamBold;
-    font-weight: 500;
-    letter-spacing: -0.08em;
+    font-weight: bold;
+    font-size: 8pt;
+    /* letter-spacing: -0.08em; */
 }
 
 .phb hr+blockquote ul+hr {
-    border-color: rgb(155, 7, 25);
+    border-color: #9C0719;
 }
 
-.phb hr+blockquote hr {
+/* .phb hr+blockquote hr {
     background-image: none;
     visibility: visible;
     border-style: solid;
     border-color: black;
     border-width: 1px 0px 0px 0px;
     position: relative;
-}
+} */
 
 .phb hr+blockquote h2:before {
     content: "DIFFICULTY ";
@@ -397,31 +435,32 @@
 
 .phb div.spell h1 {
     font-family: Athelas;
-    background-image: none;
-    color: rgb(155, 7, 25);
+    font-size: 10pt;
+    color: #9C0719;
     font-weight: bold;
-    font-size: .33cm;
+    background-image: none;
     padding: 5px 5px 0px 5px;
     float: left;
     margin: 0px;
     width: 50%;
     text-align: left;
     text-shadow: none;
+    text-transform: uppercase;
 }
 
 .phb div.spell h2 {
     font-family: Athelas;
-    color: rgb(155, 7, 25);
-    font-weight: bold;
-    font-size: .25cm;
+    font-size: 8pt;
+    color: #9C0719;
+    font-weight: normal;
     font-style: initial;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
+    /* letter-spacing: -0.04em; */
     padding: 8px 5px 0px 5px;
     float: right;
     width: 50%;
     margin: 0px;
     text-align: right;
+    text-transform: uppercase;
 }
 
 .phb div.spell hr {
@@ -429,7 +468,7 @@
     visibility: visible;
     border-style: solid;
     border-color: black;
-    border-width: 2px 0px 0px 0px;
+    border-width: 1.1px 0px 0px 0px;
     position: relative;
 }
 
@@ -437,9 +476,9 @@
     margin-top: 18px;
 }
 
-.phb div.spell ul+hr {
-    border-color: rgb(155, 7, 25);
-}
+/* .phb div.spell ul+hr {
+    border-color: #9C0719;
+} */
 
 .phb div.spell ul {
     margin-top: .25em;
@@ -450,5 +489,14 @@
 }
 
 .phb div.spell ul li {
-    letter-spacing: -0.04em;
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    /* letter-spacing: -0.04em; */
+}
+
+.phb div.spell ul li strong {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    font-weight: bold;
+    /* letter-spacing: -0.04em; */
 }
