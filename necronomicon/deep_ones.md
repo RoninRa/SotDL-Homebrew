@@ -35,7 +35,7 @@ Replace with DotDL
         This work contains material that is copyright Schwalb Entertainment, LLC. Such material is used with permission under the Community Content Agreement for the Disciples of the Demon Lord CC.<br/>
         All other original material in this work is copyright ©2019 by Kybernesis AS and published under the Community Content Agreement for the Disciples of the Demon Lord CC.<br/><br/>
         <strong>KYBERNESIS</strong><br />
-        <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/kybernesis_logo.png' class="credits-image" /><br />
+        <!-- <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/kybernesis_logo.png' class="credits-image" /><br /> -->
         contact@kybernesis.com<br />
         www.kybernesis.com
     </p>
