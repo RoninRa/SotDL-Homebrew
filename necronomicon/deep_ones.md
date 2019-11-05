@@ -165,7 +165,9 @@ Some Deep Ones can infect their victims with their bite.
 
 ## Dagon's Mind Rot
 
-When a Deep One bites you, there is a chance you will get diseased. Deep Ones and Deep One hybrids are immune to this disease, but everyone else must make a Strength challenge roll with 2 banes or get infected. Each time an infected creature completes a rest, it must make a new Strength challenge roll, on a failure, it gains 1d3 Insanity. Whenever an infected creature goes mad, it becomes a mindless thrall to whichever Deep One infected them and becomes compelled to seek it out and do its bidding. After three successes, the creature removes the diseased affliction.
+When a Deep One bites you, there is a chance you will get diseased. Deep Ones and Deep One hybrids are immune to this disease, but everyone else must make a Strength challenge roll with 2 banes or get infected. Each time an infected creature completes a rest, it must make a new Strength challenge roll, on a failure, it gains 1d3 Insanity. 
+
+Whenever an infected creature goes mad, it becomes a mindless thrall to whichever Deep One infected them and becomes compelled to seek it out and do its bidding. After three successes, the creature removes the diseased affliction.
 
 # New Spells
 
