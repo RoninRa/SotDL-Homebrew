@@ -31,13 +31,13 @@
 
 @font-face {
     font-family: 'Tilde';
-    src: local('Athelas');
+    src: local(Athelas);
     unicode-range: u+223C;
 }
 
 @font-face {
     font-family: 'Colon';
-    src: local('Athelas');
+    src: local(Athelas);
     unicode-range: u+003A;
 }
 
@@ -275,7 +275,7 @@
 }
 
 .phb blockquote.credits h1.credits {
-    font-family: Tilde, 'Poison Hope';
+    font-family: 'Tilde', 'Poison Hope';
     font-weight: normal;
     font-size: 18pt;
     text-align: center;
@@ -283,7 +283,7 @@
 }
 
 .phb blockquote.credits p {
-    font-family: Colon, 'Poison Hope';
+    font-family: 'Colon', 'Poison Hope';
     font-weight: normal;
     font-size: 10pt;
     color: #000000;
