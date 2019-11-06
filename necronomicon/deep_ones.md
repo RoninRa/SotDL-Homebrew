@@ -79,6 +79,8 @@ The character becomes an NPC at this point.
 |        8         | Roll for **Mark of Darkness** as normal, but instead of gaining the **Infernal Interest** trait, roll on the **Deep One Traits** table.                                                                                                                                                                                                                                                                                                                                           |
 |        9+        | Roll for **Mark of Darkness** as normal, but instead of gaining the **Damned** trait, gain the **Deep One** trait. <br/><br/> <ul><li>**Deep One** You start to turn into a Deep One. Each time you complete a rest, roll a d20 - any corruption above 9. On a natural 1 or a total of 0 or below, you wake up completely metamorphosed into a Deep One and must, without delay, travel to the Deep One habitat from your dreams, where you spend the rest of eternity.</li></ul> |
 
+<div class='pageNumber auto'></div>
+
 \page 
 
 ### Deep One Hybrid Characters
@@ -239,6 +241,8 @@ When a Deep One hybrid reaches a certain age, typically between 35 and 45, they 
 >### Special Attacks
 > ___
 > - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
+
+<div class='pageNumber auto'></div>
 
 \page
 
