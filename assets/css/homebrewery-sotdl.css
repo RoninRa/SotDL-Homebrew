@@ -31,6 +31,10 @@
 
 /**  **/
 
+.brewRenderer .pages>.phb {
+    margin-bottom: 10px;
+}
+
 .phb {
     font-family: Athelas;
     background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background.jpg');
@@ -321,6 +325,10 @@
     right: 0;
     left: 10px;
     vertical-align: middle;
+}
+
+.phb:nth-child(even) .pageNumber {
+    left: 10px;
 }
 
 .phb .pageNumber.auto {
