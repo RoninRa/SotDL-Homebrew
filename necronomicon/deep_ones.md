@@ -6,8 +6,6 @@
 
 <h1 class="title">From The Deep</h1>
 
-<div style='margin-top:25px'></div>
-
 <h2 class="title"> Pages of The Necronomicon for Shadow of the Demon Lord </h2>
 
 From the vast and unknown oceans come the Deep Ones. Living in ancient underwater cities like Y'ha-nthlei and it is said that they are descended from the ancient gods Father Dagon and Mother Hydra. Some even whispers of Deep Ones devoted to the High-Priest of the Great Old One, Great Cthulhu, who dreams in his sunken city of R'lyeh.
