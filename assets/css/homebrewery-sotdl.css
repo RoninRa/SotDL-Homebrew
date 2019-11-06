@@ -323,12 +323,12 @@
 .phb .pageNumber {
     bottom: 0px;
     right: 0;
-    left: 10px;
+    left: 12px;
     vertical-align: middle;
 }
 
 .phb:nth-child(even) .pageNumber {
-    left: 10px;
+    left: 12px;
 }
 
 .phb .pageNumber.auto {
@@ -343,7 +343,7 @@
     font-family: "Poison Hope";
     font-size: 13pt;
     color: #ffffff;
-    text-emphasis-color: #000000;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     text-align: center;
 }
 
