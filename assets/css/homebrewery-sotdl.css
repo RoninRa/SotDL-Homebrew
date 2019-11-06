@@ -29,18 +29,6 @@
     src: url('https://groumy.github.io/homebrewery-sotdl/fonts/PoisonHope-Regular.otf')
 }
 
-@font-face {
-    font-family: 'Tilde';
-    src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBook%20Regular.otf') format('.otf');
-    unicode-range: U+007E;
-}
-
-@font-face {
-    font-family: 'Colon';
-    src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBook%20Regular.otf') format('.otf');
-    unicode-range: U+003A;
-}
-
 /**  **/
 
 .phb {
@@ -267,7 +255,7 @@
 }
 
 .phb blockquote.credits h1.credits {
-    font-family: 'Tilde', 'Poison Hope';
+    font-family: 'Poison Hope';
     font-weight: normal;
     font-size: 18pt;
     text-align: center;
@@ -275,7 +263,7 @@
 }
 
 .phb blockquote.credits p {
-    font-family: 'Colon', 'Poison Hope';
+    font-family: 'Poison Hope';
     font-weight: normal;
     font-size: 10pt;
     color: #000000;
