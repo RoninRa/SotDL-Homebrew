@@ -29,12 +29,10 @@ Replace with DotDL
       <span class="before-colon">ILLUSTRATION<font face="Athelas">:</font> </span><span class="after-colon">BJØRN AKSEL HENSVOLD</span>
     </p>
     <p class="acknowledgements">
-        *From The Deep*, *Pages of the Necronomicon* and associated artwork is ©2019 Kybernesis AS.<br/>
-        All rights reserved.<br/>
+        <strong>*From The Deep*, *Pages of the Necronomicon* and associated artwork is ©2019 Kybernesis AS.<br/>
+        All rights reserved.</strong><br/>
         This product was created under license. Shadow of the Demon Lord is a trademark of Schwalb Entertainment, LLC.<br/>
-        This work contains material that is copyright Schwalb Entertainment, LLC. Such material is used with permission under the Community Content Agreement for the Disciples of the Demon Lord CC.<br/>
-        All other original material in this work is copyright ©2019 by Kybernesis AS and published under the Community Content Agreement for the Disciples of the Demon Lord CC.<br/><br/>
-        <strong>KYBERNESIS</strong><br />
+        This work contains material that is copyright Schwalb Entertainment, LLC. Such material is used with permission under the Community Content Agreement for the Disciples of the Demon Lord CC. All other original material in this work is copyright ©2019 by Kybernesis AS and published under the Community Content Agreement for the Disciples of the Demon Lord CC.<br/>
         <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/kybernesis_logo.png' class="credits-image" /><br />
         contact@kybernesis.com<br />
         www.kybernesis.com
