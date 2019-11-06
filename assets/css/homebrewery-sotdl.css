@@ -181,6 +181,7 @@
     text-align: left;
 }
 
+/* Tables */
 .phb table thead th {
     background-color: #000000;
     color: #ffffff;
@@ -210,6 +211,25 @@
 .phb table tbody tr td {
     font-family: 'GothamBook';
     font-size: 8pt;
+}
+
+.phb table tbody tr td ul {
+    text-indent: -1em;
+    list-style-type: none;
+}
+
+.phb table tbody tr td li {
+    margin-left: 5px;
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    color: #000000;
+}
+
+.phb table tbody tr td strong {
+    font-family: 'GothamBold';
+    font-weight: bold;
+    font-size: 8pt;
+    color: #000000;
 }
 
 .phb table strong {
