@@ -51,6 +51,7 @@
 }
 
 .phb img.header-image {
+    z-index: 140;
     position: absolute;
     top: 0;
     left: 0;
@@ -59,6 +60,7 @@
 }
 
 .phb h1.title {
+    z-index: 150;
     font-family: "First Order";
     font-size: 50pt;
     text-align: center;
@@ -363,17 +365,16 @@
 
 .phb::after {
     background: none;
-    /* border-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png'); */
-    background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png');
-    background-size: 100px 100px;
+    background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
+    background-size: 100px 100px, 816px 1046px;
     background-repeat: no-repeat;
-    background-position: 0px calc(100% - 0px);
-    height: 100px
+    background-position: 0px calc(100% - 0px), bottom;
+    height: 100%;
 }
 
-.phb:nth-child(odd):after {
+/* .phb:nth-child(odd):after {
     transform: scaleX(-1);
-}
+} */
 
 .phb:nth-child(even):after {
     transform: scaleX(1);
