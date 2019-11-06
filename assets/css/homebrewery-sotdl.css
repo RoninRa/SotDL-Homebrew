@@ -318,6 +318,8 @@
 
 .phb .pageNumber {
     bottom: 0px;
+    right: 0;
+    left: 10px;
     vertical-align: middle;
 }
 
