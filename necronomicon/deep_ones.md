@@ -45,11 +45,11 @@ Replace with DotDL
 
 \page
 
-# Deep One Hybrids
+## Deep One Hybrids
 
-<div style="margin-top:10px"></div>
+When Deep Ones breed with other creatures, the result is a Deep One hybrid. Hybrids are born normally and grow just like their main ancestry, but as they age they slowly turn more and more into a Deep One until they are fully Deep Ones and move to live below water for all eternity.
 
-## Great Cthulhu
+#### Great Cthulhu
 
 *"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn"*<br />
 In his house at R'lyeh, dead Cthulhu waits dreaming
@@ -60,13 +60,35 @@ Among those who dwell in the ocean, many have seen Great Cthulhu in their dreams
 
 Those who practice the religion have access to the traditions of Divination, Madness, and Water.
 
-## Deep One Hybrid Characters
+#### Deep One Hybrids and Corruption
+
+Although not entirely exempt from the effects of corruption, it affects Deep One hybrids a bit differently. Use the table below to determine the effect of each corruption point they gain.
+
+As the hybrid gains corruption, they gain Deep One traits which in turn evolve them ever closer to becoming a full-fledged Deep One. If a hybrid ever has a total corruption score of 9+ they will have the dream and start turning into a Deep One. Every time the hybrid completes a rest, they need to roll a d20 minus any corruption above 9. On a natural 1 or a total of 0 or below, the hybrid will wake up completely metamorphosed into a Deep One and immediately start their trip to the nearest Deep One underwater habitat, where they will spend the rest of eternity. 
+
+The character becomes an NPC at this point.
+
+<h4 class="table">Corruption Effects</h4>
+
+| Corruption Score | Effects                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|        0         | No effect.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|        1         | As normal corruption rules.                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|       2-3        | Roll for **Mark of Darkness** as normal, but instead of gaining the **Touch of Darkness** trait, roll on the **Deep One Traits** table.                                                                                                                                                                                                                                                                                                                                                   |
+|       4-5        | Roll for **Mark of Darkness** as normal, but instead of gaining the **Slave of Darkness** trait, roll on the **Deep One Traits** table.                                                                                                                                                                                                                                                                                                                                                   |
+|       6-7        | Roll for **Mark of Darkness** as normal, but instead of physical manifestation, roll on the **Deep One Traits** table.                                                                                                                                                                                                                                                                                                                                                                    |
+|        8         | Roll for **Mark of Darkness** as normal, but instead of gaining the **Infernal Interest** trait, roll on the **Deep One Traits** table.                                                                                                                                                                                                                                                                                                                                                   |
+|        9+        | Roll for **Mark of Darkness** as normal, but instead of gaining the **Damned** trait, gain the **The Dream of Deep One** trait. <br/><br/> <li>**Deep One Metamorphosis** The hybrid turns into a Deep One. Each time you complete a rest, roll a d20 - any corruption above 9. On a natural 1 or a total of 0 or below, you wake up completely metamorphosed into a Deep One and must, without delay, travel to the Deep One habitat from your dreams, where you spend the rest of eternity.</li> |
+
+\page 
+
+### Deep One Hybrid Characters
 
 Use the following rules to create your own Deep One hybrid characters. Add any benefits from paths you choose to these benefits to create more powerful Deep Ones, there are some sample Deep One hybrid and Deep One characters at the end of this supplement. 
 
 At your GM's discretion, these rules can also be used to create Deep One player characters, but keep in mind that all Deep One hybrids become full fledged Deep Ones eventually.
 
-### Starting Ancestry
+#### Starting Ancestry
 
 Deep Ones can breed with living creatures, mortals and immortals alike, as long as their not created by magic-so no vampires, clockworks, changelings, et al.
 
@@ -74,15 +96,8 @@ Create your character according to your base ancestry first, then apply the foll
 
 Since all Deep One hybrids are born that way, only starting characters can ever become a Deep One hybrid.
 
-### Deep One Hybrids and Corruption
 
-Whenever a Deep One hybrid gain corruption and their new corruption total is equal to or more than the next even number, e.g. they increase their corruption from 3 to 5; they just triggered an even number, they must roll for a new trait on the Deep One Trait table. This is in addition to checking to see if they gain any Mark of Darkness as normal.
-
-As the hybrid gains corruption, they gain Deep One traits which in turn evolve them ever closer to becoming a full-fledged Deep One. If a hybrid ever has a total corruption score of 9+ they will have the dream and start turning into a Deep One. Every time the hybrid completes a rest, they need to roll a d20 minus any corruption above 9. On a natural 1 or a total of 0 or below, the hybrid will wake up completely metamorphosed into a Deep One and immediately start their trip to the nearest Deep One underwater habitat, where they will spend the rest of eternity. 
-
-The character becomes an NPC at this point.
-
-### Creating a Deep One Hybrid
+<h4 class="traits">Creating a Deep One Hybrid</h4>
 
 - **Attribute Scores** Increase Strength by 1 and decrease Intellect by 1
 - **Characteristics** Increase Perception by 1. Gain 1d3 Insanity and 1 Corruption. Reduce Speed by 2.
@@ -90,7 +105,7 @@ The character becomes an NPC at this point.
 - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
 - **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One traits list.
 
-### Level 4 Deep One Expert
+<h4 class="traits">Level 4 Deep One Expert</h4>
 
 - **Characteristics** As your base ancestry.
 - You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One traits list.
@@ -107,27 +122,27 @@ The following tables is used to gain Deep One traits when instructed to, and the
 
 Roll once on this table to determine how your Deep One blood sets you apart from others among your ancestry.
 
-| &nbsp;1D6&nbsp; | Appearance                                                                                                                            |
-| :-------------: | :------------------------------------------------------------------------------------------------------------------------------------ |
-|        1        | You have peculiar folds of extra skin on your neck, resembling non-functional gills.                                                  |
-|        2        | You have bulging eyes that protrudes out of your socket, giving you a sort of toad-like look.                                         |
-|        3        | Your skin has a scaly appearance, almost like that of a fish.                                                                         |
-|        4        | Your finger and toes has an extra webbing of skin between them.                                                                       |
-|        5        | Your jaw is unnaturally wide, giving your face a sort of fish-like or toad-like peculiarity.                                          |
-|        6        | Your appearance is a mix of all of the above, you gain 1 bane on all social interactions with those who are not Deep Ones or hybrids. |
+|  1D6  | Appearance                                                                                                                            |
+| :---: | :------------------------------------------------------------------------------------------------------------------------------------ |
+|   1   | You have peculiar folds of extra skin on your neck, resembling non-functional gills.                                                  |
+|   2   | You have bulging eyes that protrudes out of your socket, giving you a sort of toad-like look.                                         |
+|   3   | Your skin has a scaly appearance, almost like that of a fish.                                                                         |
+|   4   | Your finger and toes has an extra webbing of skin between them.                                                                       |
+|   5   | Your jaw is unnaturally wide, giving your face a sort of fish-like or toad-like peculiarity.                                          |
+|   6   | Your appearance is a mix of all of the above, you gain 1 bane on all social interactions with those who are not Deep Ones or hybrids. |
 
 <h4 class="table">Background</h4>
 
 You can choose to roll on this background table in addition to your ancestry table. Be warned however, everything comes with a cost...
 
-| &nbsp;1D6&nbsp; | Background                                                                                                                                                                                                                                 |
-| :-------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|        1        | Your evolution to become a Deep One is already prominent. Roll 1 trait from the Deep One traits table, and gain 2 corruption. *You do not gain another trait from ending up with an even number of corruption this way.*                   |
-|        2        | You have been brought up under the teachings of Great Cthulhu and have been his servant for many years already. Gain 1d3-1 Corruption and add scholar of the Mythos to your list of professions. *Determine any Deep One traits as usual.* |
-|        3        |                                                                                                                                                                                                                                            |
-|        4        | You read an abridged copy of the Necronomicon, gain 1d3 Insanity and add scholar of the Mythos to your list of professions.                                                                                                                |
-|        5        |                                                                                                                                                                                                                                            |
-|        6        | You came into possession of an ancient fragment of the Pnakotic manuscripts. Start the game with an incantation containing two rank 0 Madness spells.                                                                                      |
+|  1D6  | Background                                                                                                                                                                                                                                 |
+| :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   1   | Your evolution to become a Deep One is already prominent. Roll 1 trait from the Deep One traits table, and gain 2 corruption. *You do not gain another trait from ending up with an even number of corruption this way.*                   |
+|   2   | You have been brought up under the teachings of Great Cthulhu and have been his servant for many years already. Gain 1d3-1 Corruption and add scholar of the Mythos to your list of professions. *Determine any Deep One traits as usual.* |
+|   3   |                                                                                                                                                                                                                                            |
+|   4   | You read an abridged copy of the Necronomicon, gain 1d3 Insanity and add scholar of the Mythos to your list of professions.                                                                                                                |
+|   5   |                                                                                                                                                                                                                                            |
+|   6   | You came into possession of an ancient fragment of the Pnakotic manuscripts. Start the game with an incantation containing two rank 0 Madness spells.                                                                                      |
 
 ```
 ```
@@ -136,40 +151,40 @@ You can choose to roll on this background table in addition to your ancestry tab
 
 When creating NPC Deep Ones and hybrids, increase their difficulty level by 1 for each 3 positive traits chosen for it.
 
-| &nbsp;3D6&nbsp; | Deep One Trait                                                                                                                                                                                                                                                                                                                                                               |
-| :-------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|        3        | **Longing for the Deep** Every week you spend more than 10 miles (15 km) from the sea, you must succeed on a Will Challenge Roll or gain 1d3 Insanity.                                                                                                                                                                                                                       |
-|        4        | **Amphibious** You can now survive equally well in water or on land.                                                                                                                                                                                                                                                                                                         |
-|        5        | **Camouﬂage** The Deep One can use an action to alter its coloration to match its environment. Until the Deep One uses an action or moves, it becomes invisible to creatures more than 5 yards from it.                                                                                                                                                                      |
-|        6        | **Fins** You grow fins, either as a finned tail or along your calves, body or whatever you choose that makes sense. Your swimming speed increases by +3.                                                                                                                                                                                                                     |
-|        7        | **Bulging Eyes** Instead of shadowsight you know have darksight.                                                                                                                                                                                                                                                                                                             |
-|        8        | **Deep Dweller** You get a natural resistance to cold, halving all damage from cold. And can never be harmed by water pressure.                                                                                                                                                                                                                                              |
-|        9        | **Strength from Pain** While injured, you make attack rolls with 1 boon and your weapon attacks deal 1d6 extra damage.                                                                                                                                                                                                                                                       |
-|       10        | **Claws** One or both of your hands morph into claws or pincers, you can now use them as natural weapons that function as basic weapons with the finesse property and deal 1d6 damage. *If rolled or chosen multiple times beyond the first, increase damage done by +1 up to a maximum of +3*                                                                               |
-|       11        | **Something Fishy** Your body odour starts to smell strongly of fish, others usually don't like interacting with you. Gain +1 bane on all social interaction rolls.                                                                                                                                                                                                          |
-|       12        | **Dark Devotion** After years of nightmares of Deep Ones and their gods, Father Dagon and Mother Hydra, you have become hardened against being charmed or frightened. Gain 1 boon on all challenge rolls against being charmed or frightened.                                                                                                                                |
-|       13        | **Swimmer** You ignore difficult terrain while swimming and never need to make a challenge roll to swim. *If rolled or chosen a second time, you gain a swimming speed of 12.*                                                                                                                                                                                               |
-|       14        | **Spew Acid** Your metamorphosis has turned your spit acidic. Once per rest, you can use an action to spit at an object or creature within short range, making a Strength attack roll against the target's Agility. On a success, the acid hits and deals 3d6 damage. *If rolled or chosen multiple times beyond the first, increase damage done by 1d6 to a maximum of 6d6* |
-|       15        | **Scales** Hard fish-like scales erupts from your skin making you look like some squamous horror from the deep. The scales count as natural armor and gives Agility +4 in Defense when not wearing any other armor, or +2 to any natural armor you already have. However, due to your new horrific appearance, you gain +1 bane on all social interaction rolls.             |
-|       16        | **In Hydra's Image** Your Deep One metamorphosis is growing faster then normal. Your body grows with +1 Size and any natural weapons you manifest gain +1d6 to damage. *This trait can be rolled or chosen multiple times*                                                                                                                                                   |
-|       17        | **Snapping Bite** Your mouth grows extra rows of razor sharp teeth. Your teeth can be used as natural weapons that function as basic weapons that deal 1d6 damage. You can use your trigger action to attack with your teeth in addition to any normal attacks. *If rolled or chosen a second time, your bite has a chance to inflict the disease, Dagon's Mind Rot*         |
-|       18        | **Frightening** You have transformed to such an extent that you gain the *frightening* trait.                                                                                                                                                                                                                                                                                |
+|  3D6  | Deep One Trait                                                                                                                                                                                                                                                                                                                                                               |
+| :---: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   3   | **Longing for the Deep** Every week you spend more than 10 km (6 miles) from the sea, you must succeed on a Will Challenge Roll or gain 1d3 Insanity.                                                                                                                                                                                                                        |
+|   4   | **Amphibious** You can now survive equally well in water or on land.                                                                                                                                                                                                                                                                                                         |
+|   5   | **Camouﬂage** The Deep One can use an action to alter its coloration to match its environment. Until the Deep One uses an action or moves, it becomes invisible to creatures more than 5 yards from it.                                                                                                                                                                      |
+|   6   | **Fins** You grow fins, either as a finned tail or along your calves, body or whatever you choose that makes sense. Your swimming speed increases by +3.                                                                                                                                                                                                                     |
+|   7   | **Bulging Eyes** Instead of shadowsight you know have darksight.                                                                                                                                                                                                                                                                                                             |
+|   8   | **Deep Dweller** You get a natural resistance to cold, halving all damage from cold. And can never be harmed by water pressure.                                                                                                                                                                                                                                              |
+|   9   | **Strength from Pain** While injured, you make attack rolls with 1 boon and your weapon attacks deal 1d6 extra damage.                                                                                                                                                                                                                                                       |
+|  10   | **Claws** One or both of your hands morph into claws or pincers, you can now use them as natural weapons that function as basic weapons with the finesse property and deal 1d6 damage. *If rolled or chosen multiple times beyond the first, increase damage done by +1 up to a maximum of +3*                                                                               |
+|  11   | **Something Fishy** Your body odour starts to smell strongly of fish, others usually don't like interacting with you. Gain +1 bane on all social interaction rolls.                                                                                                                                                                                                          |
+|  12   | **Dark Devotion** After years of nightmares of Deep Ones and their gods, Father Dagon and Mother Hydra, you have become hardened against being charmed or frightened. Gain 1 boon on all challenge rolls against being charmed or frightened.                                                                                                                                |
+|  13   | **Swimmer** You ignore difficult terrain while swimming and never need to make a challenge roll to swim. *If rolled or chosen a second time, you gain a swimming speed of 12.*                                                                                                                                                                                               |
+|  14   | **Spew Acid** Your metamorphosis has turned your spit acidic. Once per rest, you can use an action to spit at an object or creature within short range, making a Strength attack roll against the target's Agility. On a success, the acid hits and deals 3d6 damage. *If rolled or chosen multiple times beyond the first, increase damage done by 1d6 to a maximum of 6d6* |
+|  15   | **Scales** Hard fish-like scales erupts from your skin making you look like some squamous horror from the deep. The scales count as natural armor and gives Agility +4 in Defense when not wearing any other armor, or +2 to any natural armor you already have. However, due to your new horrific appearance, you gain +1 bane on all social interaction rolls.             |
+|  16   | **In Hydra's Image** Your Deep One metamorphosis is growing faster then normal. Your body grows with +1 Size and any natural weapons you manifest gain +1d6 to damage. *This trait can be rolled or chosen multiple times*                                                                                                                                                   |
+|  17   | **Snapping Bite** Your mouth grows extra rows of razor sharp teeth. Your teeth can be used as natural weapons that function as basic weapons that deal 1d6 damage. You can use your trigger action to attack with your teeth in addition to any normal attacks. *If rolled or chosen a second time, your bite has a chance to inflict the disease, Dagon's Mind Rot*         |
+|  18   | **Frightening** You have transformed to such an extent that you gain the *frightening* trait.                                                                                                                                                                                                                                                                                |
 
 <div class='pageNumber auto'></div>
 
 \page
 
-# New Disease
+## New Disease
 
 Some Deep Ones can infect their victims with their bite.
 
-## Dagon's Mind Rot
+### Dagon's Mind Rot
 
 When a Deep One bites you, there is a chance you will get diseased. Deep Ones and Deep One hybrids are immune to this disease, but everyone else must make a Strength challenge roll with 2 banes or get infected. Each time an infected creature completes a rest, it must make a new Strength challenge roll, on a failure, it gains 1d3 Insanity. 
 
 Whenever an infected creature goes mad, it becomes a mindless thrall to whichever Deep One infected them and becomes compelled to seek it out and do its bidding. After three successes, the creature removes the diseased affliction.
 
-# New Spells
+## New Spells
 
 The following spells expand on those presented in other materials for *Shadow of the Demon Lord*
 
@@ -226,9 +241,11 @@ When a Deep One hybrid reaches a certain age, typically between 35 and 45, they 
 > ___
 > - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
 
+\page
+
 ### Deep One Hybrid
 
-When Deep Ones breed with other creatures, the result is a Deep One hybrid. Hybrids are born normally and grow just like their main ancestry, but as they age they slowly turn more and more into a Deep One until they are fully Deep Ones and move to live below water for all eternity.
+Deep One hybrids can come from any living ancestry. Here are some sample ones for your perusal.
 
 ---
 > # Deep One Human Hybrid
@@ -250,24 +267,18 @@ When Deep Ones breed with other creatures, the result is a Deep One hybrid. Hybr
 
 <div class='pageNumber auto'></div>
 
-\page
-
-### Deep One Hybrid animals
-
-Deep Ones are even known to breed with animals, resulting in horrifying Deep One hybrids.
-
 ---
-> # Deep One Hybrid Bear
-> ## 100
->*Size 3 frightening Deep One hybrid*
+> # Deep One Hybrid Yyyy
+> ## XX
+>*Size 1 Deep One hybrid*
 > ___
-> - **Perception ** 13 (+3), shadowsight
-> - **Defense** 14; **Health** 70; **Insanity** 3; **Corruption** 7
-> - **Strength** 17 (+7), **Agility** 10 (+0), **Intellect** 6 (-4), **Will** 9 (-1)
-> - **Speed** 10; Swimmer 12
+> - **Perception ** 10 (+0), shadowsight
+> - **Defense** 10; **Health** 11; **Insanity** 3; **Corruption** 1
+> - **Strength** 11 (+0), **Agility** 10 (+0), **Intellect** 9 (-1), **Will** 10 (+0)
+> - **Speed** 8;
 > - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
 > - **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One list below.
-> - **Longing for the Deep** Every week the ape spend more than 10 miles (15 km) from the sea, it must succeed on a Will Challenge Roll or reduce its Will by 1 until it travels to the sea.
+> - **Longing for the Deep** Every week the hybrid spends more than 10 km (6 miles) from the sea, they must succeed on a Will Challenge Roll or gain 1d3 Insanity.
 > - **In Hydra's Image** The hybrid's metamorphosis is growing faster then normal. Its body grows with +1 Size and any natural weapons gain +1d6 to damage.
 > - **Frightening** The hybrid has transformed to such an extent that it gains the *frightening* trait.
 > - **Spew Acid** Once per rest, the hybrid can use an action to spit at an object or creature within short range, making a Strength attack roll against the target's Agility. On a success, the acid hits and deals 6d6 damage.
@@ -278,14 +289,13 @@ Deep Ones are even known to breed with animals, resulting in horrifying Deep One
 >
 >### Special Attacks
 > ___
-> - **Maul** The bear attacks twice with its claw against one target creature. If it gets a success on both attack rolls, the target takes 2d6 extra damage.
 > - **Acid Spit** The hybrid can spit at an object or creature within short range, making a Strength attack roll vs Agility. On a success, deal 6d6 damage.
 
 ```
 ```
 
 ---
-> # Deep One Hybrid Ape
+> # Deep One Hybrid Animal
 > ## 25
 >*Size 1 frightening Deep One hybrid*
 > ___
@@ -296,18 +306,33 @@ Deep Ones are even known to breed with animals, resulting in horrifying Deep One
 > - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
 > - **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One list below.
 > - **Scales** Hard fish-like scales has erupted from the hybrid's body, giving it +1 to its natural armor. The hybrid has +1 bane on all social interaction rolls.
-> - **Longing for the Deep** Every week the hybrid spend more than 10 miles (15 km) from the sea, it must succeed on a Will Challenge Roll or reduce its Will by 1 until it travels to the sea.
+> - **Longing for the Deep** Every week the hybrid spend more than 10 km (6 miles) from the sea, it must succeed on a Will Challenge Roll or reduce its Will by 1 until it travels to the sea.
 > - **Frightening** The hybrid has transformed to such an extent that it gains the *frightening* trait.
 > 
 >### Attack Options
 > ___
 > - **Fists** (melee) +4 with 1 boon (1d6+2)
 > - **Teeth** (melee) +4 with 1 boon (1d6)
-> - **Rock** (melee or short range) +4 with 1 boon (1d6+2)
 >
 >### Special Attacks
 > ___
 > - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
+
+---
+> # Deep One Hybrid Yyyy
+> ## XX
+>*Size 1 Deep One hybrid*
+> ___
+> - **Perception ** 10 (+0), shadowsight
+> - **Defense** 10; **Health** 11; **Insanity** 3; **Corruption** 1
+> - **Strength** 11 (+0), **Agility** 10 (+0), **Intellect** 9 (-1), **Will** 10 (+0)
+> - **Speed** 8;
+> - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
+> - **The Call of Dagon** Whenever a hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One list below.
+> 
+>### Attack Options
+> ___
+> - **Spear** (melee) +1 (1d6)
 
 <div class='pageNumber auto'></div>
 
