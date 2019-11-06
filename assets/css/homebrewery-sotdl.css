@@ -31,14 +31,14 @@
 
 @font-face {
     font-family: 'Tilde';
-    src: local(Athelas);
-    unicode-range: u+223C;
+    src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBook%20Regular.otf') format('.otf');
+    unicode-range: U+007E;
 }
 
 @font-face {
     font-family: 'Colon';
-    src: local(Athelas);
-    unicode-range: u+003A;
+    src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBook%20Regular.otf') format('.otf');
+    unicode-range: U+003A;
 }
 
 /**  **/
@@ -110,13 +110,7 @@
     line-height: inherit;
 }
 
-.phb h1,
-.phb h2,
-.phb h3,
-.phb h4,
-.phb h5,
-.phb h6,
-.phb h7 {
+.phb h1, .phb h2, .phb h3, .phb h4, .phb h5, .phb h6, .phb h7 {
     font-family: 'Poison Hope';
     font-weight: normal;
     text-align: left;
@@ -173,15 +167,14 @@
     border-bottom-width: 1.1px;
 }
 
-.phb p,
-.phb li,
-.phb ol {
+.phb p, .phb li, .phb ol {
     font-family: 'Athelas';
     font-size: 11pt;
     text-align: left;
 }
 
 /* Tables */
+
 .phb table thead th {
     background-color: #000000;
     color: #ffffff;
@@ -237,8 +230,7 @@
     font-size: 8pt;
 }
 
-.phb strong em,
-.phb em strong {
+.phb strong em, .phb em strong {
     color: #9C0719;
     font-style: normal;
     font-weight: bold;
@@ -348,8 +340,7 @@
     height: 22px;
 }
 
-.phb .pageNumber,
-.phb .pageNumber.auto {
+.phb .pageNumber, .phb .pageNumber.auto {
     font-family: "Poison Hope";
     font-size: 13pt;
     color: #ffffff;
@@ -469,8 +460,7 @@
     padding-left: 5px;
 }
 
-.phb hr+blockquote h2+p+hr,
-.phb hr+blockquote h3+hr {
+.phb hr+blockquote h2+p+hr, .phb hr+blockquote h3+hr {
     display: none;
 }
 
@@ -548,7 +538,7 @@
 }
 
 .phb div.spell h2+hr {
-    margin-top: 18px;
+    margin-top: 20px;
 }
 
 .phb div.spell ul {
