@@ -68,10 +68,9 @@
     text-transform: uppercase;
     background-image: url('https://roninra.github.com/SotDL-Homebrew/assets/images/header-banner.png');
     background-size: 100% 100%;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    margin-left: -65px;
-    margin-right: -65px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin: 0px -65px 0px -65px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -247,7 +246,7 @@
     border: none;
     background-color: transparent;
     background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
-    background-size: cover;
+    background-size: 100% 100%;
     box-shadow: 3px 3px 10px #000;
     padding-left: 0px;
     padding-right: 0px;
@@ -289,7 +288,7 @@
 .phb blockquote.credits img.credits-image {
     position: initial;
     width: auto;
-    height: 60px;
+    height: 100px;
 }
 
 /* Credits block END */
