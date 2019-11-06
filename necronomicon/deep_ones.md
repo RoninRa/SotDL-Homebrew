@@ -21,12 +21,12 @@ Replace with DotDL
 ```
 
 <blockquote class="credits">
-    <h1 class="credits">~CREDITS~</h1>
+    <h1 class="credits"><font face="Athelas">~</font>CREDITS<font face="Athelas">~</font></h1>
     <p>
-        <span class="before-colon" style="font-size:13pt;">WRITING AND DESIGN: </span><span class="after-colon">RONNY ANDERSSEN</span>
+      <span class="before-colon" style="font-size:13pt;">WRITING AND DESIGN<font face="Athelas">:</font> </span><br/><span class="after-colon">RONNY ANDERSSEN</span>
     </p>
     <p>
-        <span class="before-colon">ILLUSTRATION: </span><span class="after-colon">BJØRN AKSEL HENSVOLD</span>
+      <span class="before-colon">ILLUSTRATION<font face="Athelas">:</font> </span><span class="after-colon">BJØRN AKSEL HENSVOLD</span>
     </p>
     <p class="acknowledgements">
         *From The Deep*, *Pages of the Necronomicon* and associated artwork is ©2019 Kybernesis AS.<br/>
@@ -35,7 +35,7 @@ Replace with DotDL
         This work contains material that is copyright Schwalb Entertainment, LLC. Such material is used with permission under the Community Content Agreement for the Disciples of the Demon Lord CC.<br/>
         All other original material in this work is copyright ©2019 by Kybernesis AS and published under the Community Content Agreement for the Disciples of the Demon Lord CC.<br/><br/>
         <strong>KYBERNESIS</strong><br />
-        <!-- <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/kybernesis_logo.png' class="credits-image" /><br /> -->
+        <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/kybernesis_logo.png' class="credits-image" /><br />
         contact@kybernesis.com<br />
         www.kybernesis.com
     </p>
