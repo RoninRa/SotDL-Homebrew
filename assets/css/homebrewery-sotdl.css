@@ -50,11 +50,6 @@
     -moz-column-width: 9cm;
 }
 
-.phb::after {
-    z-index: 1;
-    background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png');
-}
-
 .phb img.header-image {
     position: absolute;
     top: 0;
@@ -71,7 +66,7 @@
     text-shadow: 0px 0px 5px black;
     color: white;
     text-transform: uppercase;
-    background-image: url('https://groumy.github.io/homebrewery-sotdl/images/h1.banner-large.png');
+    background-image: url('https://roninra.github.com/SotDL-Homebrew/assets/images/header-banner.png');
     background-size: 100% 100%;
     padding-top: 0.45em;
     padding-bottom: 25px;
@@ -225,9 +220,9 @@
 }
 
 .phb blockquote {
-    border-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment.png') 40 round;
+    border-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment_border.png') 40 round;
     background-color: transparent;
-    background-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment-back.png');
+    background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
     box-shadow: 3px 3px 10px #000;
     padding-left: 20px;
     padding-right: 20px;
@@ -246,9 +241,9 @@
 /* Credits block */
 
 .phb blockquote.credits {
-    border-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment.png') 40 round;
+    border-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment_border.png') 40 round;
     background-color: transparent;
-    background-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment-back.png');
+    background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
     box-shadow: 3px 3px 10px #000;
     padding-left: 0px;
     padding-right: 0px;
@@ -363,7 +358,8 @@
 
 .phb::after {
     background: none;
-    background-image: url(https://groumy.github.io/homebrewery-sotdl/images/page-number-pentagram.png);
+    border-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png');
+    background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png');
     background-size: 100px 100px;
     background-repeat: no-repeat;
     background-position: 0px calc(100% - 0px);
