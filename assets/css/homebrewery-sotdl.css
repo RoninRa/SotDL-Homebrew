@@ -219,11 +219,12 @@
 }
 
 .phb blockquote {
-    border-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment_border.png') 40 round;
+    border-image: none;
+    border: none;
     background-color: transparent;
     background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
-    background-size: cover;
-    box-shadow: 3px 3px 10px #000;
+    background-size: 100% 100%;
+    /* box-shadow: 3px 3px 10px #000; */
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -241,13 +242,12 @@
 /* Credits block */
 
 .phb blockquote.credits {
-    /* border-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment_border.png') 40 round; */
     border-image: none;
     border: none;
     background-color: transparent;
     background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
     background-size: 100% 100%;
-    box-shadow: 3px 3px 10px #000;
+    /* box-shadow: 3px 3px 10px #000; */
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -363,7 +363,7 @@
 
 .phb::after {
     background: none;
-    border-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png');
+    /* border-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png'); */
     background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png');
     background-size: 100px 100px;
     background-repeat: no-repeat;
