@@ -267,6 +267,7 @@
     color: #000000;
     margin-top: 5px;
     text-align: center;
+    padding-bottom: 0px;
 }
 
 .phb blockquote.credits p strong em {

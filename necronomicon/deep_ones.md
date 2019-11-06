@@ -2,7 +2,7 @@
 
 <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/from_the_deep_wide.png' class="header-image" />
 
-<div style='margin-top:800px;'></div>
+<div style='margin-top:825px;'></div>
 
 <h1 class="title">From The Deep</h1>
 
