@@ -51,7 +51,7 @@
 }
 
 .phb img.header-image {
-    z-index: 140;
+    z-index: 110;
     position: absolute;
     top: 0;
     left: 0;
