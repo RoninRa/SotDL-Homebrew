@@ -241,7 +241,7 @@
 /* Credits block */
 
 .phb blockquote.credits {
-    border-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment_border.png') 40 round;
+    /* border-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment_border.png') 40 round; */
     background-color: transparent;
     background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
     box-shadow: 3px 3px 10px #000;
@@ -264,6 +264,12 @@
     color: #000000;
     margin-top: 5px;
     text-align: center;
+}
+
+.phb blockquote.credits p strong em {
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .phb blockquote.credits p span.before-colon {
