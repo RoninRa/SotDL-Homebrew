@@ -323,7 +323,7 @@
 .phb .pageNumber {
     bottom: 0px;
     right: 0;
-    left: 20px;
+    left: 30px;
     vertical-align: middle;
 }
 
@@ -332,7 +332,7 @@
 }
 
 .phb .pageNumber.auto {
-    bottom: 40px;
+    bottom: 44px;
 }
 
 .phb .pageNumber.auto::after {
