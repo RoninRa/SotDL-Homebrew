@@ -563,7 +563,8 @@
 .phb div.spell ul li strong {
     font-family: 'GothamBold';
     font-size: 8pt;
-    font-weight: bold;
+    font-weight: normal;
+    letter-spacing: -0.02em;
 }
 
 /* Spells END */
