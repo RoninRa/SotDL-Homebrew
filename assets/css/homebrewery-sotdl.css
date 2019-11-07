@@ -400,7 +400,8 @@
 }
 
 .phb ul strong {
-    font-family: Athelas;
+    font-family: 'GothamBold';
+    font-weight: normal;
     font-size: 11pt;
 }
 
