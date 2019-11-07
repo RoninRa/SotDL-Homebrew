@@ -216,7 +216,7 @@
     font-size: 8pt;
 }
 
-/* End Tables */
+/*** Tables END ***/
 
 .phb strong em, .phb em strong {
     color: #9C0719;
@@ -230,7 +230,6 @@
     background-color: transparent;
     background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
     background-size: 100% 100%;
-    /* box-shadow: 3px 3px 10px #000; */
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -298,7 +297,7 @@
     height: 100px;
 }
 
-/* Credits block END */
+/*** Credits block END ***/
 
 .phb .descriptive {
     border: none;
@@ -321,6 +320,8 @@
     width: 100%;
     bottom: 0px;
 }
+
+/* Page number */
 
 .phb .pageNumber {
     bottom: 0px;
@@ -349,6 +350,24 @@
     text-align: center;
 }
 
+.phb:nth-child(even):after {
+    transform: scaleX(1);
+}
+
+.phb::after {
+    background: none;
+    background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
+    background-size: 100px 100px, 816px 1046px;
+    background-repeat: no-repeat;
+    background-position: 10px calc(100% - 5px), bottom;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 100%;
+    z-index: -2;
+}
+
+/*** Page number END ***/
+
 .html-code code {
     visibility: visible;
     box-shadow: 1px 1px 1px black;
@@ -364,36 +383,6 @@
     position: relative;
 }
 
-.phb .spell h4 {
-    font-size: 0.5em;
-}
-
-.phb hr+blockquote {
-    border-style: none;
-    background-image: none;
-    background-color: transparent;
-}
-
-.phb::after {
-    background: none;
-    background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
-    background-size: 100px 100px, 816px 1046px;
-    background-repeat: no-repeat;
-    background-position: 10px calc(100% - 5px), bottom;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    height: 100%;
-    z-index: -2;
-}
-
-/* .phb:nth-child(odd):after {
-    transform: scaleX(-1);
-} */
-
-.phb:nth-child(even):after {
-    transform: scaleX(1);
-}
-
 .phb ul {
     text-indent: -1em;
     list-style-type: none;
@@ -402,7 +391,7 @@
 .phb ul strong {
     font-family: 'GothamBold';
     font-weight: normal;
-    font-size: 11pt;
+    font-size: 10pt;
     letter-spacing: -0.02em;
 }
 
@@ -411,6 +400,9 @@
 .phb hr+blockquote {
     padding: 0px;
     box-shadow: none;
+    border-style: none;
+    background-image: none;
+    background-color: transparent;
 }
 
 .phb hr+blockquote h1 {
@@ -488,20 +480,11 @@
     border-color: #9C0719;
 }
 
-/* .phb hr+blockquote hr {
-    background-image: none;
-    visibility: visible;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0px 0px 0px;
-    position: relative;
-} */
-
 .phb hr+blockquote h2:before {
     content: "DIFFICULTY ";
 }
 
-/* Monster Stats END */
+/*** Monster Stats END ***/
 
 /** Spells **/
 
@@ -567,4 +550,4 @@
     letter-spacing: -0.02em;
 }
 
-/* Spells END */
+/*** Spells END ***/
