@@ -323,16 +323,16 @@
 .phb .pageNumber {
     bottom: 0px;
     right: 0;
-    left: 12px;
+    left: 20px;
     vertical-align: middle;
 }
 
 .phb:nth-child(even) .pageNumber {
-    left: 12px;
+    left: 20px;
 }
 
 .phb .pageNumber.auto {
-    bottom: 22px;
+    bottom: 40px;
 }
 
 .phb .pageNumber.auto::after {
@@ -377,7 +377,9 @@
     background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
     background-size: 100px 100px, 816px 1046px;
     background-repeat: no-repeat;
-    background-position: -12px calc(100% - -26px), bottom;
+    background-position: 10px calc(100% - 5px), bottom;
+    margin-bottom: 10px;
+    margin-left: 10px;
     height: 100%;
     z-index: -2;
 }
