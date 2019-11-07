@@ -251,7 +251,8 @@
     background-color: transparent;
     background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
     background-size: 100% 100%;
-    /* box-shadow: 3px 3px 10px #000; */
+    -webkit-filter: drop-shadow(20px 20px 10px #000);
+    filter: drop-shadow(20px 20px 10px #000);
     padding-left: 0px;
     padding-right: 0px;
 }
