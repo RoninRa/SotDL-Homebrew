@@ -328,7 +328,7 @@
 }
 
 .phb:nth-child(even) .pageNumber {
-    left: 20px;
+    left: inherit;
 }
 
 .phb .pageNumber.auto {
