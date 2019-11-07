@@ -206,7 +206,7 @@
 
 .phb table tbody tr td strong {
     font-family: 'GothamBold';
-    font-weight: bold;
+    font-weight: normal;
     font-size: 8pt;
     color: #000000;
 }
@@ -215,6 +215,8 @@
     font-family: 'GothamBold';
     font-size: 8pt;
 }
+
+/* End Tables */
 
 .phb strong em, .phb em strong {
     color: #9C0719;
