@@ -126,7 +126,7 @@ Roll once on this table to determine how your Deep One blood sets you apart from
 |  1D6  | Appearance                                                                                                                            |
 | :---: | :------------------------------------------------------------------------------------------------------------------------------------ |
 |   1   | You have peculiar folds of extra skin on your neck, resembling non-functional gills.                                                  |
-|   2   | You have bulging eyes that protrudes out of your socket, giving you a sort of toad-like look.                                         |
+|   2   | You have unblinking, bulging eyes that protrudes out of your sockets, giving you a sort of toad-like look.                            |
 |   3   | Your skin has a scaly appearance, almost like that of a fish.                                                                         |
 |   4   | Your finger and toes has an extra webbing of skin between them.                                                                       |
 |   5   | Your jaw is unnaturally wide, giving your face a sort of fish-like or toad-like peculiarity.                                          |
@@ -136,14 +136,14 @@ Roll once on this table to determine how your Deep One blood sets you apart from
 
 You can choose to roll on this background table in addition to your ancestry table. Be warned however, everything comes with a cost...
 
-|  1D6  | Background                                                                                                                                                                                                                                 |
-| :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   1   | Your evolution to become a Deep One is already prominent. Roll 1 trait from the Deep One traits table, and gain 2 corruption. *You do not gain another trait from ending up with an even number of corruption this way.*                   |
-|   2   | You have been brought up under the teachings of Great Cthulhu and have been his servant for many years already. Gain 1d3-1 Corruption and add scholar of the Mythos to your list of professions. *Determine any Deep One traits as usual.* |
-|   3   |                                                                                                                                                                                                                                            |
-|   4   | You read an abridged copy of the Necronomicon, gain 1d3 Insanity and add scholar of the Mythos to your list of professions.                                                                                                                |
-|   5   |                                                                                                                                                                                                                                            |
-|   6   | You came into possession of an ancient fragment of the Pnakotic manuscripts. Start the game with an incantation containing two rank 0 Madness spells.                                                                                      |
+|  1D6  | Background                                                                                                                                                                                                                                              |
+| :---: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|   1   | Your evolution to become a Deep One is already prominent. Roll 1 trait from the Deep One traits table, and gain 1 corruption. *You do not gain another trait from corruption effects if this increase takes you into a new level of corruption.*        |
+|   2   | You have been brought up under the teachings of Great Cthulhu and have been his servant for many years already. Gain 1d3-1 Corruption and add scholar of the Mythos to your list of professions. *Determine any corruption effects as described above.* |
+|   3   |                                                                                                                                                                                                                                                         |
+|   4   | You read an abridged copy of the Necronomicon, gain 1d3 Insanity and add scholar of the Mythos to your list of professions.                                                                                                                             |
+|   5   |                                                                                                                                                                                                                                                         |
+|   6   | You came into possession of an ancient fragment of the Pnakotic manuscripts. Start the game with an incantation containing two rank 0 Madness spells.                                                                                                   |
 
 ```
 ```
@@ -167,7 +167,7 @@ When creating NPC Deep Ones and hybrids, increase their difficulty level by 1 fo
 |  13   | **Swimmer** You ignore difficult terrain while swimming and never need to make a challenge roll to swim. *If rolled or chosen a second time, you gain a swimming speed of 12.*                                                                                                                                                                                               |
 |  14   | **Spew Acid** Your metamorphosis has turned your spit acidic. Once per rest, you can use an action to spit at an object or creature within short range, making a Strength attack roll against the target's Agility. On a success, the acid hits and deals 3d6 damage. *If rolled or chosen multiple times beyond the first, increase damage done by 1d6 to a maximum of 6d6* |
 |  15   | **Scales** Hard fish-like scales erupts from your skin making you look like some squamous horror from the deep. The scales count as natural armor and gives Agility +4 in Defense when not wearing any other armor, or +2 to any natural armor you already have. However, due to your new horrific appearance, you gain +1 bane on all social interaction rolls.             |
-|  16   | **In Hydra's Image** Your Deep One metamorphosis is growing faster then normal. Your body grows with +1 Size and any natural weapons you manifest gain +1d6 to damage. *This trait can be rolled or chosen multiple times*                                                                                                                                                   |
+|  16   | **In Hydra's Image** Your Deep One metamorphosis is growing faster then normal. Your body grows with +1 Size and follows the normal rules for increasing size per *Shadow pg 262*. *This trait can be rolled or chosen multiple times*                                                                                                                                       |
 |  17   | **Snapping Bite** Your mouth grows extra rows of razor sharp teeth. Your teeth can be used as natural weapons that function as basic weapons that deal 1d6 damage. You can use your trigger action to attack with your teeth in addition to any normal attacks. *If rolled or chosen a second time, your bite has a chance to inflict the disease, Dagon's Mind Rot*         |
 |  18   | **Frightening** You have transformed to such an extent that you gain the *frightening* trait.                                                                                                                                                                                                                                                                                |
 
@@ -262,7 +262,7 @@ Deep One hybrids can come from any living ancestry. Here are some sample ones fo
 > - **Speed** 8;
 > - **Shadowsight** The Deep One can see into areas obscured by shadows as if those areas were lit.
 > - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
-> - **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One list below.
+> - **The Call of Dagon** Whenever a Deep One hybrid gains corruption, their transformation into a full-fledged Deep One gets ever so closer. Use the Deep One table for corruption effects instead of the normal corruption effects table. Also, all hybrids start with one Deep One traits, choose or randomly determine which one the hybrid start with.
 > 
 >### Attack Options
 > ___
@@ -271,24 +271,25 @@ Deep One hybrids can come from any living ancestry. Here are some sample ones fo
 <div class='pageNumber auto'></div>
 
 ---
-> # Deep One Hybrid Yyyy
-> ## XX
->*Size 1 Deep One hybrid*
+> # Deep One Hybrid Orc Champion
+> ## 50
+>*Size 2 frightening Deep One hybrid*
 > ___
 > - **Perception ** 10 (+0), shadowsight
-> - **Defense** 10; **Health** 11; **Insanity** 3; **Corruption** 1
-> - **Strength** 11 (+0), **Agility** 10 (+0), **Intellect** 9 (-1), **Will** 10 (+0)
-> - **Speed** 8;
+> - **Defense** 11; **Health** 25; **Insanity** 3; **Corruption** 2
+> - **Strength** 14 (+4), **Agility** 10 (+0), **Intellect** 8 (-2), **Will** 9 (-1)
+> - **Speed** 12;
 > - **Hold Breath** Deep One hybrids can hold their breath under water for up to 1 hour.
 > - **The Call of Dagon** Whenever a Deep One hybrid gains corruption so their total is an even number, their transformation into a full-fledged Deep One gets ever so closer. Randomly determine 1 trait from the Deep One list below.
 > - **Longing for the Deep** Every week the hybrid spends more than 10 km (6 miles) from the sea, they must succeed on a Will Challenge Roll or gain 1d3 Insanity.
-> - **In Hydra's Image** The hybrid's metamorphosis is growing faster then normal. Its body grows with +1 Size and any natural weapons gain +1d6 to damage.
+> - **In Hydra's Image** The hybrid's metamorphosis is growing faster then normal, its body grows with +1 Size.
 > - **Frightening** The hybrid has transformed to such an extent that it gains the *frightening* trait.
-> - **Spew Acid** Once per rest, the hybrid can use an action to spit at an object or creature within short range, making a Strength attack roll against the target's Agility. On a success, the acid hits and deals 6d6 damage.
+> - **Acid Spit** Once per rest, the hybrid can use an action to spit at an object or creature within short range, making a Strength attack roll against the target's Agility. On a success, the acid hits and deals 6d6 damage.
+> - **Weapon Training** When attacking with a weapon, the creature makes the attack roll with 1 boon and deals 1 extra damage on a success.
 > 
 >### Attack Options
 > ___
-> - **Claw** (melee) +7 (3d6 + 1, or 3d6 + 13 on attack roll 20+)
+> - **Claws** (melee) +4 with 1 boon (2d6+1)
 >
 >### Special Attacks
 > ___
@@ -343,7 +344,9 @@ Deep One hybrids can come from any living ancestry. Here are some sample ones fo
 
 ### Deep One Priests
 
-Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among them teach are the first Deep Ones since time immemorial. But even above them stands their mightiest god, the Great Old One, Cthulhu, who lay dreaming in his sunken city of R'lyeh. Among the Deep Ones, some are chosen by the Great Cthulhu, through dreams, to make sure the Deep Ones stay loyal to the God until that time when the stars are right and the Great Cthulhu stirs in his sleep and primordial R'lyeh rises to the surface once again.
+Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among them teach are the first Deep Ones since time immemorial. But above all, stand their mightiest god, the Great Old One, Cthulhu, who wandered the world aeons before even the First People.
+
+Among the Deep Ones, there are those who count themselves as chosen through dreams by the great priest Cthulhu. Tasked with preparing the Deep Ones for that day when the stars are ready, and great Cthulhu will stir in his sleep as the mighty city of R'lyeh rises to the surface once again.
 
 ---
 > # Deep One Novice Priest
@@ -374,6 +377,9 @@ Most Deep Ones worship Father Dagon and Mother Hydra, whom the learned among the
 > - **Power** 1 - three rank 0 or 1 spells
 > - **Water** 
 > - **Madness** 
+
+```
+```
 
 ---
 > # Deep One High Priest
