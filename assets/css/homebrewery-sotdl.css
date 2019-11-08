@@ -68,7 +68,8 @@
 
 }
 
-.phb div.title-banner h1.title {
+/* .phb div.title-banner h1.title { */
+    .phb h1.title {
     font-family: "First Order";
     font-size: 50pt;
     text-align: center;
@@ -78,7 +79,7 @@
 
     background: url(../images/sotdl_background.jpg) no-repeat center center;
     background-size: cover;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #ffffffd1;
     -webkit-background-clip: text;
     background-clip: text;
     text-transform: uppercase;
