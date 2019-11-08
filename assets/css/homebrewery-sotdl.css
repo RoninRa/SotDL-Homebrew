@@ -62,16 +62,27 @@
     height: auto;
 }
 
-.phb h1.title {
+.phb div.title-banner {
+    background-image: url('https://roninra.github.com/SotDL-Homebrew/assets/images/header-banner.png');
+    background-size: 100% 100%;
+
+}
+
+.phb div.title-banner h1.title {
     font-family: "First Order";
     font-size: 50pt;
     text-align: center;
     font-weight: normal;
     text-shadow: 0px 0px 5px black;
     color: white;
+
+    background: url(../images/sotdl_background.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     text-transform: uppercase;
-    background-image: url('https://roninra.github.com/SotDL-Homebrew/assets/images/header-banner.png');
-    background-size: 100% 100%;
+
     padding-top: 20px;
     padding-bottom: 25px;
     margin: 0px -65px 0px -65px;
@@ -96,7 +107,13 @@
     line-height: inherit;
 }
 
-.phb h1, .phb h2, .phb h3, .phb h4, .phb h5, .phb h6, .phb h7 {
+.phb h1,
+.phb h2,
+.phb h3,
+.phb h4,
+.phb h5,
+.phb h6,
+.phb h7 {
     font-family: 'Poison Hope';
     font-weight: normal;
     text-align: left;
@@ -153,7 +170,9 @@
     border-bottom-width: 1.1px;
 }
 
-.phb p, .phb li, .phb ol {
+.phb p,
+.phb li,
+.phb ol {
     font-family: 'Athelas';
     font-size: 11pt;
     text-align: left;
@@ -218,7 +237,8 @@
 
 /*** Tables END ***/
 
-.phb strong em, .phb em strong {
+.phb strong em,
+.phb em strong {
     color: #9C0719;
     font-style: normal;
     font-weight: bold;
@@ -342,7 +362,8 @@
     height: 22px;
 }
 
-.phb .pageNumber, .phb .pageNumber.auto {
+.phb .pageNumber,
+.phb .pageNumber.auto {
     font-family: "Poison Hope";
     font-size: 13pt;
     color: #ffffff;
@@ -458,7 +479,8 @@
     padding-left: 5px;
 }
 
-.phb hr+blockquote h2+p+hr, .phb hr+blockquote h3+hr {
+.phb hr+blockquote h2+p+hr,
+.phb hr+blockquote h3+hr {
     display: none;
 }
 
