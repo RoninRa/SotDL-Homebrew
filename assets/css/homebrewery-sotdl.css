@@ -292,6 +292,13 @@
     padding-bottom: 0px;
 }
 
+.phb blockquote.credits p strong {
+    font-family: 'Poison Hope';
+    font-weight: bold;
+    font-size: 10pt;
+    color: #000000;
+}
+
 .phb blockquote.credits p strong em {
     color: #000000;
     font-style: italic;
