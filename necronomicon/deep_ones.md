@@ -4,7 +4,7 @@
 
 <div style='margin-top:825px;'></div>
 
-<h1 class="title">From The Deep</h1>
+<h1 class="title"><span>From The Deep</span></h1>
 
 <h2 class="title"> Pages of The Necronomicon for Shadow of the Demon Lord </h2>
 
@@ -136,14 +136,14 @@ Roll once on this table to determine how your Deep One blood sets you apart from
 
 You can choose to roll on this background table in addition to your ancestry table. Be warned however, everything comes with a cost...
 
-|  1D6  | Background                                                                                                                                                                                                                                              |
-| :---: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|   1   | Your evolution to become a Deep One is already prominent. Roll 1 trait from the Deep One traits table, and gain 1 corruption. *You do not gain another trait from corruption effects if this increase takes you into a new level of corruption.*        |
-|   2   | You have been brought up under the teachings of Great Cthulhu and have been his servant for many years already. Gain 1d3-1 Corruption and add scholar of the Mythos to your list of professions. *Determine any corruption effects as described above.* |
-|   3   |                                                                                                                                                                                                                                                         |
-|   4   | You read an abridged copy of the Necronomicon, gain 1d3 Insanity and add scholar of the Mythos to your list of professions.                                                                                                                             |
-|   5   |                                                                                                                                                                                                                                                         |
-|   6   | You came into possession of an ancient fragment of the Pnakotic manuscripts. Start the game with an incantation containing two rank 0 Madness spells.                                                                                                   |
+|  1D6  | Background                                                                                                                                                                                                                                       |
+| :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   1   | Your evolution to become a Deep One is already prominent. Roll 1 trait from the Deep One traits table, and gain 1 corruption. *You do not gain another trait from corruption effects if this increase takes you into a new level of corruption.* |
+|   2   | You have been brought up under the teachings of Great Cthulhu. Gain 1d3-1 Corruption and add scholar of the Mythos and Religion: Esoteric Order of Dagon to your list of professions. *Determine any corruption effects as described above.*     |
+|   3   |                                                                                                                                                                                                                                                  |
+|   4   | You read an abridged copy of the Necronomicon, gain 1d3 Insanity and add scholar of the Mythos to your list of professions.                                                                                                                      |
+|   5   |                                                                                                                                                                                                                                                  |
+|   6   | You came into possession of an ancient fragment of the Pnakotic manuscripts. Start the game with an incantation containing two rank 0 Madness spells.                                                                                            |
 
 ```
 ```
@@ -175,21 +175,22 @@ When creating NPC Deep Ones and hybrids, increase their difficulty level by 1 fo
 
 \page
 
-## New Disease
+### New Disease
 
 Some Deep Ones can infect their victims with their bite.
 
-### Dagon's Mind Rot
+#### Dagon's Mind Rot
 
 When a Deep One bites you, there is a chance you will get diseased. Deep Ones and Deep One hybrids are immune to this disease, but everyone else must make a Strength challenge roll with 2 banes or get infected. Each time an infected creature completes a rest, it must make a new Strength challenge roll, on a failure, it gains 1d3 Insanity. 
 
 Whenever an infected creature goes mad, it becomes a mindless thrall to whichever Deep One infected them and becomes compelled to seek it out and do its bidding. After three successes, the creature removes the diseased affliction.
 
-## New Spells
+### New Spells
 
 The following spells expand on those presented in other materials for *Shadow of the Demon Lord*
 
 <div class="spell">
+  <p style="padding-bottom:0"></p>
   <h1>Rally The Deep</h1>
   <h2>Madness Attack spell 2</h2>
   <hr>
@@ -200,6 +201,21 @@ The following spells expand on those presented in other materials for *Shadow of
   <hr>
   <p>You rally all of Mother Hydra's children to aid you against those who would do you harm. All aquatic creatures within long range must succeed on a Will challenge roll or become compelled to attack your target. Your target is impaired and if they fail any rolls while impaired in this way, they also suffer 2d6 damage.</p>
 </div>
+
+```
+```
+
+### New Professions
+
+Deep One Hybrids can choose these professions instead of rolling for any scholarly or religious professions.
+
+#### Scholar - Area of Scholarship
+
+**Mythos** You have been schooled in the Mythos of the Elder Gods, either through your family or sermons, or through reading of Grimoires of the Mythos. 
+
+#### Religious
+
+**Esoteric Order of Dagon** You've been raised as a devout follower of the Esoteric Order of Dagon. You are probably sworn to at least the first of the three oaths.
 
 <div class='pageNumber auto'></div>
 
@@ -266,12 +282,12 @@ Deep One hybrids can come from any living ancestry. Here are some sample ones fo
 > 
 >### Attack Options
 > ___
-> - **Trident** (melee or short range) +1 (1d6)
+> - **Spear** (melee or short range) +1 (1d6)
 
 <div class='pageNumber auto'></div>
 
 ---
-> # Deep One Hybrid Orc Champion
+> # Deep One Hybrid Orc
 > ## 50
 >*Size 2 frightening Deep One hybrid*
 > ___
@@ -375,8 +391,8 @@ Among the Deep Ones, there are those who count themselves as chosen through drea
 >### Magic
 > ___
 > - **Power** 1 - three rank 0 or 1 spells
-> - **Water** 
-> - **Madness** 
+> - **Water** Rime Water (0), Drown (1)
+> - **Madness** Aid from the Outer Gods (1)
 
 ```
 ```
@@ -409,8 +425,8 @@ Among the Deep Ones, there are those who count themselves as chosen through drea
 >### Magic
 > ___
 > - **Power** 5 - 2 Rank 0 or 1 spells, two Rank 2 spells, two Rank 3 spells, two Rank 4 spells, and one rank 5 spell
-> - **Divination** 
-> - **Madness** Rally The Deep (2)
-> - **Water**
+> - **Divination** See the Future (3), Third Eye (4)
+> - **Madness** Aid from the Outer Gods (1), Rally The Deep (2), Hoary Tentacle (2), Mind Shatter (3), Dark Star (4)
+> - **Water** Rime Water (0), Parch (5)
 
 <div class='pageNumber auto'></div>
