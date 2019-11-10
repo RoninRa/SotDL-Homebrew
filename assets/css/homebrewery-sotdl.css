@@ -62,6 +62,11 @@
     height: auto;
 }
 
+.phb h1.banner {
+    background-image: url(../images/header-banner.png);
+    background-size: 100% 100%;
+}
+
 .phb h1.title {
     font-family: "First Order";
     font-size: 50pt;
@@ -70,8 +75,8 @@
     text-shadow: 0px 0px 5px black;
     color: white;
     text-transform: uppercase;
-    background-image: url(../images/header-banner.png);
-    background-size: 100% 100%;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+    mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));;
     padding-top: 20px;
     padding-bottom: 25px;
     margin: 0px -65px 0px -65px;
