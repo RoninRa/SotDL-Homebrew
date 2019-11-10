@@ -520,6 +520,10 @@
     text-transform: uppercase;
 }
 
+.phb div.spell p+h1 {
+    padding-bottom: 0;
+}
+
 .phb div.spell h2 {
     font-family: Athelas;
     font-size: 8pt;
