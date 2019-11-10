@@ -167,6 +167,14 @@
     text-align: left;
 }
 
+.phb p strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 10pt;
+    color: #9C0719;
+    letter-spacing: -0.02em;
+}
+
 /* Tables */
 
 .phb table thead th {
