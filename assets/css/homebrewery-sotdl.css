@@ -78,9 +78,12 @@
     text-shadow: 0px 0px 5px black;
     color: white;
     text-transform: uppercase;
-    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 0 4px 0 #777, 0 5px 0 #666, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
     -webkit-font-smoothing: antialiased;
     -webkit-text-fill-color: #f3ebebd1;
+    position: relative;
+    left: 20%;
+    bottom: 5px;
 }
 
 .phb h2.title {
