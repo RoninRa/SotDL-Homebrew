@@ -221,6 +221,18 @@ Deep One Hybrids can choose these professions instead of rolling for any scholar
 
 \page
 
+### New Paths
+
+#### Cthulhu Cultist
+
+#### Cthulhu Priest
+
+#### Cthulhu High Priest
+
+<div class='pageNumber auto'></div>
+
+\page
+
 ## Sample Deep Ones and Hybrids
 
 Here you will find a diverse selection of Deep One and Hybrid characters for use in adventures you create. 
@@ -390,7 +402,7 @@ Among the Deep Ones, there are those who count themselves as chosen through drea
 >
 >### Magic
 > ___
-> - **Power** 1 - three rank 0 or 1 spells
+> - **Power** 1
 > - **Water** Rime Water (0), Drown (1)
 > - **Madness** Aid from the Outer Gods (1)
 
@@ -414,9 +426,9 @@ Among the Deep Ones, there are those who count themselves as chosen through drea
 > 
 >### Attack Options
 > ___
-> - **Trident** (melee or short range) +2 with 1 boon (3d6)
-> - **Claws** (melee) +2 with 1 boon (2d6)
-> - **Teeth** (melee) +2 with 1 boon (2d6)
+> - **Trident** (melee or short range) +5 with 1 boon (3d6)
+> - **Claws** (melee) +5 with 1 boon (2d6)
+> - **Teeth** (melee) +5 with 1 boon (2d6)
 >
 >### Special Attacks
 > ___
@@ -424,7 +436,7 @@ Among the Deep Ones, there are those who count themselves as chosen through drea
 >
 >### Magic
 > ___
-> - **Power** 5 - 2 Rank 0 or 1 spells, two Rank 2 spells, two Rank 3 spells, two Rank 4 spells, and one rank 5 spell
+> - **Power** 5
 > - **Divination** See the Future (3), Third Eye (4)
 > - **Madness** Aid from the Outer Gods (1), Rally The Deep (2), Hoary Tentacle (2), Mind Shatter (3), Dark Star (4)
 > - **Water** Rime Water (0), Parch (5)
