@@ -24,7 +24,12 @@ Replace with DotDL
       <span class="before-colon" style="font-size:13pt;">WRITING AND DESIGN<font face="Athelas">:</font> </span><br/><span class="after-colon">RONNY ANDERSSEN</span>
     </p>
     <p>
-      <span class="before-colon">ILLUSTRATION<font face="Athelas">:</font> </span><span class="after-colon">BJØRN AKSEL HENSVOLD</span>
+      <span class="before-colon">ART<font face="Athelas">:</font> </span>
+      <span class="after-colon">
+        Deep One models by Bjørn Aksel Hensvold<br/>
+        Deep One sketch by [Ståle Tevik](https://www.facebook.com/pg/seidhammerart)<br/>
+        King of the Deep photo by [Pelle Sten](https://www.flickr.com/photos/pellesten/4741465695/in/photostream/) ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))
+      </span>
     </p>
     <p class="acknowledgements">
         <strong>*From The Deep* & *Pages of the Necronomicon* is ©2019 Kybernesis AS.<br/>
@@ -110,6 +115,8 @@ Since all Deep One hybrids are born that way, only starting characters can ever 
 
 - **Characteristics** As your base ancestry.
 - You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One traits list.
+
+<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/deep_one_sketch.jpg' />
 
 <div class='pageNumber auto'></div>
 
@@ -216,6 +223,8 @@ Deep One Hybrids can choose these professions instead of rolling for any scholar
 #### Religious
 
 **Esoteric Order of Dagon** You've been raised as a devout follower of the Esoteric Order of Dagon. You are probably sworn to at least the first of the three oaths.
+
+<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/king_of_the_deep.jpg' />
 
 <div class='pageNumber auto'></div>
 
