@@ -312,6 +312,7 @@
     font-family: Athelas;
     font-weight: normal;
     font-size: 8pt;
+    letter-spacing: -0.02em;
 }
 
 .phb blockquote.credits p.acknowledgements strong {
@@ -319,6 +320,7 @@
     font-weight: bold;
     font-size: 8pt;
     color: #000000;
+    letter-spacing: -0.03em;
 }
 
 .phb blockquote.credits img.credits-image {
