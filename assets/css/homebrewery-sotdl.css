@@ -40,8 +40,12 @@
     background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 282.6mm;
-    width: 219.1mm;
+    /* height: 282.6mm;
+    width: 219.1mm; */
+    /*A4 size*/
+    height: 296.8mm;
+    width: 210mm;
+    padding: 1.0cm 1.0cm 1.5cm 1.0cm;
     column-fill: auto;
     column-count: 2;
     column-gap: 0.4cm;
@@ -361,7 +365,7 @@
 }
 
 .phb .pageNumber.auto {
-    bottom: 44px;
+    bottom: 40px;
 }
 
 .phb .pageNumber.auto::after {
@@ -383,7 +387,7 @@
 .phb::after {
     background: none;
     background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
-    background-size: 100px 100px, 816px 1046px;
+    background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
     background-position: 10px calc(100% - 5px), bottom;
     margin-bottom: 10px;
