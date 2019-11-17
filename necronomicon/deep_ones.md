@@ -2,7 +2,7 @@
 
 <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/from_the_deep_wide.png' class="header-image" />
 
-<div style='margin-top:825px;'></div>
+<div style='margin-top:800px;'></div>
 
 <h1 class="title"><span>From The Deep</span></h1>
 
@@ -12,7 +12,7 @@ From the vast and unknown oceans come the Deep Ones. Living in ancient underwate
 
 No-one is entirely sure where Deep Ones come from or why they are able to breed with any living creatures, mortals and immortals alike, but they all agree that these amphibian humanoids are themselves immortal.
 
-<img src='URL' style='width:200px' />
+<img src='../assets/images/disciples-large.png' style='width:200px' />
 Replace with DotDL
 
 ```
@@ -38,7 +38,8 @@ Replace with DotDL
         This work contains material that is copyright Schwalb Entertainment, LLC. Such material is used with permission under the Community Content Agreement for the Disciples of the Demon Lord CC. All other original material in this work is copyright ©2019 by Kybernesis AS and published under the Community Content Agreement for the Disciples of the Demon Lord CC.<br/>
         <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/kybernesis_logo.png' class="credits-image" /><br />
         contact@kybernesis.com<br />
-        www.kybernesis.com
+        www.kybernesis.com<br/>
+        Requires Shadow of the Demon Lord from Schwalb Entertainment. Distributed through the Disciples of the Demon Lord Creative Community at DriveThruRPG.
     </p>
 </blockquote>
 
