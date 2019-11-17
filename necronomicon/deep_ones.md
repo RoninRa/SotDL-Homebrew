@@ -27,8 +27,8 @@ Replace with DotDL
       <span class="before-colon">ART<font face="Athelas">:</font> </span>
       <span class="after-colon">
         Deep One models by Bjørn Aksel Hensvold<br/>
-        Deep One sketch by [Ståle Tevik](https://www.facebook.com/pg/seidhammerart)<br/>
-        King of the Deep photo by [Pelle Sten](https://www.flickr.com/photos/pellesten/4741465695/in/photostream/) ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))
+        <!-- Deep One sketch by [Ståle Tevik](https://www.facebook.com/pg/seidhammerart)<br/>
+        King of the Deep photo by [Pelle Sten](https://www.flickr.com/photos/pellesten/4741465695/in/photostream/) ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)) -->
       </span>
     </p>
     <p class="acknowledgements">
@@ -45,6 +45,8 @@ Replace with DotDL
 <div class='pageNumber auto'></div>
 
 \page
+
+<div class='pageNumber auto'></div>
 
 ## Deep One Hybrids
 
@@ -84,9 +86,9 @@ The character becomes an NPC at this point.
 |        8         | Roll for **Mark of Darkness** as normal, but instead of gaining the **Infernal Interest** trait, roll on the **Deep One Traits** table.                                                                                                                                                                                                                                                                                                                                           |
 |        9+        | Roll for **Mark of Darkness** as normal, but instead of gaining the **Damned** trait, gain the **Deep One** trait. <br/><br/> <ul><li>**Deep One** You start to turn into a Deep One. Each time you complete a rest, roll a d20 - any corruption above 9. On a natural 1 or a total of 0 or below, you wake up completely metamorphosed into a Deep One and must, without delay, travel to the Deep One habitat from your dreams, where you spend the rest of eternity.</li></ul> |
 
-<div class='pageNumber auto'></div>
-
 \page 
+
+<div class='pageNumber auto'></div>
 
 ### Deep One Hybrid Characters
 
@@ -116,11 +118,11 @@ Since all Deep One hybrids are born that way, only starting characters can ever 
 - **Characteristics** As your base ancestry.
 - You either learn one spell, gain the level 4 benefit from your ancestry, or choose 1 trait from the Deep One traits list.
 
-<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/deep_one_sketch.jpg' />
-
-<div class='pageNumber auto'></div>
+<!-- <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/deep_one_sketch.jpg' /> -->
 
 \page
+
+<div class='pageNumber auto'></div>
 
 ### Deep One Tables
 
@@ -178,9 +180,9 @@ When creating NPC Deep Ones and hybrids, increase their difficulty level by 1 fo
 |  17   | **Snapping Bite** Your mouth grows extra rows of razor sharp teeth. Your teeth can be used as natural weapons that function as basic weapons that deal 1d6 damage. You can use your trigger action to attack with your teeth in addition to any normal attacks. *If rolled or chosen a second time, your bite has a chance to inflict the disease, Dagon's Mind Rot*         |
 |  18   | **Frightening** You have transformed to such an extent that you gain the *frightening* trait.                                                                                                                                                                                                                                                                                |
 
-<div class='pageNumber auto'></div>
-
 \page
+
+<div class='pageNumber auto'></div>
 
 ### New Disease
 
@@ -224,11 +226,11 @@ Deep One Hybrids can choose these professions instead of rolling for any scholar
 
 **Esoteric Order of Dagon** You've been raised as a devout follower of the Esoteric Order of Dagon. You are probably sworn to at least the first of the three oaths.
 
-<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/king_of_the_deep.jpg' />
-
-<div class='pageNumber auto'></div>
+<!-- <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/king_of_the_deep.jpg' /> -->
 
 \page
+
+<div class='pageNumber auto'></div>
 
 ### New Paths
 
@@ -238,9 +240,9 @@ Deep One Hybrids can choose these professions instead of rolling for any scholar
 
 #### Cthulhu High Priest
 
-<div class='pageNumber auto'></div>
-
 \page
+
+<div class='pageNumber auto'></div>
 
 ## Sample Deep Ones and Hybrids
 
@@ -279,9 +281,9 @@ When a Deep One hybrid reaches a certain age, typically between 35 and 45, they 
 > ___
 > - **Snapping Bite** The deep one can use its trigger action to attack with its teeth in addition to any normal attacks.
 
-<div class='pageNumber auto'></div>
-
 \page
+
+<div class='pageNumber auto'></div>
 
 ### Deep One Hybrid
 
@@ -304,8 +306,6 @@ Deep One hybrids can come from any living ancestry. Here are some sample ones fo
 >### Attack Options
 > ___
 > - **Spear** (melee or short range) +1 (1d6)
-
-<div class='pageNumber auto'></div>
 
 ---
 > # Deep One Hybrid Orc
@@ -375,9 +375,9 @@ Deep One hybrids can come from any living ancestry. Here are some sample ones fo
 > ___
 > - **Spear** (melee) +1 (1d6)
 
-<div class='pageNumber auto'></div>
-
 \page
+
+<div class='pageNumber auto'></div>
 
 ### Deep One Priests
 
@@ -449,5 +449,3 @@ Among the Deep Ones, there are those who count themselves as chosen through drea
 > - **Divination** See the Future (3), Third Eye (4)
 > - **Madness** Aid from the Outer Gods (1), Rally The Deep (2), Hoary Tentacle (2), Mind Shatter (3), Dark Star (4)
 > - **Water** Rime Water (0), Parch (5)
-
-<div class='pageNumber auto'></div>
