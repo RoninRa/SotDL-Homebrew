@@ -439,6 +439,7 @@
 
 .phb ul li ul li {
     list-style-type: disc;
+    text-indent: 0;
 }
 
 /** Monster Stat Block **/
