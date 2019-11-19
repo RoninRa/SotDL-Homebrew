@@ -2,18 +2,19 @@
 
 <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/from_the_deep_wide.png' class="header-image" />
 
-<div style='margin-top:800px;'></div>
+<div style='margin-top:785px;'></div>
 
 <h1 class="title"><span>From The Deep</span></h1>
 
 <h2 class="title"> Pages of The Necronomicon for Shadow of the Demon Lord </h2>
 
-From the vast and unknown oceans come the Deep Ones. Living in ancient underwater cities like Y'ha-nthlei and it is said that they are descended from the ancient gods Father Dagon and Mother Hydra. Some even whispers of Deep Ones devoted to the High-Priest of the Great Old One, Great Cthulhu, who dreams in his sunken city of R'lyeh.
+Among the many tales told by old fishwives, some tell of sacrifices to the sea which will provide riches untold. Some say that the sacrifice must be made in gold, others in blood, but the reality is much, much darker.
 
-No-one is entirely sure where Deep Ones come from or why they are able to breed with any living creatures, mortals and immortals alike, but they all agree that these amphibian humanoids are themselves immortal.
+From the abyss of the deep ocean, come the Deep Ones. It is true that they provide riches untold, and even immortality. But the sacrifice, if it can even be called such, is a mating with the Deep One, where the progeny will indeed be gifted with immortality.
 
-<img src='../assets/images/disciples-large.png' style='width:200px' />
-Replace with DotDL
+Immortality comes with a price, of course. For one day, such a hybrid will, without fail, metamorphose into a Deep One and be compelled to dive into the deep to live with the Deep Ones in their cyclopean cities, till Great Cthulhu awakens.
+
+<img src='https://roninra.github.io/SotDL-Homebrew/assets/images/disciples-large.png' style='width:300px;' />
 
 ```
 ```
@@ -49,29 +50,33 @@ Replace with DotDL
 
 ## Deep One Hybrids
 
-When Deep Ones breed with other creatures, the result is a Deep One hybrid. Hybrids are born normally and grow just like their main ancestry, but as they age they slowly turn more and more into a Deep One until they are fully Deep Ones and move to live below water for all eternity.
+Deep Ones, for reasons unknown, are able to breed with any living creatures. The progeny, if born of a female that is not already a Deep One, are born as a normal child and even grow and age normally. 
 
-#### Great Cthulhu
+But as they age they slowly manifest strange features, like folded skin on their necks resembling gills, or bulging unblinking eyes. And when the time is right, such a progeny will metamorphose wholly into a Deep One and must thenceforth live below water for all eternity.
 
-*"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn"*<br />
-In his house at R'lyeh, dead Cthulhu waits dreaming
+### Great Cthulhu
 
-At the deepest point of the ocean lays the city of R'lyeh, where it sank during time immemorial as Great Cthulhu and his Spawn fought against the Old Ones and their Shoggoth soldiers. 
+*Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn* <br />
+In his house at R'lyeh, dead Cthulhu waits dreaming.<br /><br />
 
-Among those who dwell in the ocean, many have seen Great Cthulhu in their dreams and there are those among them who have tried to communicate with him through these dreams. Many have gone irreparably mad, but those who did not became the High Priests of Great Cthulhu, devoted to get everyone ready for when the stars are right once again, and Great Cthulhu stirs in his sunken city of R'lyeh. 
+At the deepest point of the ocean lays the great city of R'lyeh, where it sank during time immemorial when Great Cthulhu and his Spawn fought against the Old Ones and the Shoggoths.
+
+There Great Cthulhu lays dreaming and his dreams can, and will, bleed into the dreams of others. Showing them sights that would make even the strongest turn to madness, for such things that they see cannot and must not be real.
+
+Even among the Deep Ones, many have chosen madness, but there are those who did not, and who became Great Cthulhu's High Priests. Devoting their eternity to Cthulhu, preparing for that day when when the stars are finally right once again, and Great Cthulhu will stir in his sunken city of R'lyeh. 
 
 Those who practice the religion have access to the traditions of Divination, Madness, and Water.
 
-#### Deep One Hybrids and Corruption
+```
+```
+
+### Deep One Hybrids and Corruption
 
 Although not entirely exempt from the effects of corruption, it affects Deep One hybrids a bit differently. Use the table below to determine the effect of each corruption point they gain.
 
 As the hybrid gains corruption, they gain Deep One traits which in turn evolve them ever closer to becoming a full-fledged Deep One. If a hybrid ever has a total corruption score of 9+ they will have the dream and start turning into a Deep One. Every time the hybrid completes a rest, they need to roll a d20 minus any corruption above 9. On a natural 1 or a total of 0 or below, the hybrid will wake up completely metamorphosed into a Deep One and immediately start their trip to the nearest Deep One underwater habitat, where they will spend the rest of eternity. 
 
 The character becomes an NPC at this point.
-
-```
-```
 
 <h4 class="table">Corruption Effects</h4>
 
@@ -225,19 +230,62 @@ Deep One Hybrids can choose these professions instead of rolling for any scholar
 
 **Esoteric Order of Dagon** You've been raised as a devout follower of the Esoteric Order of Dagon. You are probably sworn to at least the first of the three oaths.
 
+### New Languages
+
+#### Aklo
+
+baba yaga
+
 <!-- <img src='https://roninra.github.io/SotDL-Homebrew/assets/images/king_of_the_deep.jpg' /> -->
 
 \page
 
 <div class='pageNumber auto'></div>
 
-### New Paths
+## Paths of Madness
 
-#### Cthulhu Cultist
+<h4 class="traits">Cultist of Cthulhu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Novice Path</h4>
 
-#### Cthulhu Priest
+There are those who dedicate their lives to spreading the dreams from Great Cthulhu.
 
-#### Cthulhu High Priest
+<h4 class="traits">Level 1 Cultist of Cthulhu</h4>
+
+- **Attributes** Increase two by 1
+- **Characteristics** Health +4, Power +1, Insanity +1
+- **Languages and Professions** You either read one language you can speak or add a language to the list of languages you can speak. Also, add Scholar of the Mythos, Religion Esoteric Order of Dagon or Cultist to your list of professions.
+- **Magic** You discover the Divination, Madness or Water tradition. Then choose one of the following options:
+ - You discover the other two traditions. 
+ - You discover one of the other traditions and learn one spell from either tradition. 
+ - You learn two spells from any of the traditions you have discovered. 
+- **Mad Recovery** You can use a triggered action to heal damage equal to your healing rate and gain 1 Insanity. If you do not go mad from gaining Insanity in this way, you make attack rolls and challenge rolls with 1 boon for 1 round instead of becoming frightened. Once you use this talent, you cannot use it again until you complete a rest.
+
+<h4 class="traits">Level 2 Cultist of Cthulhu</h4>
+
+- **Characteristics** Health +4
+- **Magic** You discover the Divination, Madness or Water tradition. Then choose one of the following options:
+ - You discover two traditions that you didn't already discover from Divination, Madness or Water.
+ - You discover the Divination, Madness or Water tradition and learn one spell.
+ - You learn two spells from any of the traditions you have discovered.
+- **Fear of the Unknown** When a creature within short range of you attempts a challenge or attack roll, you can use a triggered action to give them 1 insanity.
+
+<h4 class="traits">Level 5 Expert Cultist of Cthulhu</h4>
+
+- **Characteristics** Health +4, Power +1
+- **Magic** You learn one Divination, Madness or Water spell.
+- **The Knowing** When you use Visions of Cthulhu, your target also becomes stunned as they contemplate their insignificance in the cosmos.
+
+<h4 class="traits">Level 8 Master Cultist of Cthulhu</h4>
+
+- **Characteristics** Health +4
+- **Magic** You learn one Divination, Madness or Water spell.
+- **Improved Mad Recovery** You can use Mad Recovery twice.
+
+```
+```
+
+### Priest of Cthulhu
+
+### High Priest of Cthulhu
 
 \page
 
