@@ -417,6 +417,10 @@
     transform: scaleX(1);
 } */
 
+.ForceUpdate {
+    width: 100%;
+}
+
 .phb:after {
     content: "";
     background: none;
