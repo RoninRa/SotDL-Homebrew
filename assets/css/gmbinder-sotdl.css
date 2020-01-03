@@ -387,14 +387,14 @@
 
 .phb:nth-child(even):after, .phb .pageNumber.auto::after {
     content: counter(phb-page-numbers);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: 100px 100px;
     background-position: 10px calc(100% - 5px);
     background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png);
     margin-bottom: 10px;
     margin-left: 10px;
     height: 100%;
-    z-index: -2;
+    z-index: -2; */
     padding: 0px;
 }
 
@@ -419,11 +419,7 @@
     transform: scaleX(1);
 } */
 
-.ForceUpdate, .forcing {
-    width: 100%;
-}
-
-.phb:after {
+/* .phb:after {
     content: "";
     background: none;
     background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
@@ -434,10 +430,10 @@
     margin-left: 10px;
     height: 100%;
     z-index: -2;
-}
+} */
 
-/* .phb::after {
-    content: none;
+.phb::after {
+    content: "";
     background: none;
     background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
     background-size: 100px 100px, 780px 1046px;
@@ -447,7 +443,7 @@
     margin-left: 10px;
     height: 100%;
     z-index: -2;
-} */
+}
 
 /*** Page number END ***/
 
