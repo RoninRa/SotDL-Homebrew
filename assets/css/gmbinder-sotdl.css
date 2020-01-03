@@ -378,9 +378,9 @@
     vertical-align: middle;
 }
 
-.phb:nth-child(even) .pageNumber {
+/* .phb:nth-child(even) .pageNumber {
     left: 30px;
-}
+} */
 
 .phb .pageNumber.auto {
     bottom: 40px;
@@ -398,9 +398,9 @@
     text-align: center;
 }
 
-.phb:nth-child(even):after {
+/* .phb:nth-child(even):after {
     transform: scaleX(1);
-}
+} */
 
 .phb::after {
     background: none;
