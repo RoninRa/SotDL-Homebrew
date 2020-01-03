@@ -418,7 +418,7 @@
 } */
 
 .phb:after {
-    content: none;
+    content: "";
     background: none;
     background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
     background-size: 780px 1046px;
