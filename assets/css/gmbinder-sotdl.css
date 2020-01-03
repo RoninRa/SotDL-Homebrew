@@ -385,7 +385,8 @@
     vertical-align: middle;
 }
 
-.phb:nth-child(even):after {
+.phb:nth-child(even):after, .phb .pageNumber.auto::after {
+    content: counter(phb-page-numbers);
     background-repeat: no-repeat;
     background-size: 100px 100px;
     background-position: 10px calc(100% - 5px);
@@ -401,9 +402,10 @@
     bottom: 40px;
 }
 
+/* 
 .phb .pageNumber.auto::after {
     height: 22px;
-}
+} */
 
 .phb .pageNumber, .phb .pageNumber.auto {
     font-family: "Poison Hope";
@@ -417,7 +419,7 @@
     transform: scaleX(1);
 } */
 
-.ForceUpdate {
+.ForceUpdate, .forcing {
     width: 100%;
 }
 
