@@ -515,6 +515,11 @@
     display: none;
 }
 
+.phb hr+section blockquote section section ul li {
+    text-indent: inherit;
+    margin-bottom: 0px;
+}
+
 .phb hr+section blockquote hr+ul li {
     margin-left: 5px;
     font-family: 'GothamBook';
