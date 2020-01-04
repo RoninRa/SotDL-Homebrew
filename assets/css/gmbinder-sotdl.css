@@ -378,29 +378,29 @@
     vertical-align: middle;
 }
 
-.phb:nth-child(even) .pageNumber {
+.phb:nth-child(odd) .pageNumber, .phb:nth-child(even) .pageNumber {
     bottom: 0px;
     right: 0;
     left: 30px;
     vertical-align: middle;
 }
 
-.phb:nth-child(even):after, .phb .pageNumber.auto::after {
+/* .phb:nth-child(even):after, .phb .pageNumber.auto::after {
     content: counter(phb-page-numbers);
-    /* background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 100px 100px;
     background-position: 10px calc(100% - 5px);
     background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png);
     margin-bottom: 10px;
     margin-left: 10px;
     height: 100%;
-    z-index: -2; */
+    z-index: -2;
     padding: 0px;
-}
+} */
 
-.phb .pageNumber.auto {
+/* .phb .pageNumber.auto {
     bottom: 40px;
-}
+} */
 
 /* 
 .phb .pageNumber.auto::after {
@@ -432,7 +432,7 @@
     z-index: -2;
 } */
 
-.phb::after {
+.phb:after {
     content: "";
     background: none;
     background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
