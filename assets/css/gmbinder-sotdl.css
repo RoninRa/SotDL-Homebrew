@@ -379,7 +379,7 @@
 }
 
 .phb:nth-child(odd) .pageNumber, .phb:nth-child(even) .pageNumber {
-    bottom: 0px;
+    bottom: 40px;
     right: 0;
     left: 30px;
     vertical-align: middle;
