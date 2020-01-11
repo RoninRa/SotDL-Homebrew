@@ -387,6 +387,18 @@
     vertical-align: middle;
 }
 
+.phb:nth-child(odd)::after, .phb:nth-child(even)::after {
+    background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 10px calc(100% - 5px);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 100%;
+    z-index: -2;
+    padding: 0px;
+}
+
 .phb .footnote {
     color: black;
     font-family: lato;
