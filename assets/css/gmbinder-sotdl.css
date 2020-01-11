@@ -371,19 +371,45 @@
 
 /** Page number **/
 
-.phb .pageNumber {
+.phb .pageNumber, .phb .pageNumber.auto {
+    font-family: "Poison Hope";
+    font-size: 13pt;
+    color: #ffffff;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    text-align: center;
+}
+
+.phb:nth-child(odd) .pageNumber, .phb:nth-child(even) .pageNumber {
+    right: 0px;
+    bottom: 34px;
+    left: 25px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.phb .footnote {
+    color: black;
+    font-family: lato;
+    font-weight: bold
+}
+
+/* .phb:after {
+    background-image: url("none")
+} */
+
+/* .phb .pageNumber {
     bottom: 0px;
     right: 0;
     left: 30px;
     vertical-align: middle;
-}
+} */
 
-.phb:nth-child(odd) .pageNumber, .phb:nth-child(even) .pageNumber, .phb:nth-child(2n+1) .pageNumber, .phb:nth-child(2n) .pageNumber {
+/* .phb:nth-child(odd) .pageNumber, .phb:nth-child(even) .pageNumber, .phb:nth-child(2n+1) .pageNumber, .phb:nth-child(2n) .pageNumber {
     bottom: 34px;
     right: 0;
     left: 25px;
     vertical-align: middle;
-}
+} */
 
 /* .phb:nth-child(even):after, .phb .pageNumber.auto::after {
     content: counter(phb-page-numbers);
@@ -412,14 +438,6 @@
     margin-left: 10px;
     height: 100%;
     z-index: -2;
-}
-
-.phb .pageNumber, .phb .pageNumber.auto {
-    font-family: "Poison Hope";
-    font-size: 13pt;
-    color: #ffffff;
-    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
-    text-align: center;
 }
 
 /* .phb:nth-child(even):after {
