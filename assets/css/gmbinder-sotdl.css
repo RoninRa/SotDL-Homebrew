@@ -449,10 +449,6 @@
     transform: scaleX(1);
 } */
 
-.forceUpdate {
-    color: fff;
-}
-
 /* .phb:after {
     content: "";
     background: none;
