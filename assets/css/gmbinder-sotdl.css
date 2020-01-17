@@ -203,8 +203,7 @@
     color: #ffffff;
     font-family: "GothamBook";
     font-size: 8pt;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding: 3px 6px 3px 6px;
 }
 
 .phb table tbody tr {
