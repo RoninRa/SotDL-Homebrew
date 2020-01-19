@@ -200,15 +200,15 @@
 .phb p.sidenote {
     color: #9C0719;
     font-family: 'Rock Salt', cursive;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bold;
     letter-spacing: 0.3px;
-    margin-right: 16px;
+    margin-right: 11px;
     position: absolute;
     right: 0;
     top: auto;
     width: 60px;
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
 
 /* Tables */
