@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
 @import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
 /** Defining fonts **/
 
 @font-face {
@@ -194,6 +195,18 @@
     font-size: 10pt;
     color: #000000;
     letter-spacing: -0.02em;
+}
+
+.phb p.sidenote {
+    font-family: 'Parisienne', cursive;
+    font-size: 0.8em;
+    margin-right: 16px;
+    position: absolute;
+    right: 0;
+    top: auto;
+    width: 53px;
+    font-size: 0.8em;
+    transform: rotate(5deg);
 }
 
 /* Tables */
