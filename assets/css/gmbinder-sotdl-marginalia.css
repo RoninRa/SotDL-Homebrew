@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
 @import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
-@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
 /** Defining fonts **/
 
 @font-face {
@@ -199,7 +199,7 @@
 
 .phb p.sidenote {
     color: #9C0719;
-    font-family: 'Parisienne', cursive;
+    font-family: 'Cookie', cursive;
     font-weight: bold;
     letter-spacing: 0.3px;
     margin-right: 16px;
