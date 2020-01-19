@@ -208,7 +208,20 @@
     right: 0;
     top: auto;
     width: 60px;
-    transform: rotate(3deg);
+}
+
+.phb p.leftnote {
+    color: #9C0719;
+    font-family: 'Rock Salt', cursive;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    left: 0;
+    right: auto;
+    position: absolute;
+    margin-left: 11px;
+    margin-right: auto;
+    width: 60px;
 }
 
 /* Tables */
