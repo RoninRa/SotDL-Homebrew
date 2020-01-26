@@ -219,8 +219,9 @@
     left: 0;
     right: auto;
     position: absolute;
-    margin-left: 11px;
+    margin-left: 25px;
     margin-right: auto;
+    padding-bottom: 5px;
     width: 60px;
 }
 
