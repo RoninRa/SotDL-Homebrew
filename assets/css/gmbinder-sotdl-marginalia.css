@@ -637,3 +637,11 @@
 }
 
 /*** Spells END ***/
+
+/*** Custom backgrounds ***/
+
+div#p6 {
+    background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_priest-of-dagon.png');
+}
+
+/*** Custom backgrounds END ***/
