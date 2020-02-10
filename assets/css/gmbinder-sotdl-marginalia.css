@@ -653,6 +653,7 @@
 .phb div.spell ul li {
     font-family: 'GothamBook';
     font-size: 8pt;
+    list-style-type: none;
 }
 
 .phb div.spell ul li strong {
