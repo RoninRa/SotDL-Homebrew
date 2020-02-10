@@ -295,14 +295,15 @@
     font-weight: bold;
 }
 
+/*** Note block ***/
+
 .phb blockquote {
     border-image: none;
     border: none;
     background-color: transparent;
     background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
     background-size: 100% 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 10px 10px 15px 10px;
 }
 
 .phb blockquote h5 {
@@ -314,6 +315,13 @@
 .phb blockquote p {
     font-size: 0.83em;
 }
+
+.phb blockquote section ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+/*** Note block END ***/
 
 /* Credits block */
 
