@@ -226,7 +226,7 @@
     width: 61px;
 }
 
-.phb td+p.leftnote {
+.phb td p.leftnote {
     margin-left: 25px;
     width: 63px;
 }
