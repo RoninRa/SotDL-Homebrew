@@ -188,7 +188,7 @@
     list-style-type: none;
 }
 
-.phb ul strong {
+.phb ul strong, .phb ol strong {
     font-family: 'GothamBold';
     font-weight: normal;
     font-size: 10pt;
