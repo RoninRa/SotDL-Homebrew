@@ -220,9 +220,14 @@
     left: 0;
     right: auto;
     position: absolute;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-right: auto;
     padding: 3px;
+    width: 61px;
+}
+
+.phb td+p.leftnote {
+    margin-left: 25px;
     width: 63px;
 }
 
