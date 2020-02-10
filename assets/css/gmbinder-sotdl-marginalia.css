@@ -181,6 +181,30 @@
     letter-spacing: -0.02em;
 }
 
+/*** Lists ***/
+
+.phb ul {
+    text-indent: -1em;
+    list-style-type: none;
+}
+
+.phb ul strong {
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-size: 10pt;
+    letter-spacing: -0.02em;
+}
+
+.phb hr+ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+.phb ul li ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
 .phb p ul li strong {
     font-family: "GothamBold";
     font-weight: normal;
@@ -196,6 +220,10 @@
     color: #000000;
     letter-spacing: -0.02em;
 }
+
+/*** Lists END ***/
+
+/*** Marginalia ***/
 
 .phb p.sidenote {
     color: #9C0719;
@@ -230,6 +258,8 @@
     margin-left: 25px;
     width: 63px;
 }
+
+/*** Marginalia END ***/
 
 /* Tables */
 
@@ -469,23 +499,6 @@
     border-color: black;
     border-width: 1px 0px 0px 0px;
     position: relative;
-}
-
-.phb ul {
-    text-indent: -1em;
-    list-style-type: none;
-}
-
-.phb ul strong {
-    font-family: 'GothamBold';
-    font-weight: normal;
-    font-size: 10pt;
-    letter-spacing: -0.02em;
-}
-
-.phb ul li ul li {
-    list-style-type: disc;
-    text-indent: 0;
 }
 
 /** Monster Stat Block **/
