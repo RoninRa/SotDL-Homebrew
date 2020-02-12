@@ -609,7 +609,7 @@
     padding: 5px 5px 0px 5px;
     float: left;
     margin: 0px;
-    width: 50%;
+    width: 45%;
     text-align: left;
     text-shadow: none;
     text-transform: uppercase;
@@ -623,7 +623,7 @@
     font-style: initial;
     padding: 8px 5px 0px 5px;
     float: right;
-    width: 50%;
+    width: 55%;
     margin: 0px;
     text-align: right;
     text-transform: uppercase;
@@ -639,7 +639,7 @@
 }
 
 .phb div.spell h2+hr {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .phb div.spell ul {
