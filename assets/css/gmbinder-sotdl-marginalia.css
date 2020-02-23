@@ -221,6 +221,10 @@
     letter-spacing: -0.02em;
 }
 
+.phb ul li p {
+    overflow: visible;
+}
+
 /*** Lists END ***/
 
 /*** Marginalia ***/
