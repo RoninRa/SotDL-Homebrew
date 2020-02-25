@@ -181,6 +181,10 @@
     letter-spacing: -0.02em;
 }
 
+.phb p+p {
+    margin-top: 0em;
+}
+
 /*** Lists ***/
 
 .phb ul {
@@ -223,6 +227,7 @@
 
 .phb ul li p {
     overflow: visible;
+    margin-bottom: 0px;
 }
 
 .phb p+ul {
