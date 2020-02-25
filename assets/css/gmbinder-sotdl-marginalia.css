@@ -228,6 +228,7 @@
 .phb ul li p {
     overflow: visible;
     margin-bottom: 0px;
+    line-height: inherit;
 }
 
 .phb p+ul {
