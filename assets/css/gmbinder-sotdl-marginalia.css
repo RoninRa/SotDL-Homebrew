@@ -213,7 +213,7 @@
     letter-spacing: -0.02em;
 }
 
-.phb p ul li ul li strong {
+.phb p ul li ul li strong, .phb p+ul li strong {
     font-family: "GothamBold";
     font-weight: normal;
     font-size: 10pt;
@@ -223,6 +223,10 @@
 
 .phb ul li p {
     overflow: visible;
+}
+
+.phb p+ul {
+    margin-top: -0.8em;
 }
 
 /*** Lists END ***/
