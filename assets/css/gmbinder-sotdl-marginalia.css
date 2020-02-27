@@ -698,6 +698,10 @@
 }
 
 .phb div.handout p {
+    -moz-font-feature-settings: 'liga' 1;
+    -webkit-font-feature-settings: 'liga' 1;
+    -ms-font-feature-settings: 'liga' 1;
+    font-feature-settings: 'liga' 1;
     font-family: "Rlyehian";
     font-size: 16pt;
 }
