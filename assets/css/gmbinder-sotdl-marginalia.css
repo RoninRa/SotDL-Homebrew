@@ -30,6 +30,16 @@
     src: url('https://groumy.github.io/homebrewery-sotdl/fonts/PoisonHope-Regular.otf')
 }
 
+@font-face {
+    font-family: 'Rlyehian';
+    src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Rlyehian.ttf')
+}
+
+@font-face {
+    font-family: 'Rlyehian Base';
+    src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RlyehianBase.ttf')
+}
+
 /**  **/
 
 .brewRenderer .pages>.phb {
@@ -679,10 +689,14 @@
 
 /*** Spells END ***/
 
-/*** Custom backgrounds ***/
+/*** Handouts ***/
 
-/* div#p6 {
-    background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_priest-of-dagon.png');
-} */
+.phb div.handout {
+    font-family: "Rlyehian";
+    font-size: 16pt;
+    column-span: all;
+    margin-right: 75px;
+    margin-left: 75px;
+}
 
-/*** Custom backgrounds END ***/
+/*** Handouts END***/
