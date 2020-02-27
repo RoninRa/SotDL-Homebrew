@@ -692,11 +692,14 @@
 /*** Handouts ***/
 
 .phb div.handout {
-    font-family: "Rlyehian";
-    font-size: 16pt;
     column-span: all;
     margin-right: 75px;
     margin-left: 75px;
+}
+
+.phb div.handout p {
+    font-family: "Rlyehian";
+    font-size: 16pt;
 }
 
 /*** Handouts END***/
