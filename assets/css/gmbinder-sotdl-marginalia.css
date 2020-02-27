@@ -692,6 +692,8 @@
 /*** Handouts ***/
 
 .phb div.handout {
+    background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
+    background-size: 100% 100%;
     column-span: all;
     margin-right: 75px;
     margin-left: 75px;
