@@ -78,14 +78,20 @@
 }
 
 .phb h1.title {
-    /* background-image: url(../images/header-banner.png); */
-    /* background-size: 100% 100%; */
+    background-image: url(../images/header-banner.png);
+    background-size: 100% 100%;
     padding-top: 20px;
     padding-bottom: 25px;
     margin: 0px -76px 0px -76px;
 }
 
-.phb h1.title span {
+.phb h1.title-text {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin: 0px -76px 0px -76px;
+}
+
+.phb h1.title span, .phb h1.title-text span {
     font-family: "First Order";
     font-size: 50pt;
     text-align: center;
