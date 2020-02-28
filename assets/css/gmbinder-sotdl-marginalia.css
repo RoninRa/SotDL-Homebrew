@@ -185,21 +185,24 @@
     border-bottom-width: 1.1px;
 }
 
-.phb h2.cover-footer {
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    color: #EEEEEE;
-}
-
 /*** Headers END ***/
 
-.phb img.cover-footer {
+/*** Cover ***/
+
+.phb div.cover-footer {
+    background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/from_the_deep_cover_footer.png');
     width: 100%;
     height: auto;
     position: absolute;
     bottom: 0px;
     left: 0;
+}
+
+.phb div .cover-footer h2, .phb div .cover-footer p {
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* left: 0; */
+    color: #EEEEEE;
 }
 
 .phb img.dotdl {
@@ -209,6 +212,8 @@
     right: 0;
     z-index: -2;
 }
+
+/*** Cover ***/
 
 .phb p, .phb li, .phb ol {
     font-family: 'Athelas';
