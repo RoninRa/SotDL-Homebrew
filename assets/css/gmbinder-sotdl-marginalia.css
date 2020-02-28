@@ -382,7 +382,7 @@
 
 /*** Note block END ***/
 
-/* Credits block */
+/* Credits blockquote */
 
 .phb blockquote.credits {
     border-image: none;
@@ -446,7 +446,73 @@
     height: 100px;
 }
 
-/*** Credits block END ***/
+/*** Credits blockquote END ***/
+
+/* Credits div */
+
+.phb div.credits {
+    border-image: none;
+    border: none;
+    background-color: transparent;
+    background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(7px 7px 4px #000);
+    filter: drop-shadow(7px 7px 4px #000);
+    padding: 20px 10px 20px 10px;
+    text-shadow: none;
+}
+
+.phb div.credits h1.credits {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 18pt;
+    text-align: center;
+    border: none;
+}
+
+.phb div.credits p {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 10pt;
+    color: #000000;
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 0px;
+    text-shadow: none;
+}
+
+.phb div.credits p strong em {
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.phb div.credits p span.before-colon {
+    color: #9C0719;
+}
+
+.phb div.credits p.acknowledgements {
+    font-family: Athelas;
+    font-weight: normal;
+    font-size: 8pt;
+    letter-spacing: -0.02em;
+}
+
+.phb div.credits p.acknowledgements strong {
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 8pt;
+    color: #000000;
+    letter-spacing: -0.03em;
+}
+
+.phb div.credits img.credits-image {
+    position: initial;
+    width: auto;
+    height: 100px;
+}
+
+/*** Credits div END ***/
 
 .phb .descriptive {
     border: none;
