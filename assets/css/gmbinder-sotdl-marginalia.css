@@ -185,13 +185,20 @@
     border-bottom-width: 1.1px;
 }
 
+.phb h2.cover-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    color: #EEEEEE;
+}
+
 /*** Headers END ***/
 
 .phb img.cover-footer {
-    position: absolute;
-    bottom: 0px;
     width: 100%;
     height: auto;
+    position: absolute;
+    bottom: 0px;
     left: 0;
 }
 
