@@ -69,6 +69,8 @@
     -moz-column-width: 8cm;
 }
 
+/*** Headers ***/
+
 .phb img.header-image {
     position: absolute;
     top: 0;
@@ -181,6 +183,23 @@
     border-bottom-style: solid;
     border-bottom-color: #9C0719;
     border-bottom-width: 1.1px;
+}
+
+/*** Headers END ***/
+
+.phb img.cover-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    left: 0;
+}
+
+.phb img.dotdl {
+    position: absolute;
+    width: 300px;
+    bottom: 0px;
+    right: 0;
 }
 
 .phb p, .phb li, .phb ol {
