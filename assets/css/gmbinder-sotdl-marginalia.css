@@ -78,8 +78,8 @@
 }
 
 .phb h1.title {
-    background-image: url(../images/header-banner.png);
-    background-size: 100% 100%;
+    /* background-image: url(../images/header-banner.png); */
+    /* background-size: 100% 100%; */
     padding-top: 20px;
     padding-bottom: 25px;
     margin: 0px -76px 0px -76px;
