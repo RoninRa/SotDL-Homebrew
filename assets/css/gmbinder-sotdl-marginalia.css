@@ -200,6 +200,7 @@
     width: 300px;
     bottom: 0px;
     right: 0;
+    z-index: -2;
 }
 
 .phb p, .phb li, .phb ol {
