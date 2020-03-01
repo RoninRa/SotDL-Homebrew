@@ -540,7 +540,7 @@
     color: #9C0719;
 }
 
-.phb div.credits p.acknowledgements {
+.phb div.credits p.acknowledgements p {
     font-family: Athelas;
     font-weight: normal;
     font-size: 10pt;
