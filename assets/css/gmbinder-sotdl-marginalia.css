@@ -200,15 +200,15 @@
 }
 
 .phb img.cover-footer+h2, .phb img.cover-footer+p {
-    /* position: absolute; */
-    /* bottom: 0px; */
-    /* left: 0; */
+    position: absolute;
+    bottom: 0px;
+    left: 0;
     color: #EEEEEE;
 }
 
 .phb img.dotdl {
     position: absolute;
-    width: 300px;
+    width: 225px;
     bottom: 0px;
     right: 0;
     z-index: 5;
