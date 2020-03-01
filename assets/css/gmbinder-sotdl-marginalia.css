@@ -200,7 +200,7 @@
 }
 
 .phb p.cover-footer, .phb p.cover-footer em {
-    bottom: 0px;
+    bottom: 10px;
     left: 25px;
     text-align: left;
     font-size: 10pt;
