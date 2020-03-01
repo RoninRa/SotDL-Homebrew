@@ -199,11 +199,19 @@
     background-position: ;
 }
 
-.phb h2.cover-footer, .phb p.cover-footer {
+.phb p.cover-footer {
     position: absolute;
     bottom: 0px;
     left: 0;
     color: #EEEEEE;
+}
+
+.phb img.cover-logo {
+    position: absolute;
+    /* width: 225px; */
+    bottom: 0px;
+    left: 0;
+    z-index: 5;
 }
 
 .phb img.dotdl {
