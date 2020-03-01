@@ -189,16 +189,17 @@
 
 /*** Cover ***/
 
-.phb div.cover-footer {
+.phb img.cover-footer {
     background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/from_the_deep_cover_footer.png');
     width: 100%;
     height: auto;
     position: absolute;
     bottom: 0px;
     left: 0;
+    background-position: ;
 }
 
-.phb div.cover-footer h2, .phb div.cover-footer p {
+.phb img.cover-footer+h2, .phb img.cover-footer+p {
     /* position: absolute; */
     /* bottom: 0px; */
     /* left: 0; */
@@ -210,7 +211,7 @@
     width: 300px;
     bottom: 0px;
     right: 0;
-    z-index: -5;
+    z-index: 5;
 }
 
 /*** Cover ***/
