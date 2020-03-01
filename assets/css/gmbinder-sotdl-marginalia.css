@@ -543,14 +543,14 @@
 .phb div.credits p.acknowledgements {
     font-family: Athelas;
     font-weight: normal;
-    font-size: 8pt;
+    font-size: 10pt;
     letter-spacing: -0.02em;
 }
 
 .phb div.credits p.acknowledgements strong {
     font-family: Athelas;
     font-weight: bold;
-    font-size: 8pt;
+    font-size: 10pt;
     color: #000000;
     letter-spacing: -0.03em;
 }
