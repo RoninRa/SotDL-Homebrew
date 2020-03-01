@@ -208,8 +208,8 @@
 
 .phb img.cover-logo {
     position: absolute;
-    /* width: 225px; */
-    bottom: 0px;
+    width: 375px;
+    bottom: 50px;
     left: 0;
     z-index: 5;
 }
