@@ -199,7 +199,7 @@
     background-position: ;
 }
 
-.phb img.cover-footer+h2, .phb img.cover-footer+p {
+.phb h2.cover-footer, .phb p.cover-footer {
     position: absolute;
     bottom: 0px;
     left: 0;
