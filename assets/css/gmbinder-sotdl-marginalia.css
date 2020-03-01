@@ -539,14 +539,14 @@
     color: #9C0719;
 }
 
-.phb div.credits p.acknowledgements p {
+.phb div.credits div.acknowledgements p {
     font-family: Athelas;
     font-weight: normal;
     font-size: 10pt;
     letter-spacing: -0.02em;
 }
 
-.phb div.credits p.acknowledgements strong {
+.phb div.credits div.acknowledgements strong {
     font-family: Athelas;
     font-weight: bold;
     font-size: 10pt;
