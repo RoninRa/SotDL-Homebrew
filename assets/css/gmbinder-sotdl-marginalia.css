@@ -203,7 +203,7 @@
     bottom: 0px;
     left: 25px;
     text-align: left;
-    font-size: 9pt;
+    font-size: 10pt;
     width: 550px;
     color: #EEEEEE;
 }
@@ -211,7 +211,7 @@
 .phb img.cover-logo {
     position: absolute;
     width: 375px;
-    bottom: 50px;
+    bottom: 86px;
     left: 20px;
     z-index: 5;
 }
