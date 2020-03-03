@@ -623,9 +623,9 @@
     background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
     background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
-    background-position: 10px calc(100% - 5px), bottom;
+    background-position: 20px calc(100% - 5px), bottom;
     margin-bottom: 10px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     height: 100%;
     z-index: -2;
     padding: 0px;
