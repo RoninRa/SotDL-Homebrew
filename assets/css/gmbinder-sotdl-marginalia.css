@@ -99,16 +99,11 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-fill-color: #f3ebebd1;
     position: relative;
-    /* left: 15%;
-    bottom: 5px; */
 }
 
 .phb h1.title-text {
-    /* padding-top: 20px;
-    padding-bottom: 25px;
-    margin: 0px -76px 0px -76px; */
     position: absolute;
-    left: 110px;
+    left: 120px;
     top: 200px;
 }
 
