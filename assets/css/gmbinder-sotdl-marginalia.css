@@ -82,9 +82,10 @@
 .phb h1.title {
     background-image: url(../images/header-banner.png);
     background-size: 100% 100%;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    margin: 0px -76px 0px -76px;
+    padding-top: 25px;
+    /* padding-bottom: 25px; */
+    margin: 395px -76px 0px -76px;
+    height: 15%;
 }
 
 .phb h1.title span {
@@ -236,7 +237,7 @@
     z-index: 5;
 }
 
-/*** Cover ***/
+/*** Cover END ***/
 
 .phb p, .phb li, .phb ol {
     font-family: 'Athelas';
@@ -629,6 +630,10 @@
     height: 100%;
     z-index: -2;
     padding: 0px;
+}
+
+div#p1::after {
+    background-image: none;
 }
 
 .phb .footnote {
