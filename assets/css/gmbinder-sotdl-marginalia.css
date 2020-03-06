@@ -48,7 +48,8 @@
 
 .phb {
     font-family: Athelas;
-    background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background.jpg');
+    /* background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background.jpg'); */
+    background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/FromTheDeep-BG.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 279.4mm;
