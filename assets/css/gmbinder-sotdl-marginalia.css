@@ -622,7 +622,8 @@
     content: "";
     background: none;
     /* background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png); */
-    background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/ElderSign.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
+    /* background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/ElderSign.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png); */
+    background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/Tentacles.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
     background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
     background-position: 20px calc(100% - 5px), bottom;
