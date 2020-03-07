@@ -628,7 +628,7 @@
 }
 
 .phb:nth-child(odd)::after, .phb:nth-child(even)::after {
-    content: "From The Deep";
+    content: "";
     background: none;
     /* background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png); */
     /* background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/ElderSign.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png); */
