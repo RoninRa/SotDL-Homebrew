@@ -612,8 +612,10 @@
 
 .phb:nth-child(odd) .pageNumber, .phb:nth-child(even) .pageNumber {
     right: 0px;
-    bottom: 34px;
-    left: 30px;
+    bottom: 40px;
+    /* bottom: 34px; */
+    left: 35px;
+    /* left: 30px; */
     width: 50px;
     vertical-align: middle;
 }
@@ -624,15 +626,21 @@
     /* background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png); */
     /* background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/ElderSign.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png); */
     background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/Tentacles.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
-    background-size: 100px 100px, 780px 1046px;
+    background-size: 100px 100px, 816px 1056px;
+    /* background-size: 100px 100px, 780px 1046px; */
     background-repeat: no-repeat;
-    background-position: 20px calc(100% - 5px), bottom;
-    margin-bottom: 10px;
+    background-position: 26px calc(100% - 20px), bottom;
+    /* background-position: 20px calc(100% - 5px), bottom; */
+    /* margin-bottom: 10px; */
     /* margin-left: 10px; */
     height: 100%;
     z-index: -2;
     padding: 0px;
 }
+
+/* .phb:nth-child(even)::after {
+background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/Tentacles.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border_even.png);
+} */
 
 div#p1::after {
     background-image: none;
