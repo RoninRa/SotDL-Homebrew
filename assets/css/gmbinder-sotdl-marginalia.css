@@ -614,14 +614,21 @@
     right: 0px;
     bottom: 40px;
     /* bottom: 34px; */
-    left: 35px;
     /* left: 30px; */
     width: 50px;
     vertical-align: middle;
 }
 
+.phb:nth-child(odd) .pageNumber {
+    left: 35px;
+}
+
+.phb:nth-child(even) .pageNumber {
+    left: 730px;
+}
+
 .phb:nth-child(odd)::after, .phb:nth-child(even)::after {
-    content: "";
+    content: "From The Deep";
     background: none;
     /* background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png); */
     /* background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/ElderSign.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png); */
@@ -638,9 +645,14 @@
     padding: 0px;
 }
 
-/* .phb:nth-child(even)::after {
-background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/Tentacles.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border_even.png);
-} */
+.phb:nth-child(even)::after {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
 
 div#p1::after {
     background-image: none;
