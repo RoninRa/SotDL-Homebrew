@@ -40,11 +40,8 @@
     background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    /* height: 282.6mm;
-    width: 219.1mm; */
-    /*A4 size*/
-    height: 297mm;
-    width: 210mm;
+    height: 279.4mm;
+    width: 215.9mm;
     padding: 1.0cm 1.0cm 1.5cm 1.0cm;
     column-fill: auto;
     column-count: 2;
