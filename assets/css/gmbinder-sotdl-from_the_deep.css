@@ -1,22 +1,3 @@
-/** Global properties **/
-
-:root {
-    --img-main-bg: url(../images/header-banner-from_the_deep.png);
-    --main-bg-img: url(../images/FromTheDeep-BG.jpg);
-    --img-bg-border: url(..images/FromTheDeep-bg-border.png.png);
-    --img-bg-page-number: url(../images/Tentacles.png);
-    --img-parchment: url(../images/parchment.png);
-    --color-headers-main: #3C4228;
-    --color-text-main: #0F120B;
-    --color-strong: #0F120B;
-    --color-strong-alt: #3C4228;
-    --color-marginalia: #3C4228;
-    --color-monster-h2-bg: #3C4228;
-    --color-header-border: #0F120B;
-}
-
-/** Global properties END **/
-
 /** Import Fonts **/
 
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
@@ -58,6 +39,25 @@
     font-family: 'Rlyehian Base';
     src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RlyehianBase.ttf')
 }
+
+/** Global properties **/
+
+:root {
+    --img-main-bg: url(../images/header-banner-from_the_deep.png);
+    --main-bg-img: url(../images/FromTheDeep-BG.jpg);
+    --img-bg-border: url(..images/FromTheDeep-bg-border.png.png);
+    --img-bg-page-number: url(../images/Tentacles.png);
+    --img-parchment: url(../images/parchment.png);
+    --color-headers-main: #3C4228;
+    --color-text-main: #0F120B;
+    --color-strong: #0F120B;
+    --color-strong-alt: #3C4228;
+    --color-marginalia: #3C4228;
+    --color-monster-h2-bg: #3C4228;
+    --color-header-border: #0F120B;
+}
+
+/** Global properties END **/
 
 /**  **/
 

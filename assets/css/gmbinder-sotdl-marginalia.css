@@ -1,22 +1,3 @@
-/** Global properties **/
-
-:root {
-    --img-header-banner: url(../images/header-banner.png);
-    --img-main-bg: url(../images/sotdl_background.jpg);
-    --img-bg-border: url(../images/sotdl_background_border.png);
-    --img-bg-page-number: url(../images/pentagram.png);
-    --img-parchment: url(../images/parchment.png);
-    --color-headers-main: #9C0719;
-    --color-text-main: black;
-    --color-strong: black;
-    --color-strong-alt: #9C0719;
-    --color-marginalia: #9C0719;
-    --color-monster-h2-bg: #9C0719;
-    --color-header-border: black;
-}
-
-/** Global properties END **/
-
 /** Import Fonts **/
 
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
@@ -58,6 +39,25 @@
     font-family: 'Rlyehian Base';
     src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RlyehianBase.ttf')
 }
+
+/** Global properties **/
+
+:root {
+    --img-header-banner: url(../images/header-banner.png);
+    --img-main-bg: url(../images/sotdl_background.jpg);
+    --img-bg-border: url(../images/sotdl_background_border.png);
+    --img-bg-page-number: url(../images/pentagram.png);
+    --img-parchment: url(../images/parchment.png);
+    --color-headers-main: #9C0719;
+    --color-text-main: black;
+    --color-strong: black;
+    --color-strong-alt: #9C0719;
+    --color-marginalia: #9C0719;
+    --color-monster-h2-bg: #9C0719;
+    --color-header-border: black;
+}
+
+/** Global properties END **/
 
 /**  **/
 
