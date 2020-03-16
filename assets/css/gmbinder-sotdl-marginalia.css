@@ -146,7 +146,8 @@
 
 .phb h2.title {
     font-family: Athelas;
-    color: black;
+    /* color: black; */
+    color: var(--color-text-main);
     font-style: italic;
     font-weight: bold;
     font-size: 19pt;
@@ -319,7 +320,8 @@
     font-family: "GothamBold";
     font-weight: normal;
     font-size: 10pt;
-    color: black;
+    /* color: black; */
+    color: var(--color-strong);
     letter-spacing: -0.02em;
 }
 
@@ -421,14 +423,16 @@
     margin-left: 5px;
     font-family: 'GothamBook';
     font-size: 8pt;
-    color: black;
+    /* color: black; */
+    color: var(--color-text-main);
 }
 
 .phb table tbody tr td strong {
     font-family: 'GothamBold';
     font-weight: normal;
     font-size: 8pt;
-    color: black;
+    /* color: black; */
+    color: var(--color-strong);
 }
 
 .phb table strong {
@@ -501,7 +505,8 @@
     font-family: 'Poison Hope';
     font-weight: normal;
     font-size: 10pt;
-    color: black;
+    /* color: black; */
+    color: var(--color-text-main);
     margin-top: 5px;
     text-align: center;
     padding-bottom: 0px;
@@ -509,7 +514,8 @@
 }
 
 .phb blockquote.credits p strong em {
-    color: black;
+    /* color: black; */
+    color: var(--color-strong);
     font-style: italic;
     font-weight: bold;
 }
@@ -530,7 +536,8 @@
     font-family: Athelas;
     font-weight: bold;
     font-size: 8pt;
-    color: black;
+    /* color: black; */
+    color: var(--color-strong);
     letter-spacing: -0.03em;
 }
 
@@ -568,7 +575,8 @@
     font-family: 'Poison Hope';
     font-weight: normal;
     font-size: 13pt;
-    color: black;
+    /* color: black; */
+    color: var(--color-text-main);
     margin-top: 5px;
     text-align: center;
     padding-bottom: 0px;
@@ -576,7 +584,8 @@
 }
 
 .phb div.credits p strong em {
-    color: black;
+    /* color: black; */
+    color: var(--color-strong);
     font-style: italic;
     font-weight: bold;
 }
@@ -597,7 +606,8 @@
     font-family: Athelas;
     font-weight: bold;
     font-size: 10pt;
-    color: black;
+    /* color: black; */
+    color: var(--color-strong);
     letter-spacing: -0.03em;
 }
 
@@ -621,7 +631,8 @@
 
 .phb .descriptive h5 {
     font-style: normal;
-    color: black;
+    /* color: black; */
+    color: var(--color-text-main);
     text-align: center;
 }
 
@@ -663,15 +674,12 @@
 .phb:nth-child(odd)::after, .phb:nth-child(even)::after {
     content: "";
     background: none;
-    /* background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png); */
     background-image: var(--img-bg-page-number), var(--img-bg-border);
-    background-size: 100px 100px, 816px 1056px;
-    /* background-size: 100px 100px, 780px 1046px; */
+    background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
-    background-position: 26px calc(100% - 20px), bottom;
-    /* background-position: 20px calc(100% - 5px), bottom; */
-    /* margin-bottom: 10px; */
-    /* margin-left: 10px; */
+    background-position: 20px calc(100% - 5px), bottom;
+    margin-bottom: 10px;
+    margin-left: 10px;
     height: 100%;
     z-index: -2;
     padding: 0px;
@@ -691,7 +699,8 @@ div#p1::after {
 }
 
 .phb .footnote {
-    color: black;
+    /* color: black; */
+    color: var(--color-strong);
     font-family: lato;
     font-weight: bold
 }
@@ -758,7 +767,8 @@ div#p1::after {
     font-family: Athelas;
     font-weight: bold;
     font-size: 9pt;
-    color: black;
+    /* color: black; */
+    color: var(--color-strong);
     background-color: #A7A9AC;
     padding: 3px;
     padding-left: 5px;
@@ -790,14 +800,16 @@ div#p1::after {
     margin-left: 5px;
     font-family: 'GothamBook';
     font-size: 8pt;
-    color: black;
+    /* color: black; */
+    color: var(--color-text-main);
 }
 
 .phb hr+section blockquote ul li strong {
     font-family: 'GothamBold';
     font-weight: bold;
     font-size: 8pt;
-    color: black;
+    /* color: black; */
+    color: var(--color-strong);
 }
 
 .phb hr+section blockquote ul+hr {
