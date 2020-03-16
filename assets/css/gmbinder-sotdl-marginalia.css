@@ -656,19 +656,18 @@
 
 .phb:nth-child(odd) .pageNumber, .phb:nth-child(even) .pageNumber {
     right: 0px;
-    bottom: 40px;
-    /* bottom: 34px; */
+    bottom: 34px;
     /* left: 30px; */
     width: 50px;
     vertical-align: middle;
 }
 
 .phb:nth-child(odd) .pageNumber {
-    left: 35px;
+    left: 40px;
 }
 
 .phb:nth-child(even) .pageNumber {
-    left: 730px;
+    left: 745px;
 }
 
 .phb:nth-child(odd)::after, .phb:nth-child(even)::after {
