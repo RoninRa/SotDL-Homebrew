@@ -45,7 +45,7 @@
 :root {
     --img-main-bg: url(../images/header-banner-from_the_deep.png);
     --main-bg-img: url(../images/FromTheDeep-BG.jpg);
-    --img-bg-border: url(..images/FromTheDeep-bg-border.png.png);
+    --img-bg-border: url(..images/FromTheDeep-bg-border.png);
     --img-bg-page-number: url(../images/Tentacles.png);
     --img-parchment: url(../images/parchment.png);
     --color-headers-main: #3C4228;
@@ -453,7 +453,7 @@
     border-image: none;
     border: none;
     background-color: transparent;
-    background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
+    background-image: var(--img-parchment);
     background-size: 100% 100%;
     padding: 10px 10px 15px 10px;
 }
@@ -481,7 +481,7 @@
     border-image: none;
     border: none;
     background-color: transparent;
-    background-image: url('https://roninra.github.io/SotDL-Homebrew/assets/images/parchment.png');
+    background-image: var(--img-parchment);
     background-size: 100% 100%;
     -webkit-filter: drop-shadow(7px 7px 4px #000);
     filter: drop-shadow(7px 7px 4px #000);
@@ -670,7 +670,7 @@
 .phb:nth-child(odd)::after, .phb:nth-child(even)::after {
     content: "";
     background: none;
-    background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/Tentacles.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
+    background-image: var(--img-bg-page-number), var(--img-bg-border);
     background-size: 100px 100px, 816px 1056px;
     background-repeat: no-repeat;
     background-position: 26px calc(100% - 20px), bottom;
