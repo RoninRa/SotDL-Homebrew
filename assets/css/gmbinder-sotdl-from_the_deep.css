@@ -55,6 +55,7 @@
     --color-marginalia: #3C4228;
     --color-monster-h2-bg: #3C4228;
     --color-header-border: #0F120B;
+    --color-table-header-bg: #0F120B;
 }
 
 /** Global properties END **/
@@ -378,7 +379,7 @@
 /* Tables */
 
 .phb table thead th {
-    background-color: black;
+    background-color: var(--color-table-header-bg);
     color: #ffffff;
     font-family: "GothamBook";
     font-size: 8pt;
