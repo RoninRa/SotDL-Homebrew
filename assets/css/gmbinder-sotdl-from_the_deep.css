@@ -327,6 +327,12 @@
     margin-top: -0.8em;
 }
 
+.phb p.list-indent {
+    margin-left: 1em;
+    line-height: 1em;
+    text-indent: 1em;
+}
+
 /*** Lists END ***/
 
 /*** Marginalia ***/
