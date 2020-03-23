@@ -29,6 +29,26 @@
     src: url('https://groumy.github.io/homebrewery-sotdl/fonts/PoisonHope-Regular.otf')
 }
 
+/** Global properties **/
+
+:root {
+    --img-header-banner: url(../images/header-banner.png);
+    --img-main-bg: url(../images/sotdl_background.jpg);
+    --img-bg-border: url(../images/sotdl_background_border.png);
+    --img-bg-page-number: url(../images/pentagram.png);
+    --img-parchment: url(../images/parchment.png);
+    --color-headers-main: #9C0719;
+    --color-text-main: black;
+    --color-strong: black;
+    --color-strong-alt: #9C0719;
+    --color-marginalia: #9C0719;
+    --color-monster-h2-bg: #9C0719;
+    --color-header-border: black;
+    --color-table-header-bg: black;
+}
+
+/** Global properties END **/
+
 /**  **/
 
 .brewRenderer .pages>.phb {
@@ -37,7 +57,7 @@
 
 .phb {
     font-family: Athelas;
-    background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background.jpg');
+    background: var(--img-main-bg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 279.4mm;
@@ -64,7 +84,7 @@
 }
 
 .phb h1.title {
-    background-image: url(../images/header-banner.png);
+    background-image: var(--img-header-banner);
     background-size: 100% 100%;
     padding-top: 20px;
     padding-bottom: 25px;
@@ -382,18 +402,25 @@
 .phb:nth-child(odd) .pageNumber, .phb:nth-child(even) .pageNumber {
     right: 0px;
     bottom: 34px;
-    left: 30px;
     width: 50px;
     vertical-align: middle;
+}
+
+.phb:nth-child(odd) .pageNumber {
+    left: 40px;
+}
+
+.phb:nth-child(even) .pageNumber {
+    left: 745px;
 }
 
 .phb:nth-child(odd)::after, .phb:nth-child(even)::after {
     content: "";
     background: none;
-    background-image: url(https://roninra.github.io/SotDL-Homebrew/assets/images/pentagram.png), url(https://roninra.github.io/SotDL-Homebrew/assets/images/sotdl_background_border.png);
+    background-image: var(--img-bg-page-number), var(--img-bg-border);
     background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
-    background-position: 10px calc(100% - 5px), bottom;
+    background-position: 20px calc(100% - 5px), bottom;
     margin-bottom: 10px;
     margin-left: 10px;
     height: 100%;
@@ -401,8 +428,22 @@
     padding: 0px;
 }
 
+.phb:nth-child(even)::after {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+div#p1::after {
+    background-image: none;
+}
+
 .phb .footnote {
-    color: black;
+    /* color: black; */
+    color: var(--color-strong);
     font-family: lato;
     font-weight: bold
 }
