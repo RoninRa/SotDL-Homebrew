@@ -273,6 +273,12 @@
     font-size: 8pt;
 }
 
+.phb table+ul {
+    line-height: 1em;
+    font-size: 10pt;
+    margin-top: -0.5em;
+}
+
 /*** Tables END ***/
 
 .phb strong em, .phb em strong {
