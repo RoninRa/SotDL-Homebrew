@@ -227,6 +227,10 @@
     padding: 0px;
 }
 
+.phb div.ng-scope+table thead th {
+    padding: 0px;
+}
+
 .phb table tbody tr {
     font-family: "GothamBook";
     font-size: 8pt;
