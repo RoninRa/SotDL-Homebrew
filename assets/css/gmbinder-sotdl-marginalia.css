@@ -53,7 +53,9 @@
     --color-strong: black;
     --color-strong-alt: #9C0719;
     --color-marginalia: #9C0719;
+    --color-monster-h1-bg: black;
     --color-monster-h2-bg: #9C0719;
+    --color-monster-h3-bg: #A7A9AC;
     --color-header-border: black;
     --color-table-header-bg: black;
 }
@@ -726,7 +728,7 @@ div#p1::after {
 
 .phb hr+section blockquote h1 {
     font-family: Athelas;
-    background-color: black;
+    background-color: var(--color-monster-h1-bg);
     background-image: none;
     color: white;
     font-weight: bold;
@@ -746,7 +748,7 @@ div#p1::after {
     font-size: 8pt;
     font-style: initial;
     color: white;
-    background-color: black;
+    background-color: var(--color-monster-h1-bg);
     padding: 5px;
     float: right;
     width: 31%;
@@ -760,7 +762,7 @@ div#p1::after {
     font-weight: bold;
     font-size: 9pt;
     color: var(--color-strong);
-    background-color: #A7A9AC;
+    background-color: var(--color-monster-h3-bg);
     padding: 3px;
     padding-left: 5px;
     border-style: none;
@@ -773,7 +775,7 @@ div#p1::after {
     font-weight: bold;
     font-size: 9pt;
     color: white;
-    background-color: #9C0719;
+    background-color: var(--color-monster-h2-bg);
     padding: 3px;
     padding-left: 5px;
 }
