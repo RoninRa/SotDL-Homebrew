@@ -832,9 +832,9 @@ div#p1::after {
 
 .phb div.spell h2 {
     font-family: Athelas;
-    font-size: 8pt;
+    font-size: 7pt;
     color: var(--color-headers-main);
-    font-weight: normal;
+    font-weight: bold;
     font-style: initial;
     padding: 8px 5px 0px 5px;
     float: right;
@@ -855,6 +855,10 @@ div#p1::after {
 
 .phb div.spell h2+hr {
     margin-top: 0px;
+}
+
+.phb div.spell p {
+    font-size: 9pt;
 }
 
 .phb div.spell ul {
