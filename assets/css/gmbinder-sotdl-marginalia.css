@@ -824,7 +824,7 @@ div#p1::after {
     padding: 5px 5px 0px 5px;
     float: left;
     margin: 0px;
-    width: 45%;
+    width: 55%;
     text-align: left;
     text-shadow: none;
     text-transform: uppercase;
@@ -838,7 +838,7 @@ div#p1::after {
     font-style: initial;
     padding: 8px 5px 0px 5px;
     float: right;
-    width: 55%;
+    width: 45%;
     margin: 0px;
     text-align: right;
     text-transform: uppercase;
