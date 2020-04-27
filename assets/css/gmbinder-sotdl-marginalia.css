@@ -132,14 +132,6 @@
 
 /*** Marginalia END ***/
 
-/* Tables */
-
-.phb table thead th {
-    min-width: 34px;
-}
-
-/*** Tables END ***/
-
 /** Monster Stat Block **/
 
 .phb hr+section blockquote h1 {
