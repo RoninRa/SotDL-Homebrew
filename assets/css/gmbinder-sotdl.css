@@ -247,6 +247,7 @@
 .phb table tbody tr td {
     font-family: 'GothamBook';
     font-size: 8pt;
+    min-width: 34px;
 }
 
 .phb table tbody tr td ul {
