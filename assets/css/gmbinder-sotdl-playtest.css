@@ -1,3 +1,12 @@
+/** Fonts **/
+
+@font-face {
+    font-family: 'First Order';
+    src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Gotham-Bold.otf')
+}
+
+/** Fonts END **/
+
 /** Global properties **/
 
 :root {
