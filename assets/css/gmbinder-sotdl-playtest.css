@@ -1,0 +1,22 @@
+/** Global properties **/
+
+:root {
+    --img-header-banner: url(../images/header-banner.png);
+    --img-main-bg: white;
+    --img-bg-border: none;
+    --img-bg-page-number: url(../images/pentagram.png);
+    --img-parchment: url(../images/parchment.png);
+    --color-headers-main: #black;
+    --color-text-main: black;
+    --color-strong: black;
+    --color-strong-alt: #black;
+    --color-monster-h1-bg: black;
+    --color-monster-h2-bg: #black;
+    --color-monster-h3-bg: #A7A9AC;
+    --color-header-border: black;
+    --color-table-header-bg: black;
+    --color-table-main-bg: initial;
+    --color-table-alt-bg: #A7A9AC;
+}
+
+/** Global properties END **/
