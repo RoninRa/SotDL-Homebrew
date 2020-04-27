@@ -210,7 +210,7 @@
 
 /* Tables */
 
-.phb table thead th {
+.phb h4.table+table thead th {
     background-color: var(--color-table-header-bg);
     color: #ffffff;
     font-family: "GothamBook";
@@ -223,7 +223,7 @@
     padding: 0px;
 }
 
-.phb div.ng-scope+table thead th {
+.phb.ng-scope table thead th {
     padding: 0px;
 }
 
