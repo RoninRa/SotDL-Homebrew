@@ -712,10 +712,10 @@ div#p1::after {
     color: var(--color-headers-main);
     font-weight: bold;
     background-image: none;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 0px 0px 0px;
     float: left;
     margin: 0px;
-    width: 65%;
+    width: 58%;
     text-align: left;
     text-shadow: none;
     text-transform: uppercase;
@@ -727,9 +727,9 @@ div#p1::after {
     color: var(--color-headers-main);
     font-weight: bold;
     font-style: initial;
-    padding: 8px 5px 0px 5px;
+    padding: 8px 0px 0px 0px;
     float: right;
-    width: 35%;
+    width: 42%;
     margin: 0px;
     text-align: right;
     text-transform: uppercase;
