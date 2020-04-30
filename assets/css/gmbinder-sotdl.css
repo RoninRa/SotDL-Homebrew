@@ -715,7 +715,7 @@ div#p1::after {
     padding: 5px 0px 5px 0px;
     float: left;
     margin: 0px;
-    width: 58%;
+    display: block;
     text-align: left;
     text-shadow: none;
     text-transform: uppercase;
@@ -729,9 +729,9 @@ div#p1::after {
     font-style: initial;
     padding: 8px 0px 5px 0px;
     float: right;
-    width: 42%;
     margin: 0px;
     text-align: right;
+    display: block;
     text-transform: uppercase;
 }
 
