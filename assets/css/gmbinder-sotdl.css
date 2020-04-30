@@ -712,7 +712,7 @@ div#p1::after {
     color: var(--color-headers-main);
     font-weight: bold;
     background-image: none;
-    padding: 5px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
     float: left;
     margin: 0px;
     width: 58%;
@@ -727,7 +727,7 @@ div#p1::after {
     color: var(--color-headers-main);
     font-weight: bold;
     font-style: initial;
-    padding: 8px 0px 0px 0px;
+    padding: 8px 0px 5px 0px;
     float: right;
     width: 42%;
     margin: 0px;
@@ -745,16 +745,16 @@ div#p1::after {
 }
 
 .phb div.spell h2+hr {
-    /* margin-top: 20px; */
-    margin-top: 0px;
+    border-width: 2px 0px 0px 0px;
+    width: 100%;
 }
 
-.phb div.spell p {
+.phb div.spell p, .phb div.spell p strong {
     font-size: 9pt;
 }
 
 .phb div.spell ul {
-    margin-top: 2.25em;
+    margin-top: .25em;
     margin-bottom: .25em;
     padding-left: 1em;
     text-indent: initial;
