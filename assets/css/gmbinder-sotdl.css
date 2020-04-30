@@ -715,7 +715,7 @@ div#p1::after {
     padding: 5px 5px 0px 5px;
     float: left;
     margin: 0px;
-    width: 55%;
+    width: 65%;
     text-align: left;
     text-shadow: none;
     text-transform: uppercase;
@@ -729,7 +729,7 @@ div#p1::after {
     font-style: initial;
     padding: 8px 5px 0px 5px;
     float: right;
-    width: 45%;
+    width: 35%;
     margin: 0px;
     text-align: right;
     text-transform: uppercase;
@@ -754,7 +754,7 @@ div#p1::after {
 }
 
 .phb div.spell ul {
-    margin-top: .25em;
+    margin-top: 2.25em;
     margin-bottom: .25em;
     padding-left: 1em;
     text-indent: initial;
