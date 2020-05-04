@@ -749,8 +749,12 @@ div#p1::after {
     width: 100%;
 }
 
-.phb div.spell p, .phb div.spell p strong {
+.phb div.spell p {
     font-size: 9pt;
+}
+
+.phb div.spell p strong {
+    font-size: 8pt;
 }
 
 .phb div.spell ul {
