@@ -48,6 +48,7 @@
     --color-table-header-bg: black;
     --color-table-main-bg: initial;
     --color-table-alt-bg: white;
+    --color-link: #9C0719;
 }
 
 /** Global properties END **/
@@ -76,6 +77,10 @@
     -moz-column-count: 2;
     -moz-column-gap: 0.4cm;
     -moz-column-width: 9cm;
+}
+
+a {
+    color: var(--color-link);
 }
 
 /*** Headers ***/
@@ -461,14 +466,6 @@
     text-align: center;
 }
 
-.phb .footnote {
-    color: #222;
-    font-family: "First Order";
-    font-size: 2.5em;
-    width: 100%;
-    bottom: 0px;
-}
-
 /** Page number **/
 
 .phb .pageNumber, .phb .pageNumber.auto {
@@ -523,8 +520,11 @@ div#p1::after {
 
 .phb .footnote {
     color: var(--color-strong);
-    font-family: lato;
-    font-weight: bold
+    font-family: "Athelas";
+    font-weight: bold;
+    font-size: .8em;
+    width: 200px;
+    bottom: 20px;
 }
 
 /*** Page number END ***/
