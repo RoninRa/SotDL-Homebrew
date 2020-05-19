@@ -215,7 +215,7 @@ a {
 
 /* Tables */
 
-.phb h4.table+table thead th {
+.phb h4.table+table thead th, h4.table+section div table thead th {
     background-color: var(--color-table-header-bg);
     color: #ffffff;
     font-family: "GothamBook";
