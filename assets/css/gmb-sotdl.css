@@ -1,0 +1,781 @@
+/** Import Fonts **/
+
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
+@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
+/** Defining fonts **/
+
+@font-face {
+    font-family: 'First Order';
+    src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/firstv2.ttf')
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Gotham-Bold.otf')
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Gotham-Book.otf')
+}
+
+@font-face {
+    font-family: 'JSL Ancient';
+    src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/jancieni.ttf')
+}
+
+@font-face {
+    font-family: 'Poison Hope';
+    src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/PoisonHope-Regular.ttf')
+}
+
+/** Global properties **/
+
+:root {
+    --img-header-banner: url(../images/header-banner.png);
+    --img-main-bg: url(../images/sotdl_background.jpg);
+    --img-bg-border: url(../images/sotdl_background_border.png);
+    --img-bg-page-number: url(../images/pentagram.png);
+    --img-parchment: url(../images/parchment.png);
+    --color-headers-main: #9C0719;
+    --color-text-main: black;
+    --color-strong: black;
+    --color-strong-alt: #9C0719;
+    --color-monster-h1-bg: black;
+    --color-monster-h2-bg: #9C0719;
+    --color-monster-h3-bg: #A7A9AC;
+    --color-header-border: black;
+    --color-table-header-bg: black;
+    --color-table-main-bg: initial;
+    --color-table-alt-bg: white;
+    --color-link: #9C0719;
+}
+
+/** Global properties END **/
+
+/**  **/
+
+.brewRenderer .pages>.gmb {
+    margin-bottom: 10px;
+}
+
+.gmb {
+    font-family: Athelas;
+    background: var(--img-main-bg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 279.4mm;
+    width: 215.9mm;
+    padding: 1.0cm 1.0cm 1.5cm 1.0cm;
+    column-fill: auto;
+    column-count: 2;
+    column-gap: 0.4cm;
+    column-width: 9cm;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0.4cm;
+    -webkit-column-width: 9cm;
+    -moz-column-count: 2;
+    -moz-column-gap: 0.4cm;
+    -moz-column-width: 9cm;
+}
+
+a {
+    color: var(--color-link);
+}
+
+/*** Headers ***/
+
+.gmb img.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.gmb h1.title {
+    background-image: var(--img-header-banner);
+    background-size: 100% 100%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin: 0px -65px 0px -65px;
+}
+
+.gmb h1.title span {
+    font-family: "First Order";
+    font-size: 50pt;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: #f3ebebd1;
+    position: relative;
+    left: 20%;
+    bottom: 5px;
+}
+
+.gmb h2.title {
+    font-family: Athelas;
+    color: var(--color-text-main);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 19pt;
+    text-align: center;
+    text-transform: none;
+}
+
+.gmb h1+p::first-letter {
+    float: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+}
+
+.gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    text-align: left;
+    color: var(--color-headers-main);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.gmb h1 {
+    font-size: 32pt;
+}
+
+.gmb h2 {
+    font-size: 25pt;
+}
+
+.gmb h3 {
+    border-bottom-style: none;
+    font-size: 18pt;
+}
+
+.gmb h4 {
+    font-size: 13pt;
+}
+
+.gmb h4.traits {
+    font-size: 14pt;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-header-border);
+    border-bottom-width: 1.1px;
+}
+
+.gmb h4.table {
+    font-size: 14pt;
+    text-align: center;
+}
+
+.gmb h5 {
+    font-size: 12pt;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-header-border);
+    border-bottom-width: 1.1px;
+}
+
+.gmb h5.sidebar {
+    font-size: 12pt;
+    text-align: center;
+}
+
+.gmb h6 {
+    font-size: 10pt;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-headers-main);
+    border-bottom-width: 1.1px;
+}
+
+/*** Headers END ***/
+
+/*** Bold ***/
+
+.gmb p strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 10pt;
+    color: var(--color-strong-alt);
+    letter-spacing: -0.02em;
+}
+
+.gmb strong em, .gmb em strong {
+    color: var(--color-strong-alt);
+    font-style: normal;
+    font-weight: bold;
+}
+
+/*** Bold END ***/
+
+/* Tables */
+
+.gmb h4.table+table thead th, h4.table+section div table thead th, li p+table thead th {
+    background-color: var(--color-table-header-bg);
+    color: #ffffff;
+    font-family: "GothamBook";
+    font-size: 8pt;
+    padding: 3px 6px 3px 6px !important;
+    min-width: 34px;
+}
+
+.gmb div.column-break+table thead th {
+    padding: 0px;
+}
+
+.gmb.ng-scope table thead th {
+    padding: 0px;
+}
+
+.gmb table tbody tr {
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+.gmb table tbody tr:nth-child(odd) {
+    background-color: var(--color-table-main-bg);
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+.gmb table tbody tr:nth-child(even) {
+    background-color: var(--color-table-alt-bg);
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+.gmb table tbody tr td {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    min-width: 34px;
+}
+
+.gmb table tbody tr td ul {
+    text-indent: -1em;
+    list-style-type: none;
+}
+
+.gmb table tbody tr td li {
+    margin-left: 5px;
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    color: var(--color-text-main);
+}
+
+.gmb table tbody tr td strong {
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-size: 8pt;
+    color: var(--color-strong);
+}
+
+.gmb table strong {
+    font-family: 'GothamBold';
+    font-size: 8pt;
+}
+
+.gmb table+ul {
+    line-height: 1em;
+    margin-top: -0.5em;
+}
+
+.gmb table+ul li {
+    font-size: 10pt;
+}
+
+/*** Tables END ***/
+
+/*** Note block ***/
+
+.gmb blockquote {
+    border-image: none;
+    border: none;
+    background-color: transparent;
+    background-image: var(--img-parchment);
+    background-size: 100% 100%;
+    padding: 10px 10px 15px 10px;
+}
+
+.gmb blockquote h5 {
+    border: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gmb blockquote p {
+    font-size: 0.83em;
+}
+
+.gmb blockquote section ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+/*** Note block END ***/
+
+/* Credits blockquote */
+
+.gmb blockquote.credits {
+    border-image: none;
+    border: none;
+    background-color: transparent;
+    background-image: var(--img-parchment);
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(7px 7px 4px #000);
+    filter: drop-shadow(7px 7px 4px #000);
+    padding: 20px 10px 20px 10px;
+    text-shadow: none;
+}
+
+.gmb blockquote.credits h1.credits {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 18pt;
+    text-align: center;
+    border: none;
+}
+
+.gmb blockquote.credits p {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 10pt;
+    color: var(--color-text-main);
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 0px;
+    text-shadow: none;
+}
+
+.gmb blockquote.credits p strong em {
+    color: var(--color-strong);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gmb blockquote.credits p span.before-colon {
+    color: var(--color-headers-main);
+}
+
+.gmb blockquote.credits p.acknowledgements {
+    font-family: Athelas;
+    font-weight: normal;
+    font-size: 8pt;
+    letter-spacing: -0.02em;
+}
+
+.gmb blockquote.credits p.acknowledgements strong {
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 8pt;
+    color: var(--color-strong);
+    letter-spacing: -0.03em;
+}
+
+.gmb blockquote.credits img.credits-image {
+    position: initial;
+    width: auto;
+    height: 100px;
+}
+
+/*** Credits block END ***/
+
+/* Credits div */
+
+.gmb div.credits {
+    border-image: none;
+    border: none;
+    padding: 20px 10px 20px 10px;
+    text-shadow: none;
+}
+
+.gmb div.credits h1, .gmb div.credits h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gmb div.credits h1.credits {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 32pt;
+    text-align: center;
+    border: none;
+}
+
+.gmb div.credits p {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 13pt;
+    color: var(--color-text-main);
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 0px;
+    text-shadow: none;
+}
+
+.gmb div.credits p strong em {
+    color: var(--color-strong);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gmb div.credits p span.before-colon {
+    color: var(--color-headers-main);
+}
+
+.gmb div.credits div.acknowledgements p {
+    font-family: Athelas;
+    font-weight: normal;
+    font-size: 10pt;
+    letter-spacing: -0.02em;
+}
+
+.gmb div.credits div.acknowledgements strong {
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 10pt;
+    color: var(--color-strong);
+    letter-spacing: -0.03em;
+}
+
+.gmb div.credits img.credits-image {
+    width: auto;
+    display: block;
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*** Credits div END ***/
+
+.gmb .descriptive {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.gmb .descriptive h5 {
+    font-style: normal;
+    color: var(--color-text-main);
+    text-align: center;
+}
+
+/** Page number **/
+
+.gmb .pageNumber, .gmb .pageNumber.auto {
+    font-family: "Poison Hope";
+    font-size: 13pt;
+    color: #ffffff;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    text-align: center;
+}
+
+.gmb:nth-child(odd) .pageNumber, .gmb:nth-child(even) .pageNumber {
+    right: 0px;
+    bottom: 34px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.gmb:nth-child(odd) .pageNumber {
+    left: 40px;
+}
+
+.gmb:nth-child(even) .pageNumber {
+    left: 745px;
+}
+
+.gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
+    content: "";
+    background: none;
+    background-image: var(--img-bg-page-number), var(--img-bg-border);
+    background-size: 100px 100px, 780px 1046px;
+    background-repeat: no-repeat;
+    background-position: 20px calc(100% - 5px), bottom;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 100%;
+    z-index: -2;
+    padding: 0px;
+}
+
+.gmb:nth-child(even)::after {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+div#p1::after {
+    background-image: none;
+}
+
+.gmb .footnote {
+    color: var(--color-strong);
+    font-family: "Athelas";
+    font-weight: bold;
+    font-size: .8em;
+    width: 200px;
+    bottom: 20px;
+}
+
+/*** Page number END ***/
+
+.html-code code {
+    visibility: visible;
+    box-shadow: 1px 1px 1px black;
+    background-color: #aaa;
+    font-family: 'Lucida Console'
+}
+
+.gmb hr {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    position: relative;
+}
+
+/*** Lists ***/
+
+.gmb ul {
+    text-indent: -1em;
+    list-style-type: none;
+}
+
+.gmb ul strong, .gmb ol strong {
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-size: 10pt;
+    letter-spacing: -0.02em;
+}
+
+.gmb hr+ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+.gmb ul li ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+.gmb p ul li strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 10pt;
+    color: var(--color-strong-alt);
+    letter-spacing: -0.02em;
+}
+
+.gmb p ul li ul li strong, .gmb p+ul li strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 10pt;
+    color: var(--color-strong);
+    letter-spacing: -0.02em;
+}
+
+.gmb ul li p {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: inherit;
+}
+
+.gmb p+ul {
+    margin-top: -0.8em;
+}
+
+.gmb p.list-indent {
+    margin-left: 1em;
+    line-height: 1em;
+    text-indent: 1em;
+}
+
+.gmb p, .gmb li, .gmb ol {
+    font-family: 'Athelas';
+    font-size: 11pt;
+    text-align: left;
+}
+
+/*** Lists END ***/
+
+/** Monster Stat Block **/
+
+.gmb hr+section blockquote {
+    padding: 0px;
+    box-shadow: none;
+    border-style: none;
+    background-image: none;
+    background-color: transparent;
+}
+
+.gmb hr+section blockquote h1 {
+    font-family: Athelas;
+    background-color: var(--color-monster-h1-bg);
+    background-image: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 5px;
+    float: left;
+    margin: 0px;
+    width: 70%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.gmb hr+section blockquote h2 {
+    font-family: Athelas;
+    font-weight: normal;
+    font-size: 8pt;
+    font-style: initial;
+    color: white;
+    background-color: var(--color-monster-h1-bg);
+    padding: 5px;
+    float: right;
+    width: 30%;
+    height: 26px;
+    margin: 0px;
+    text-align: right;
+}
+
+.gmb hr+section blockquote h3 {
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 9pt;
+    color: var(--color-strong);
+    background-color: var(--color-monster-h3-bg);
+    padding: 3px;
+    padding-left: 5px;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+.gmb hr+section blockquote h2+p {
+    clear: both;
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 9pt;
+    color: white;
+    background-color: var(--color-monster-h2-bg);
+    padding: 3px;
+    padding-left: 5px;
+}
+
+.gmb hr+section blockquote h2+p+hr, .gmb hr+section blockquote h3+hr {
+    display: none;
+}
+
+.gmb hr+section blockquote section section ul li {
+    text-indent: inherit;
+    margin-bottom: 0px;
+}
+
+.gmb hr+section blockquote hr+ul li {
+    margin-left: 5px;
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    color: var(--color-text-main);
+}
+
+.gmb hr+section blockquote ul li strong {
+    font-family: 'GothamBold';
+    font-weight: bold;
+    font-size: 8pt;
+    color: var(--color-strong);
+}
+
+.gmb hr+section blockquote ul+hr {
+    border-color: #9C0719;
+}
+
+.gmb hr+section blockquote h2:before {
+    content: "DIFFICULTY ";
+}
+
+/*** Monster Stats END ***/
+
+/** Spells **/
+
+.gmb div.spell h1 {
+    font-family: Athelas;
+    font-size: 10pt;
+    color: var(--color-headers-main);
+    font-weight: bold;
+    background-image: none;
+    padding: 5px 0px 5px 0px;
+    float: left;
+    margin: 0px;
+    display: block;
+    text-align: left;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.gmb div.spell h2 {
+    font-family: Athelas;
+    font-size: 7pt;
+    color: var(--color-headers-main);
+    font-weight: bold;
+    font-style: initial;
+    padding: 8px 0px 5px 0px;
+    float: right;
+    margin: 0px;
+    text-align: right;
+    display: block;
+    text-transform: uppercase;
+}
+
+.gmb div.spell hr {
+    background-image: none;
+    visibility: visible;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.1px 0px 0px 0px;
+    position: relative;
+}
+
+.gmb div.spell h2+hr {
+    border-width: 2px 0px 0px 0px;
+    width: 100%;
+}
+
+.gmb div.spell p {
+    font-size: 9pt;
+}
+
+.gmb div.spell p strong {
+    font-size: 8pt;
+}
+
+.gmb div.spell ul {
+    margin-top: .25em;
+    margin-bottom: .25em;
+    padding-left: 1em;
+    text-indent: initial;
+    list-style-type: none;
+}
+
+.gmb div.spell ul li {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    list-style-type: none;
+}
+
+.gmb div.spell ul li strong {
+    font-family: 'GothamBold';
+    font-size: 8pt;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+}
+
+/*** Spells END ***/
