@@ -13,10 +13,10 @@
 /** Global properties **/
 
 :root {
-    --img-header-banner: url(../images/header-banner-from_the_deep.png);
-    --img-main-bg: url(../images/FromTheDeep-BG.jpg);
-    --img-bg-border: url(../images/FromTheDeep-bg-border.png);
-    --img-bg-page-number: url(../images/Tentacles.png);
+    --img-header-banner: url(../images/FromTheDeep/header-banner-from_the_deep.png);
+    --img-main-bg: url(../images/FromTheDeep/FromTheDeep-BG.jpg);
+    --img-bg-border: url(../images/FromTheDeep/FromTheDeep-bg-border.png);
+    --img-bg-page-number: url(../images/FromTheDeep/Tentacles.png);
     --img-parchment: url(../images/parchment.png);
     --color-headers-main: #3C4228;
     --color-text-main: #0F120B;
@@ -36,14 +36,14 @@
 
 /*** Cover ***/
 
-.phb img.cover-footer {
-    background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/from_the_deep_cover_footer.png');
+/* .phb img.cover-footer {
+    background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/FromTheDeep/from_the_deep_cover_footer.png');
     width: 100%;
     height: auto;
     position: absolute;
     bottom: 0px;
     left: 0;
-}
+} */
 
 /*** Cover END ***/
 
