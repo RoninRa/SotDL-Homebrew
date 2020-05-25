@@ -808,6 +808,14 @@ img.half-right {
     z-index: -3;
 }
 
+img.half-bottom {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -3;
+}
+
 .gmb .blend-half-right, .gmb .blend-half-left, .gmb .blend-half-top, .gmb .blend-half-bottom, .gmb .blend-corner-topright, .gmb .blend-corner-topleft, .gmb .blend-corner-bottomright, .gmb .blend-corner-bottomleft, .gmb .blend-onethird-top, .gmb .blend-onethird-bottom, .gmb .blend-twothirds-top, .gmb .blend-twothirds-bottom {
     background-size: 100%;
 }
