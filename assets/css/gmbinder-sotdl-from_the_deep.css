@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: 'Rlyehian';
-    src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Rlyehian.ttf')
+    src: url('/assets/fonts/Rlyehian.ttf')
 }
 
 @font-face {
     font-family: 'Rlyehian Base';
-    src: url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RlyehianBase.ttf')
+    src: url('/assets/fonts/RlyehianBase.ttf')
 }
 
 /** Global properties **/
 
 :root {
-    --img-header-banner: url(../images/FromTheDeep/header-banner-from_the_deep.png);
-    --img-main-bg: url(../images/FromTheDeep/FromTheDeep-BG.jpg);
-    --img-bg-border: url(../images/FromTheDeep/FromTheDeep-bg-border.png);
-    --img-bg-page-number: url(../images/FromTheDeep/Tentacles.png);
-    --img-parchment: url(../images/parchment.png);
+    --img-header-banner: url(../img/FromTheDeep/header-banner-from_the_deep.png);
+    --img-main-bg: url(../img/FromTheDeep/FromTheDeep-BG.jpg);
+    --img-bg-border: url(../img/FromTheDeep/FromTheDeep-bg-border.png);
+    --img-bg-page-number: url(../img/FromTheDeep/Tentacles.png);
+    --img-parchment: url(../img/parchment.png);
     --color-headers-main: #3C4228;
     --color-text-main: #0F120B;
     --color-strong: #0F120B;
@@ -37,7 +37,7 @@
 /*** Cover ***/
 
 /* .phb img.cover-footer {
-    background: url('https://roninra.github.io/SotDL-Homebrew/assets/images/FromTheDeep/from_the_deep_cover_footer.png');
+    background: url('/assets/img/FromTheDeep/from_the_deep_cover_footer.png');
     width: 100%;
     height: auto;
     position: absolute;
