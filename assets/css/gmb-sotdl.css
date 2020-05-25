@@ -6,27 +6,27 @@
 
 @font-face {
     font-family: 'First Order';
-    src: url('/assets/fonts/firstv2.ttf')
+    src: url('/SotDL-Homebrew/assets/fonts/firstv2.ttf')
 }
 
 @font-face {
     font-family: 'GothamBold';
-    src: url('/assets/fonts/Gotham-Bold.otf')
+    src: url('/SotDL-Homebrew/assets/fonts/Gotham-Bold.otf')
 }
 
 @font-face {
     font-family: 'GothamBook';
-    src: url('/assets/fonts/Gotham-Book.otf')
+    src: url('/SotDL-Homebrew/assets/fonts/Gotham-Book.otf')
 }
 
 @font-face {
     font-family: 'JSL Ancient';
-    src: url('/assets/fonts/jancieni.ttf')
+    src: url('/SotDL-Homebrew/assets/fonts/jancieni.ttf')
 }
 
 @font-face {
     font-family: 'Poison Hope';
-    src: url('/assets/fonts/PoisonHope-Regular.ttf')
+    src: url('/SotDL-Homebrew/assets/fonts/PoisonHope-Regular.ttf')
 }
 
 /** Global properties **/
@@ -783,59 +783,59 @@ div#p1::after {
 /*** Blending ***/
 
 .gmb .blend-half-right {
-    background-image: url('/assets/img/blends/sotdl-blend-half-vertical.png');
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
     background-size: cover;
     transform: scale(-1)
 }
 
 .gmb .blend-half-left {
-    background-image: url('/assets/img/blends/sotdl-blend-half-vertical.png');
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
     background-size: 115%
 }
 
 .gmb .blend-half-top {
-    background-image: url('/assets/img/blends/sotdl-blend-half-horizontal.png');
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
     transform: scale(-1)
 }
 
 .gmb .blend-half-bottom {
-    background-image: url('/assets/img/blends/sotdl-blend-half-horizontal.png')
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png')
 }
 
 .gmb .blend-corner-topright {
-    background-image: url('/assets/img/blends/sotdl-blend-corner.png')
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png')
 }
 
 .gmb .blend-corner-topleft {
-    background-image: url('/assets/img/blends/sotdl-blend-corner.png');
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
     transform: scaleX(-1)
 }
 
 .gmb .blend-corner-bottomleft {
-    background-image: url('/assets/img/blends/sotdl-blend-corner.png');
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
     transform: scale(-1)
 }
 
 .gmb .blend-corner-bottomright {
-    background-image: url('/assets/img/blends/sotdl-blend-corner.png');
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
     transform: scaleY(-1)
 }
 
 .gmb .blend-onethird-bottom {
-    background-image: url('/assets/img/blends/sotdl-blend-onethird.png')
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png')
 }
 
 .gmb .blend-onethird-top {
-    background-image: url('/assets/img/blends/sotdl-blend-onethird.png');
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png');
     transform: scale(-1)
 }
 
 .gmb .blend-twothirds-bottom {
-    background-image: url('/assets/img/blends/sotdl-blend-twothirds.png')
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png')
 }
 
 .gmb .blend-twothirds-top {
-    background-image: url('/assets/img/blends/sotdl-blend-twothirds.png');
+    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png');
     transform: scale(-1)
 }
 

@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'Rlyehian';
-    src: url('/assets/fonts/Rlyehian.ttf')
+    src: url('/SotDL-Homebrew/assets/fonts/Rlyehian.ttf')
 }
 
 @font-face {
     font-family: 'Rlyehian Base';
-    src: url('/assets/fonts/RlyehianBase.ttf')
+    src: url('/SotDL-Homebrew/assets/fonts/RlyehianBase.ttf')
 }
 
 /** Global properties **/
@@ -37,7 +37,7 @@
 /*** Cover ***/
 
 /* .phb img.cover-footer {
-    background: url('/assets/img/FromTheDeep/from_the_deep_cover_footer.png');
+    background: url('/SotDL-Homebrew/assets/img/FromTheDeep/from_the_deep_cover_footer.png');
     width: 100%;
     height: auto;
     position: absolute;
