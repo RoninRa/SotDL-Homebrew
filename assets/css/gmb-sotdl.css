@@ -779,3 +779,64 @@ div#p1::after {
 }
 
 /*** Spells END ***/
+
+/*** Blending ***/
+
+.gmb .blend-half-right {
+    background-image: url('/assets/img/blends/sotdl-blend-half-vertical.png');
+    background-size: cover;
+    transform: scale(-1)
+}
+
+.gmb .blend-half-left {
+    background-image: url('/assets/img/blends/sotdl-blend-half-vertical.png');
+    background-size: 115%
+}
+
+.gmb .blend-half-top {
+    background-image: url('/assets/img/blends/sotdl-blend-half-horizontal.png');
+    transform: scale(-1)
+}
+
+.gmb .blend-half-bottom {
+    background-image: url('/assets/img/blends/sotdl-blend-half-horizontal.png')
+}
+
+.gmb .blend-corner-topright {
+    background-image: url('/assets/img/blends/sotdl-blend-corner.png')
+}
+
+.gmb .blend-corner-topleft {
+    background-image: url('/assets/img/blends/sotdl-blend-corner.png');
+    transform: scaleX(-1)
+}
+
+.gmb .blend-corner-bottomleft {
+    background-image: url('/assets/img/blends/sotdl-blend-corner.png');
+    transform: scale(-1)
+}
+
+.gmb .blend-corner-bottomright {
+    background-image: url('/assets/img/blends/sotdl-blend-corner.png');
+    transform: scaleY(-1)
+}
+
+.gmb .blend-onethird-bottom {
+    background-image: url('/assets/img/blends/sotdl-blend-onethird.png')
+}
+
+.gmb .blend-onethird-top {
+    background-image: url('/assets/img/blends/sotdl-blend-onethird.png');
+    transform: scale(-1)
+}
+
+.gmb .blend-twothirds-bottom {
+    background-image: url('/assets/img/blends/sotdl-blend-twothirds.png')
+}
+
+.gmb .blend-twothirds-top {
+    background-image: url('/assets/img/blends/sotdl-blend-twothirds.png');
+    transform: scale(-1)
+}
+
+/*** Blending END ***/
