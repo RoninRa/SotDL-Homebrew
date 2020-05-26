@@ -786,16 +786,16 @@ div#p1::after {
 
 img.corner-bottomright {
     position: absolute;
-    bottom: -15%;
-    right: -15%;
+    bottom: 0;
+    right: 0;
     width: 75%;
     z-index: -3;
 }
 
 img.corner-bottomleft {
     position: absolute;
-    bottom: -15%;
-    left: -15%;
+    bottom: 0;
+    left: 0;
     width: 75%;
     z-index: -3;
 }
