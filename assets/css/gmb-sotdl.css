@@ -478,7 +478,7 @@ a {
 
 .gmb:nth-child(odd) .pageNumber, .gmb:nth-child(even) .pageNumber {
     right: 0px;
-    bottom: 34px;
+    bottom: 32px;
     width: 50px;
     vertical-align: middle;
 }
