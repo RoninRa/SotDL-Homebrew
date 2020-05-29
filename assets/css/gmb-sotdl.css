@@ -49,6 +49,11 @@
     --color-table-main-bg: initial;
     --color-table-alt-bg: white;
     --color-link: #9C0719;
+    --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
+    --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
+    --blend-corner: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
+    --blend-onethird: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png');
+    --blend-twothirds: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png');
 }
 
 /** Global properties END **/
@@ -839,60 +844,60 @@ img.half-bottom {
 }
 
 .gmb .blend-half-right {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
+    background-image: var(--blend-half-vertical);
     background-size: cover;
-    transform: scale(-1)
+    transform: scale(-1);
 }
 
 .gmb .blend-half-left {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
-    background-size: 115%
+    background-image: var(--blend-half-vertical);
+    background-size: 115%;
 }
 
 .gmb .blend-half-top {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
-    transform: scale(-1)
+    background-image: var(--blend-half-horizontal);
+    transform: scale(-1);
 }
 
 .gmb .blend-half-bottom {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png')
+    background-image: var(--blend-half-horizontal);
 }
 
 .gmb .blend-corner-topright {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png')
+    background-image: var(--blend-corner);
 }
 
 .gmb .blend-corner-topleft {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
-    transform: scaleX(-1)
+    background-image: var(--blend-corner);
+    transform: scaleX(-1);
 }
 
 .gmb .blend-corner-bottomleft {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
-    transform: scale(-1)
+    background-image: var(--blend-corner);
+    transform: scale(-1);
 }
 
 .gmb .blend-corner-bottomright {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
-    transform: scaleY(-1)
+    background-image: var(--blend-corner);
+    transform: scaleY(-1);
 }
 
 .gmb .blend-onethird-bottom {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png')
+    background-image: var(--blend-onethird);
 }
 
 .gmb .blend-onethird-top {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png');
+    background-image: var(--blend-onethird);
     transform: scale(-1)
 }
 
 .gmb .blend-twothirds-bottom {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png')
+    background-image: var(--blend-twothirds);
 }
 
 .gmb .blend-twothirds-top {
-    background-image: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png');
-    transform: scale(-1)
+    background-image: var(--blend-twothirds);
+    transform: scale(-1);
 }
 
 /*** Blending END ***/
