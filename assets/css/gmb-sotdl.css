@@ -598,6 +598,10 @@ div#p1::after {
     line-height: inherit;
 }
 
+.gmb ul li div.column-break+p {
+    text-indent: 1em;
+}
+
 .gmb p+ul {
     margin-top: -0.8em;
 }
