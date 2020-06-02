@@ -206,6 +206,19 @@ a {
 
 /*** Headers END ***/
 
+/*** Layout ***/
+
+.gmb div.column-container {
+    column-count: 2;
+    column-span: all;
+}
+
+.gmb div.dual-tables {
+    column-count: 2;
+}
+
+/*** Layout END ***/
+
 /*** Bold ***/
 
 .gmb p strong {
