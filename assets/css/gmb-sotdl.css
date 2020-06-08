@@ -239,6 +239,10 @@ a {
 
 /* Tables */
 
+.gmb div.half-table table {
+    width: 50%;
+}
+
 .gmb h4.table+table thead th, h4.table+section div table thead th, li p+table thead th, p+table thead th, .gmb h5.table+table thead th, h5.table+section div table thead th {
     background-color: var(--color-table-header-bg);
     color: #ffffff;
