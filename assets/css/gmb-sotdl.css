@@ -838,6 +838,14 @@ img.corner-bottomleft {
     z-index: -3;
 }
 
+img.corner-topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    z-index: -3;
+}
+
 img.half-left {
     position: absolute;
     bottom: -10%;
