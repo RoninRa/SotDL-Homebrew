@@ -881,8 +881,13 @@ img.half-bottom {
 }
 
 .gmb .blend-half-right, .gmb .blend-half-left, .gmb .blend-half-top, .gmb .blend-half-bottom, .gmb .blend-corner-topright, .gmb .blend-corner-topleft, .gmb .blend-corner-bottomright, .gmb .blend-corner-bottomleft, .gmb .blend-corner-topright-inverted, .gmb .blend-corner-topleft-inverted, .gmb .blend-onethird-top, .gmb .blend-onethird-bottom, .gmb .blend-twothirds-top, .gmb .blend-twothirds-bottom {
-    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: -2;
+    background-size: 100%;
 }
 
 .gmb .blend-half-right {
