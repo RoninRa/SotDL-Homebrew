@@ -924,6 +924,10 @@ img.half-bottom {
     transform: scaleY(-1);
 }
 
+.gmb .blend-corner-topright-inverted {
+    background-image: var(--blend-corner-inverted);
+}
+
 .gmb .blend-corner-topleft-inverted {
     background-image: var(--blend-corner-inverted);
     transform: scaleX(-1);
