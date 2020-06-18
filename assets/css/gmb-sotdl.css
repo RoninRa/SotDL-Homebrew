@@ -372,6 +372,14 @@
     text-align: center;
 }
 
+.gmb blockquote h4 {
+    text-align: center;
+}
+
+.gmb blockquote section h1, .gmb blockquote section h2, .gmb blockquote section h3, .gmb blockquote section h4, .gmb blockquote section h5, .gmb blockquote section h6 {
+    font-family: 'Poison Hope';
+}
+
 .gmb blockquote p {
     font-size: 0.83em;
 }
@@ -387,7 +395,14 @@
     right: 40px;
     width: 340px;
     text-align: center;
+}
+
+.gmb div.patreon blockquote p {
     font-size: 1em;
+}
+
+.gmb div.patreon blockquote img {
+    text-align: center;
 }
 
 /*** Note block END ***/
