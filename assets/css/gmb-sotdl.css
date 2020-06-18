@@ -212,7 +212,7 @@ a {
 .gmb img.cover-logo {
     position: absolute;
     width: 375px;
-    bottom: 86px;
+    bottom: 50px;
     left: 20px;
     z-index: 5;
 }
