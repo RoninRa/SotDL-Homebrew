@@ -209,7 +209,7 @@ a {
 
 /*** Cover ***/
 
-.phb img.cover-logo {
+.gmb img.cover-logo {
     position: absolute;
     width: 375px;
     bottom: 86px;
@@ -217,7 +217,7 @@ a {
     z-index: 5;
 }
 
-.phb img.dotdl {
+.gmb img.dotdl {
     position: absolute;
     width: 225px;
     bottom: 15px;
