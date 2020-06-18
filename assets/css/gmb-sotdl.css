@@ -85,7 +85,7 @@
     -moz-column-width: 9cm;
 }
 
-a {
+.gmb a, .gmb .custom-external-link {
     color: var(--color-link);
 }
 
@@ -366,7 +366,7 @@ a {
     padding: 10px 10px 15px 10px;
 }
 
-.gmb blockquote h5 {
+.gmb blockquote h5, .gmb blockquote h3 {
     border: none;
     font-weight: bold;
     text-align: center;
@@ -379,6 +379,15 @@ a {
 .gmb blockquote section ul li {
     list-style-type: disc;
     text-indent: 0;
+}
+
+.gmb div.patreon blockquote {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    width: 340px;
+    text-align: center;
+    font-size: 1em;
 }
 
 /*** Note block END ***/
