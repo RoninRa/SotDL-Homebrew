@@ -225,6 +225,15 @@ a {
     z-index: 5;
 }
 
+.gmb p.cover-footer, .gmb p.cover-footer em {
+    bottom: 10px;
+    left: 25px;
+    text-align: left;
+    font-size: 10pt;
+    width: 550px;
+    color: #EEEEEE;
+}
+
 /*** Cover END ***/
 
 /*** Layout ***/
