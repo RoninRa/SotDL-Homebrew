@@ -226,6 +226,7 @@ a {
 }
 
 .gmb p.cover-footer, .gmb p.cover-footer em {
+    font-family: Athelas;
     bottom: 10px;
     left: 25px;
     text-align: left;
