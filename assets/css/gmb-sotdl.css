@@ -207,6 +207,26 @@ a {
 
 /*** Headers END ***/
 
+/*** Cover ***/
+
+.phb img.cover-logo {
+    position: absolute;
+    width: 375px;
+    bottom: 86px;
+    left: 20px;
+    z-index: 5;
+}
+
+.phb img.dotdl {
+    position: absolute;
+    width: 225px;
+    bottom: 15px;
+    right: 16px;
+    z-index: 5;
+}
+
+/*** Cover END ***/
+
 /*** Layout ***/
 
 .gmb div.column-container {
