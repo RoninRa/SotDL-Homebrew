@@ -1,0 +1,117 @@
+/** Defining fonts **/
+
+@font-face {
+    font-family: 'Rlyehian';
+    src: url('/SotDL-Homebrew/assets/fonts/Rlyehian.ttf')
+}
+
+@font-face {
+    font-family: 'Rlyehian Base';
+    src: url('/SotDL-Homebrew/assets/fonts/RlyehianBase.ttf')
+}
+
+/** Global properties **/
+
+:root {
+    --img-header-banner: url(../img/FromTheDeep/header-banner-from_the_deep.png);
+    --img-main-bg: url(../img/FromTheDeep/FromTheDeep-BG.jpg);
+    --img-bg-border: url(../img/FromTheDeep/FromTheDeep-bg-border.png);
+    --img-bg-page-number: url(../img/FromTheDeep/Tentacles.png);
+    --img-parchment: url(../img/parchment.png);
+    --color-headers-main: #3C4228;
+    --color-text-main: #0F120B;
+    --color-strong: #0F120B;
+    --color-strong-alt: #3C4228;
+    --color-marginalia: #3C4228;
+    --color-header-border: #0F120B;
+    --color-table-header-bg: #0F120B;
+    --color-monster-h1-bg: #0F120B;
+    --color-monster-h2-bg: #3C4228;
+    --color-monster-h3-bg: #828675;
+}
+
+/** Global properties END **/
+
+/**  **/
+
+/*** Cover ***/
+
+/* .gmb img.cover-footer {
+    background: url('/SotDL-Homebrew/assets/img/FromTheDeep/from_the_deep_cover_footer.png');
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+} */
+
+/*** Cover END ***/
+
+.gmb p strong {
+    color: var(--color-strong);
+}
+
+/*** Lists ***/
+
+.gmb p ul li strong {
+    color: var(--color-strong);
+}
+
+/*** Lists END ***/
+
+.gmb strong em, .gmb em strong {
+    color: var(--color-strong);
+}
+
+/** Page number **/
+
+.gmb:nth-child(odd) .pageNumber, .gmb:nth-child(even) .pageNumber {
+    bottom: 40px;
+}
+
+.gmb:nth-child(odd) .pageNumber {
+    left: 35px;
+}
+
+.gmb:nth-child(even) .pageNumber {
+    left: 730px;
+}
+
+.gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
+    background-size: 100px 100px, 816px 1056px;
+    background-position: 26px calc(100% - 20px), bottom;
+    margin-bottom: unset;
+    margin-left: unset;
+}
+
+/*** Page number END ***/
+
+/** Monster Stat Block **/
+
+.gmb hr+section blockquote h3 {
+    color: var(--color-text-main);
+}
+
+/*** Monster Stats END ***/
+
+/*** Handouts ***/
+
+.gmb div.handout {
+    background: var(--img-parchment);
+    background-size: 100% 100%;
+    column-span: all;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.gmb div.handout p {
+    -moz-font-feature-settings: 'liga' 1;
+    -webkit-font-feature-settings: 'liga' 1;
+    -ms-font-feature-settings: 'liga' 1;
+    font-feature-settings: 'liga' 1;
+    font-family: "Rlyehian";
+    font-size: 16pt;
+    color: #9C0719;
+}
+
+/*** Handouts END***/

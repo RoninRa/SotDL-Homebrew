@@ -1,0 +1,132 @@
+/** Import Fonts **/
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+/** Global properties **/
+
+:root {
+    --color-marginalia: #9C0719;
+}
+
+/** Global properties END **/
+
+/**  **/
+
+.gmb {
+    padding: 1.0cm 2cm 1.5cm 2cm;
+    column-gap: 0.3cm;
+    column-width: 8cm;
+    -webkit-column-gap: 0.3cm;
+    -webkit-column-width: 8cm;
+    -moz-column-gap: 0.3cm;
+    -moz-column-width: 8cm;
+}
+
+/*** Headers ***/
+
+.gmb h1.title {
+    padding-top: 25px;
+    margin: 0px -76px 0px -76px;
+    height: 15%;
+}
+
+.gmb h1.title span {
+    left: unset;
+    bottom: unset;
+}
+
+.gmb h1.title-text {
+    position: absolute;
+    left: 120px;
+    top: 200px;
+}
+
+.gmb h1.title-text span {
+    font-family: "First Order";
+    font-size: 60pt;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: #f3ebebd1;
+    position: relative;
+}
+
+/*** Headers END ***/
+
+/*** Cover ***/
+
+.gmb img.cover-footer {
+    background: url('/SotDL-Homebrew/assets/img/from_the_deep_cover_footer.png');
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.gmb p.cover-footer, .gmb p.cover-footer em {
+    bottom: 10px;
+    left: 25px;
+    text-align: left;
+    font-size: 10pt;
+    width: 550px;
+    color: #EEEEEE;
+}
+
+/*** Cover END ***/
+
+/*** Marginalia ***/
+
+.gmb p.sidenote {
+    color: var(--color-marginalia);
+    font-family: 'Rock Salt', cursive;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    margin-right: 11px;
+    position: absolute;
+    right: 0;
+    top: auto;
+    width: 63px;
+    padding: 3px;
+}
+
+.gmb p.leftnote {
+    color: var(--color-marginalia);
+    font-family: 'Rock Salt', cursive;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    left: 0;
+    right: auto;
+    position: absolute;
+    margin-left: 20px;
+    margin-right: auto;
+    padding: 3px;
+    width: 61px;
+}
+
+.gmb td p.leftnote {
+    margin-left: 25px;
+    width: 63px;
+}
+
+/*** Marginalia END ***/
+
+/** Monster Stat Block **/
+
+.gmb hr+section blockquote h1 {
+    font-size: 11pt;
+    width: 69%;
+    min-height: 28px;
+}
+
+.gmb hr+section blockquote h2 {
+    width: 31%;
+    min-height: 28px;
+}
+
+/*** Monster Stats END ***/
