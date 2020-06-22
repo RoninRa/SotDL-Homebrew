@@ -408,6 +408,14 @@
     width: 50%;
 }
 
+.gmb div.patreon blockquote h5 {
+    margin: 10px 0px 10px 0px;
+}
+
+.gmb div.patreon blockquote div.column-container h6 {
+    margin: 0px 0px 0px 5px;
+}
+
 /*** Note block END ***/
 
 /* Credits blockquote */
