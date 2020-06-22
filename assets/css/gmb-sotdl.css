@@ -397,6 +397,10 @@
     text-align: center;
 }
 
+.gmb div.patreon blockquote p:last-child {
+    margin-bottom: 10px;
+}
+
 .gmb div.patreon blockquote p {
     font-size: 1em;
 }
