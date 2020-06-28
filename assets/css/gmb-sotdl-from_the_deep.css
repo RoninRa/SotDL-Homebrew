@@ -70,11 +70,11 @@
 }
 
 .gmb:nth-child(odd) .pageNumber {
-    left: 35px;
+    left: 27px;
 }
 
 .gmb:nth-child(even) .pageNumber {
-    left: 730px;
+    left: 720px;
 }
 
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
