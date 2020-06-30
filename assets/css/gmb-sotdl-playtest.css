@@ -24,3 +24,8 @@
 .gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
     font-family: 'GothamBold';
 }
+
+.gmb hr+section blockquote h2+p {
+    color: var(--color-text-main);
+    margin: 0;
+}
