@@ -6,12 +6,12 @@
     --img-bg-border: none;
     --img-bg-page-number: none;
     --img-parchment: url(../img/parchment.png);
-    --color-headers-main: #black;
+    --color-headers-main: black;
     --color-text-main: black;
     --color-strong: black;
-    --color-strong-alt: #black;
+    --color-strong-alt: black;
     --color-monster-h1-bg: black;
-    --color-monster-h2-bg: #black;
+    --color-monster-h2-bg: black;
     --color-monster-h3-bg: #A7A9AC;
     --color-header-border: black;
     --color-table-header-bg: black;
@@ -27,5 +27,6 @@
 
 .gmb hr+section blockquote h2+p {
     color: var(--color-text-main);
+    background-color: var(--color-monster-h3-bg);
     margin: 0;
 }
