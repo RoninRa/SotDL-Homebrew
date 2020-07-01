@@ -656,11 +656,12 @@ div#p1::after {
     list-style-type: none;
 }
 
-.gmb ul strong, .gmb ol strong {
+.gmb ul strong, .gmb ul p strong, .gmb ol strong {
     font-family: 'GothamBold';
     font-weight: normal;
     font-size: 10pt;
     letter-spacing: -0.02em;
+    color: var(--color-strong);
 }
 
 .gmb hr+ul li {
