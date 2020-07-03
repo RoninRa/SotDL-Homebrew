@@ -755,7 +755,7 @@ div#p1::after {
     padding: 5px;
     float: right;
     width: 30%;
-    height: 26px;
+    height: 27x;
     margin: 0px;
     text-align: right;
 }
@@ -808,6 +808,16 @@ div#p1::after {
 
 .gmb hr+section blockquote ul+hr {
     border-color: #800000;
+}
+
+.gmb hr+section blockquote h1+hr {
+    visibility: hidden;
+    margin: 0;
+    height: 0;
+}
+
+.gmb hr+section blockquote h1+hr+section h2:before {
+    content: "";
 }
 
 .gmb hr+section blockquote h2:before {
