@@ -47,6 +47,21 @@
 
 /*** Cover END ***/
 
+/*** Headers ***/
+
+.gmb h1.title {
+    padding-top: 25px;
+    margin: 0px -76px 0px -76px;
+    height: 15%;
+}
+
+.gmb h1.title span {
+    left: unset;
+    bottom: unset;
+}
+
+/*** Headers END ***/
+
 .gmb p strong {
     color: var(--color-strong);
 }
