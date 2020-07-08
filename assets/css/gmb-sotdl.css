@@ -922,6 +922,33 @@ div#p1::after {
 
 /*** Spells END ***/
 
+/*** Ad Page ***/
+
+.gmb div.ad-page {
+    column-span: all;
+    -webkit-column-span: all;
+    -moz-column-span: all;
+}
+
+.gmb div.ad-page h3 {
+    color: var(--color-main);
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+.gmb div.ad-page div.grid {
+    display: grid;
+    grid-template-columns: 150px 500px;
+    grid-gap: 2rem;
+}
+
+.gmb div.ad-page div.grid img {
+    width: 150px;
+    box-shadow: 7px 7px 5px 1px #1A1B1B;
+}
+
+/*** Ad Page END***/
+
 /*** Blending ***/
 
 img.corner-bottomright {
