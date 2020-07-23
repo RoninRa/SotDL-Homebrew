@@ -291,7 +291,7 @@ a {
 
 /*** Tables END ***/
 
-/*** Note block ***/
+/*** Note & Sidebar block ***/
 
 .phb blockquote {
     border-image: none;
@@ -300,11 +300,13 @@ a {
     background-image: var(--img-parchment);
     background-size: 100% 100%;
     padding: 10px 10px 15px 10px;
+    overflow: hidden;
 }
 
 .phb blockquote.sidebar {
     background-image: var(--img-parchment-long);
-    padding: 15px 10px 15px 10px;
+    padding: 20px 10px 15px 10px;
+    height: auto;
 }
 
 .phb blockquote h5 {
@@ -322,7 +324,7 @@ a {
     text-indent: 0;
 }
 
-/*** Note block END ***/
+/*** Note & Sidebar block END ***/
 
 /* Credits blockquote */
 
