@@ -386,6 +386,9 @@
     background-size: 100% 100%;
     padding: 10px 10px 15px 10px;
     overflow: hidden;
+    box-shadow: unset;
+    -webkit-filter: drop-shadow(7px 7px 4px #000);
+    filter: drop-shadow(7px 7px 4px #000);
 }
 
 .gmb blockquote h5, .gmb blockquote h3 {
