@@ -416,7 +416,7 @@
 
 .gmb blockquote.sidebar {
     background-image: var(--img-parchment-long);
-    padding: 20px 10px 15px 10px;
+    padding: 20px 15px 20px 15px;
     overflow: hidden;
     height: auto;
 }
