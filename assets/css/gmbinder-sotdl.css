@@ -309,6 +309,14 @@ a {
     height: auto;
 }
 
+.phb blockquote.sidebar table {
+    margin-bottom: 0.25em;
+}
+
+.phb blockquote.sidebar table tbody tr td {
+    line-height: 1.25em;
+}
+
 .phb blockquote h5 {
     border: none;
     font-weight: bold;
