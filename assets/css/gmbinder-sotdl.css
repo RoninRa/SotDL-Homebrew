@@ -37,6 +37,7 @@
     --img-bg-border: url(../img/sotdl_background_border.png);
     --img-bg-page-number: url(../img/pentagram.png);
     --img-parchment: url(../img/parchment.png);
+    --img-parchment-long: url(../img/parchment-long.png);
     --color-headers-main: #9C0719;
     --color-text-main: black;
     --color-strong: black;
@@ -299,6 +300,11 @@ a {
     background-image: var(--img-parchment);
     background-size: 100% 100%;
     padding: 10px 10px 15px 10px;
+}
+
+.phb blockquote.sidebar {
+    background-image: var(--img-parchment-long);
+    padding: 15px 10px 15px 10px;
 }
 
 .phb blockquote h5 {
