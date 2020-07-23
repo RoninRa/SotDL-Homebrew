@@ -375,7 +375,7 @@
 
 /*** Tables END ***/
 
-/*** Note block ***/
+/*** Note & Sidebar block ***/
 
 .gmb blockquote {
     border-image: none;
@@ -384,6 +384,7 @@
     background-image: var(--img-parchment);
     background-size: 100% 100%;
     padding: 10px 10px 15px 10px;
+    overflow: hidden;
 }
 
 .gmb blockquote h5, .gmb blockquote h3 {
@@ -408,6 +409,24 @@
     list-style-type: disc;
     text-indent: 0;
 }
+
+.gmb blockquote.sidebar {
+    background-image: var(--img-parchment-long);
+    padding: 20px 10px 15px 10px;
+    height: auto;
+}
+
+.gmb blockquote.sidebar table {
+    margin-bottom: 0.25em;
+}
+
+.gmb blockquote.sidebar table tbody tr td {
+    line-height: 1.25em;
+}
+
+/*** Note & Sidebar block END ***/
+
+/*** Patreon Credits block END ***/
 
 .gmb div.patreon blockquote {
     position: absolute;
@@ -440,7 +459,7 @@
     margin: 0px 0px 0px 5px;
 }
 
-/*** Note block END ***/
+/*** Patreon Credits block END ***/
 
 /* Credits blockquote */
 
