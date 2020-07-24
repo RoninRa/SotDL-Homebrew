@@ -772,6 +772,8 @@ div#p1::after {
     border-style: none;
     background-image: none;
     background-color: transparent;
+    -webkit-filter: none;
+    filter: none;
 }
 
 .gmb hr+section blockquote h1 {
