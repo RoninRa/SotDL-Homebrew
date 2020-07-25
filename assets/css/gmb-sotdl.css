@@ -376,7 +376,7 @@
 
 /*** Tables END ***/
 
-/*** Note & Sidebar block ***/
+/*** Note block ***/
 
 .gmb blockquote {
     border-image: none;
@@ -414,22 +414,22 @@
     text-indent: 0;
 }
 
-.gmb blockquote.sidebar {
+.gmb blockquote.note {
     background-image: var(--img-parchment-long);
     padding: 20px 15px 20px 15px;
     overflow: hidden;
     height: auto;
 }
 
-.gmb blockquote.sidebar table {
+.gmb blockquote.note table {
     margin-bottom: 0.25em;
 }
 
-.gmb blockquote.sidebar table tbody tr td {
+.gmb blockquote.note table tbody tr td {
     line-height: 1.25em;
 }
 
-/*** Note & Sidebar block END ***/
+/*** Note block END ***/
 
 /*** Patreon Credits block END ***/
 
