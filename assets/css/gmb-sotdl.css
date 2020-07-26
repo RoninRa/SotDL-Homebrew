@@ -376,7 +376,7 @@
 
 /*** Tables END ***/
 
-/*** Note block ***/
+/*** Blockquote ***/
 
 .gmb blockquote {
     border-image: none;
@@ -414,11 +414,17 @@
     text-indent: 0;
 }
 
+/*** Blockquote END ***/
+
+/*** Note block ***/
+
 .gmb blockquote.note {
     background-image: var(--img-parchment-long);
     padding: 20px 15px 20px 15px;
     overflow: hidden;
     height: auto;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .gmb blockquote.note table {
