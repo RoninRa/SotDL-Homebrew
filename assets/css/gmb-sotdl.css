@@ -518,7 +518,7 @@
 }
 
 .gmb blockquote.credits p span.after-colon {
-    line-height: 2em;
+    /* line-height: 2em; */
 }
 
 .gmb blockquote.credits div.acknowledgements p {
