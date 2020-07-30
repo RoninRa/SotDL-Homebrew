@@ -517,6 +517,10 @@
     color: var(--color-headers-main);
 }
 
+.gmb blockquote.credits p span.after-colon {
+    line-height: 2em;
+}
+
 .gmb blockquote.credits div.acknowledgements p {
     font-family: Athelas;
     font-weight: normal;
