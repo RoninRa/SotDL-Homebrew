@@ -531,7 +531,7 @@
 }
 
 .gmb blockquote.credits img.credits-image {
-    width: auto;
+    width: 45%;
     display: block;
     position: initial;
     margin-left: auto;
