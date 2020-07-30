@@ -531,9 +531,11 @@
 }
 
 .gmb blockquote.credits img.credits-image {
-    position: initial;
     width: auto;
-    height: 100px;
+    display: block;
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*** Credits block END ***/
