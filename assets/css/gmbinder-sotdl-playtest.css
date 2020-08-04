@@ -32,7 +32,7 @@
 }
 
 .gmb img.dotdl, .gmb img.cover-logo, .gmb div.ad-page img {
-    display: unset;
+    display: initial;
 }
 
 /** Hide release images END **/
