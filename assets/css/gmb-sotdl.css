@@ -66,6 +66,14 @@
     margin-bottom: 10px;
 }
 
+@media print {
+    .gmb {
+        margin: 0;
+        height: 279.4mm;
+        width: 215.9mm;
+    }
+}
+
 .gmb {
     font-family: Athelas;
     background: var(--img-main-bg);
@@ -517,9 +525,9 @@
     color: var(--color-headers-main);
 }
 
-.gmb blockquote.credits p span.after-colon {
-    /* line-height: 2em; */
-}
+/* .gmb blockquote.credits p span.after-colon {
+    line-height: 2em;
+} */
 
 .gmb blockquote.credits div.acknowledgements p {
     font-family: Athelas;
