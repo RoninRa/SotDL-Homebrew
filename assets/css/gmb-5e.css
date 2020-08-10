@@ -186,10 +186,10 @@
 /** Global properties **/
 
 :root {
-    --img-header-banner: url(../img/header-banner.png);
+    --img-header-banner: url(../img/5e/gmb_header.png);
     --img-header-banner-angle: url(https://www.gmbinder.com/assets/img/pph-dmg.png);
     --img-header-banner-round: url(https://www.gmbinder.com/assets/img/pph.png);
-    --img-main-bg: url(https://www.gmbinder.com/images/UCIUXyr.jpg);
+    --img-main-bg: url(https://www.gmbinder.com/assets/img/phb_bg.png);
     --img-bg-border: url(https://www.gmbinder.com/assets/img/footer.png);
     --img-bg-page-number: url(../img/pentagram.png);
     --img-parchment: url(../img/parchment.png);
