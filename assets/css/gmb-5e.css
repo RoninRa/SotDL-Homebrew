@@ -649,6 +649,10 @@
     font-size: 9pt;
 }
 
+.gmb div.license h1 {
+    margin-top: 0em;
+}
+
 /** Page number **/
 
 .gmb .pageNumber, .gmb .pageNumber.auto {
