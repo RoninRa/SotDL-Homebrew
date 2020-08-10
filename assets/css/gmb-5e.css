@@ -167,7 +167,7 @@
 
 .gmb h1+p::first-letter {
     float: inherit;
-    font-family: inherit;
+    font-family: "Solbera Imitation";
     font-size: 8em;
     /* font-size: inherit; */
     color: black;
