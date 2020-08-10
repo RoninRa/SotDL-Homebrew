@@ -166,13 +166,11 @@
 }
 
 .gmb h1+p::first-letter {
-    float: inherit;
-    font-family: "Solbera Imitation";
-    font-size: 8em;
-    /* font-size: inherit; */
-    color: black;
-    /* color: inherit; */
-    line-height: inherit;
+    float: left;
+    font-family: Solberry;
+    font-size: 10em;
+    color: #222;
+    line-height: .8em
 }
 
 .gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
