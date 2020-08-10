@@ -455,6 +455,10 @@
     border-bottom-style: none;
 }
 
+.gmb cover.diamond {
+    background-image: var(--img-separator-diamond);
+}
+
 .gmb div.separator-diamond {
     background-image: var(--img-separator-diamond);
     background-size: 400px;
