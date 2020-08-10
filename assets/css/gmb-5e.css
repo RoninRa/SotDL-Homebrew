@@ -338,19 +338,23 @@
 
 .gmb h1 {
     font-size: 32pt;
+    -webkit-text-stroke-width: 1.2px
 }
 
 .gmb h2 {
     font-size: 25pt;
+    -webkit-text-stroke-width: .9px
 }
 
 .gmb h3 {
     border-bottom-style: none;
     font-size: 18pt;
+    -webkit-text-stroke-width: .6px
 }
 
 .gmb h4 {
     font-size: 13pt;
+    -webkit-text-stroke-width: .5px
 }
 
 .gmb h4.traits {
@@ -359,11 +363,13 @@
     border-bottom-style: solid;
     border-bottom-color: var(--color-header-border);
     border-bottom-width: 2px;
+    -webkit-text-stroke-width: .5px
 }
 
 .gmb h4.table {
     font-size: 14pt;
     text-align: center;
+    -webkit-text-stroke-width: .5px
 }
 
 .gmb h5 {
