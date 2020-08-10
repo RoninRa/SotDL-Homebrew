@@ -263,12 +263,14 @@
     font-weight: normal;
     letter-spacing: -2px;
     margin: 12px 0 -12.5px 0;
+    text-align: center;
 }
 
 .gmb .partpage-angle h5 {
     font-family: ScalySans;
     font-size: 13pt;
     color: black;
+    text-align: center;
 }
 
 .gmb .partpage-round {
@@ -289,12 +291,14 @@
     font-weight: normal;
     letter-spacing: -2px;
     margin: 12px 0 -17.5px 0;
+    text-align: center;
 }
 
 .gmb .partpage-round h5 {
     font-family: ScalySans;
     font-size: 13pt;
     color: #58180D;
+    text-align: center;
 }
 
 .gmb .separator-diamond {
