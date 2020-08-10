@@ -40,6 +40,7 @@
     --img-bg-page-number: url(../img/pentagram.png);
     --img-parchment: url(../img/parchment.png);
     --img-parchment-long: url(../img/parchment-long.png);
+    --img-separator-diamond: url(https://www.gmbinder.com/assets/img/DiamondDD.png);
     --color-headers-main: #58180D;
     --color-text-main: black;
     --color-strong: black;
@@ -294,6 +295,11 @@
     font-family: ScalySans;
     font-size: 13pt;
     color: #58180D;
+}
+
+.gmb .separator-diamond {
+    background-image: var(--img-separator-diamond);
+    margin-top: 240px;
 }
 
 /*** Part page END***/
