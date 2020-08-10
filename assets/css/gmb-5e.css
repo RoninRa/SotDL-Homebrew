@@ -457,6 +457,13 @@
 
 .gmb div.separator-diamond {
     background-image: var(--img-separator-diamond);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 210px;
+    top: 115px;
+    width: 400px;
+    height: 12px;
 }
 
 /*** Part page END***/
