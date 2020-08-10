@@ -907,17 +907,17 @@
 
 .gmb:nth-child(odd) .pageNumber, .gmb:nth-child(even) .pageNumber {
     right: 0px;
-    bottom: 32px;
+    bottom: 20px;
     width: 50px;
     vertical-align: middle;
 }
 
 .gmb:nth-child(odd) .pageNumber {
-    left: 30px;
+    left: 5px;
 }
 
 .gmb:nth-child(even) .pageNumber {
-    left: 735px;
+    left: 765px;
 }
 
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
