@@ -645,6 +645,10 @@
     text-align: center;
 }
 
+.gmb div.license p, .gmb div.license ul li, .gmb div.license ol li, .gmb div.license p strong, .gmb div.license ol li strong {
+    font-size: 9pt;
+}
+
 /** Page number **/
 
 .gmb .pageNumber, .gmb .pageNumber.auto {
