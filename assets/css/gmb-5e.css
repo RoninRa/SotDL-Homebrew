@@ -269,7 +269,7 @@
     font-size: 13pt;
     color: var(--color-text-main);
     text-align: center;
-    border-bottom: none;
+    border-bottom-style: none;
 }
 
 .gmb .partpage-round {
@@ -298,7 +298,7 @@
     font-size: 13pt;
     color: var(--color-headers-main);
     text-align: center;
-    border-bottom: none;
+    border-bottom-style: none;
 }
 
 .gmb div.separator-diamond {
