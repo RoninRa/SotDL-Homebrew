@@ -207,12 +207,12 @@
     --color-table-main-bg: initial;
     --color-table-alt-bg: white;
     --color-link: #597089;
-    --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
-    --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
-    --blend-corner: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
-    --blend-onethird: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png');
-    --blend-twothirds: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png');
-    --blend-corner-inverted: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted.png');
+    --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/dnd-blend-half-vertical.png');
+    --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/dnd-blend-half-horizontal.png');
+    --blend-corner: url('/SotDL-Homebrew/assets/img/blends/dnd-blend-corner.png');
+    --blend-onethird: url('/SotDL-Homebrew/assets/img/blends/dnd-blend-onethird.png');
+    --blend-twothirds: url('/SotDL-Homebrew/assets/img/blends/dnd-blend-twothirds.png');
+    --blend-corner-inverted: url('/SotDL-Homebrew/assets/img/blends/dnd-blend-corner-inverted.png');
 }
 
 /** Global properties END **/
