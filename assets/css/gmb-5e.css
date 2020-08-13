@@ -205,7 +205,7 @@
     --color-header-border: #c9ad6a;
     --color-table-header-bg: black;
     --color-table-main-bg: initial;
-    --color-table-alt-bg: white;
+    --color-table-alt-bg: #d1d5d6;
     --color-link: #597089;
     --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/dnd-blend-half-vertical.png');
     --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/dnd-blend-half-horizontal.png');
@@ -311,7 +311,7 @@
 }
 
 .gmb h2.title {
-    font-family: Athelas;
+    font-family: ScalySans;
     color: var(--color-text-main);
     font-style: italic;
     font-weight: bold;
@@ -498,7 +498,7 @@
 }
 
 .gmb p.cover-footer, .gmb p.cover-footer em {
-    font-family: Athelas;
+    font-family: ScalySans;
     bottom: 10px;
     left: 25px;
     text-align: left;
@@ -553,7 +553,8 @@
 .gmb h4.table+table thead th, h4.table+section div table thead th, li p+table thead th, p+table thead th, .gmb h5.table+table thead th, h5.table+section div table thead th {
     background-color: var(--color-table-header-bg);
     color: #ffffff;
-    font-family: "GothamBold";
+    font-family: ScalySans;
+    font-weight: 800;
     font-size: 8pt;
     padding: 3px 6px 3px 6px !important;
     min-width: 34px;
@@ -568,30 +569,30 @@
 }
 
 .gmb table tbody tr {
-    font-family: "GothamBook";
+    font-family: ScalySans;
     font-size: 8pt;
 }
 
 .gmb table tbody tr:nth-child(odd) {
     background-color: var(--color-table-main-bg);
-    font-family: "GothamBook";
+    font-family: ScalySans;
     font-size: 8pt;
 }
 
 .gmb table tbody tr:nth-child(even) {
     background-color: var(--color-table-alt-bg);
-    font-family: "GothamBook";
+    font-family: ScalySans;
     font-size: 8pt;
 }
 
 .gmb table tbody tr td {
-    font-family: 'GothamBook';
+    font-family: ScalySans;
     font-size: 8pt;
     min-width: 34px;
 }
 
 .gmb table tbody tr td p {
-    font-family: 'GothamBook';
+    font-family: ScalySans;
     font-size: 8pt;
     text-indent: 1em;
 }
@@ -603,20 +604,21 @@
 
 .gmb table tbody tr td li {
     margin-left: 5px;
-    font-family: 'GothamBook';
+    font-family: ScalySans;
     font-size: 8pt;
     color: var(--color-text-main);
 }
 
 .gmb table tbody tr td strong {
-    font-family: 'GothamBold';
+    font-family: ScalySans;
     font-weight: normal;
     font-size: 8pt;
     color: var(--color-strong);
 }
 
 .gmb table strong {
-    font-family: 'GothamBold';
+    font-family: ScalySans;
+    font-weight: 800;
     font-size: 8pt;
 }
 
@@ -658,7 +660,7 @@
 }
 
 .gmb blockquote section h1, .gmb blockquote section h2, .gmb blockquote section h3, .gmb blockquote section h4, .gmb blockquote section h5, .gmb blockquote section h6 {
-    font-family: 'Poison Hope';
+    font-family: MrJeeves;
 }
 
 .gmb blockquote p {
@@ -763,7 +765,7 @@
 }
 
 .gmb blockquote.credits p strong em {
-    font-family: Athelas;
+    font-family: ScalySans;
     color: var(--color-strong);
     font-style: italic;
     font-weight: bold;
@@ -778,14 +780,14 @@
 } */
 
 .gmb blockquote.credits div.acknowledgements p {
-    font-family: Athelas;
+    font-family: ScalySans;
     font-weight: normal;
     font-size: 8pt;
     letter-spacing: -0.02em;
 }
 
 .gmb blockquote.credits div.acknowledgements p strong {
-    font-family: Athelas;
+    font-family: ScalySans;
     font-weight: bold;
     font-size: 8pt;
     color: var(--color-strong);
@@ -846,14 +848,14 @@
 }
 
 .gmb div.credits div.acknowledgements p {
-    font-family: Athelas;
+    font-family: ScalySans;
     font-weight: normal;
     font-size: 10pt;
     letter-spacing: -0.02em;
 }
 
 .gmb div.credits div.acknowledgements strong {
-    font-family: Athelas;
+    font-family: ScalySans;
     font-weight: bold;
     font-size: 10pt;
     color: var(--color-strong);
@@ -947,7 +949,7 @@ div#p1::after {
 
 .gmb .footnote {
     color: var(--color-strong);
-    font-family: "Athelas";
+    font-family: "ScalySans";
     font-weight: bold;
     font-size: .8em;
     width: 200px;
@@ -1033,7 +1035,7 @@ div#p1::after {
 }
 
 .gmb p, .gmb li, .gmb ol {
-    font-family: 'Athelas';
+    font-family: 'ScalySans';
     font-size: 11pt;
     text-align: left;
     letter-spacing: -0.01em;
@@ -1054,7 +1056,7 @@ div#p1::after {
 }
 
 .gmb hr+section blockquote h1 {
-    font-family: Athelas;
+    font-family: ScalySans;
     background-color: var(--color-monster-h1-bg);
     background-image: none;
     color: white;
@@ -1069,7 +1071,7 @@ div#p1::after {
 }
 
 .gmb hr+section blockquote h2 {
-    font-family: Athelas;
+    font-family: ScalySans;
     font-weight: normal;
     font-size: 8pt;
     font-style: initial;
@@ -1084,7 +1086,7 @@ div#p1::after {
 }
 
 .gmb hr+section blockquote h3 {
-    font-family: Athelas;
+    font-family: ScalySans;
     font-weight: bold;
     font-size: 9pt;
     color: var(--color-strong);
@@ -1097,7 +1099,7 @@ div#p1::after {
 
 .gmb hr+section blockquote h2+p {
     clear: both;
-    font-family: Athelas;
+    font-family: ScalySans;
     font-weight: bold;
     font-size: 9pt;
     color: white;
@@ -1152,7 +1154,7 @@ div#p1::after {
 /** Spells **/
 
 .gmb div.spell h1 {
-    font-family: Athelas;
+    font-family: ScalySans;
     font-size: 10pt;
     color: var(--color-headers-main);
     font-weight: bold;
@@ -1167,7 +1169,7 @@ div#p1::after {
 }
 
 .gmb div.spell h2 {
-    font-family: Athelas;
+    font-family: ScalySans;
     font-size: 7pt;
     color: var(--color-headers-main);
     font-weight: bold;
