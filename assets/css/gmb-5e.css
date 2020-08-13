@@ -485,7 +485,7 @@
 .gmb img.cover-logo {
     position: absolute;
     width: 375px;
-    bottom: 50px;
+    bottom: 30px;
     left: 20px;
     z-index: 5;
 }
