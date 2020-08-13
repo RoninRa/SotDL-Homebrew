@@ -355,7 +355,7 @@
 
 .gmb h4 {
     font-size: 14pt;
-    -webkit-text-stroke-width: .5px
+    -webkit-text-stroke-width: .6px
 }
 
 .gmb h4.traits {
@@ -364,13 +364,13 @@
     border-bottom-style: solid;
     border-bottom-color: var(--color-header-border);
     border-bottom-width: 2px;
-    -webkit-text-stroke-width: .5px
+    -webkit-text-stroke-width: .6px
 }
 
 .gmb h4.table {
     font-size: 14pt;
     text-align: center;
-    -webkit-text-stroke-width: .5px
+    -webkit-text-stroke-width: .6px
 }
 
 .gmb h5 {
@@ -383,7 +383,7 @@
 }
 
 .gmb h5.table {
-    font-size: 12pt;
+    font-size: 11pt;
     text-align: center;
     border-bottom-style: none;
 }
@@ -398,7 +398,7 @@
     border-bottom-style: solid;
     border-bottom-color: var(--color-headers-main);
     border-bottom-width: 2px;
-    -webkit-text-stroke-width: .3px
+    -webkit-text-stroke-width: .5px
 }
 
 /*** Headers END ***/
