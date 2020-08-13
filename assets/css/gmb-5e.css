@@ -570,30 +570,30 @@
 
 .gmb table tbody tr {
     font-family: ScalySans;
-    font-size: 8pt;
+    font-size: 9pt;
 }
 
 .gmb table tbody tr:nth-child(odd) {
     background-color: var(--color-table-main-bg);
     font-family: ScalySans;
-    font-size: 8pt;
+    font-size: 9pt;
 }
 
 .gmb table tbody tr:nth-child(even) {
     background-color: var(--color-table-alt-bg);
     font-family: ScalySans;
-    font-size: 8pt;
+    font-size: 9pt;
 }
 
 .gmb table tbody tr td {
     font-family: ScalySans;
-    font-size: 8pt;
+    font-size: 9pt;
     min-width: 34px;
 }
 
 .gmb table tbody tr td p {
     font-family: ScalySans;
-    font-size: 8pt;
+    font-size: 9pt;
     text-indent: 1em;
 }
 
@@ -605,21 +605,21 @@
 .gmb table tbody tr td li {
     margin-left: 5px;
     font-family: ScalySans;
-    font-size: 8pt;
+    font-size: 9pt;
     color: var(--color-text-main);
 }
 
 .gmb table tbody tr td strong {
     font-family: ScalySans;
     font-weight: normal;
-    font-size: 8pt;
+    font-size: 9pt;
     color: var(--color-strong);
 }
 
 .gmb table strong {
     font-family: ScalySans;
     font-weight: 800;
-    font-size: 8pt;
+    font-size: 9pt;
 }
 
 .gmb table+ul {
