@@ -192,8 +192,8 @@
     --img-main-bg: url(https://www.gmbinder.com/assets/img/phb_bg.png);
     --img-bg-border: url(https://www.gmbinder.com/assets/img/footer.png);
     --img-bg-page-number: url(../img/pentagram.png);
-    --img-parchment: url(../img/parchment.png);
-    --img-parchment-long: url(../img/parchment-long.png);
+    --img-parchment: url(../img/backgrounds/old-parchment.png);
+    --img-parchment-long: url(../img/backgrounds/old-parchment.png);
     --img-separator-diamond: url(https://www.gmbinder.com/assets/img/DiamondDD.png);
     --color-headers-main: #58180D;
     --color-text-main: black;
