@@ -1310,7 +1310,7 @@ img.half-bottom {
     z-index: -3;
 }
 
-.gmb .blend-half-right, .gmb .blend-half-left, .gmb .blend-half-top, .gmb .blend-half-bottom, .gmb .blend-corner-topright, .gmb .blend-corner-topleft, .gmb .blend-corner-bottomright, .gmb .blend-corner-bottomleft, .gmb .blend-corner-topright-inverted, .gmb .blend-corner-topleft-inverted, .gmb .blend-onethird-top, .gmb .blend-onethird-bottom, .gmb .blend-twothirds-top, .gmb .blend-twothirds-bottom {
+.gmb .blend-half-right, .gmb .blend-half-left, .gmb .blend-half-top, .gmb .blend-half-bottom, .gmb .blend-corner-topright, .gmb .blend-corner-topleft, .gmb .blend-corner-bottomright, .gmb .blend-corner-bottomleft, .gmb .blend-corner-topright-inverted, .gmb .blend-corner-topleft-inverted, .gmb .blend-corner-topleft-inverted-small, .gmb .blend-corner-topright-inverted-small, .gmb .blend-onethird-top, .gmb .blend-onethird-bottom, .gmb .blend-twothirds-top, .gmb .blend-twothirds-bottom {
     position: absolute;
     top: 0;
     left: 0;
