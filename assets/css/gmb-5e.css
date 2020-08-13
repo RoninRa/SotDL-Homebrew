@@ -774,11 +774,13 @@
 
 .gmb blockquote.credits p span.before-colon {
     color: var(--color-headers-main);
+    -webkit-text-stroke-width: 0.6px;
 }
 
-/* .gmb blockquote.credits p span.after-colon {
-    line-height: 2em;
-} */
+.gmb blockquote.credits p span.after-colon {
+    /* line-height: 2em; */
+    -webkit-text-stroke-width: 0.4px;
+}
 
 .gmb blockquote.credits div.acknowledgements p {
     font-family: ScalySans;
