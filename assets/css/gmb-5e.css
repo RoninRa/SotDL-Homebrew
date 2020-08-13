@@ -354,7 +354,7 @@
 }
 
 .gmb h4 {
-    font-size: 13pt;
+    font-size: 14pt;
     -webkit-text-stroke-width: .5px
 }
 
@@ -398,6 +398,7 @@
     border-bottom-style: solid;
     border-bottom-color: var(--color-headers-main);
     border-bottom-width: 2px;
+    -webkit-text-stroke-width: .3px
 }
 
 /*** Headers END ***/
