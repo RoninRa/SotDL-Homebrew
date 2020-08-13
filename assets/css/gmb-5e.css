@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-family: 'Poison Hope';
+    font-family: MrJeeves;
     src: url('/SotDL-Homebrew/assets/fonts/PoisonHope-Regular.ttf')
 }
 
@@ -820,7 +820,7 @@
 }
 
 .gmb div.credits h1.credits {
-    font-family: 'Poison Hope';
+    font-family: MrJeeves;
     font-weight: normal;
     font-size: 32pt;
     text-align: center;
@@ -828,7 +828,7 @@
 }
 
 .gmb div.credits p {
-    font-family: 'Poison Hope';
+    font-family: MrJeeves;
     font-weight: normal;
     font-size: 13pt;
     color: var(--color-text-main);
