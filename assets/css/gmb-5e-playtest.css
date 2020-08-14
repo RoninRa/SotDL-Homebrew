@@ -1,11 +1,11 @@
 /** Global properties **/
 
 :root {
-    --img-header-banner: url(../img/header-banner.png);
+    /* --img-header-banner: url(../img/header-banner.png); */
     --img-main-bg: white;
     --img-bg-border: none;
     --img-bg-page-number: none;
-    --img-parchment: url(../img/parchment.png);
+    /* --img-parchment: url(../img/parchment.png); */
     --color-headers-main: black;
     --color-text-main: black;
     --color-strong: black;
@@ -22,7 +22,7 @@
 /** Global properties END **/
 
 .gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
-    font-family: 'GothamBold';
+    font-family: MrJeeves;
 }
 
 .gmb hr+section blockquote h2+p {
