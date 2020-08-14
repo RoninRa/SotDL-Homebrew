@@ -492,9 +492,9 @@
 
 .gmb img.dnd5e {
     position: absolute;
-    width: 150px;
-    bottom: 15px;
-    right: 16px;
+    height: 150px;
+    bottom: 25px;
+    right: 25px;
     z-index: 5;
 }
 
