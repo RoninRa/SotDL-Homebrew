@@ -642,7 +642,7 @@
     background-color: transparent;
     background-image: var(--img-parchment);
     background-size: 100% 100%;
-    padding: 10px 10px 15px 10px;
+    padding: 10px 20px 15px 15px;
     overflow: hidden;
     box-shadow: unset;
     /* -webkit-filter: drop-shadow(7px 7px 4px #000); */
@@ -679,10 +679,10 @@
 
 .gmb blockquote.note {
     background-image: var(--img-parchment-long);
-    padding: 20px 15px 20px 15px;
+    padding: 20px 25px 20px 15px;
     overflow: hidden;
     height: auto;
-    margin-right: -10px;
+    margin-right: -15px;
     margin-left: -10px;
 }
 
@@ -700,9 +700,9 @@
 
 .gmb div.patreon blockquote {
     position: absolute;
-    bottom: 50px;
-    right: 40px;
-    width: 340px;
+    bottom: 35px;
+    right: 15px;
+    width: 350px;
     text-align: center;
 }
 
