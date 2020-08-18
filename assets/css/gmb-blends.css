@@ -56,7 +56,7 @@ img.half-bottom {
     z-index: -3;
 }
 
-.gmb .blend-half-right, .gmb .blend-half-left, .gmb .blend-half-top, .gmb .blend-half-bottom, .gmb .blend-corner-topright, .gmb .blend-corner-topleft, .gmb .blend-corner-bottomright, .gmb .blend-corner-bottomleft, .gmb .blend-corner-topright-inverted, .gmb .blend-corner-topleft-inverted, .gmb .blend-corner-topleft-inverted-small, .gmb .blend-corner-topright-inverted-small, .gmb .blend-onethird-top, .gmb .blend-onethird-bottom, .gmb .blend-twothirds-top, .gmb .blend-twothirds-bottom {
+.gmb .blend-half-right, .gmb .blend-half-left, .gmb .blend-half-top, .gmb .blend-half-bottom, .gmb .blend-corner-topright, .gmb .blend-corner-topleft, .gmb .blend-corner-bottomright, .gmb .blend-corner-bottomleft, .gmb .blend-corner-topright-inverted, .gmb .blend-corner-topleft-inverted, .gmb .blend-corner-topleft-inverted-small, .gmb .blend-corner-topright-inverted-small, .gmb .blend-corner-topright-quarter, .gmb .blend-corner-bottomright-quarter, .gmb .blend-corner-topleft-quarter, .gmb .blend-corner-bottomleft-quarter, .gmb .blend-onethird-top, .gmb .blend-onethird-bottom, .gmb .blend-twothirds-top, .gmb .blend-twothirds-bottom {
     position: absolute;
     top: 0;
     left: 0;
@@ -121,6 +121,26 @@ img.half-bottom {
 .gmb .blend-corner-topleft-inverted-small {
     background-image: var(--blend-corner-inverted-small);
     transform: scaleX(-1);
+}
+
+.gmb .blend-corner-topright-quarter {
+    background-image: var(--blend-corner-quarter);
+}
+
+.gmb .blend-corner-bottomright-quarter {
+    background-image: var(--blend-corner-quarter);
+    transform: scaleY(-1);
+}
+
+.gmb .blend-corner-topleft-quarter {
+    background-image: var(--blend-corner-quarter);
+    transform: scaleX(-1);
+}
+
+.gmb .blend-corner-bottomleft-quarter {
+    background-image: var(--blend-corner-quarter);
+    transform: scaleX(-1);
+    transform: scaleY(-1);
 }
 
 .gmb .blend-onethird-bottom {
