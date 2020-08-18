@@ -191,7 +191,6 @@
     --img-header-banner-round: url(https://www.gmbinder.com/assets/img/pph.png);
     --img-main-bg: url(https://www.gmbinder.com/assets/img/phb_bg.png);
     --img-bg-border: url(https://www.gmbinder.com/assets/img/footer.png);
-    --img-bg-page-number: url(../img/pentagram.png);
     --img-parchment: url(../img/backgrounds/old-parchment.png);
     --img-parchment-long: url(../img/backgrounds/old-parchment.png);
     --img-separator-diamond: url(https://www.gmbinder.com/assets/img/DiamondDD.png);
@@ -202,7 +201,7 @@
     --color-monster-h1-bg: black;
     --color-monster-h2-bg: #58180D;
     --color-monster-h3-bg: #A7A9AC;
-    --color-header-border: #c9ad6a;
+    --color-header-border: #AA3411;
     --color-table-header-bg: black;
     --color-table-main-bg: initial;
     --color-table-alt-bg: #d1d5d6;
@@ -934,7 +933,7 @@
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
     content: "";
     position: absolute;
-    background-image: var(--img-bg-page-number), var(--img-bg-border);
+    background-image: var(--img-bg-border);
     background-size: cover;
     left: 0;
     bottom: 0;
