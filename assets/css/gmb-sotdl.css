@@ -56,6 +56,7 @@
     --blend-onethird: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png');
     --blend-twothirds: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png');
     --blend-corner-inverted: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted.png');
+    --blend-corner-inverted-small: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted-small.png');
 }
 
 /** Global properties END **/
