@@ -32,12 +32,12 @@
 /** Global properties **/
 
 :root {
-    --img-header-banner: url(../img/header-banner.png);
-    --img-main-bg: url(../img/sotdl_background.jpg);
-    --img-bg-border: url(../img/sotdl_background_border.png);
-    --img-bg-page-number: url(../img/pentagram.png);
-    --img-parchment: url(../img/parchment.png);
-    --img-parchment-long: url(../img/parchment-long.png);
+    --img-header-banner: url(../img/backgrounds/header-banner.png);
+    --img-main-bg: url(../img/backgrounds/sotdl_background.jpg);
+    --img-bg-border: url(../img/backgrounds/sotdl_background_border.png);
+    --img-bg-page-number: url(../img/backgrounds/pentagram.png);
+    --img-parchment: url(../img/backgrounds/parchment.png);
+    --img-parchment-long: url(../img/backgrounds/parchment-long.png);
     --color-headers-main: #800000;
     --color-text-main: black;
     --color-strong: black;
