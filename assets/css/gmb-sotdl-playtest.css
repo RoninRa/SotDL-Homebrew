@@ -1,11 +1,9 @@
 /** Global properties **/
 
 :root {
-    --img-header-banner: url(../img/header-banner.png);
     --img-main-bg: white;
     --img-bg-border: none;
     --img-bg-page-number: none;
-    --img-parchment: url(../img/parchment.png);
     --color-headers-main: black;
     --color-text-main: black;
     --color-strong: black;
