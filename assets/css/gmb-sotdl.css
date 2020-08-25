@@ -388,6 +388,11 @@
     font-size: 10pt;
 }
 
+.gmb table em {
+    font-family: 'GothamBook';
+    font-weight: normal;
+}
+
 /*** Tables END ***/
 
 /*** Blockquote ***/
