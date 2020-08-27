@@ -398,16 +398,17 @@
 /*** Blockquote ***/
 
 .gmb blockquote {
-    border-image: none;
-    border: none;
+    border: 1px solid orange;
+    border-image-source: var(--img-parchment);
+    border-image-slice: 20 fill;
+    border-image-width: 20;
+    border-image-outset: 5;
+    border-image-repeat: round;
     background-color: transparent;
-    background-image: var(--img-parchment);
     background-size: 100% 100%;
-    padding: 10px 10px 15px 10px;
+    padding: 10px 10px 20px 12px;
     overflow: hidden;
     box-shadow: unset;
-    /* -webkit-filter: drop-shadow(7px 7px 4px #000);
-    filter: drop-shadow(7px 7px 4px #000); */
 }
 
 .gmb blockquote h5, .gmb blockquote h3 {
@@ -438,7 +439,12 @@
 /*** Note block ***/
 
 .gmb blockquote.note {
-    background-image: var(--img-parchment-long);
+    border: 1px solid orange;
+    border-image-source: var(--img-parchment);
+    border-image-slice: 20 fill;
+    border-image-width: 20;
+    border-image-outset: 5;
+    border-image-repeat: round;
     padding: 20px 15px 20px 15px;
     overflow: hidden;
     height: auto;
@@ -494,16 +500,7 @@
 /* Credits blockquote */
 
 .gmb blockquote.credits {
-    border-image: none;
-    border: none;
-    background-color: transparent;
-    background-image: var(--img-parchment);
-    background-size: 100% 100%;
-    /* -webkit-filter: drop-shadow(7px 7px 4px #000);
-    filter: drop-shadow(7px 7px 4px #000); */
-    padding: 20px 10px 20px 10px;
     text-shadow: none;
-    margin-top: 0px;
 }
 
 .gmb blockquote.credits h1.credits {
@@ -535,10 +532,6 @@
 .gmb blockquote.credits p span.before-colon {
     color: var(--color-headers-main);
 }
-
-/* .gmb blockquote.credits p span.after-colon {
-    line-height: 2em;
-} */
 
 .gmb blockquote.credits div.acknowledgements p {
     font-family: Athelas;
