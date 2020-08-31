@@ -157,11 +157,12 @@
 .gmb h2.title {
     font-family: Athelas;
     color: var(--color-text-main);
+    font-size: 18pt;
     font-style: italic;
     font-weight: bold;
-    font-size: 19pt;
     text-align: center;
     text-transform: none;
+    margin: 0 50px 0 50px;
 }
 
 .gmb h1+p::first-letter {
