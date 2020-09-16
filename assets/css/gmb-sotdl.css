@@ -1,10 +1,4 @@
-/** Import Fonts **/
-
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
-@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
-@import url('../fonts/SotDL/stylesheet.css');
-/** Import Fonts END **/
-
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/SotDL/stylesheet.css');
 /** Global properties **/
 
 :root {
