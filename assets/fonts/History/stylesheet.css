@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'History';
+    src: url('History.woff2') format('woff2'),
+        url('History.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urban Bold Inline Grunge';
+    src: url('UrbanBoldInlineGrunge.woff2') format('woff2'),
+        url('UrbanBoldInlineGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monophone bold grunge';
+    src: url('Monophoneboldgrunge.woff2') format('woff2'),
+        url('Monophoneboldgrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Urban Bold Inline';
+    src: url('UrbanBoldInline.woff2') format('woff2'),
+        url('UrbanBoldInline.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monophone';
+    src: url('Monophonebold.woff2') format('woff2'),
+        url('Monophonebold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

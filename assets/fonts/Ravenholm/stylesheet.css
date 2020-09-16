@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Ravenholm Bold';
+    src: url('Ravenholm Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ravenholm Inline';
+    src: url('Ravenholm Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ravenholm Slant';
+    src: url('Ravenholm Slant.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ravenholm Thin';
+    src: url('Ravenholm Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

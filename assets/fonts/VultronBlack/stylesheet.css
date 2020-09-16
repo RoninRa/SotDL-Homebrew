@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Vultron';
+    src: url('VultronBlack.woff2') format('woff2'),
+        url('VultronBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vultron Black Grunge';
+    src: url('VultronBlackGrunge.woff2') format('woff2'),
+        url('VultronBlackGrunge.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+

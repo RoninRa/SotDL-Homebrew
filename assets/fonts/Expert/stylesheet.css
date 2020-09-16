@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Expert 2.0';
+    src: url('Expert20-Regular.woff2') format('woff2'),
+        url('Expert20-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Expert';
+    src: url('Expert-Regular.woff2') format('woff2'),
+        url('Expert-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

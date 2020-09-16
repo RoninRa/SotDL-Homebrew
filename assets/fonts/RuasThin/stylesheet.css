@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Ruas';
+    src: url('RuasThin.woff2') format('woff2'),
+        url('RuasThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ruas Thin Grunge';
+    src: url('RuasThinGrunge.woff2') format('woff2'),
+        url('RuasThinGrunge.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+

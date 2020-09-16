@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Obsypac';
+    src: url('Obsypac.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Obsypac Italic';
+    src: url('Obsypac Italic.otf') format('otf');
+    font-weight: normal;
+    font-style: italic;
+}

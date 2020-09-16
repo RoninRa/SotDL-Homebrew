@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Riotic rough';
+    src: url('Riotic Typeface rough.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Riotic';
+    src: url('Riotic Typeface.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}

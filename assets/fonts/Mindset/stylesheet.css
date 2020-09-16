@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Mindset';
+    src: url('Mindset.woff2') format('woff2'),
+        url('Mindset.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

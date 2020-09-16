@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Watson Bold Inline Grunge';
+    src: url('WatsonBoldInlineGrunge.woff2') format('woff2'),
+        url('WatsonBoldInlineGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Watson Bold Inline';
+    src: url('WatsonBoldInline.woff2') format('woff2'),
+        url('WatsonBoldInline.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

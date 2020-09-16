@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Giant';
+    src: url('GiantBold.woff2') format('woff2'),
+        url('GiantBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Giant Bold Grunge';
+    src: url('GiantBoldGrunge.woff2') format('woff2'),
+        url('GiantBoldGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+

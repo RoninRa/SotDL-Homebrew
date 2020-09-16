@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Amstrong';
+    src: url('AMSTRONG.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amstrong Ornament';
+    src: url('AMSTRONG ORNAMENT.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}

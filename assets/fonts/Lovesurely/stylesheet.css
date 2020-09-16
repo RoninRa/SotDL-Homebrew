@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Lovesurely';
+    src: url('Lovesurely.woff2') format('woff2'),
+        url('Lovesurely.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Demonius Bold Inline Grunge';
+    src: url('DemoniusBoldInlineGrunge.woff2') format('woff2'),
+        url('DemoniusBoldInlineGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Demonius Bold Inline';
+    src: url('DemoniusBoldInline.woff2') format('woff2'),
+        url('DemoniusBoldInline.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Demonius Bold Grunge';
+    src: url('DemoniusBoldGrunge.woff2') format('woff2'),
+        url('DemoniusBoldGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Demonius';
+    src: url('DemoniusBold.woff2') format('woff2'),
+        url('DemoniusBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Annabel Bold Inline 1';
+    src: url('AnnabelBoldInline1.woff2') format('woff2'),
+        url('AnnabelBoldInline1.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Annabel Bold Inline Grunge 1';
+    src: url('AnnabelBoldInlineGrunge1.woff2') format('woff2'),
+        url('AnnabelBoldInlineGrunge1.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Annabel Bold Inline';
+    src: url('AnnabelBoldInline.woff2') format('woff2'),
+        url('AnnabelBoldInline.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Annabel Bold Inline Grunge';
+    src: url('AnnabelBoldInlineGrunge.woff2') format('woff2'),
+        url('AnnabelBoldInlineGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

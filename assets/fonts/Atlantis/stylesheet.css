@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Atlantis Bold Inline';
+    src: url('AtlantisBoldInline.woff2') format('woff2'),
+        url('AtlantisBoldInline.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Atlantis Bold Inline Grunge';
+    src: url('AtlantisBoldInlineGrunge.woff2') format('woff2'),
+        url('AtlantisBoldInlineGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

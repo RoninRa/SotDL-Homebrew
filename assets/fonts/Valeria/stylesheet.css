@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Valeria Bold Inline';
+    src: url('ValeriaBoldInline.woff2') format('woff2'),
+        url('ValeriaBoldInline.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Valeria Bold Inline Grunge';
+    src: url('ValeriaBoldInlineGrunge.woff2') format('woff2'),
+        url('ValeriaBoldInlineGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

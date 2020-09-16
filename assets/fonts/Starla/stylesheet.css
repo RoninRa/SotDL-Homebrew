@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Starla Bold Inline Grunge';
+    src: url('StarlaBoldInlineGrunge.woff2') format('woff2'),
+        url('StarlaBoldInlineGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Starla Bold Inline';
+    src: url('StarlaBoldInline.woff2') format('woff2'),
+        url('StarlaBoldInline.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

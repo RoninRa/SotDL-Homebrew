@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'California Freestyle slant';
+    src: url('California Freestyle slant.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'California Freestyle';
+    src: url('California Freestyle.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'California Swash';
+    src: url('California Swash.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Hillpark';
+    src: url('Hillpark-Bold.woff2') format('woff2'),
+        url('Hillpark-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

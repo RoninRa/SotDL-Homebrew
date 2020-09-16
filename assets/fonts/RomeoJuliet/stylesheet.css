@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Romeo Juliet';
+    src: url('RomeoJuliet.woff2') format('woff2'),
+        url('RomeoJuliet.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

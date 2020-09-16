@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Kiko';
+    src: url('KikoBold.woff2') format('woff2'),
+        url('KikoBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kiko Bold Grunge';
+    src: url('KikoBoldGrunge.woff2') format('woff2'),
+        url('KikoBoldGrunge.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
