@@ -1,39 +1,38 @@
-/* @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/SotDL/stylesheet.css'); */
-
-@font-face {
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/SotDL/stylesheet.css');
+/* @font-face {
     font-family: 'First Order';
-    src: url('../fonts/SotDL/firstv2.ttf') format('ttf');
+    src: url('../fonts/SotDL/firstv2.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GothamBold';
-    src: url('../fonts/SotDL/Gotham-Bold.otf') format('otf');
-    font-weight: bold;
+    src: url('../fonts/SotDL/Gotham-Bold.otf');
+    font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GothamBook';
-    src: url('../fonts/SotDL/Gotham-Book.otf') format('otf');
+    src: url('../fonts/SotDL/Gotham-Book.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'JSL Ancient';
-    src: url('../fonts/SotDL/jancieni.ttf') format('ttf');
+    src: url('../fonts/SotDL/jancieni.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Poison Hope';
-    src: url('../fonts/SotDL/PoisonHope-Regular.ttf') format('ttf');
+    src: url('../fonts/SotDL/PoisonHope-Regular.ttf');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 /** Global properties **/
 
