@@ -1,24 +1,34 @@
 @font-face {
     font-family: 'First Order';
-    src: url('../fonts/firstv2.ttf')
+    src: url('../fonts/firstv2.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'GothamBold';
-    src: url('../fonts/Gotham-Bold.otf')
+    src: url('../fonts/Gotham-Bold.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'GothamBook';
-    src: url('../fonts/Gotham-Book.otf')
+    src: url('../fonts/Gotham-Book.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'JSL Ancient';
-    src: url('../fonts/jancieni.ttf')
+    src: url('../fonts/jancieni.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Poison Hope';
-    src: url('../fonts/PoisonHope-Regular.ttf')
+    src: url('../fonts/PoisonHope-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
 }
