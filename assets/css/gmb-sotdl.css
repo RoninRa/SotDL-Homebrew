@@ -761,6 +761,12 @@ div#p1::after {
     letter-spacing: -0.01em;
 }
 
+.gmb ul ul, .gmb ol ol, .gmb ul ol, .gmb ol ul {
+    margin-bottom: 0;
+    margin-left: 0;
+    line-height: inherit;
+}
+
 /*** Lists END ***/
 
 /** Monster Stat Block **/
