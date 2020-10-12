@@ -82,10 +82,10 @@
 
 .gmb h1.title {
     background-image: var(--img-header-banner);
-    background-size: 100% 100%;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    background-size: 100% 106%;
+    padding: 20px 0;
     margin: 0px -65px 0px -65px;
+    text-align: center;
 }
 
 .gmb h1.title span {
@@ -100,7 +100,7 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-fill-color: #f3ebebd1;
     position: relative;
-    left: 20%;
+    /* left: 20%; */
     bottom: 5px;
 }
 
