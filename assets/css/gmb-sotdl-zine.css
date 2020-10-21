@@ -984,6 +984,7 @@ div#p1::after {
     margin: 0px;
     width: 70%;
     text-align: left;
+    text-shadow: none;
     text-transform: uppercase;
 }
 
