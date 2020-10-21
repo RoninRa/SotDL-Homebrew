@@ -35,6 +35,26 @@
 		],
 		"description": "A pagebreak with pagenumber."
 	},
+	"Page Break Num Footer": {
+		"prefix": [
+			"pagebreakNumFooter",
+			"pbreakNumFoot"
+		],
+		"body": [
+			"\n<div class=\"footer\"><\/div>\n\n\\pagebreakNum\n"
+		],
+		"description": "A pagebreak with pagenumber and Footer."
+	},
+	"Footer": {
+		"prefix": [
+			"footer",
+			"foot"
+		],
+		"body": [
+			"\n<div class=\"footer\"><\/div>\n"
+		],
+		"description": "Footer div."
+	},
 	"Column break": {
 		"prefix": [
 			"colbreak",
