@@ -277,7 +277,7 @@
     toc specifically wants black text. This resets the headers
 } */
 
-.toc li span:nth-child(2) {
+.gmb .toc li span:nth-child(2) {
     /* Allow dot leaders to fill remaining space but not overlap */
     width: auto;
     overflow: hidden;
@@ -285,7 +285,7 @@
     display: block;
 }
 
-.toc li span:nth-child(2):after {
+.gmb .toc li span:nth-child(2):after {
     font-family: BookSanity;
     /* Remove any header styles from dot leaders */
     font-size: 1em;
@@ -294,7 +294,7 @@
     content: " ........................................" "........................................." ".........................................";
 }
 
-.toc li span:first-child {
+.gmb .toc li span:first-child {
     /* Remove any header styles from page numbers */
     float: right;
     font-family: BookSanity;
@@ -305,12 +305,12 @@
     /* Leaves a small space between page numbers and dot leaders */
 }
 
-.toc li h3 span:nth-child(2):after {
+.gmb .toc li h3 span:nth-child(2):after {
     content: " ";
     /* Remove dot leaders on h3 */
 }
 
-.toc li h3 {
+.gmb .toc li h3 {
     margin-bottom: 0.5em;
     /*Special spacing for h3*/
     margin-top: 1em;
@@ -322,22 +322,21 @@
     /* For some reason Multi-line h3 line spacing changed */
 }
 
-.toc li h3 span:first-child {
+.gmb .toc li h3 span:first-child {
     line-height: 2em;
     /* line-height: 2em !important; */
     /* Line page numbers up with Multi-line h3 better */
 }
 
-.toc ul {
+.gmb .toc ul {
     text-indent: initial;
 }
 
-/* .toc ul ul {
-    margin-left: 1em !important;
-    Original lists indented too much
-} */
+.gmb .toc ul ul {
+    margin-left: 1em;
+}
 
-.toc>ul>li {
+.gmb .toc>ul>li {
     /* margin-bottom: initial !important; */
     margin-bottom: initial;
     /* Margin for list items needs to be removed or 0 */
