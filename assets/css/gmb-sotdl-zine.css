@@ -642,6 +642,7 @@
 
 .gmb div.credits blockquote h1 {
     margin: 5px 0px 5px 0px;
+    background-image: none;
     font-size: 18pt;
     font-weight: bold;
 }
