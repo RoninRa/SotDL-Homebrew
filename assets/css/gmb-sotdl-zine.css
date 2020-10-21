@@ -618,9 +618,8 @@
 /*** Div Article Credits block ***/
 
 .gmb div.article-credits blockquote {
-    position: absolute;
-    bottom: 15px;
-    right: 20px;
+    position: relative;
+    top: 10px;
     width: 340px;
     text-align: center;
 }
@@ -645,6 +644,7 @@
     background-image: none;
     font-size: 18pt;
     font-weight: bold;
+    text-shadow: none;
 }
 
 .gmb div.article-credits blockquote h2 {
