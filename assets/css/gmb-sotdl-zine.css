@@ -272,10 +272,10 @@
 
 /* Table of Contents */
 
-.toc a {
+/* .toc a {
     color: inherit !important;
-    /* toc specifically wants black text. This resets the headers */
-}
+    toc specifically wants black text. This resets the headers
+} */
 
 .toc li span:nth-child(2) {
     /* Allow dot leaders to fill remaining space but not overlap */
@@ -313,25 +313,35 @@
 }
 
 .toc li h3 {
-    margin-bottom: 0.5em !important;
+    margin-bottom: 0.5em;
     /*Special spacing for h3*/
-    margin-top: 1em !important;
-    line-height: initial !important;
+    margin-top: 1em;
+    line-height: initial;
+    /* margin-bottom: 0.5em !important; */
+    /*Special spacing for h3*/
+    /* margin-top: 1em !important; */
+    /* line-height: initial !important; */
     /* For some reason Multi-line h3 line spacing changed */
 }
 
 .toc li h3 span:first-child {
-    line-height: 2em !important;
+    line-height: 2em;
+    /* line-height: 2em !important; */
     /* Line page numbers up with Multi-line h3 better */
 }
 
-.toc ul ul {
-    margin-left: 1em !important;
-    /* Original lists indented too much */
+.toc ul {
+    text-indent: initial;
 }
 
+/* .toc ul ul {
+    margin-left: 1em !important;
+    Original lists indented too much
+} */
+
 .toc>ul>li {
-    margin-bottom: initial !important;
+    /* margin-bottom: initial !important; */
+    margin-bottom: initial;
     /* Margin for list items needs to be removed or 0 */
 }
 
