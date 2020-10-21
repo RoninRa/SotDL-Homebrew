@@ -541,6 +541,7 @@
 
 .gmb blockquote section h1, .gmb blockquote section h2, .gmb blockquote section h3, .gmb blockquote section h4, .gmb blockquote section h5, .gmb blockquote section h6 {
     font-family: 'Poison Hope';
+    -webkit-text-fill-color: unset;
 }
 
 .gmb blockquote p {
