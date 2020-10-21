@@ -615,9 +615,9 @@
 
 /*** Patreon Credits block END ***/
 
-/*** div Credits block ***/
+/*** Div Article Credits block ***/
 
-.gmb div.credits blockquote {
+.gmb div.article-credits blockquote {
     position: absolute;
     bottom: 15px;
     right: 20px;
@@ -625,29 +625,29 @@
     text-align: center;
 }
 
-.gmb div.credits blockquote p:last-child {
+.gmb div.article-credits blockquote p:last-child {
     margin-bottom: 10px;
 }
 
-.gmb div.credits blockquote p {
+.gmb div.article-credits blockquote p {
     font-size: 1em;
 }
 
-.gmb div.credits blockquote img {
+.gmb div.article-credits blockquote img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-.gmb div.credits blockquote h1 {
+.gmb div.article-credits blockquote h1 {
     margin: 5px 0px 5px 0px;
     background-image: none;
     font-size: 18pt;
     font-weight: bold;
 }
 
-.gmb div.credits blockquote h2 {
+.gmb div.article-credits blockquote h2 {
     margin: 5px 0px 5px 0px;
     font-size: 13pt;
     font-weight: normal;
@@ -655,7 +655,7 @@
     color: black;
 }
 
-.gmb div.credits blockquote div.column-container h6 {
+.gmb div.article-credits blockquote div.column-container h6 {
     margin: 0px 0px 0px 5px;
 }
 
