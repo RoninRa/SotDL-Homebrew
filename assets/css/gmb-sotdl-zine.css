@@ -580,7 +580,7 @@
 
 /*** Note block END ***/
 
-/*** Patreon Credits block END ***/
+/*** Patreon Credits block ***/
 
 .gmb div.patreon blockquote {
     position: absolute;
@@ -610,6 +610,51 @@
 }
 
 .gmb div.patreon blockquote div.column-container h6 {
+    margin: 0px 0px 0px 5px;
+}
+
+/*** Patreon Credits block END ***/
+
+/*** div Credits block ***/
+
+.gmb div.credits blockquote {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 340px;
+    text-align: center;
+}
+
+.gmb div.credits blockquote p:last-child {
+    margin-bottom: 10px;
+}
+
+.gmb div.credits blockquote p {
+    font-size: 1em;
+}
+
+.gmb div.credits blockquote img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.gmb div.credits blockquote h1 {
+    margin: 5px 0px 5px 0px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.gmb div.credits blockquote h2 {
+    margin: 5px 0px 5px 0px;
+    font-size: 13pt;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+}
+
+.gmb div.credits blockquote div.column-container h6 {
     margin: 0px 0px 0px 5px;
 }
 
