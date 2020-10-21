@@ -270,7 +270,7 @@
 
 /*** Cover END ***/
 
-/* Table of Contents */
+/*** TOC ***/
 
 /* .toc a {
     color: inherit !important;
@@ -304,8 +304,6 @@
     margin-left: 0.5em;
     /* Leaves a small space between page numbers and dot leaders */
 }
-
-/*Special cases for headings*/
 
 .toc li h3 span:nth-child(2):after {
     content: " ";
@@ -345,7 +343,25 @@
     /* Margin for list items needs to be removed or 0 */
 }
 
-/* End Table of Contents */
+/* TOC END */
+
+/*** Footer ***/
+
+.gmb div.footer {
+    font-family: 'GothamBook';
+    position: absolute;
+    bottom: 15px;
+}
+
+.gmb:nth-child(even) .footer {
+    right: 20px;
+}
+
+.gmb:nth-child(odd) .footer {
+    left: 20px;
+}
+
+/*** Footer END ***/
 
 /*** Layout ***/
 
