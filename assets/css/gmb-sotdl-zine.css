@@ -348,9 +348,11 @@
 /*** Footer ***/
 
 .gmb div.footer {
-    font-family: 'GothamBold';
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 11pt;
     position: absolute;
-    bottom: 15px;
+    bottom: 20px;
     background-color: initial;
     padding: initial;
     width: initial;
@@ -359,11 +361,11 @@
 }
 
 .gmb:nth-child(even) .footer {
-    left: 20px;
+    left: 25px;
 }
 
 .gmb:nth-child(odd) .footer {
-    right: 20px;
+    right: 25px;
 }
 
 /*** Footer END ***/
