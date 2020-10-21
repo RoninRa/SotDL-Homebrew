@@ -260,6 +260,11 @@
     text-align: center;
 }
 
+.gmb h3.issue-date {
+    text-align: right;
+    color: white;
+}
+
 /*** Cover END ***/
 
 /*** Layout ***/
