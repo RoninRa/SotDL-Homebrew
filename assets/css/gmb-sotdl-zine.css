@@ -348,17 +348,22 @@
 /*** Footer ***/
 
 .gmb div.footer {
-    font-family: 'GothamBook';
+    font-family: 'GothamBold';
     position: absolute;
     bottom: 15px;
+    background-color: initial;
+    padding: initial;
+    width: initial;
+    display: initial;
+    justify-content: initial;
 }
 
 .gmb:nth-child(even) .footer {
-    right: 20px;
+    left: 20px;
 }
 
 .gmb:nth-child(odd) .footer {
-    left: 20px;
+    right: 20px;
 }
 
 /*** Footer END ***/
