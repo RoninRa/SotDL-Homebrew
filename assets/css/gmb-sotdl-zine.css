@@ -260,8 +260,9 @@
 }
 
 .gmb h1.cover {
-    position: relative;
-    font-family: "First Order";
+    margin: 0;
+    background-image: none;
+    font-family: 'Poison Hope';
     font-size: 50pt;
     text-align: center;
     font-weight: normal;
@@ -270,7 +271,6 @@
     text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
     -webkit-font-smoothing: antialiased;
     -webkit-text-fill-color: #f3ebebd1;
-    bottom: 5px;
 }
 
 .gmb h2.cover {
@@ -279,6 +279,7 @@
     font-size: 18pt;
     font-style: italic;
     text-align: center;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
 }
 
 .gmb h3.issue-date {
