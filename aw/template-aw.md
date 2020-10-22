@@ -22,6 +22,18 @@ Header example.
 
 Header example.
 
+### Notes
+
+Use this to add a note.
+
+> ### This is a note
+> You can use this to add clarifications, alternative rules, sidenotes, and whatever you fancy.
+>
+> Add an empty line like above to create a new paragraph in the note.
+>
+> #### Headers
+> You can use the different headers in the note too, to separate or group content.
+
 ### Creature Name
 
 Use this to add a Creature to your submission.
