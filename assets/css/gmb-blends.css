@@ -4,7 +4,7 @@ img.corner-bottomright {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 75%;
+    width: unset;
     z-index: -3;
 }
 
@@ -12,7 +12,7 @@ img.corner-bottomleft {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 75%;
+    width: unset;
     z-index: -3;
 }
 
@@ -20,7 +20,7 @@ img.corner-topleft {
     position: absolute;
     top: 0;
     left: 0;
-    width: 75%;
+    width: unset;
     z-index: -3;
 }
 
@@ -28,39 +28,39 @@ img.corner-topright {
     position: absolute;
     top: 0;
     right: 0;
-    width: 75%;
+    width: unset;
     z-index: -3;
 }
 
 img.half-left {
     position: absolute;
-    bottom: -10%;
-    left: -10%;
-    width: 65%;
+    bottom: 0;
+    left: 0;
+    width: unset;
     z-index: -3;
 }
 
 img.half-right {
     position: absolute;
-    bottom: -10%;
-    right: -10%;
-    width: 65%;
+    bottom: 0;
+    right: 0;
+    width: unset;
     z-index: -3;
 }
 
 img.half-bottom {
     position: absolute;
-    bottom: 0%;
-    left: 0%;
-    width: 100%;
+    bottom: 0;
+    left: 0;
+    width: unset;
     z-index: -3;
 }
 
 img.half-top {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
+    top: 0;
+    left: 0;
+    width: unset;
     z-index: -3;
 }
 
