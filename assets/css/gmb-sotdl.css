@@ -718,6 +718,10 @@ div#p1::after {
     text-indent: 0;
 }
 
+.gmb ul+div.column-break+ul li {
+    margin-left: 1.5em;
+}
+
 .gmb p ul li strong {
     font-family: "GothamBold";
     font-weight: normal;
