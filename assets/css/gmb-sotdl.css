@@ -708,6 +708,10 @@ div#p1::after {
     color: var(--color-strong);
 }
 
+.gmb ul p strong {
+    font-size: 9pt;
+}
+
 .gmb hr+ul li {
     list-style-type: disc;
     text-indent: 0;
