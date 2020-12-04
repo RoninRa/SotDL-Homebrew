@@ -713,7 +713,7 @@ div#p1::after {
     text-indent: 0;
 }
 
-.gmb ul li ul li {
+.gmb ul li ul li, .gmb ul+div.column-break+ul li {
     list-style-type: disc;
     text-indent: 0;
 }
