@@ -1,0 +1,1142 @@
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/SotDL/stylesheet.css');
+/** Global properties **/
+
+:root {
+    --img-header-banner: url(../img/backgrounds/header-banner.png);
+    --img-main-bg: url(../img/backgrounds/sotdl_background.jpg);
+    --img-bg-border: url(../img/backgrounds/sotdl_background_border.png);
+    --img-bg-page-number: url(../img/backgrounds/pentagram.png);
+    --img-parchment: url(../img/backgrounds/parchment.png);
+    --img-parchment-long: url(../img/backgrounds/parchment-long.png);
+    --color-headers-main: #800000;
+    --color-text-main: black;
+    --color-strong: black;
+    --color-strong-alt: #800000;
+    --color-monster-h1-bg: black;
+    --color-monster-h2-bg: #800000;
+    --color-monster-h3-bg: #A7A9AC;
+    --color-header-border: black;
+    --color-table-header-bg: black;
+    --color-table-main-bg: initial;
+    --color-table-alt-bg: white;
+    --color-link: #800000;
+    --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
+    --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
+    --blend-corner: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
+    --blend-onethird: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png');
+    --blend-twothirds: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png');
+    --blend-corner-inverted: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted.png');
+    --blend-corner-inverted-small: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted-small.png');
+    --blend-corner-quarter: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-quarter.png');
+}
+
+/** Global properties END **/
+
+/**  **/
+
+.brewRenderer .pages>.post-21 {
+    margin-bottom: 10px;
+}
+
+@media print {
+    .post-21 {
+        margin: 0;
+        height: 279.4mm;
+        width: 215.9mm;
+    }
+}
+
+.post-21 {
+    font-family: Athelas;
+    background: var(--img-main-bg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 279.4mm;
+    width: 215.9mm;
+    padding: 1.0cm 1.0cm 1.0cm 1.0cm;
+    column-fill: auto;
+    column-count: 2;
+    column-gap: 0.4cm;
+    column-width: 9cm;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0.4cm;
+    -webkit-column-width: 9cm;
+    -moz-column-count: 2;
+    -moz-column-gap: 0.4cm;
+    -moz-column-width: 9cm;
+}
+
+.post-21 a, .post-21 .custom-external-link {
+    color: var(--color-link);
+}
+
+/*** Headers ***/
+
+.post-21 img.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.post-21 h1 {
+    background-image: var(--img-header-banner);
+    background-size: 100% 106%;
+    padding: 20px 0;
+    margin: -30px -40px 10px -40px;
+    font-family: "First Order";
+    font-size: 50pt;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: #f3ebebd1;
+}
+
+.post-21 h1.title-text {
+    position: absolute;
+    left: 120px;
+    top: 200px;
+}
+
+.post-21 h1.title-text span {
+    font-family: "First Order";
+    font-size: 60pt;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: #f3ebebd1;
+    position: relative;
+}
+
+.post-21 h2.title {
+    font-family: Athelas;
+    color: var(--color-text-main);
+    font-size: 18pt;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-transform: none;
+    margin: 0 50px 0 50px;
+}
+
+.post-21 h1+p::first-letter {
+    float: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+}
+
+.post-21 h1, .post-21 h2, .post-21 h3, .post-21 h4, .post-21 h5, .post-21 h6 {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    color: var(--color-headers-main);
+    text-transform: uppercase;
+}
+
+.post-21 h2, .post-21 h3, .post-21 h4, .post-21 h5, .post-21 h6 {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.post-21 h2 {
+    font-size: 25pt;
+}
+
+.post-21 h3 {
+    border-bottom-style: none;
+    font-size: 18pt;
+    padding: 0;
+}
+
+.post-21 h4 {
+    font-size: 13pt;
+}
+
+.post-21 h4.traits {
+    font-size: 14pt;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-header-border);
+    border-bottom-width: 1.1px;
+}
+
+.post-21 h4.table {
+    font-size: 14pt;
+    text-align: center;
+}
+
+.post-21 h5 {
+    font-size: 12pt;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-header-border);
+    border-bottom-width: 1.1px;
+}
+
+.post-21 h5.table {
+    font-size: 12pt;
+    text-align: center;
+    border-bottom-style: none;
+}
+
+.post-21 h5.sidebar {
+    font-size: 12pt;
+    text-align: center;
+}
+
+.post-21 h6 {
+    font-size: 10pt;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-headers-main);
+    border-bottom-width: 1.1px;
+}
+
+/*** Headers END ***/
+
+/*** Cover ***/
+
+.post-21 img.cover-logo {
+    position: absolute;
+    width: 375px;
+    bottom: 50px;
+    left: 20px;
+    z-index: 5;
+}
+
+.post-21 img.dotdl {
+    position: absolute;
+    width: 225px;
+    bottom: 15px;
+    right: 16px;
+    z-index: 5;
+}
+
+.post-21 p.cover-footer, .post-21 p.cover-footer em {
+    font-family: Athelas;
+    bottom: 10px;
+    left: 25px;
+    text-align: left;
+    font-size: 10pt;
+    width: 550px;
+    color: #EEEEEE;
+}
+
+.post-21 h1.cover {
+    margin: 0;
+    background-image: none;
+    font-family: 'Poison Hope';
+    font-size: 50pt;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: #f3ebebd1;
+}
+
+.post-21 h2.cover {
+    font-family: 'Poison Hope';
+    color: White;
+    font-size: 18pt;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
+}
+
+.post-21 h3.issue-date {
+    color: white;
+    font-size: 13pt;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/*** Cover END ***/
+
+/*** TOC ***/
+
+.post-21 .toc li span:nth-child(2) {
+    /* Allow dot leaders to fill remaining space but not overlap */
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
+.post-21 .toc li span:nth-child(2):after {
+    font-family: BookSanity;
+    /* Remove any header styles from dot leaders */
+    font-size: 1em;
+    font-weight: normal;
+    color: black;
+    content: " ........................................" "........................................." ".........................................";
+}
+
+.post-21 .toc li span:first-child {
+    /* Remove any header styles from page numbers */
+    float: right;
+    font-family: BookSanity;
+    font-size: 1em;
+    font-weight: normal;
+    color: black;
+    margin-left: 0.5em;
+    /* Leaves a small space between page numbers and dot leaders */
+}
+
+.post-21 .toc li h3 span:nth-child(2):after {
+    content: " ";
+    /* Remove dot leaders on h3 */
+}
+
+.post-21 .toc li h3 {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    line-height: initial;
+}
+
+.post-21 .toc li h3 span:first-child {
+    line-height: 2em;
+}
+
+.post-21 .toc ul {
+    text-indent: initial;
+}
+
+.post-21 .toc ul ul {
+    margin-left: 1em;
+}
+
+.post-21 .toc>ul>li {
+    margin-bottom: initial;
+}
+
+.post-21 .toc ul li ul li {
+    list-style-type: none;
+}
+
+/* TOC END */
+
+/*** Footer ***/
+
+.post-21 div.footer {
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #9C0719;
+    position: absolute;
+    bottom: 20px;
+    background-color: initial;
+    padding: initial;
+    width: initial;
+    display: initial;
+    justify-content: initial;
+}
+
+.post-21:nth-child(even) .footer {
+    left: 25px;
+}
+
+.post-21:nth-child(odd) .footer {
+    right: 25px;
+}
+
+/*** Footer END ***/
+
+/*** Layout ***/
+
+.post-21 div.column-container {
+    column-count: 2;
+    column-span: all;
+}
+
+.post-21 div.dual-tables {
+    column-count: 2;
+}
+
+/*** Layout END ***/
+
+/*** Bold ***/
+
+.post-21 p strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 10pt;
+    color: var(--color-strong-alt);
+    letter-spacing: -0.02em;
+}
+
+.post-21 strong em, .post-21 em strong {
+    color: var(--color-strong-alt);
+    font-style: normal;
+    font-weight: bold;
+}
+
+.post-21 h5+p strong {
+    color: var(--color-strong);
+}
+
+/*** Bold END ***/
+
+/* Tables */
+
+.post-21 div.half-table table {
+    width: 50%;
+}
+
+.post-21 h4.table+table thead th, h4.table+section div table thead th, li p+table thead th, p+table thead th, .post-21 h5.table+table thead th, h5.table+section div table thead th {
+    background-color: var(--color-table-header-bg);
+    color: #ffffff;
+    font-family: "GothamBold";
+    font-size: 8pt;
+    padding: 3px 6px 3px 6px !important;
+    min-width: 34px;
+}
+
+.post-21 div.column-break+table thead th {
+    padding: 0px;
+}
+
+.post-21.ng-scope table thead th {
+    padding: 0px;
+}
+
+.post-21 table tbody tr {
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+.post-21 table tbody tr:nth-child(odd) {
+    background-color: var(--color-table-main-bg);
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+.post-21 table tbody tr:nth-child(even) {
+    background-color: var(--color-table-alt-bg);
+    font-family: "GothamBook";
+    font-size: 8pt;
+}
+
+.post-21 table tbody tr td {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    min-width: 34px;
+}
+
+.post-21 table tbody tr td p {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    text-indent: 1em;
+}
+
+.post-21 table tbody tr td ul {
+    text-indent: -1em;
+    list-style-type: none;
+}
+
+.post-21 table tbody tr td li {
+    margin-left: 5px;
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    color: var(--color-text-main);
+}
+
+.post-21 table tbody tr td strong {
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-size: 8pt;
+    color: var(--color-strong);
+}
+
+.post-21 table strong {
+    font-family: 'GothamBold';
+    font-size: 8pt;
+}
+
+.post-21 table+ul {
+    line-height: 1em;
+    margin-top: -0.5em;
+}
+
+.post-21 table+ul li {
+    font-size: 10pt;
+}
+
+.post-21 table em {
+    font-family: 'GothamBook';
+    font-weight: normal;
+}
+
+/*** Tables END ***/
+
+/*** Blockquote ***/
+
+.post-21 blockquote {
+    border: 1px solid orange;
+    border-image-source: var(--img-parchment);
+    border-image-slice: 20 fill;
+    border-image-width: 20;
+    border-image-outset: 5;
+    border-image-repeat: round;
+    background-color: transparent;
+    background-size: 100% 100%;
+    padding: 10px 10px 20px 12px;
+    overflow: hidden;
+    box-shadow: unset;
+    margin-bottom: 0;
+}
+
+.post-21 blockquote h5, .post-21 blockquote h3 {
+    border: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.post-21 blockquote h4 {
+    text-align: center;
+}
+
+.post-21 blockquote section h1, .post-21 blockquote section h2, .post-21 blockquote section h3, .post-21 blockquote section h4, .post-21 blockquote section h5, .post-21 blockquote section h6 {
+    font-family: 'Poison Hope';
+    text-shadow: none;
+    background-image: none;
+    -webkit-text-fill-color: unset;
+}
+
+.post-21 blockquote p {
+    font-size: 0.83em;
+}
+
+.post-21 blockquote section ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+/*** Blockquote END ***/
+
+/*** Note block ***/
+
+.post-21 blockquote.note {
+    border: 1px solid orange;
+    border-image-source: var(--img-parchment);
+    border-image-slice: 20 fill;
+    border-image-width: 20;
+    border-image-outset: 5;
+    border-image-repeat: round;
+    padding: 20px 15px 20px 15px;
+    overflow: hidden;
+    height: auto;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.post-21 blockquote.note table {
+    margin-bottom: 0.25em;
+}
+
+.post-21 blockquote.note table tbody tr td {
+    line-height: 1.25em;
+}
+
+/*** Note block END ***/
+
+/*** Patreon Credits block ***/
+
+.post-21 div.patreon blockquote {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 340px;
+    text-align: center;
+}
+
+.post-21 div.patreon blockquote p:last-child {
+    margin-bottom: 10px;
+}
+
+.post-21 div.patreon blockquote p {
+    font-size: 1em;
+}
+
+.post-21 div.patreon blockquote img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.post-21 div.patreon blockquote h5 {
+    margin: 10px 0px 10px 0px;
+}
+
+.post-21 div.patreon blockquote div.column-container h6 {
+    margin: 0px 0px 0px 5px;
+}
+
+/*** Patreon Credits block END ***/
+
+/*** Div Article Credits block ***/
+
+.post-21 div.article-credits blockquote {
+    position: relative;
+    top: 10px;
+    width: 340px;
+    text-align: center;
+}
+
+.post-21 div.article-credits blockquote p:last-child {
+    margin-bottom: 10px;
+}
+
+.post-21 div.article-credits blockquote p {
+    font-size: 1em;
+}
+
+.post-21 div.article-credits blockquote img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.post-21 div.article-credits blockquote h1 {
+    margin: 5px 0px 5px 0px;
+    font-size: 18pt;
+    font-weight: bold;
+    padding: 0;
+}
+
+.post-21 div.article-credits blockquote h2 {
+    margin: 5px 0px 5px 0px;
+    font-size: 13pt;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+}
+
+.post-21 div.article-credits blockquote div.column-container h6 {
+    margin: 0px 0px 0px 5px;
+}
+
+/*** Patreon Credits block END ***/
+
+/* Credits blockquote */
+
+.post-21 blockquote.credits {
+    text-shadow: none;
+}
+
+.post-21 blockquote.credits h1.credits {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 18pt;
+    text-align: center;
+    border: none;
+}
+
+.post-21 blockquote.credits p {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 10pt;
+    color: var(--color-text-main);
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 0px;
+    text-shadow: none;
+}
+
+.post-21 blockquote.credits p strong em {
+    font-family: Athelas;
+    color: var(--color-strong);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.post-21 blockquote.credits p span.before-colon {
+    color: var(--color-headers-main);
+}
+
+.post-21 blockquote.credits div.acknowledgements p {
+    font-family: Athelas;
+    font-weight: normal;
+    font-size: 8pt;
+    letter-spacing: -0.02em;
+}
+
+.post-21 blockquote.credits div.acknowledgements p strong {
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 8pt;
+    color: var(--color-strong);
+    letter-spacing: -0.03em;
+}
+
+.post-21 blockquote.credits img.credits-image {
+    width: 45%;
+    display: block;
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*** Credits block END ***/
+
+/* Credits div */
+
+.post-21 div.credits {
+    border-image: none;
+    border: none;
+    padding: 20px 10px 20px 10px;
+    text-shadow: none;
+}
+
+.post-21 div.credits h1, .post-21 div.credits h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post-21 div.credits h1.credits {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 32pt;
+    text-align: center;
+    border: none;
+}
+
+.post-21 div.credits p {
+    font-family: 'Poison Hope';
+    font-weight: normal;
+    font-size: 13pt;
+    color: var(--color-text-main);
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 0px;
+    text-shadow: none;
+}
+
+.post-21 div.credits p strong em {
+    color: var(--color-strong);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.post-21 div.credits p span.before-colon {
+    color: var(--color-headers-main);
+}
+
+.post-21 div.credits div.acknowledgements p {
+    font-family: Athelas;
+    font-weight: normal;
+    font-size: 10pt;
+    letter-spacing: -0.02em;
+}
+
+.post-21 div.credits div.acknowledgements strong {
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 10pt;
+    color: var(--color-strong);
+    letter-spacing: -0.03em;
+}
+
+.post-21 div.credits img.credits-image {
+    width: auto;
+    display: block;
+    position: initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*** Credits div END ***/
+
+.post-21 .descriptive {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.post-21 .descriptive h5 {
+    font-style: normal;
+    color: var(--color-text-main);
+    text-align: center;
+}
+
+/** Page number **/
+
+.post-21 .pageNumber, .post-21 .pageNumber.auto {
+    font-family: "Poison Hope";
+    font-size: 13pt;
+    color: #ffffff;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+    text-align: center;
+}
+
+.post-21:nth-child(odd) .pageNumber, .post-21:nth-child(even) .pageNumber {
+    right: 0px;
+    bottom: 32px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.post-21:nth-child(odd) .pageNumber {
+    left: 30px;
+}
+
+.post-21:nth-child(even) .pageNumber {
+    left: 735px;
+}
+
+.post-21:nth-child(odd)::after, .post-21:nth-child(even)::after {
+    content: "";
+    background: none;
+    background-image: var(--img-bg-page-number), var(--img-bg-border);
+    background-size: 100px 100px, 780px 1046px;
+    background-repeat: no-repeat;
+    background-position: 20px calc(100% - 5px), bottom;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    left: -10px;
+    bottom: 0;
+    height: 100%;
+    z-index: -2;
+    padding: 0px;
+}
+
+.post-21:nth-child(even)::after {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+div#p1::after {
+    background-image: none;
+}
+
+.post-21 .footnote {
+    color: var(--color-strong);
+    font-family: "Athelas";
+    font-weight: bold;
+    font-size: .8em;
+    width: 200px;
+    bottom: 20px;
+}
+
+/*** Page number END ***/
+
+.html-code code {
+    visibility: visible;
+    box-shadow: 1px 1px 1px black;
+    background-color: #aaa;
+    font-family: 'Lucida Console'
+}
+
+.post-21 hr {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    position: relative;
+}
+
+/*** Lists ***/
+
+.post-21 ul {
+    text-indent: -1em;
+    list-style-type: none;
+}
+
+.post-21 ul strong, .post-21 ul p strong, .post-21 ol strong {
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-size: 10pt;
+    letter-spacing: -0.02em;
+    color: var(--color-strong);
+}
+
+.post-21 hr+ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+.post-21 ul li ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+.post-21 p ul li strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 10pt;
+    color: var(--color-strong-alt);
+    letter-spacing: -0.02em;
+}
+
+.post-21 p ul li ul li strong, .post-21 p+ul li strong {
+    font-family: "GothamBold";
+    font-weight: normal;
+    font-size: 10pt;
+    color: var(--color-strong);
+    letter-spacing: -0.02em;
+}
+
+.post-21 ul li p {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: inherit;
+}
+
+.post-21 ul li div.column-break+p {
+    text-indent: 1em;
+}
+
+.post-21 p+ul {
+    margin-top: -0.8em;
+}
+
+.post-21 p.list-indent {
+    margin-left: 1em;
+    line-height: 1em;
+    text-indent: 1em;
+}
+
+.post-21 p, .post-21 li, .post-21 ol {
+    font-family: 'Athelas';
+    font-size: 11pt;
+    text-align: left;
+    letter-spacing: -0.01em;
+}
+
+.post-21 ul ul, .post-21 ol ol, .post-21 ul ol, .post-21 ol ul {
+    margin-bottom: 0;
+    margin-left: 0;
+    line-height: inherit;
+}
+
+/*** Lists END ***/
+
+/** Monster Stat Block **/
+
+.post-21 hr+section blockquote {
+    padding: 0px;
+    box-shadow: none;
+    border-style: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.post-21 hr+section blockquote h1 {
+    font-family: Athelas;
+    background-color: var(--color-monster-h1-bg);
+    background-image: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 5px;
+    float: left;
+    margin: 0px;
+    width: 70%;
+    text-align: left;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.post-21 hr+section blockquote h2 {
+    font-family: Athelas;
+    font-weight: normal;
+    font-size: 8pt;
+    font-style: initial;
+    color: white;
+    background-color: var(--color-monster-h1-bg);
+    padding: 5px;
+    float: right;
+    width: 30%;
+    height: 27px;
+    margin: 0px;
+    text-align: right;
+}
+
+.post-21 hr+section blockquote h3 {
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 9pt;
+    color: var(--color-strong);
+    background-color: var(--color-monster-h3-bg);
+    padding: 3px;
+    padding-left: 5px;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+.post-21 hr+section blockquote h2+p {
+    clear: both;
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 9pt;
+    color: white;
+    background-color: var(--color-monster-h2-bg);
+    padding: 3px;
+    padding-left: 5px;
+}
+
+.post-21 hr+section blockquote h2+p+hr, .post-21 hr+section blockquote h3+hr {
+    display: none;
+}
+
+.post-21 hr+section blockquote section section ul li {
+    text-indent: inherit;
+    margin-bottom: 0px;
+}
+
+.post-21 hr+section blockquote hr+ul li {
+    margin-left: 5px;
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    color: var(--color-text-main);
+}
+
+.post-21 hr+section blockquote ul li strong {
+    font-family: 'GothamBold';
+    font-weight: bold;
+    font-size: 8pt;
+    color: var(--color-strong);
+}
+
+.post-21 hr+section blockquote ul+hr {
+    border-color: #800000;
+}
+
+.post-21 hr+section blockquote h1+hr {
+    visibility: hidden;
+    margin: 0;
+    height: 0;
+}
+
+.post-21 hr+section blockquote h1+hr+section h2:before {
+    content: "";
+}
+
+.post-21 hr+section blockquote h2:before {
+    content: "DIFFICULTY ";
+}
+
+/*** Monster Stats END ***/
+
+/** Spells **/
+
+.post-21 div.spell h1 {
+    font-family: Athelas;
+    font-size: 10pt;
+    color: var(--color-headers-main);
+    font-weight: bold;
+    background-image: none;
+    padding: 5px 0px 5px 0px;
+    float: left;
+    margin: 0px;
+    display: block;
+    text-align: left;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.post-21 div.spell h2 {
+    font-family: Athelas;
+    font-size: 7pt;
+    color: var(--color-headers-main);
+    font-weight: bold;
+    font-style: initial;
+    padding: 8px 0px 5px 0px;
+    float: right;
+    margin: 0px;
+    text-align: right;
+    display: block;
+    text-transform: uppercase;
+}
+
+.post-21 div.spell hr {
+    background-image: none;
+    visibility: visible;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.1px 0px 0px 0px;
+    position: relative;
+}
+
+.post-21 div.spell h2+hr {
+    border-width: 2px 0px 0px 0px;
+    width: 100%;
+}
+
+.post-21 div.spell p {
+    font-size: 9pt;
+}
+
+.post-21 div.spell p strong {
+    font-size: 8pt;
+}
+
+.post-21 div.spell ul {
+    margin-top: .25em;
+    margin-bottom: .25em;
+    padding-left: 1em;
+    text-indent: initial;
+    list-style-type: none;
+}
+
+.post-21 div.spell ul li {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    list-style-type: none;
+}
+
+.post-21 div.spell ul li strong {
+    font-family: 'GothamBold';
+    font-size: 8pt;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+}
+
+/*** Spells END ***/
+
+/*** Ad Page ***/
+
+.post-21 div.ad-page {
+    column-span: all;
+    -webkit-column-span: all;
+    -moz-column-span: all;
+}
+
+.post-21 div.ad-page h3 {
+    color: var(--color-main);
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+.post-21 div.ad-page div.grid {
+    display: grid;
+    grid-template-columns: 150px 500px;
+    grid-gap: 2rem;
+}
+
+.post-21 div.ad-page div.grid img {
+    width: 150px;
+    box-shadow: 7px 7px 5px 1px #1A1B1B;
+}
+
+/*** Ad Page END***/
