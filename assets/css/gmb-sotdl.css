@@ -708,7 +708,7 @@ div#p1::after {
     color: var(--color-strong);
 }
 
-.gmb ul p strong {
+.gmb ul p strong, .gmb ul li ul li strong {
     font-size: 9pt;
 }
 
