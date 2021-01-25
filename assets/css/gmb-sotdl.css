@@ -733,7 +733,7 @@ div#p1::after {
     color: var(--color-strong);
 }
 
-.gmb ul p strong, .gmb ul li ul li strong, .gmb ul li strong+strong {
+.gmb ul li ul li strong, .gmb ul li strong+strong {
     font-size: 9pt;
 }
 
