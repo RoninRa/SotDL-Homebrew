@@ -11,5 +11,14 @@
         "magelock",
         "paviser",
         "wyrdwood"
+    ],
+    "grammarly.audience": "general",
+    "grammarly.dialect": "american",
+    "grammarly.domain": "creative",
+    "grammarly.emotions": [
+        "neutral"
+    ],
+    "grammarly.goals": [
+        "inform"
     ]
 }
