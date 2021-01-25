@@ -708,7 +708,7 @@ div#p1::after {
 
 .gmb ol>li {
     margin: 0;
-    padding: 0 0 0 0.5em;
+    padding: 0 0 0 2em;
     text-indent: -1em;
     list-style-type: none;
     counter-increment: item;
