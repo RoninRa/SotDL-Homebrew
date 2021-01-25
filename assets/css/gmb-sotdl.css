@@ -498,7 +498,7 @@
     font-weight: normal;
     font-size: 10pt;
     color: var(--color-text-main);
-    margin-top: 5px;
+    margin-top: -5px;
     text-align: center;
     padding-bottom: 0px;
     text-shadow: none;
