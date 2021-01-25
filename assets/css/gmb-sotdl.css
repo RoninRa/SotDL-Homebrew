@@ -370,6 +370,10 @@
     margin: 2px 0 2px 0;
 }
 
+.gmb ul li table tbody tr td {
+    padding: .1em .1em;
+}
+
 /*** Tables END ***/
 
 /*** Blockquote ***/
