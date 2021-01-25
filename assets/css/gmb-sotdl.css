@@ -700,6 +700,31 @@ div#p1::after {
     list-style-type: none;
 }
 
+.gmb ol {
+    margin: 0 0 1.5em;
+    padding: 0;
+    counter-reset: item;
+}
+
+.gmb ol>li {
+    margin: 0;
+    padding: 0 0 0 0.5em;
+    text-indent: -1em;
+    list-style-type: none;
+    counter-increment: item;
+}
+
+.gmb ol>li:before {
+    display: inline-block;
+    width: 1em;
+    padding-right: 0.5em;
+    font-family: 'GothamBold';
+    font-weight: bold;
+    font-size: 9pt;
+    text-align: right;
+    content: counter(item) ".";
+}
+
 .gmb ul strong, .gmb ul p strong, .gmb ol strong {
     font-family: 'GothamBold';
     font-weight: normal;
