@@ -366,6 +366,10 @@
     font-weight: normal;
 }
 
+.gmb ul li table {
+    margin: 2px 0 2px 0;
+}
+
 /*** Tables END ***/
 
 /*** Blockquote ***/
