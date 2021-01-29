@@ -914,6 +914,11 @@ div#p1::after {
 
 .gmb ul li span.dots {
     font-family: 'Dots';
+    font-size: 40pt;
+    font-weight: bold;
+    letter-spacing: -0.15em;
+    vertical-align: middle;
+    padding-right: 5px;
 }
 
 /*** Lists END ***/
