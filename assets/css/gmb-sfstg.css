@@ -144,7 +144,7 @@
 }
 
 .gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
-    font-family: 'Poison Hope';
+    font-family: 'SF Title';
     font-weight: normal;
     text-align: left;
     color: var(--color-headers-main);
