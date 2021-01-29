@@ -161,45 +161,33 @@
     font-size: 25pt;
 }
 
-.gmb h2.punch {
-    background-color: #6B2394;
+.gmb h2.punch, .gmb h2.kick, .gmb h2.block, .gmb h2.grab, .gmb h2.athletics, .gmb h2.focus {
     color: #FFFFFF;
     text-align: center;
+}
+
+.gmb h2.punch {
+    background-color: #6B2394;
 }
 
 .gmb h2.kick {
     background-color: #FF0000;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: 'SF-Title';
 }
 
 .gmb h2.block {
     background-color: #800080;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: 'SF-Title';
 }
 
 .gmb h2.grab {
     background-color: #355E00;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: 'SF-Title';
 }
 
 .gmb h2.athletics {
     background-color: #B80047;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: 'SF-Title';
 }
 
 .gmb h2.focus {
     background-color: #AECF00;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: 'SF-Title';
 }
 
 .gmb h3 {
