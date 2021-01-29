@@ -852,6 +852,14 @@ div#p1::after {
     line-height: inherit;
 }
 
+.gmb ul li strong+span.chi {
+    color: #660066
+}
+
+.gmb ul li strong+span.wp {
+    color: #DC2300
+}
+
 /*** Lists END ***/
 
 /** Monster Stat Block **/
