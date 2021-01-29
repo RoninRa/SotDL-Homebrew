@@ -722,7 +722,7 @@
 
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
     content: "";
-    background: #C00000;
+    background: none;
     /* background-image: var(--img-bg-page-number), var(--img-bg-border); */
     background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
@@ -756,6 +756,22 @@ div#p1::after {
     font-size: .8em;
     width: 200px;
     bottom: 20px;
+}
+
+body::before, body::after {
+    content: "Special Maneuvers";
+    position: fixed;
+    font-family: 'Industria';
+    background: #C00000;
+    color: #670000;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+body {
+    border-left: 20px solid #C00000;
+    border-right: 20px solid #C00000;
 }
 
 /*** Page number END ***/
