@@ -890,6 +890,10 @@ div#p1::after {
     color: #DC2300
 }
 
+.gmb ul li span.dots {
+    font-family: 'Dots';
+}
+
 /*** Lists END ***/
 
 /** Monster Stat Block **/
