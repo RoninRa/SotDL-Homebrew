@@ -762,7 +762,7 @@ div#p1::after {
     bottom: 20px;
 }
 
-.gmb body::before, .gmb body::after {
+.gmb div.page.borders::before, .gmb div.page.borders::after {
     content: "Special Maneuvers";
     position: fixed;
     font-family: 'Industria';
@@ -775,7 +775,7 @@ div#p1::after {
     transform: rotate(90deg);
 }
 
-.gmb body {
+.gmb div.page.borders {
     border-left: 20px solid #C00000;
     border-right: 20px solid #C00000;
 }
