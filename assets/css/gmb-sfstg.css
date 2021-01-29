@@ -111,7 +111,7 @@
 }
 
 .gmb h1.title-text span {
-    font-family: "SF Title";
+    font-family: "SF-Title";
     font-size: 60pt;
     text-align: center;
     font-weight: normal;
@@ -144,7 +144,7 @@
 }
 
 .gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
-    font-family: 'SF Title';
+    font-family: 'SF-Title';
     font-weight: normal;
     text-align: left;
     color: var(--color-headers-main);
@@ -165,42 +165,42 @@
     background-color: #6B2394;
     color: #FFFFFF;
     text-align: center;
-    font-family: 'SF Title';
+    font-style: italic;
 }
 
 .gmb h2.kick {
     background-color: #FF0000;
     color: #FFFFFF;
     text-align: center;
-    font-family: 'SF Title';
+    font-family: 'SF-Title';
 }
 
 .gmb h2.block {
     background-color: #800080;
     color: #FFFFFF;
     text-align: center;
-    font-family: 'SF Title';
+    font-family: 'SF-Title';
 }
 
 .gmb h2.grab {
     background-color: #355E00;
     color: #FFFFFF;
     text-align: center;
-    font-family: 'SF Title';
+    font-family: 'SF-Title';
 }
 
 .gmb h2.athletics {
     background-color: #B80047;
     color: #FFFFFF;
     text-align: center;
-    font-family: 'SF Title';
+    font-family: 'SF-Title';
 }
 
 .gmb h2.focus {
     background-color: #AECF00;
     color: #FFFFFF;
     text-align: center;
-    font-family: 'SF Title';
+    font-family: 'SF-Title';
 }
 
 .gmb h3 {
