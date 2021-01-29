@@ -329,8 +329,8 @@
 /*** Bold ***/
 
 .gmb p strong {
-    font-family: "GothamBold";
-    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 10pt;
     color: var(--color-strong-alt);
     letter-spacing: -0.02em;
@@ -357,7 +357,7 @@
 .gmb h4.table+table thead th, h4.table+section div table thead th, li p+table thead th, p+table thead th, .gmb h5.table+table thead th, h5.table+section div table thead th {
     background-color: var(--color-table-header-bg);
     color: #ffffff;
-    font-family: "GothamBold";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
     padding: 3px 6px 3px 6px !important;
     min-width: 34px;
@@ -413,14 +413,14 @@
 }
 
 .gmb table tbody tr td strong {
-    font-family: 'GothamBold';
-    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 8pt;
     color: var(--color-strong);
 }
 
 .gmb table strong {
-    font-family: 'GothamBold';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
 }
 
@@ -751,7 +751,7 @@ div#p1::after {
 
 .gmb .footnote {
     color: var(--color-strong);
-    font-family: "Athelas";
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: .8em;
     width: 200px;
@@ -799,7 +799,7 @@ div#p1::after {
     display: inline-block;
     width: 1em;
     padding-right: 0.5em;
-    font-family: 'GothamBold';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 9pt;
     text-align: right;
@@ -807,8 +807,8 @@ div#p1::after {
 }
 
 .gmb ul strong, .gmb ul p strong, .gmb ol strong {
-    font-family: 'GothamBold';
-    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 10pt;
     letter-spacing: -0.02em;
     color: var(--color-strong);
@@ -833,16 +833,16 @@ div#p1::after {
 }
 
 .gmb p ul li strong {
-    font-family: "GothamBold";
-    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 10pt;
     color: var(--color-strong-alt);
     letter-spacing: -0.02em;
 }
 
 .gmb p ul li ul li strong, .gmb p+ul li strong {
-    font-family: "GothamBold";
-    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 10pt;
     color: var(--color-strong);
     letter-spacing: -0.02em;
@@ -975,7 +975,7 @@ div#p1::after {
 }
 
 .gmb hr+section blockquote ul li strong {
-    font-family: 'GothamBold';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 8pt;
     color: var(--color-strong);
@@ -1069,9 +1069,9 @@ div#p1::after {
 }
 
 .gmb div.spell ul li strong {
-    font-family: 'GothamBold';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: -0.02em;
 }
 
