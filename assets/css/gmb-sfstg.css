@@ -758,7 +758,7 @@ div#p1::after {
     bottom: 20px;
 }
 
-body::before, body::after {
+.gmb body::before, .gmb body::after {
     content: "Special Maneuvers";
     position: fixed;
     font-family: 'Industria';
@@ -767,9 +767,11 @@ body::before, body::after {
     left: 0;
     right: 0;
     height: 20px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
 }
 
-body {
+.gmb body {
     border-left: 20px solid #C00000;
     border-right: 20px solid #C00000;
 }
