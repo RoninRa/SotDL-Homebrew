@@ -164,12 +164,22 @@
 }
 
 .gmb h1 {
-    font-size: 32pt;
-    text-shadow: 2px 3px 1px #000000;
+    font-size: 50pt;
 }
 
 .gmb h1.moves {
-    color: #C00000;
+    font-size: 55pt;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(#83B461, #284C55);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate( -3deg);
+}
+
+.gmb h1.moves::after {
+    text-shadow: 2px 3px 1px #000000;
 }
 
 .gmb h2 {
@@ -182,27 +192,33 @@
 }
 
 .gmb h2.punch {
-    background-color: #6B2394;
+    background-color: #4E3D7B;
+    transform: rotate(2deg);
 }
 
 .gmb h2.kick {
     background-color: #FF0000;
+    transform: rotate(-2deg);
 }
 
 .gmb h2.block {
     background-color: #800080;
+    transform: rotate(2deg);
 }
 
 .gmb h2.grab {
     background-color: #355E00;
+    transform: rotate(-2deg);
 }
 
 .gmb h2.athletics {
     background-color: #B80047;
+    transform: rotate(2deg);
 }
 
 .gmb h2.focus {
     background-color: #AECF00;
+    transform: rotate(-2deg);
 }
 
 .gmb h3 {
