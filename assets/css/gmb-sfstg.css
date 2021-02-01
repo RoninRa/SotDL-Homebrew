@@ -70,6 +70,16 @@
     color: var(--color-link);
 }
 
+.gmb span.dots {
+    font-family: 'Dots';
+    font-size: 40pt;
+    font-weight: bold;
+    letter-spacing: -0.15em;
+    vertical-align: middle;
+    padding-right: 5px;
+    margin-left: -4px;
+}
+
 /*** Headers ***/
 
 .gmb img.header-image {
@@ -757,7 +767,7 @@ div#p1::after {
     bottom: 20px;
 }
 
-..ng-scope section::before, .ng-scope section::after {
+.ng-scope section::before, .ng-scope section::after {
     position: fixed;
     background: #C00000;
     left: 84px;
@@ -770,301 +780,350 @@ div#p1::after {
 div#preview .ng-scope {
     border-left: 40px solid #C00000;
     border-right: 40px solid #C00000;
-    /*** Page number END ***/
-    .html-code code {
-        visibility: visible;
-        box-shadow: 1px 1px 1px black;
-        background-color: #aaa;
-        font-family: 'Lucida Console'
-    }
-    .gmb hr {
-        border-style: solid;
-        border-color: black;
-        border-width: 1px 0px 0px 0px;
-        position: relative;
-    }
-    /*** Lists ***/
-    .gmb ul {
-        text-indent: -1em;
-        list-style-type: none;
-    }
-    .gmb ol {
-        margin: 0 0 1.5em;
-        padding: 0;
-        counter-reset: item;
-    }
-    .gmb ol>li {
-        margin: 0;
-        padding: 0 0 0 2em;
-        text-indent: -1em;
-        list-style-type: none;
-        counter-increment: item;
-    }
-    .gmb ol>li:before {
-        display: inline-block;
-        width: 1em;
-        padding-right: 0.5em;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 9pt;
-        text-align: right;
-        content: counter(item) ".";
-    }
-    .gmb ul strong, .gmb ul p strong, .gmb ol strong {
-        font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 10pt;
-        letter-spacing: -0.02em;
-        color: var(--color-strong);
-    }
-    .gmb ul li ul li strong, .gmb ul li strong+strong {
-        font-size: 9pt;
-    }
-    .gmb hr+ul li {
-        list-style-type: disc;
-        text-indent: 0;
-    }
-    .gmb ul li ul li, .gmb ul+div.column-break+ul li {
-        list-style-type: disc;
-        text-indent: 0;
-    }
-    .gmb ul+div.column-break+ul li {
-        margin-left: 1.5em;
-    }
-    .gmb p ul li strong {
-        font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 10pt;
-        color: var(--color-strong-alt);
-        letter-spacing: -0.02em;
-    }
-    .gmb p ul li ul li strong, .gmb p+ul li strong {
-        font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 10pt;
-        color: var(--color-strong);
-        letter-spacing: -0.02em;
-    }
-    .gmb ul li p {
-        overflow: visible;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        line-height: inherit;
-    }
-    .gmb ul li div.column-break+p {
-        text-indent: 1em;
-    }
-    .gmb p+ul {
-        margin-top: -0.8em;
-    }
-    .gmb p.list-indent {
-        margin-left: 1em;
-        line-height: 1em;
-        text-indent: 1em;
-    }
-    .gmb p, .gmb li, .gmb ol {
-        font-family: 'Athelas';
-        font-size: 11pt;
-        text-align: left;
-        letter-spacing: -0.01em;
-    }
-    .gmb ul ul, .gmb ol ol, .gmb ul ol, .gmb ol ul {
-        margin-bottom: 0;
-        margin-left: 0;
-        line-height: inherit;
-    }
-    .gmb ul li strong+span.chi {
-        color: #660066
-    }
-    .gmb ul li strong+span.wp {
-        color: #DC2300
-    }
-    .gmb ul li span.dots {
-        font-family: 'Dots';
-        font-size: 40pt;
-        font-weight: bold;
-        letter-spacing: -0.15em;
-        vertical-align: middle;
-        padding-right: 5px;
-    }
-    /*** Lists END ***/
-    /** Monster Stat Block **/
-    .gmb hr+section blockquote {
-        padding: 0px;
-        box-shadow: none;
-        border-style: none;
-        background-image: none;
-        background-color: transparent;
-        -webkit-filter: none;
-        filter: none;
-    }
-    .gmb hr+section blockquote h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: var(--color-monster-h1-bg);
-        background-image: none;
-        color: white;
-        font-weight: bold;
-        font-size: 12pt;
-        padding: 5px;
-        float: left;
-        margin: 0px;
-        width: 70%;
-        text-align: left;
-        text-transform: uppercase;
-    }
-    .gmb hr+section blockquote h2 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: normal;
-        font-size: 8pt;
-        font-style: initial;
-        color: white;
-        background-color: var(--color-monster-h1-bg);
-        padding: 5px;
-        float: right;
-        width: 30%;
-        height: 27px;
-        margin: 0px;
-        text-align: right;
-    }
-    .gmb hr+section blockquote h3 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 9pt;
-        text-align: left;
-        color: var(--color-strong);
-        background-color: var(--color-monster-h3-bg);
-        padding: 3px;
-        padding-left: 5px;
-        border-style: none;
-        text-transform: uppercase;
-    }
-    .gmb hr+section blockquote h2+p {
-        clear: both;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 9pt;
-        color: white;
-        background-color: var(--color-monster-h2-bg);
-        padding: 3px;
-        padding-left: 5px;
-    }
-    .gmb hr+section blockquote h2+p+hr, .gmb hr+section blockquote h3+hr {
-        display: none;
-    }
-    .gmb hr+section blockquote section section ul li {
-        text-indent: inherit;
-        margin-bottom: 0px;
-    }
-    .gmb hr+section blockquote hr+ul li {
-        margin-left: 5px;
-        font-family: 'GothamBook';
-        font-size: 8pt;
-        color: var(--color-text-main);
-    }
-    .gmb hr+section blockquote ul li strong {
-        font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 8pt;
-        color: var(--color-strong);
-    }
-    .gmb hr+section blockquote ul+hr {
-        border-color: #800000;
-    }
-    .gmb hr+section blockquote h1+hr {
-        visibility: hidden;
-        margin: 0;
-        height: 0;
-    }
-    .gmb hr+section blockquote h1+hr+section h2:before {
-        content: "";
-    }
-    .gmb hr+section blockquote h2:before {
-        content: "DIFFICULTY ";
-    }
-    /*** Monster Stats END ***/
-    /** Spells **/
-    .gmb div.spell h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 10pt;
-        color: var(--color-headers-main);
-        font-weight: bold;
-        background-image: none;
-        padding: 5px 0px 5px 0px;
-        float: left;
-        margin: 0px;
-        display: block;
-        text-align: left;
-        text-shadow: none;
-        text-transform: uppercase;
-    }
-    .gmb div.spell h2 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 7pt;
-        color: var(--color-headers-main);
-        font-weight: bold;
-        font-style: initial;
-        padding: 8px 0px 5px 0px;
-        float: right;
-        margin: 0px;
-        text-align: right;
-        display: block;
-        text-transform: uppercase;
-    }
-    .gmb div.spell hr {
-        background-image: none;
-        visibility: visible;
-        border-style: solid;
-        border-color: black;
-        border-width: 1.1px 0px 0px 0px;
-        position: relative;
-    }
-    .gmb div.spell h2+hr {
-        border-width: 2px 0px 0px 0px;
-        width: 100%;
-    }
-    .gmb div.spell p {
-        font-size: 9pt;
-    }
-    .gmb div.spell p strong {
-        font-size: 8pt;
-    }
-    .gmb div.spell ul {
-        margin-top: .25em;
-        margin-bottom: .25em;
-        padding-left: 1em;
-        text-indent: initial;
-        list-style-type: none;
-    }
-    .gmb div.spell ul li {
-        font-family: 'GothamBook';
-        font-size: 8pt;
-        list-style-type: none;
-    }
-    .gmb div.spell ul li strong {
-        font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
-        font-size: 8pt;
-        font-weight: bold;
-        letter-spacing: -0.02em;
-    }
-    /*** Spells END ***/
-    /*** Ad Page ***/
-    .gmb div.ad-page {
-        column-span: all;
-        -webkit-column-span: all;
-        -moz-column-span: all;
-    }
-    .gmb div.ad-page h3 {
-        color: var(--color-main);
-        font-size: 14pt;
-        margin-bottom: 20px;
-    }
-    .gmb div.ad-page div.grid {
-        display: grid;
-        grid-template-columns: 150px 500px;
-        grid-gap: 2rem;
-    }
-    .gmb div.ad-page div.grid img {
-        width: 150px;
-        box-shadow: 7px 7px 5px 1px #1A1B1B;
-    }
-    /*** Ad Page END***/
+}
+
+/*** Page number END ***/
+
+.html-code code {
+    visibility: visible;
+    box-shadow: 1px 1px 1px black;
+    background-color: #aaa;
+    font-family: 'Lucida Console'
+}
+
+.gmb hr {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    position: relative;
+}
+
+/*** Lists ***/
+
+.gmb ul {
+    text-indent: -1em;
+    list-style-type: none;
+}
+
+.gmb ol {
+    margin: 0 0 1.5em;
+    padding: 0;
+    counter-reset: item;
+}
+
+.gmb ol>li {
+    margin: 0;
+    padding: 0 0 0 2em;
+    text-indent: -1em;
+    list-style-type: none;
+    counter-increment: item;
+}
+
+.gmb ol>li:before {
+    display: inline-block;
+    width: 1em;
+    padding-right: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    text-align: right;
+    content: counter(item) ".";
+}
+
+.gmb ul strong, .gmb ul p strong, .gmb ol strong {
+    font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    letter-spacing: -0.02em;
+    color: var(--color-strong);
+}
+
+.gmb ul li ul li strong, .gmb ul li strong+strong {
+    font-size: 9pt;
+}
+
+.gmb hr+ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+.gmb ul li ul li, .gmb ul+div.column-break+ul li {
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+.gmb ul+div.column-break+ul li {
+    margin-left: 1.5em;
+}
+
+.gmb p ul li strong {
+    font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    color: var(--color-strong-alt);
+    letter-spacing: -0.02em;
+}
+
+.gmb p ul li ul li strong, .gmb p+ul li strong {
+    font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    color: var(--color-strong);
+    letter-spacing: -0.02em;
+}
+
+.gmb ul li p {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: inherit;
+}
+
+.gmb ul li div.column-break+p {
+    text-indent: 1em;
+}
+
+.gmb p+ul {
+    margin-top: -0.8em;
+}
+
+.gmb p.list-indent {
+    margin-left: 1em;
+    line-height: 1em;
+    text-indent: 1em;
+}
+
+.gmb p, .gmb li, .gmb ol {
+    font-family: 'Athelas';
+    font-size: 11pt;
+    text-align: left;
+    letter-spacing: -0.01em;
+}
+
+.gmb ul ul, .gmb ol ol, .gmb ul ol, .gmb ol ul {
+    margin-bottom: 0;
+    margin-left: 0;
+    line-height: inherit;
+}
+
+.gmb ul li strong+span.chi {
+    color: #660066
+}
+
+.gmb ul li strong+span.wp {
+    color: #DC2300
+}
+
+/*** Lists END ***/
+
+/** Monster Stat Block **/
+
+.gmb hr+section blockquote {
+    padding: 0px;
+    box-shadow: none;
+    border-style: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.gmb hr+section blockquote h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-monster-h1-bg);
+    background-image: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 5px;
+    float: left;
+    margin: 0px;
+    width: 70%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.gmb hr+section blockquote h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 8pt;
+    font-style: initial;
+    color: white;
+    background-color: var(--color-monster-h1-bg);
+    padding: 5px;
+    float: right;
+    width: 30%;
+    height: 27px;
+    margin: 0px;
+    text-align: right;
+}
+
+.gmb hr+section blockquote h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    text-align: left;
+    color: var(--color-strong);
+    background-color: var(--color-monster-h3-bg);
+    padding: 3px;
+    padding-left: 5px;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+.gmb hr+section blockquote h2+p {
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    color: white;
+    background-color: var(--color-monster-h2-bg);
+    padding: 3px;
+    padding-left: 5px;
+}
+
+.gmb hr+section blockquote h2+p+hr, .gmb hr+section blockquote h3+hr {
+    display: none;
+}
+
+.gmb hr+section blockquote section section ul li {
+    text-indent: inherit;
+    margin-bottom: 0px;
+}
+
+.gmb hr+section blockquote hr+ul li {
+    margin-left: 5px;
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    color: var(--color-text-main);
+}
+
+.gmb hr+section blockquote ul li strong {
+    font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 8pt;
+    color: var(--color-strong);
+}
+
+.gmb hr+section blockquote ul+hr {
+    border-color: #800000;
+}
+
+.gmb hr+section blockquote h1+hr {
+    visibility: hidden;
+    margin: 0;
+    height: 0;
+}
+
+.gmb hr+section blockquote h1+hr+section h2:before {
+    content: "";
+}
+
+.gmb hr+section blockquote h2:before {
+    content: "DIFFICULTY ";
+}
+
+/*** Monster Stats END ***/
+
+/** Spells **/
+
+.gmb div.spell h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: var(--color-headers-main);
+    font-weight: bold;
+    background-image: none;
+    padding: 5px 0px 5px 0px;
+    float: left;
+    margin: 0px;
+    display: block;
+    text-align: left;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.gmb div.spell h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+    color: var(--color-headers-main);
+    font-weight: bold;
+    font-style: initial;
+    padding: 8px 0px 5px 0px;
+    float: right;
+    margin: 0px;
+    text-align: right;
+    display: block;
+    text-transform: uppercase;
+}
+
+.gmb div.spell hr {
+    background-image: none;
+    visibility: visible;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.1px 0px 0px 0px;
+    position: relative;
+}
+
+.gmb div.spell h2+hr {
+    border-width: 2px 0px 0px 0px;
+    width: 100%;
+}
+
+.gmb div.spell p {
+    font-size: 9pt;
+}
+
+.gmb div.spell p strong {
+    font-size: 8pt;
+}
+
+.gmb div.spell ul {
+    margin-top: .25em;
+    margin-bottom: .25em;
+    padding-left: 1em;
+    text-indent: initial;
+    list-style-type: none;
+}
+
+.gmb div.spell ul li {
+    font-family: 'GothamBook';
+    font-size: 8pt;
+    list-style-type: none;
+}
+
+.gmb div.spell ul li strong {
+    font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+}
+
+/*** Spells END ***/
+
+/*** Ad Page ***/
+
+.gmb div.ad-page {
+    column-span: all;
+    -webkit-column-span: all;
+    -moz-column-span: all;
+}
+
+.gmb div.ad-page h3 {
+    color: var(--color-main);
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+.gmb div.ad-page div.grid {
+    display: grid;
+    grid-template-columns: 150px 500px;
+    grid-gap: 2rem;
+}
+
+.gmb div.ad-page div.grid img {
+    width: 150px;
+    box-shadow: 7px 7px 5px 1px #1A1B1B;
+}
+
+/*** Ad Page END***/
