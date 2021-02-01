@@ -53,7 +53,7 @@
     background-repeat: no-repeat;
     height: 279.4mm;
     width: 215.9mm;
-    padding: 1.0cm 0.1cm 1.0cm 0.1cm;
+    padding: 1.0cm 1.0cm 1.0cm 1.0cm;
     column-fill: auto;
     column-count: 2;
     column-gap: 0.4cm;
@@ -749,7 +749,6 @@
 
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
     content: "";
-    border-right: 40px solid #1E495D;
     background: none;
     /* background-size: 100px 100px, 780px 1046px; */
     /* background-repeat: no-repeat; */
@@ -771,6 +770,10 @@
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH"; */
+}
+
+.gmb:nth-child(odd)::after {
+    border-right: 40px solid #1E495D;
 }
 
 div#p1::after {
