@@ -176,6 +176,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: rotate( -3deg);
+    filter: drop-shadow(4px 5px 2px black);
 }
 
 .gmb h1.moves::after {
