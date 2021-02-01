@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'sftitle';
     src: url('sftitle.eot');
-    src: local('☺'), url('fonts/sftitle.woff') format('woff'), url('fonts/sftitle.ttf') format('truetype'), url('fonts/sftitle.svg') format('svg');
+    src: local('☺'), url('sftitle.woff') format('woff'), url('sftitle.ttf') format('truetype'), url('sftitle.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
