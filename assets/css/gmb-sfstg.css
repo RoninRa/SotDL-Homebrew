@@ -234,6 +234,7 @@
 .gmb h4.punch, .gmb h4.kick, .gmb h4.block, .gmb h4.grab, .gmb h4.athletics, .gmb h4.focus {
     font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
     text-transform: none;
+    padding-left: 1em;
 }
 
 .gmb h4.punch {
@@ -823,8 +824,9 @@ div#p1::after {
 /*** Lists ***/
 
 .gmb ul {
-    text-indent: 0;
+    text-indent: 1em;
     list-style-type: none;
+    padding-left: 1em;
 }
 
 .gmb ol {
