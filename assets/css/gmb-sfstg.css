@@ -725,7 +725,7 @@
 /** Page number **/
 
 .gmb .pageNumber, .gmb .pageNumber.auto {
-    font-family: "Poison Hope";
+    font-family: "sftitle";
     font-size: 13pt;
     color: #ffffff;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
@@ -741,16 +741,15 @@
 
 .gmb:nth-child(odd) .pageNumber {
     left: 30px;
-    border-right: 40px solid #C00000;
 }
 
 .gmb:nth-child(even) .pageNumber {
     left: 735px;
-    border-left: 40px solid #C00000;
 }
 
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
     content: "";
+    border-right: 40px solid #C00000;
     /* background: none;
     background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
@@ -764,14 +763,15 @@
     padding: 0px; */
 }
 
-/* .gmb:nth-child(even)::after {
+.gmb:nth-child(even)::after {
+    border-left: 40px solid #C00000;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
-} */
+}
 
 div#p1::after {
     background-image: none;
