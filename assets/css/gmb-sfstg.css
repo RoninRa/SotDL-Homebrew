@@ -158,7 +158,6 @@
     font-weight: normal;
     text-align: left;
     color: var(--color-headers-main);
-    /* text-transform: uppercase; */
     margin-bottom: 5px;
     margin-top: 5px;
 }
