@@ -741,16 +741,17 @@
 
 .gmb:nth-child(odd) .pageNumber {
     left: 30px;
+    border-right: 40px solid #C00000;
 }
 
 .gmb:nth-child(even) .pageNumber {
     left: 735px;
+    border-left: 40px solid #C00000;
 }
 
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
     content: "";
-    background: none;
-    /* background-image: var(--img-bg-page-number), var(--img-bg-border); */
+    /* background: none;
     background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
     background-position: 20px calc(100% - 5px), bottom;
@@ -760,17 +761,17 @@
     bottom: 0;
     height: 100%;
     z-index: -2;
-    padding: 0px;
+    padding: 0px; */
 }
 
-.gmb:nth-child(even)::after {
+/* .gmb:nth-child(even)::after {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
-}
+} */
 
 div#p1::after {
     background-image: none;
@@ -795,10 +796,10 @@ div#p1::after {
     top: 1060px;
 }
 
-div#preview .ng-scope {
+/* div#preview .ng-scope {
     border-left: 40px solid #C00000;
     border-right: 40px solid #C00000;
-}
+} */
 
 /*** Page number END ***/
 
