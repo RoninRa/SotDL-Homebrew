@@ -801,7 +801,7 @@ div#preview .ng-scope {
 /*** Lists ***/
 
 .gmb ul {
-    text-indent: -1em;
+    text-indent: 0;
     list-style-type: none;
 }
 
