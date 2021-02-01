@@ -323,9 +323,13 @@
 
 /*** Bold ***/
 
+.gmb strong {
+    font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
+}
+
 .gmb p strong {
     font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 10pt;
     color: var(--color-strong-alt);
     letter-spacing: -0.02em;
@@ -334,7 +338,7 @@
 .gmb strong em, .gmb em strong {
     color: var(--color-strong-alt);
     font-style: normal;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .gmb h5+p strong {
