@@ -727,7 +727,7 @@
 
 .gmb .pageNumber, .gmb .pageNumber.auto {
     font-family: "sftitle";
-    font-size: 13pt;
+    font-size: 10pt;
     color: #ffffff;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
     text-align: center;
@@ -735,7 +735,7 @@
 
 .gmb:nth-child(odd) .pageNumber, .gmb:nth-child(even) .pageNumber {
     right: 0px;
-    bottom: 32px;
+    bottom: 10px;
     width: 50px;
     vertical-align: middle;
 }
