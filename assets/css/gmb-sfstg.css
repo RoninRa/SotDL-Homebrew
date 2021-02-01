@@ -121,7 +121,7 @@
 }
 
 .gmb h1.title-text span {
-    font-family: 'SFTitle';
+    font-family: 'sftitle';
     font-size: 60pt;
     text-align: center;
     font-weight: normal;
@@ -154,7 +154,7 @@
 }
 
 .gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
-    font-family: 'SFTitle';
+    font-family: 'sftitle';
     font-weight: normal;
     text-align: left;
     color: var(--color-headers-main);
