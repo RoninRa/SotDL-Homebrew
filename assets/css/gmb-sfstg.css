@@ -111,7 +111,7 @@
 }
 
 .gmb h1.title-text span {
-    font-family: "SF-Title";
+    font-family: 'SFTitle';
     font-size: 60pt;
     text-align: center;
     font-weight: normal;
@@ -144,7 +144,7 @@
 }
 
 .gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
-    font-family: 'SF-Title';
+    font-family: 'SFTitle';
     font-weight: normal;
     text-align: left;
     color: var(--color-headers-main);
@@ -158,7 +158,6 @@
 }
 
 .gmb h1.moves {
-    font-family: 'SSF4';
     color: #C00000;
 }
 
