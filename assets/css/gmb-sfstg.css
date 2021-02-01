@@ -234,7 +234,7 @@
 .gmb h4.punch, .gmb h4.kick, .gmb h4.block, .gmb h4.grab, .gmb h4.athletics, .gmb h4.focus {
     font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
     text-transform: none;
-    padding-left: 1em;
+    padding-left: 1.3em;
 }
 
 .gmb h4.punch {
@@ -741,11 +741,11 @@
 }
 
 .gmb:nth-child(odd) .pageNumber {
-    left: 30px;
+    left: 775px;
 }
 
 .gmb:nth-child(even) .pageNumber {
-    left: 735px;
+    left: -10px;
 }
 
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
