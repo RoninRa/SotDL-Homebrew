@@ -749,7 +749,7 @@
 
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
     content: "";
-    border-right: 40px solid #C00000;
+    border-right: 40px solid #1E495D;
     /* background: none;
     background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
@@ -764,13 +764,13 @@
 }
 
 .gmb:nth-child(even)::after {
-    border-left: 40px solid #C00000;
-    -moz-transform: scaleX(-1);
+    border-left: 40px solid #1E495D;
+    /* -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     filter: FlipH;
-    -ms-filter: "FlipH";
+    -ms-filter: "FlipH"; */
 }
 
 div#p1::after {
