@@ -19,6 +19,7 @@
     --color-table-header-bg: black;
     --color-table-main-bg: initial;
     --color-table-alt-bg: white;
+    --color-maneuvers: #1E495D;
     --color-link: #800000;
     --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
     --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
@@ -481,18 +482,27 @@
 /*** Blockquote ***/
 
 .gmb blockquote {
-    border: 1px solid orange;
-    border-image-source: var(--img-parchment);
+    border: 1px solid var(--color-maneuvers);
+    /* border-image-source: var(--img-parchment);
     border-image-slice: 20 fill;
     border-image-width: 20;
     border-image-outset: 5;
-    border-image-repeat: round;
-    background-color: transparent;
+    border-image-repeat: round; */
+    background-color: #3e6577;
     background-size: 100% 100%;
     padding: 10px 10px 20px 12px;
     overflow: hidden;
     box-shadow: unset;
     margin-bottom: 0;
+}
+
+.gmb blockquote section h1, .gmb blockquote section h2, .gmb blockquote section h3, .gmb blockquote section h4, .gmb blockquote section h5, .gmb blockquote section h6 {
+    font-family: 'sftitle';
+}
+
+.gmb blockquote section h1 {
+    background-color: var(--color-maneuvers);
+    color: #FFF;
 }
 
 .gmb blockquote h5, .gmb blockquote h3 {
@@ -503,10 +513,6 @@
 
 .gmb blockquote h4 {
     text-align: center;
-}
-
-.gmb blockquote section h1, .gmb blockquote section h2, .gmb blockquote section h3, .gmb blockquote section h4, .gmb blockquote section h5, .gmb blockquote section h6 {
-    font-family: 'Poison Hope';
 }
 
 .gmb blockquote p {
@@ -766,7 +772,7 @@
 }
 
 .gmb:nth-child(even)::after {
-    border-left: 35px solid #1E495D;
+    border-left: 35px solid var(--color-maneuvers);
     /* -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -776,7 +782,7 @@
 }
 
 .gmb:nth-child(odd)::after {
-    border-right: 35px solid #1E495D;
+    border-right: 35px solid var(--color-maneuvers);
 }
 
 div#p1::after {
