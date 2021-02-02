@@ -934,6 +934,7 @@ div#p1::after {
     font-size: 11pt;
     text-align: left;
     letter-spacing: -0.01em;
+    margin: 2px 0px;
 }
 
 .gmb ul ul, .gmb ol ol, .gmb ul ol, .gmb ol ul {
