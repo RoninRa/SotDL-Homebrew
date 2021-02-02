@@ -1,0 +1,230 @@
+@import 'https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Rock+Salt&family=Fredericka+the+Great&family=Cabin+Sketch:wght@400;700&family=Reenie+Beanie&display=swap';
+.gmb {
+    width: 11in;
+    height: 8.5in;
+    column-count: 2;
+    column-gap: 100px;
+    background-color: transparent;
+    background-image: url(https://i.imgur.com/rTNBHqN.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    filter: drop-shadow(1px 4px 14px black);
+    padding: 90px 130px;
+    counter-increment: none
+}
+
+.gmb:after {
+    display: none
+}
+
+.gmb:nth-of-type(1) {
+    background-image: url(https://i.imgur.com/SK0nuuC.png)
+}
+
+.gmb .pageNumber {
+    counter-increment: phb-page-numbers
+}
+
+.gmb .pageNumber.auto {
+    left: 280px;
+    bottom: 50px;
+    color: #000
+}
+
+.gmb>.pageNumber.auto:nth-of-type(2) {
+    right: 270px;
+    left: unset
+}
+
+.brewRenderer .pages>.gmb {
+    box-shadow: none
+}
+
+.gmb p, .gmb table, .gmb ul, .gmb blockquote, .gmb blockquote strong {
+    font-family: reenie beanie;
+    color: #412121;
+    font-size: 20px;
+    line-height: 1em;
+    padding: 0
+}
+
+.gmb p {
+    text-align: left page-break-inside:unset;
+    break-inside: unset;
+    margin-bottom: 0
+}
+
+.gmb p+p {
+    margin: 0;
+    padding: 0
+}
+
+.gmb em {
+    text-decoration: underline;
+    font-style: unset
+}
+
+.gmb strong {
+    letter-spacing: 0;
+    font-size: 1.2em
+}
+
+.gmb del {
+    text-decoration-style: double
+}
+
+.gmb a, .gmb a:visited {
+    color: #412121;
+    transition: all 1s ease
+}
+
+.gmb a:hover {
+    color: red;
+    transition: all 1s ease
+}
+
+.gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb .pageNumber {
+    font-family: fredericka the great;
+    font-weight: unset
+}
+
+.gmb h1 {
+    column-span: unset
+}
+
+.gmb h1+p:first-letter {
+    font-family: fredericka the great;
+    font-size: 1.5em;
+    color: inherit;
+    padding-top: .3em;
+    margin-right: 2px
+}
+
+.gmb h2 {
+    font-size: 2em
+}
+
+.gmb h3 {
+    border: none;
+    margin-left: -20px
+}
+
+.gmb h4 {
+    transform: rotate(357deg);
+    padding-bottom: 5px
+}
+
+.gmb table tbody tr:nth-child(2n+1) {
+    background: linear-gradient(to left, #41212100, #41212122, #41212100)
+}
+
+.gmb table thead th {
+    font-weight: unset
+}
+
+.gmb .classTable {
+    mix-blend-mode: multiply;
+    border: none
+}
+
+.gmb .classTable tbody tr {
+    line-height: .5em
+}
+
+.gmb hr+ul {
+    padding-top: 18px;
+    margin-bottom: 10px;
+    margin-left: 15px
+}
+
+.gmb .spellList {
+    column-count: 2;
+    column-span: none;
+    -webkit-column-span: all;
+    -moz-column-span: all
+}
+
+.gmb blockquote {
+    border: 20px solid;
+    border-image: url(https://i.imgur.com/k544p79.png);
+    border-image-slice: 25% 10%;
+    border-image-width: 30px;
+    border-image-repeat: stretch;
+    border-image-outset: 10px;
+    position: relative;
+    background: 0 0;
+    box-shadow: none
+}
+
+.gmb blockquote p {
+    font-size: inherit
+}
+
+.gmb .descriptive {
+    background: 0 0;
+    box-shadow: none;
+    border-style: solid;
+    border-image: url(https://i.imgur.com/I2hMYzK.png);
+    border-image-slice: 38% 10%;
+    border-image-width: 40px;
+    border-image-repeat: stretch;
+    border-image-outset: 0;
+    padding: 25px
+}
+
+.gmb .descriptive p {
+    font-family: jim nightshade;
+    color: #412121;
+    font-size: 18px;
+    line-height: 1.1em
+}
+
+.gmb .descriptive h5 {
+    font-family: jim nightshade;
+    color: #412121;
+    font-size: 22px
+}
+
+.gmb .descriptive strong {
+    font-family: inherit
+}
+
+.gmb hr+blockquote {
+    background: 0 0;
+    border: 20px solid;
+    border-image: url(https://i.imgur.com/k544p79.png);
+    border-image-slice: 25% 10%;
+    border-image-width: 30px;
+    border-image-repeat: stretch;
+    border-image-outset: 10px;
+    padding: 5px 0
+}
+
+.gmb hr+blockquote h2 {
+    font-size: 24px
+}
+
+.gmb hr+blockquote h3 {
+    font-size: 28px;
+    margin-left: 0
+}
+
+.gmb hr+blockquote p, .gmb hr+blockquote ul, .gmb hr+blockquote li, .gmb hr+blockquote ul strong, .gmb hr+blockquote em, .gmb hr+blockquote h3 {
+    color: #412121;
+    font-family: reenie beanie
+}
+
+.gmb hr+blockquote hr+ul, .gmb hr+blockquote table {
+    padding-top: 0;
+    margin-left: 0
+}
+
+.gmb hr+blockquote p+p {
+    padding-bottom: 0;
+    margin-bottom: 0
+}
+
+.gmb hr+blockquote li {
+    font-size: 20px
+}
