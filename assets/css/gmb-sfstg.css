@@ -20,7 +20,7 @@
     --color-table-main-bg: initial;
     --color-table-alt-bg: white;
     --color-maneuvers: #1E495D;
-    --color-link: #800000;
+    --color-link: #4927AC;
     --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
     --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
     --blend-corner: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
@@ -507,7 +507,7 @@
 
 .gmb blockquote h5, .gmb blockquote h3 {
     border: none;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     color: #FFF;
     background-color: var(--color-maneuvers);
@@ -575,13 +575,14 @@
 
 .gmb div.patreon blockquote img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 20px auto;
     width: 50%;
 }
 
 .gmb div.patreon blockquote h5 {
-    margin: 0px 0px 10px 0px;
+    margin: -11px -12px 10px -12px;
+    padding: 5px;
+    line-height: 1.3em;
 }
 
 .gmb div.patreon blockquote div.column-container h6 {
