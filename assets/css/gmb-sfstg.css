@@ -482,13 +482,13 @@
 /*** Blockquote ***/
 
 .gmb blockquote {
-    border: 1px solid var(--color-maneuvers);
+    border: 3px solid var(--color-maneuvers);
     /* border-image-source: var(--img-parchment);
     border-image-slice: 20 fill;
     border-image-width: 20;
     border-image-outset: 5;
     border-image-repeat: round; */
-    background-color: #3e6577;
+    background-color: #EBF1FD;
     background-size: 100% 100%;
     padding: 10px 10px 20px 12px;
     overflow: hidden;
@@ -509,10 +509,13 @@
     border: none;
     font-weight: bold;
     text-align: center;
+    color: #FFF;
+    background-color: var(--color-maneuvers);
 }
 
 .gmb blockquote h4 {
     text-align: center;
+    color: #FFF;
 }
 
 .gmb blockquote p {
@@ -578,7 +581,7 @@
 }
 
 .gmb div.patreon blockquote h5 {
-    margin: 10px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
 }
 
 .gmb div.patreon blockquote div.column-container h6 {
