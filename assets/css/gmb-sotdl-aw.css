@@ -900,6 +900,10 @@ div#p1::after {
     line-height: inherit;
 }
 
+.gmb ul li p+ul {
+    margin-top: 0px;
+}
+
 .gmb ul li div.column-break+p {
     text-indent: 1em;
 }
