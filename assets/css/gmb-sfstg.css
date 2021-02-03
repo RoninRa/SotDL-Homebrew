@@ -330,7 +330,7 @@
     z-index: 5;
 }
 
-.gmb img.dotdl {
+.gmb img.sfstg {
     position: absolute;
     width: 225px;
     bottom: 15px;
@@ -413,30 +413,30 @@
 }
 
 .gmb table tbody tr {
-    font-family: "GothamBook";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
 }
 
 .gmb table tbody tr:nth-child(odd) {
     background-color: var(--color-table-main-bg);
-    font-family: "GothamBook";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
 }
 
 .gmb table tbody tr:nth-child(even) {
     background-color: var(--color-table-alt-bg);
-    font-family: "GothamBook";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
 }
 
 .gmb table tbody tr td {
-    font-family: 'GothamBook';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
     min-width: 34px;
 }
 
 .gmb table tbody tr td p {
-    font-family: 'GothamBook';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
     text-indent: 1em;
 }
@@ -448,7 +448,7 @@
 
 .gmb table tbody tr td li {
     margin-left: 5px;
-    font-family: 'GothamBook';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
     color: var(--color-text-main);
 }
@@ -475,7 +475,7 @@
 }
 
 .gmb table em {
-    font-family: 'GothamBook';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
 
@@ -1040,7 +1040,7 @@ div#p1::after {
 
 .gmb hr+section blockquote hr+ul li {
     margin-left: 5px;
-    font-family: 'GothamBook';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
     color: var(--color-text-main);
 }
@@ -1134,7 +1134,7 @@ div#p1::after {
 }
 
 .gmb div.spell ul li {
-    font-family: 'GothamBook';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 8pt;
     list-style-type: none;
 }
