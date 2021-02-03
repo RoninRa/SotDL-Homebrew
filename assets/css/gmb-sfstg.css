@@ -188,7 +188,7 @@
     font-size: 18pt;
 }
 
-.gmb div.punch h2, .gmb div.kick h2, .gmb div.block h2, .gmb div.grab h2, .gmb div.athletics h2, .gmb div.focus h2 {
+.gmb div.punch h2, .gmb div.kick h2, .gmb div.block h2, .gmb div.grab h2, .gmb div.athletics h2, .gmb div.focus h2, .gmb div.weapon h2 {
     color: #FFFFFF;
     text-align: center;
     padding: 2px;
@@ -224,6 +224,11 @@
     transform: rotate(-2deg);
 }
 
+.gmb div.weapon h2 {
+    background-color: #FFC000;
+    transform: rotate(-2deg);
+}
+
 .gmb h3 {
     border-bottom-style: none;
     font-size: 18pt;
@@ -234,7 +239,7 @@
     font-size: 13pt;
 }
 
-.gmb div.punch h4, .gmb div.kick h4, .gmb div.block h4, .gmb div.grab h4, .gmb div.athletics h4, .gmb div.focus h4 {
+.gmb div.punch h4, .gmb div.kick h4, .gmb div.block h4, .gmb div.grab h4, .gmb div.athletics h4, .gmb div.focus h4, .gmb div.weapon h4 {
     font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
     text-transform: none;
     padding-left: 1em;
@@ -266,7 +271,12 @@
 }
 
 .gmb div.focus h4 {
-    color: #AECF00;
+    color: #7AA731;
+    font-weight: bold;
+}
+
+.gmb div.weapon h4 {
+    color: #FFC000;
     font-weight: bold;
 }
 
