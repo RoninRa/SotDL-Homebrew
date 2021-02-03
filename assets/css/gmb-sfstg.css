@@ -188,38 +188,38 @@
     font-size: 18pt;
 }
 
-.gmb h2.punch, .gmb h2.kick, .gmb h2.block, .gmb h2.grab, .gmb h2.athletics, .gmb h2.focus {
+.gmb div.punch h2, .gmb div.kick h2, .gmb div.block h2, .gmb div.grab h2, .gmb div.athletics h2, .gmb div.focus h2 {
     color: #FFFFFF;
     text-align: center;
     padding: 2px;
 }
 
-.gmb h2.punch {
+.gmb div.punch h2 {
     background-color: #4E3D7B;
     transform: rotate(2deg);
 }
 
-.gmb h2.kick {
+.gmb div.kick h2 {
     background-color: #FF0B48;
     transform: rotate(-2deg);
 }
 
-.gmb h2.block {
+.gmb div.block h2 {
     background-color: #800080;
     transform: rotate(2deg);
 }
 
-.gmb h2.grab {
+.gmb div.grab h2 {
     background-color: #355E00;
     transform: rotate(-2deg);
 }
 
-.gmb h2.athletics {
+.gmb div.athletics {
     background-color: #B80047;
     transform: rotate(2deg);
 }
 
-.gmb h2.focus {
+.gmb div.focus {
     background-color: #7AA731;
     transform: rotate(-2deg);
 }
@@ -234,38 +234,38 @@
     font-size: 13pt;
 }
 
-.gmb h4.punch, .gmb h4.kick, .gmb h4.block, .gmb h4.grab, .gmb h4.athletics, .gmb h4.focus {
+.gmb div.punch h4, .gmb div.kick h4, .gmb div.block h4, .gmb div.grab h4, .gmb div.athletics h4, .gmb div.focus h4 {
     font-family: "Arial Black", "Arial Bold", Helvetica, sans-serif;
     text-transform: none;
     padding-left: 1em;
 }
 
-.gmb h4.punch {
+.gmb div.punch h4 {
     color: #6B2394;
     font-weight: bold;
 }
 
-.gmb h4.kick {
+.gmb div.kick h4 {
     color: #FF0000;
     font-weight: bold;
 }
 
-.gmb h4.block {
+.gmb div.block h4 {
     color: #800080;
     font-weight: bold;
 }
 
-.gmb h4.grab {
+.gmb div.grab h4 {
     color: #355E00;
     font-weight: bold;
 }
 
-.gmb h4.athletics {
+.gmb div.athletics h4 {
     color: #B80047;
     font-weight: bold;
 }
 
-.gmb h4.focus {
+.gmb div.focus h4 {
     color: #AECF00;
     font-weight: bold;
 }
