@@ -214,12 +214,12 @@
     transform: rotate(-2deg);
 }
 
-.gmb div.athletics {
+.gmb div.athletics h2 {
     background-color: #B80047;
     transform: rotate(2deg);
 }
 
-.gmb div.focus {
+.gmb div.focus h2 {
     background-color: #7AA731;
     transform: rotate(-2deg);
 }
