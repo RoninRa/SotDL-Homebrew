@@ -59,34 +59,14 @@ Note, there are nested css comments here, and if included in the brew, the space
     background-color: var(--punch-hole-color);
     background-size: cover;
     transform: scaleX(1);
-}
-
-/* .gmb:nth-child(odd):after {
-    background-image: url('https://i.imgur.com/U5Cr0T4.png');
-    left: unset;
-    right: 20px;
-    bottom: unset;
-    top: 0;
-    width: 50px;
-    height: 100%;
-    mix-blend-mode: darken;
-    background-color: var(--punch-hole-color);
-    background-size: cover;
-    transform: scaleX(1);
     padding: unset;
-} */
+}
 
 .gmb:nth-of-type(2n):after {
     left: 15px;
     right: unset;
     transform: scaleX(1);
 }
-
-/* .gmb:nth-child(even):after {
-    left: 15px;
-    right: unset;
-    transform: scaleX(1);
-} */
 
 .flexbox {
     display: flex;
