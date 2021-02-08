@@ -172,7 +172,7 @@
 }
 
 .gmb h4.traits {
-    font-size: 14pt;
+    /* font-size: 14pt; */
     text-align: center;
     border-bottom-style: solid;
     border-bottom-color: var(--color-header-border);
@@ -180,7 +180,7 @@
 }
 
 .gmb h4.table {
-    font-size: 14pt;
+    /* font-size: 14pt; */
     text-align: center;
 }
 
