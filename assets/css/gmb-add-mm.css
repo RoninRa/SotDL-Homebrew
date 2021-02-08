@@ -57,6 +57,7 @@ Note, there are nested css comments here, and if included in the brew, the space
     height: 100%;
     mix-blend-mode: darken;
     background-color: var(--punch-hole-color);
+    background-size: cover;
     transform: scaleX(1);
 }
 
@@ -73,7 +74,7 @@ Note, there are nested css comments here, and if included in the brew, the space
 
 /* COVER PAGE  */
 
-.gmb .cover~h1 {
+.gmb div.cover h1 {
     border: none;
     text-align: center;
     font-size: 40px;
