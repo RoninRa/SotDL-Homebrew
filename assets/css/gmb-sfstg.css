@@ -560,7 +560,8 @@
     padding: 5px;
     margin: -11px -12px 10px -12px;
     background-color: var(--color-styles);
-    text-shadow: -1px -1px 0 var(--color-styles-secondary), 1px -1px 0 var(--color-styles-secondary), -1px 1px 0 var(--color-styles-secondary), 1px 1px 0 var(--color-styles-secondary);
+    /* text-shadow: -1px -1px 0 var(--color-styles-secondary), 1px -1px 0 var(--color-styles-secondary), -1px 1px 0 var(--color-styles-secondary), 1px 1px 0 var(--color-styles-secondary); */
+    filter: drop-shadow(4px 5px 2px var(--color-styles-secondary));
 }
 
 .gmb div.style-moves blockquote section ul li {
