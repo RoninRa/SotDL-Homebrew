@@ -20,6 +20,9 @@
     --color-table-main-bg: initial;
     --color-table-alt-bg: white;
     --color-maneuvers: #1E495D;
+    --color-maneuvers-secondary: #70A56F;
+    --color-styles: #E71815;
+    --color-styles-secondary: #FE7239;
     --color-link: #4927AC;
     --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
     --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
@@ -166,6 +169,14 @@
 
 .gmb h1 {
     font-size: 50pt;
+}
+
+.gmb div.styles h1 {
+    font-size: 20pt;
+    color: var(--color-styles);
+    outline: var(--color-styles-secondary) solid 2px;
+    column-span: none;
+    -webkit-column-span: none;
 }
 
 .gmb h1.moves {
@@ -538,6 +549,15 @@
 }
 
 /*** Blockquote END ***/
+
+/*** Style Listing Block ***/
+
+.gmb div.style-moves blockquote h1 {
+    background-color: var(--color-styles);
+    color: #FFF;
+}
+
+/*** Style Listing Block ***/
 
 /*** Note block ***/
 
