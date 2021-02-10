@@ -173,14 +173,6 @@
     font-size: 50pt;
 }
 
-.gmb div.styles h1 {
-    font-size: 20pt;
-    color: var(--color-styles);
-    text-shadow: -1px -1px 0 var(--color-styles-secondary), 1px -1px 0 var(--color-styles-secondary), -1px 1px 0 var(--color-styles-secondary), 1px 1px 0 var(--color-styles-secondary);
-    column-span: none;
-    -webkit-column-span: none;
-}
-
 .gmb h1.moves {
     font-size: 55pt;
     font-weight: bold;
@@ -193,12 +185,20 @@
     filter: drop-shadow(4px 5px 2px black);
 }
 
-.gmb h1.moves::after {
+/* .gmb h1.moves::after {
     text-shadow: 2px 3px 1px #000000;
-}
+} */
 
 .gmb h2 {
     font-size: 18pt;
+}
+
+.gmb div.styles h2 {
+    font-size: 20pt;
+    color: var(--color-styles);
+    text-shadow: -1px -1px 0 var(--color-styles-secondary), 1px -1px 0 var(--color-styles-secondary), -1px 1px 0 var(--color-styles-secondary), 1px 1px 0 var(--color-styles-secondary);
+    column-span: none;
+    -webkit-column-span: none;
 }
 
 .gmb div.punch h2, .gmb div.kick h2, .gmb div.block h2, .gmb div.grab h2, .gmb div.athletics h2, .gmb div.focus h2, .gmb div.weapon h2 {
