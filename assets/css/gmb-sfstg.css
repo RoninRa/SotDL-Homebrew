@@ -557,9 +557,13 @@
     border: 3px solid var(--color-styles);
 }
 
-.gmb div.style-moves blockquote h1 {
+.gmb div.style-moves blockquote section h1 {
     background-color: var(--color-styles);
     color: #FFF;
+}
+
+.gmb div.style-moves blockquote section ul li {
+    list-style-type: none;
 }
 
 /*** Style Listing Block END ***/
