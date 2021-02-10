@@ -505,11 +505,6 @@
 /*** Blockquote ***/
 
 .gmb blockquote {
-    /* border-image-source: var(--img-parchment);
-    border-image-slice: 20 fill;
-    border-image-width: 20;
-    border-image-outset: 5;
-    border-image-repeat: round; */
     background-color: #EBF1FD;
     background-size: 100% 100%;
     padding: 10px 10px 20px 12px;
@@ -559,9 +554,12 @@
 }
 
 .gmb div.style-moves blockquote section h1 {
-    font-size: 18pt;
-    background-color: var(--color-styles);
     color: #FFF;
+    font-size: 18pt;
+    line-height: 1.3em;
+    padding: 5px;
+    margin: -11px -12px 10px -12px;
+    background-color: var(--color-styles);
     text-shadow: -1px -1px 0 var(--color-styles-secondary), 1px -1px 0 var(--color-styles-secondary), -1px 1px 0 var(--color-styles-secondary), 1px 1px 0 var(--color-styles-secondary);
 }
 
