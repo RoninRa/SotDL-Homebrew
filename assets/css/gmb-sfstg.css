@@ -176,7 +176,7 @@
 .gmb div.styles h1 {
     font-size: 20pt;
     color: var(--color-styles);
-    outline: var(--color-styles-secondary) solid 2px;
+    text-shadow: -1px -1px 0 var(--color-styles-secondary), 1px -1px 0 var(--color-styles-secondary), -1px 1px 0 var(--color-styles-secondary), 1px 1px 0 var(--color-styles-secondary);
     column-span: none;
     -webkit-column-span: none;
 }
@@ -560,6 +560,7 @@
 .gmb div.style-moves blockquote section h1 {
     background-color: var(--color-styles);
     color: #FFF;
+    text-shadow: -1px -1px 0 var(--color-styles-secondary), 1px -1px 0 var(--color-styles-secondary), -1px 1px 0 var(--color-styles-secondary), 1px 1px 0 var(--color-styles-secondary);
 }
 
 .gmb div.style-moves blockquote section ul li {
