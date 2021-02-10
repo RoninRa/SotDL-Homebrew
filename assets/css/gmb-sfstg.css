@@ -23,6 +23,8 @@
     --color-maneuvers-secondary: #70A56F;
     --color-styles: #E71815;
     --color-styles-secondary: #FE7239;
+    --color-side-border: var(--color-maneuvers);
+    --color-side-border-text: var(--color-maneuvers-secondary);
     --color-link: #4927AC;
     --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
     --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
@@ -503,7 +505,6 @@
 /*** Blockquote ***/
 
 .gmb blockquote {
-    border: 3px solid var(--color-maneuvers);
     /* border-image-source: var(--img-parchment);
     border-image-slice: 20 fill;
     border-image-width: 20;
@@ -552,12 +553,16 @@
 
 /*** Style Listing Block ***/
 
+.gmb div.style-moves blockquote {
+    border: 3px solid var(--color-styles);
+}
+
 .gmb div.style-moves blockquote h1 {
     background-color: var(--color-styles);
     color: #FFF;
 }
 
-/*** Style Listing Block ***/
+/*** Style Listing Block END ***/
 
 /*** Note block ***/
 
@@ -588,6 +593,7 @@
 /*** Patreon Credits block END ***/
 
 .gmb div.patreon blockquote {
+    border: 3px solid var(--color-maneuvers);
     position: absolute;
     bottom: 15px;
     right: 40px;
@@ -793,12 +799,6 @@
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
     content: "";
     background: none;
-    /* background-size: 100px 100px, 780px 1046px; */
-    /* background-repeat: no-repeat; */
-    /* background-position: 20px calc(100% - 5px), bottom; */
-    /* margin-bottom: 10px; */
-    /* margin-left: 10px; */
-    /* left: -10px; */
     bottom: 0;
     height: 100%;
     z-index: -2;
@@ -806,17 +806,16 @@
 }
 
 .gmb:nth-child(even)::after {
-    border-left: 35px solid var(--color-maneuvers);
-    /* -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH"; */
+    border-left: 35px solid var(--color-side-border);
 }
 
 .gmb:nth-child(odd)::after {
-    border-right: 35px solid var(--color-maneuvers);
+    border-right: 35px solid var(--color-side-border);
+}
+
+.gmb:nth-child(even)::after p, .gmb:nth-child(odd)::after p {
+    color: var(--color-side-border-text);
+    transform: rotate(90deg);
 }
 
 div#p1::after {
