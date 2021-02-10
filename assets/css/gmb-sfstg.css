@@ -195,11 +195,12 @@
 
 .gmb div.styles h2 {
     font-size: 20pt;
+    text-align: center;
     color: var(--color-styles);
     text-shadow: -1px -1px 0 var(--color-styles-secondary), 1px -1px 0 var(--color-styles-secondary), -1px 1px 0 var(--color-styles-secondary), 1px 1px 0 var(--color-styles-secondary);
+    margin-bottom: 25px;
     column-span: none;
     -webkit-column-span: none;
-    text-align: center;
 }
 
 .gmb div.punch h2, .gmb div.kick h2, .gmb div.block h2, .gmb div.grab h2, .gmb div.athletics h2, .gmb div.focus h2, .gmb div.weapon h2 {
@@ -551,18 +552,18 @@
 
 .gmb div.style-moves blockquote {
     border: 3px solid var(--color-styles);
-    background-color: #FFDFB6;
+    /* background-color: #FFD9D9; */
+    background: linear-gradient(283deg, #FFD7D9 -11%, #FE7239 20%, transparent 100%);
 }
 
 .gmb div.style-moves blockquote section h1 {
     color: #FFF;
     font-size: 18pt;
+    text-align: center;
     line-height: 1.3em;
     padding: 5px;
     margin: -11px -12px 10px -12px;
     background-color: var(--color-styles);
-    /* text-shadow: -1px -1px 0 var(--color-styles-secondary), 1px -1px 0 var(--color-styles-secondary), -1px 1px 0 var(--color-styles-secondary), 1px 1px 0 var(--color-styles-secondary); */
-    filter: drop-shadow(4px 5px 2px var(--color-styles-secondary));
 }
 
 .gmb div.style-moves blockquote section ul li {
