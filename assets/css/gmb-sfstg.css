@@ -559,6 +559,7 @@
 }
 
 .gmb div.style-moves blockquote section h1 {
+    font-size: 18pt;
     background-color: var(--color-styles);
     color: #FFF;
     text-shadow: -1px -1px 0 var(--color-styles-secondary), 1px -1px 0 var(--color-styles-secondary), -1px 1px 0 var(--color-styles-secondary), 1px 1px 0 var(--color-styles-secondary);
