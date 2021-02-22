@@ -124,7 +124,7 @@
     position: relative;
 }
 
-.gmb div.title h2 {
+.gmb div.subtitle h2 {
     font-family: Athelas;
     color: var(--color-text-main);
     font-size: 18pt;
