@@ -80,7 +80,7 @@
     height: auto;
 }
 
-.gmb div.title {
+.gmb div.title .banner {
     background-image: var(--img-header-banner);
     background-size: 100% 106%;
     padding: 20px 0;
