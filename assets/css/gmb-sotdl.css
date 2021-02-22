@@ -80,7 +80,7 @@
     height: auto;
 }
 
-.gmb h1.title {
+.gmb div.title h1 {
     background-image: var(--img-header-banner);
     background-size: 100% 106%;
     padding: 20px 0;
@@ -88,7 +88,7 @@
     text-align: center;
 }
 
-.gmb h1.title span {
+.gmb div.title h1 span {
     font-family: "First Order";
     font-size: 50pt;
     text-align: center;
@@ -104,13 +104,13 @@
     bottom: 5px;
 }
 
-.gmb h1.title-text {
+.gmb div.title-text h1 {
     position: absolute;
     left: 120px;
     top: 200px;
 }
 
-.gmb h1.title-text span {
+.gmb div.title-text h1 span {
     font-family: "First Order";
     font-size: 60pt;
     text-align: center;
@@ -124,7 +124,7 @@
     position: relative;
 }
 
-.gmb h2.title {
+.gmb div.title h2 {
     font-family: Athelas;
     color: var(--color-text-main);
     font-size: 18pt;
@@ -171,7 +171,7 @@
     font-size: 14pt;
 }
 
-.gmb h4.traits {
+.gmb div.traits h4 {
     /* font-size: 14pt; */
     text-align: center;
     border-bottom-style: solid;
@@ -179,7 +179,7 @@
     border-bottom-width: 1.1px;
 }
 
-.gmb h4.table {
+.gmb div.tables h4 {
     /* font-size: 14pt; */
     text-align: center;
 }
@@ -191,7 +191,7 @@
     border-bottom-width: 1.1px;
 }
 
-.gmb h5.table {
+.gmb div.tables h5 {
     font-size: 12pt;
     text-align: center;
     border-bottom-style: none;
