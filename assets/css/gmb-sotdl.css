@@ -82,7 +82,8 @@
 
 .gmb div.title .banner {
     position: absolute;
-    top: 0px;
+    top: 0;
+    left: 0;
     background-image: var(--img-header-banner);
     background-size: 100% 106%;
     padding: 20px 0;
