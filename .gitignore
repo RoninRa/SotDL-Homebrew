@@ -1,7 +1,8 @@
 *.pdf
 *.md
 *.pdn
-assets/img/work/*
+*.docx
 *.paper
+assets/img/work/*
 SotDL/Rat Bastard/SotDL_HiddenKingdoms_Maze.docx
 aw/Submissions/*
