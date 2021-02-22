@@ -80,7 +80,7 @@
     height: auto;
 }
 
-.gmb div.title h1 {
+.gmb div.title {
     background-image: var(--img-header-banner);
     background-size: 100% 106%;
     padding: 20px 0;
@@ -88,7 +88,7 @@
     text-align: center;
 }
 
-.gmb div.title h1 span {
+.gmb div.title h1 {
     font-family: "First Order";
     font-size: 50pt;
     text-align: center;
