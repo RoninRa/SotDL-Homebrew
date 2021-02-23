@@ -172,7 +172,6 @@
 }
 
 .gmb div.traits h4 {
-    /* font-size: 14pt; */
     text-align: center;
     border-bottom-style: solid;
     border-bottom-color: var(--color-header-border);
@@ -180,7 +179,6 @@
 }
 
 .gmb div.tables h4 {
-    /* font-size: 14pt; */
     text-align: center;
 }
 
@@ -282,7 +280,7 @@
     width: 50%;
 }
 
-.gmb h4.table+table thead th, h4.table+section div table thead th, li p+table thead th, p+table thead th, .gmb h5.table+table thead th, h5.table+section div table thead th {
+.gmb div.tables+table thead th, div.table+section div table thead th, li p+table thead th, p+table thead th {
     background-color: var(--color-table-header-bg);
     color: #ffffff;
     font-family: "GothamBold";
