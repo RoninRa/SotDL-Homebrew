@@ -84,6 +84,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 816px;
     background-image: var(--img-header-banner);
     background-size: 100% 106%;
     padding: 20px 0;
