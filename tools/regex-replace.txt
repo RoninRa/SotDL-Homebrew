@@ -1,0 +1,28 @@
+## Titles ##
+
+Find: <h1 class="title" (?:\b.+?)<span(?:\b.+?)>(\b.+?)</span></h1>
+Replace: <div class="title">\n<div class="banner" style="top:450px;">\n\n# $1\n\n</div>\n</div>
+
+Find: <h2 class="title" (?:\b.+?)>(\b.+?)</h2>
+Replace: <div class="subtitle">\n\n# $1\n\n</div>
+
+
+## Tables ##
+
+Find: <h4 class=(?:"table"|table)>(\b.+?)</h4>
+Replace: <div class="tables">\n\n#### $1\n\n</div>
+
+
+## Traits ##
+
+Find: <h4 class="traits">(Level 1|Level 3|Level 7)(\b.+?)</h4>
+Replace: <div class="traits">\n\n#### $1$2
+
+Find: <h4 class="traits">(Level 2|Level 5|Level 6|Level 8|Level 9|Level 10)(\b.+?)</h4>
+Replace: #### $1$2
+
+
+## Span Spacing ##
+
+Find: <span (\b.+?)></span>
+Replace: 
