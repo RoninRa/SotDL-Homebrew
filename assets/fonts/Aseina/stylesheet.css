@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Aseina Style II';
-    src: url('ASEINA STYLE II.otf') format('otf');
+    src: url('ASEINA STYLE II.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Aseina Style III';
-    src: url('ASEINA STYLE III.otf') format('otf');
+    src: url('ASEINA STYLE III.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Aseina';
-    src: url('ASEINA TYPEFACE.otf') format('otf');
+    src: url('ASEINA TYPEFACE.otf');
     font-weight: normal;
     font-style: normal;
 }

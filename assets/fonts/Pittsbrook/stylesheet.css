@@ -1,41 +1,41 @@
 @font-face {
     font-family: 'Pittsbrook Outline';
-    src: url('Pittsbrook Outline.otf') format('otf');
+    src: url('Pittsbrook Outline.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Pittsbrook Outline Italic';
-    src: url('Pittsbrook Outline Italic.otf') format('otf');
+    src: url('Pittsbrook Outline Italic.otf');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Pittsbrook Sans';
-    src: url('Pittsbrook Sans.otf') format('otf');
+    src: url('Pittsbrook Sans.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Pittsbrook Sans Italic';
-    src: url('Pittsbrook Sans Italic.otf') format('otf');
+    src: url('Pittsbrook Sans Italic.otf');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Pittsbrook Serif';
-    src: url('Pittsbrook Serif.otf') format('otf');
+    src: url('Pittsbrook Serif.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Pittsbrook Serif Italic';
-    src: url('Pittsbrook Serif Italic.otf') format('otf');
+    src: url('Pittsbrook Serif Italic.otf');
     font-weight: normal;
     font-style: italic;
 }

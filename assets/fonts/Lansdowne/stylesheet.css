@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Lansdowne';
-    src: url('Lansdowne.otf') format('otf');
+    src: url('Lansdowne.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lansdowne Slanted';
-    src: url('Lansdowne Slanted.otf') format('otf');
+    src: url('Lansdowne Slanted.otf');
     font-weight: normal;
     font-style: normal;
 }

@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'New capricorn rough';
-    src: url('New capricorn rough.otf') format('otf');
+    src: url('New capricorn rough.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'New capricorn';
-    src: url('New capricorn.otf') format('otf');
+    src: url('New capricorn.otf');
     font-weight: normal;
     font-style: normal;
 }

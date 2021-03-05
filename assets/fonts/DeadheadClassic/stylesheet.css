@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Deadhead Classic';
-    src: url('Deadhead Classic.otf') format('otf');
+    src: url('Deadhead Classic.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Deadhead Classic Italic';
-    src: url('Deadhead Classic Italic.otf') format('otf');
+    src: url('Deadhead Classic Italic.otf');
     font-weight: normal;
     font-style: italic;
 }

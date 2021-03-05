@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Metal Shadowed';
-    src: url('Metal-Shadowed.otf') format('otf');
+    src: url('Metal-Shadowed.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metal';
-    src: url('Metal.otf') format('otf');
+    src: url('Metal.otf');
     font-weight: normal;
     font-style: normal;
 }

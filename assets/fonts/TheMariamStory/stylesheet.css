@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Mariam Rough';
-    src: url('mariam rough.otf') format('otf');
+    src: url('mariam rough.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mariam Story';
-    src: url('mariam story.otf') format('otf');
+    src: url('mariam story.otf');
     font-weight: normal;
     font-style: normal;
 }
