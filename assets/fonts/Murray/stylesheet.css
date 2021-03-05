@@ -1,23 +1,34 @@
 @font-face {
     font-family: 'Murray bold grunge';
-    src: url('Murrayboldgrunge.woff2') format('woff2'),
-        url('Murrayboldgrunge.woff') format('woff');
+    src: url('Murrayboldgrunge.woff2') format('woff2'), url('Murrayboldgrunge.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Murray bold';
-    src: url('Murraybold.woff2') format('woff2'),
-        url('Murraybold.woff') format('woff');
+    src: url('Murraybold.woff2') format('woff2'), url('Murraybold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Murray';
-    src: url('Murray.woff2') format('woff2'),
-        url('Murray.woff') format('woff');
+    src: url('Murray.woff2') format('woff2'), url('Murray.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Murray Bold Inline';
+    src: url('MurrayBoldInline.woff2') format('woff2'), url('MurrayBoldInline.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Murray Bold Inline Grunge';
+    src: url('MurrayBoldInlineGrunge.woff2') format('woff2'), url('MurrayBoldInlineGrunge.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 }

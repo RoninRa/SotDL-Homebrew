@@ -1,32 +1,13 @@
 @font-face {
     font-family: 'The Money';
-    src: url('TheMoney.woff2') format('woff2'),
-        url('TheMoney.woff') format('woff');
+    src: url('TheMoney.woff2') format('woff2'), url('TheMoney.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Murray Bold Inline';
-    src: url('MurrayBoldInline.woff2') format('woff2'),
-        url('MurrayBoldInline.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Murray Bold Inline Grunge';
-    src: url('MurrayBoldInlineGrunge.woff2') format('woff2'),
-        url('MurrayBoldInlineGrunge.woff') format('woff');
-    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'The Money Swash';
-    src: url('TheMoneySwash.woff2') format('woff2'),
-        url('TheMoneySwash.woff') format('woff');
+    src: url('TheMoneySwash.woff2') format('woff2'), url('TheMoneySwash.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
