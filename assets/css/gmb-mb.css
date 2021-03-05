@@ -51,9 +51,9 @@
 
 :root {
     --img-header-banner: url(../img/backgrounds/header-banner.png);
-    --img-main-bg: url(../img/backgrounds/sotdl_background.jpg);
-    --img-bg-border: url(../img/backgrounds/sotdl_background_border.png);
-    --img-bg-page-number: url(../img/backgrounds/pentagram.png);
+    --img-main-bg: none;
+    --img-bg-border: none;
+    --img-bg-page-number: none;
     --img-parchment: url(../img/backgrounds/parchment.png);
     --img-parchment-long: url(../img/backgrounds/parchment-long.png);
     --color-bg-main: white;
