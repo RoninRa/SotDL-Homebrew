@@ -56,14 +56,18 @@
     --img-bg-page-number: url(../img/backgrounds/pentagram.png);
     --img-parchment: url(../img/backgrounds/parchment.png);
     --img-parchment-long: url(../img/backgrounds/parchment-long.png);
-    --color-headers-main: black;
-    --color-headers-alt1: #FF41B4;
-    --color-headers-alt1: white;
-    --color-text-main: black;
-    --color-text-alt1: #FF41B4;
-    --color-text-alt2: #FFE800;
-    --color-strong: black;
-    --color-strong-alt: #800000;
+    --color-bg-main: white;
+    --color-bg-black: #020000;
+    --color-bg-yellow: #FFE800;
+    --color-text-main: #12120D;
+    --color-text-yellow: #FFE800;
+    --color-text-pink: #FF41B4;
+    --color-headers-main: var(--color-text-main);
+    --color-headers-yellow: var(--color-text-yellow);
+    --color-headers-pink: var(--color-text-pink);
+    --color-strong: var(--color-text-main);
+    --color-strong-yellow: var(--color-text-yellow);
+    --color-strong-pink: var(--color-text-pink);
     --color-monster-h1-bg: black;
     --color-monster-h2-bg: #800000;
     --color-monster-h3-bg: #A7A9AC;
@@ -100,7 +104,8 @@
 
 .gmb {
     font-family: Athelas;
-    background: var(--img-main-bg);
+    background: none;
+    background-color: #FFF;
     background-size: cover;
     background-repeat: no-repeat;
     height: 279.4mm;
@@ -312,12 +317,12 @@
     font-family: "GothamBold";
     font-weight: normal;
     font-size: 10pt;
-    color: var(--color-strong-alt);
+    color: var(--color-strong-yellow);
     letter-spacing: -0.02em;
 }
 
 .gmb strong em, .gmb em strong {
-    color: var(--color-strong-alt);
+    color: var(--color-strong-yellow);
     font-style: normal;
     font-weight: bold;
 }
@@ -773,7 +778,7 @@ div#p1::after {
     font-family: "GothamBold";
     font-weight: normal;
     font-size: 10pt;
-    color: var(--color-strong-alt);
+    color: var(--color-strong-yellow);
     letter-spacing: -0.02em;
 }
 
