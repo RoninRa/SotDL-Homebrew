@@ -66,19 +66,19 @@ Use this to add a spell to your submission.
 #### Tradition
 
 <div class="spell">
-  <h1>Spell Name</h1>
-  <h2>Tradition Type Rank</h2>
-  <hr>
-  <ul>
-    <li><strong>Target</strong> Target details</li>
-    <li><strong>Duration</strong> Duration details</li>
-    <li><strong>Requirements</strong> Requirements details</li>
-  </ul>
-  <hr>
-  <li>Spell description.</li>
-  <li><strong>Attack Roll 20+</strong> Extra effect on 20+?</li>
-  <li><strong>Sacrifice</strong> Can it be sacrifcied?</li>
-  <li><strong>Aftereffect</strong> Does it have an aftereffect?</li>
+
+# Spell Name
+## Tradition Type Rank
+---
+- **Target** Target details
+- **Duration** Duration details
+- **Requirements** Requirements details
+---
+- Spell description.
+- **Attack Roll 20+** Extra effect on 20+?
+- **Sacrifice** Can it be sacrifcied?
+- **Aftereffect** Does it have an aftereffect?
+
 </div>
 
 ### Ancestries
