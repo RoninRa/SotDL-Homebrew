@@ -132,7 +132,6 @@
     font-weight: bold;
     text-align: center;
     text-transform: none;
-    margin: 0 50px 0 50px;
 }
 
 .gmb h1+p::first-letter {
