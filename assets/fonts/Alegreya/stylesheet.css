@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Alegreya';
+    src: url('Alegreya-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Bold';
+    src: url('Alegreya-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Italic';
+    src: url('Alegreya-Italic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Bold Italic';
+    src: url('Alegreya-BoldItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Black';
+    src: url('Alegreya-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Black Italic';
+    src: url('Alegreya-BlackItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlegreyaSC Regular';
+    src: url('AlegreyaSC-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlegreyaSC Bold';
+    src: url('AlegreyaSC-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlegreyaSC Italic';
+    src: url('AlegreyaSC-Italic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlegreyaSC Bold Italic';
+    src: url('AlegreyaSC-BoldItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlegreyaSC Black';
+    src: url('AlegreyaSC-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlegreyaSC Black Italic';
+    src: url('AlegreyaSC-BlackItalic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
