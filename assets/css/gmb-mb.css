@@ -9,7 +9,7 @@
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Atlantis/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Billiard/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/BlackVelvet2/stylesheet.css');
-@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Blackletter/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Deadhead Classic/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Burvetica/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CaliforniaFreestyle/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CallingCode/stylesheet.css');
@@ -211,7 +211,7 @@
 }
 
 .gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
-    font-family: 'Blackletter';
+    font-family: 'Deadhead Classic';
     font-weight: normal;
     text-align: left;
     color: var(--color-headers-main);
@@ -461,7 +461,7 @@
 }
 
 .gmb blockquote section h1, .gmb blockquote section h2, .gmb blockquote section h3, .gmb blockquote section h4, .gmb blockquote section h5, .gmb blockquote section h6 {
-    font-family: 'Blackletter';
+    font-family: 'Deadhead Classic';
 }
 
 .gmb blockquote p {
@@ -543,7 +543,7 @@
 }
 
 .gmb blockquote.credits h1.credits {
-    font-family: 'Blackletter';
+    font-family: 'Deadhead Classic';
     font-weight: normal;
     font-size: 18pt;
     text-align: center;
@@ -551,7 +551,7 @@
 }
 
 .gmb blockquote.credits p {
-    font-family: 'Blackletter';
+    font-family: 'Deadhead Classic';
     font-weight: normal;
     font-size: 10pt;
     color: var(--color-text-main);
@@ -612,7 +612,7 @@
 }
 
 .gmb div.credits h1.credits {
-    font-family: 'Blackletter';
+    font-family: 'Deadhead Classic';
     font-weight: normal;
     font-size: 32pt;
     text-align: center;
@@ -620,7 +620,7 @@
 }
 
 .gmb div.credits p {
-    font-family: 'Blackletter';
+    font-family: 'Deadhead Classic';
     font-weight: normal;
     font-size: 13pt;
     color: var(--color-text-main);
