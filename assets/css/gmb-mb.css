@@ -149,16 +149,19 @@
     height: auto;
 }
 
-.gmb h1.title {
+.gmb div.title .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 816px;
     background-image: var(--img-header-banner);
-    background-size: 100% 100%;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    margin: 0px -65px 0px -65px;
+    background-size: 100% 106%;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.gmb h1.title span {
-    font-family: "First Order";
+.gmb div.title .banner h1 {
+    font-family: "Chomsky";
     font-size: 50pt;
     text-align: center;
     font-weight: normal;
@@ -169,18 +172,14 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-fill-color: #f3ebebd1;
     position: relative;
-    left: 20%;
     bottom: 5px;
 }
 
-.gmb h1.title-text {
+.gmb div.title-text h1 {
     position: absolute;
     left: 120px;
     top: 200px;
-}
-
-.gmb h1.title-text span {
-    font-family: "First Order";
+    font-family: "Chomsky";
     font-size: 60pt;
     text-align: center;
     font-weight: normal;
@@ -193,7 +192,7 @@
     position: relative;
 }
 
-.gmb h2.title {
+.gmb div.subtitle h2 {
     font-family: 'Alegreya';
     color: var(--color-text-main);
     font-size: 18pt;
@@ -201,7 +200,6 @@
     font-weight: bold;
     text-align: center;
     text-transform: none;
-    margin: 0 50px 0 50px;
 }
 
 .gmb h1+p::first-letter {
@@ -213,7 +211,7 @@
 }
 
 .gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
-    font-family: 'Chomsky';
+    font-family: 'Blackletter';
     font-weight: normal;
     text-align: left;
     color: var(--color-headers-main);
@@ -223,6 +221,7 @@
 }
 
 .gmb h1 {
+    font-family: 'Chomsky';
     font-size: 32pt;
 }
 
@@ -237,19 +236,17 @@
 }
 
 .gmb h4 {
-    font-size: 13pt;
+    font-size: 14pt;
 }
 
-.gmb h4.traits {
-    font-size: 14pt;
+.gmb div.traits h4 {
     text-align: center;
     border-bottom-style: solid;
     border-bottom-color: var(--color-header-border);
     border-bottom-width: 1.1px;
 }
 
-.gmb h4.table {
-    font-size: 14pt;
+.gmb div.tables h4 {
     text-align: center;
 }
 
@@ -260,7 +257,7 @@
     border-bottom-width: 1.1px;
 }
 
-.gmb h5.table {
+.gmb div.tables h5 {
     font-size: 12pt;
     text-align: center;
     border-bottom-style: none;
@@ -464,7 +461,7 @@
 }
 
 .gmb blockquote section h1, .gmb blockquote section h2, .gmb blockquote section h3, .gmb blockquote section h4, .gmb blockquote section h5, .gmb blockquote section h6 {
-    font-family: 'Poison Hope';
+    font-family: 'Blackletter';
 }
 
 .gmb blockquote p {
@@ -546,7 +543,7 @@
 }
 
 .gmb blockquote.credits h1.credits {
-    font-family: 'Poison Hope';
+    font-family: 'Blackletter';
     font-weight: normal;
     font-size: 18pt;
     text-align: center;
@@ -554,7 +551,7 @@
 }
 
 .gmb blockquote.credits p {
-    font-family: 'Poison Hope';
+    font-family: 'Blackletter';
     font-weight: normal;
     font-size: 10pt;
     color: var(--color-text-main);
@@ -615,7 +612,7 @@
 }
 
 .gmb div.credits h1.credits {
-    font-family: 'Poison Hope';
+    font-family: 'Blackletter';
     font-weight: normal;
     font-size: 32pt;
     text-align: center;
@@ -623,7 +620,7 @@
 }
 
 .gmb div.credits p {
-    font-family: 'Poison Hope';
+    font-family: 'Blackletter';
     font-weight: normal;
     font-size: 13pt;
     color: var(--color-text-main);
