@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata');
 @import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Alegreya/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Amstrong/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Andagis/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Annabel/stylesheet.css');
@@ -112,7 +113,7 @@
 }
 
 .gmb {
-    font-family: 'Courier Prime';
+    font-family: 'Alegreya';
     background: none;
     background-color: #FFF;
     background-size: cover;
@@ -191,7 +192,7 @@
 }
 
 .gmb h2.title {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     color: var(--color-text-main);
     font-size: 18pt;
     font-style: italic;
@@ -296,7 +297,7 @@
 }
 
 .gmb p.cover-footer, .gmb p.cover-footer em {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     bottom: 10px;
     left: 25px;
     text-align: left;
@@ -562,7 +563,7 @@
 }
 
 .gmb blockquote.credits p strong em {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     color: var(--color-strong);
     font-style: italic;
     font-weight: bold;
@@ -573,14 +574,14 @@
 }
 
 .gmb blockquote.credits div.acknowledgements p {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     font-weight: normal;
     font-size: 8pt;
     letter-spacing: -0.02em;
 }
 
 .gmb blockquote.credits div.acknowledgements p strong {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     font-weight: bold;
     font-size: 8pt;
     color: var(--color-strong);
@@ -641,14 +642,14 @@
 }
 
 .gmb div.credits div.acknowledgements p {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     font-weight: normal;
     font-size: 10pt;
     letter-spacing: -0.02em;
 }
 
 .gmb div.credits div.acknowledgements strong {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     font-weight: bold;
     font-size: 10pt;
     color: var(--color-strong);
@@ -842,7 +843,7 @@ div#p1::after {
 }
 
 .gmb hr+section blockquote h1 {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     background-color: var(--color-monster-h1-bg);
     background-image: none;
     color: white;
@@ -857,7 +858,7 @@ div#p1::after {
 }
 
 .gmb hr+section blockquote h2 {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     font-weight: normal;
     font-size: 8pt;
     font-style: initial;
@@ -872,7 +873,7 @@ div#p1::after {
 }
 
 .gmb hr+section blockquote h3 {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     font-weight: bold;
     font-size: 9pt;
     color: var(--color-strong);
@@ -885,7 +886,7 @@ div#p1::after {
 
 .gmb hr+section blockquote h2+p {
     clear: both;
-    font-family: Athelas;
+    font-family: 'Alegreya';
     font-weight: bold;
     font-size: 9pt;
     color: white;
@@ -940,7 +941,7 @@ div#p1::after {
 /** Spells **/
 
 .gmb div.spell h1 {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     font-size: 10pt;
     color: var(--color-headers-main);
     font-weight: bold;
@@ -955,7 +956,7 @@ div#p1::after {
 }
 
 .gmb div.spell h2 {
-    font-family: Athelas;
+    font-family: 'Alegreya';
     font-size: 7pt;
     color: var(--color-headers-main);
     font-weight: bold;
