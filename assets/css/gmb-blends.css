@@ -82,68 +82,68 @@ img.half-top {
     transform: scaleY(-1);
 }
 
-.gmb .blend .half-v, .gmb .blend .half-v .left {
+.half-v {
     background-image: var(--blend-half-vertical);
     background-size: 115%;
 }
 
-.gmb .blend .half-h, .gmb .blend .half-h .bottom {
+.half-h {
     background-image: var(--blend-half-horizontal);
 }
 
-.gmb .blend .corner, .gmb .blend .corner .bottom .left {
+.corner {
     background-image: var(--blend-corner);
 }
 
-.gmb .blend .corner-inverted, .gmb .blend .corner-inverted .bottom .left {
+.corner-inverted {
     background-image: var(--blend-corner-inverted);
 }
 
-.gmb .blend .corner-inverted-small, .gmb .blend .corner-inverted-small .bottom .left {
+.corner-inverted-small {
     background-image: var(--blend-corner-inverted-small);
 }
 
-.gmb .blend .corner-quarter, .gmb .blend .corner-quarter .bottom .left {
+.corner-quarter {
     background-image: var(--blend-corner-quarter);
 }
 
-.gmb .blend .onethird, .gmb .blend .onethird .bottom {
+.onethird {
     background-image: var(--blend-onethird);
 }
 
-.gmb .blend .twothirds, .gmb .blend .twothirds .bottom {
+.twothirds {
     background-image: var(--blend-twothirds);
 }
 
-.gmb .blend .half-v .alt {
+.half-v .alt {
     background-image: var(--blend-half-vertical-alt);
 }
 
-.gmb .blend .half-h .alt {
+.half-h .alt {
     background-image: var(--blend-half-horizontal-alt);
 }
 
-.gmb .blend .corner .alt {
+.corner .alt {
     background-image: var(--blend-corner-alt);
 }
 
-.gmb .blend .corner-inverted .alt {
+.corner-inverted .alt {
     background-image: var(--blend-corner-inverted-alt);
 }
 
-.gmb .blend .corner-inverted-small .alt {
+.corner-inverted-small .alt {
     background-image: var(--blend-corner-inverted-small-alt);
 }
 
-.gmb .blend .corner-quarter .alt {
+.corner-quarter .alt {
     background-image: var(--blend-corner-quarter-alt);
 }
 
-.gmb .blend .onethird .alt {
+.onethird .alt {
     background-image: var(--blend-onethird-alt);
 }
 
-.gmb .blend .twothirds .alt {
+.twothirds .alt {
     background-image: var(--blend-twothirds-alt);
 }
 
