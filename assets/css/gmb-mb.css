@@ -403,7 +403,8 @@
 }
 
 .gmb table tbody tr td ul {
-    text-indent: -1em;
+    /* text-indent: -1em; */
+    text-indent: 0;
     list-style-type: none;
 }
 
@@ -769,8 +770,10 @@ div#p1::after {
 /*** Lists ***/
 
 .gmb ul {
-    text-indent: -1em;
+    /* text-indent: -1em; */
+    text-indent: 0;
     list-style-type: none;
+    padding-left: 0;
 }
 
 .gmb ul strong, .gmb ul p strong, .gmb ol strong {
