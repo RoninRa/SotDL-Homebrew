@@ -115,35 +115,36 @@ img.half-top {
     background-image: var(--blend-twothirds);
 }
 
-.half-v .alt {
+.half-v-alt {
     background-image: var(--blend-half-vertical-alt);
+    background-size: 115%;
 }
 
-.half-h .alt {
+.half-h-alt {
     background-image: var(--blend-half-horizontal-alt);
 }
 
-.corner .alt {
+.corner-alt {
     background-image: var(--blend-corner-alt);
 }
 
-.corner-inverted .alt {
+.corner-inverted-alt {
     background-image: var(--blend-corner-inverted-alt);
 }
 
-.corner-inverted-small .alt {
+.corner-inverted-small-alt {
     background-image: var(--blend-corner-inverted-small-alt);
 }
 
-.corner-quarter .alt {
+.corner-quarter-alt {
     background-image: var(--blend-corner-quarter-alt);
 }
 
-.onethird .alt {
+.onethird-alt {
     background-image: var(--blend-onethird-alt);
 }
 
-.twothirds .alt {
+.twothirds-alt {
     background-image: var(--blend-twothirds-alt);
 }
 
