@@ -744,7 +744,7 @@ div#p1::after {
 
 .gmb .footnote {
     color: var(--color-strong);
-    font-family: "Athelas";
+    font-family: 'Alegreya';
     font-weight: bold;
     font-size: .8em;
     width: 200px;
@@ -832,8 +832,8 @@ div#p1::after {
 }
 
 .gmb p, .gmb li, .gmb ol {
-    font-family: 'Athelas';
-    font-size: 11pt;
+    font-family: 'Alegreya';
+    font-size: 12pt;
     text-align: left;
     letter-spacing: -0.01em;
 }
