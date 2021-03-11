@@ -125,7 +125,8 @@
 .gmb {
     font-family: 'Alegreya';
     background: none;
-    background-color: #FFF;
+    background-color: var(--color-white);
+    ;
     background-size: cover;
     background-repeat: no-repeat;
     height: 279.4mm;
@@ -317,11 +318,6 @@
 
 /*** Layout ***/
 
-.gmb div.column-container {
-    column-count: 2;
-    column-span: all;
-}
-
 .gmb div.dual-tables {
     column-count: 2;
 }
@@ -336,6 +332,19 @@
 }
 
 /*** Paragraph END***/
+
+/*** Containers ***/
+
+.gmb div.text-container {
+    position: absolute;
+}
+
+.gmb div.column-container {
+    column-count: 2;
+    column-span: all;
+}
+
+/*** Containers END***/
 
 /*** Bold ***/
 
@@ -367,7 +376,8 @@
 
 .gmb h4.table+table thead th, h4.table+section div table thead th, li p+table thead th, p+table thead th, .gmb h5.table+table thead th, h5.table+section div table thead th {
     background-color: var(--color-table-header-bg);
-    color: #ffffff;
+    color: var(--color-white);
+    ;
     font-family: "GothamBold";
     font-size: 8pt;
     padding: 3px 6px 3px 6px !important;
@@ -702,7 +712,8 @@
 .gmb .pageNumber, .gmb .pageNumber.auto {
     font-family: "Poison Hope";
     font-size: 13pt;
-    color: #ffffff;
+    color: var(--color-white);
+    ;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
     text-align: center;
 }
