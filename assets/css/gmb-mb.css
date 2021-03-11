@@ -328,6 +328,15 @@
 
 /*** Layout END ***/
 
+/*** Paragraph ***/
+
+.gmb p+p {
+    text-indent: unset;
+    margin-top: 0.5em;
+}
+
+/*** Paragraph END***/
+
 /*** Bold ***/
 
 .gmb p strong {
