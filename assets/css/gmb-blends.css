@@ -87,6 +87,10 @@ img.half-top {
     transform: scaleY(-1);
 }
 
+.top.right {
+    transform: scale(-1);
+}
+
 .half-v {
     background-image: var(--blend-half-vertical);
     background-size: 115%;
