@@ -117,8 +117,10 @@
 @media print {
     .gmb {
         margin: 0;
-        height: 279.4mm;
-        width: 215.9mm;
+        height: 210mm;
+        width: 148mm;
+        /* height: 279.4mm;
+        width: 215.9mm; */
     }
 }
 
@@ -128,8 +130,10 @@
     background-color: var(--color-white);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 279.4mm;
-    width: 215.9mm;
+    height: 210mm;
+    width: 148mm;
+    /* height: 279.4mm;
+        width: 215.9mm; */
     padding: 1.0cm 1.0cm 1.0cm 1.0cm;
     column-fill: auto;
     column-count: 2;
