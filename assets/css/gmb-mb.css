@@ -330,6 +330,11 @@
     margin-top: 0.5em;
 }
 
+p {
+    margin: 0 0 5px;
+    line-height: 1.2em;
+}
+
 /*** Paragraph END***/
 
 /*** Containers ***/
