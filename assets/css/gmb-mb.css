@@ -228,16 +228,16 @@
 
 .gmb h1 {
     font-family: 'Chomsky';
-    font-size: 32pt;
+    font-size: 26pt;
 }
 
 .gmb h2 {
-    font-size: 25pt;
+    font-size: 24pt;
 }
 
 .gmb h3 {
     border-bottom-style: none;
-    font-size: 18pt;
+    font-size: 20pt;
     padding: 0;
 }
 
@@ -288,7 +288,7 @@
 .gmb img.cover-logo {
     position: absolute;
     width: 140px;
-    bottom: 35px;
+    bottom: 50px;
     right: 20px;
     z-index: 5;
     transform: rotate(10deg);
@@ -350,7 +350,7 @@
 .gmb p strong {
     font-family: "GothamBold";
     font-weight: normal;
-    font-size: 10pt;
+    font-size: 8pt;
     color: var(--color-strong-yellow);
     letter-spacing: -0.02em;
 }
@@ -816,7 +816,7 @@ div#p1::after {
 .gmb p ul li strong {
     font-family: "GothamBold";
     font-weight: normal;
-    font-size: 10pt;
+    font-size: 8pt;
     color: var(--color-strong-yellow);
     letter-spacing: -0.02em;
 }
@@ -824,7 +824,7 @@ div#p1::after {
 .gmb p ul li ul li strong, .gmb p+ul li strong {
     font-family: "GothamBold";
     font-weight: normal;
-    font-size: 10pt;
+    font-size: 8pt;
     color: var(--color-strong);
     letter-spacing: -0.02em;
 }
