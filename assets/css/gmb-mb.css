@@ -128,17 +128,17 @@
     width: 148mm;
     /* height: 279.4mm;
         width: 215.9mm; */
-    padding: 1.0cm 1.0cm 1.0cm 1.0cm;
+    padding: 0.7cm 0cm 0.7cm 0.8cm;
     column-fill: auto;
     column-count: 2;
-    column-gap: 0.4cm;
-    column-width: 9cm;
+    column-gap: 0.1cm;
+    column-width: 6cm;
     -webkit-column-count: 2;
-    -webkit-column-gap: 0.4cm;
-    -webkit-column-width: 9cm;
+    -webkit-column-gap: 0.1cm;
+    -webkit-column-width: 6cm;
     -moz-column-count: 2;
-    -moz-column-gap: 0.4cm;
-    -moz-column-width: 9cm;
+    -moz-column-gap: 0.1cm;
+    -moz-column-width: 6cm;
 }
 
 .gmb a, .gmb .custom-external-link {
@@ -451,7 +451,7 @@
 }
 
 .gmb table+ul li {
-    font-size: 10pt;
+    font-size: 9pt;
 }
 
 .gmb table em {
@@ -580,7 +580,7 @@
 .gmb blockquote.credits p {
     font-family: 'Deadhead Classic';
     font-weight: normal;
-    font-size: 10pt;
+    font-size: 9pt;
     color: var(--color-text-main);
     margin-top: 5px;
     text-align: center;
@@ -641,7 +641,7 @@
 .gmb div.credits h1.credits {
     font-family: 'Deadhead Classic';
     font-weight: normal;
-    font-size: 32pt;
+    font-size: 26pt;
     text-align: center;
     border: none;
 }
@@ -649,7 +649,7 @@
 .gmb div.credits p {
     font-family: 'Deadhead Classic';
     font-weight: normal;
-    font-size: 13pt;
+    font-size: 9pt;
     color: var(--color-text-main);
     margin-top: 5px;
     text-align: center;
@@ -670,14 +670,14 @@
 .gmb div.credits div.acknowledgements p {
     font-family: 'Alegreya';
     font-weight: normal;
-    font-size: 10pt;
+    font-size: 9pt;
     letter-spacing: -0.02em;
 }
 
 .gmb div.credits div.acknowledgements strong {
     font-family: 'Alegreya';
     font-weight: bold;
-    font-size: 10pt;
+    font-size: 8pt;
     color: var(--color-strong);
     letter-spacing: -0.03em;
 }
@@ -709,27 +709,25 @@
 /** Page number **/
 
 .gmb .pageNumber, .gmb .pageNumber.auto {
-    font-family: "Poison Hope";
-    font-size: 13pt;
+    font-family: 'Aclonica';
+    font-size: 11pt;
     color: var(--color-white);
-    ;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
     text-align: center;
 }
 
 .gmb:nth-child(odd) .pageNumber, .gmb:nth-child(even) .pageNumber {
     right: 0px;
-    bottom: 32px;
-    width: 50px;
-    vertical-align: middle;
+    bottom: 5px;
+    z-index: 100;
 }
 
 .gmb:nth-child(odd) .pageNumber {
-    left: 30px;
+    left: 0px;
 }
 
 .gmb:nth-child(even) .pageNumber {
-    left: 735px;
+    left: 520px;
 }
 
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
@@ -852,7 +850,7 @@ div#p1::after {
 
 .gmb p, .gmb li, .gmb ol {
     font-family: 'Alegreya';
-    font-size: 12pt;
+    font-size: 9pt;
     text-align: left;
     letter-spacing: -0.01em;
 }
