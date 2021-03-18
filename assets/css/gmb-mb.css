@@ -96,14 +96,6 @@
     --blend-corner-inverted: url('/SotDL-Homebrew/assets/img/blends/mb-blend-corner-inverted.png');
     --blend-corner-inverted-small: url('/SotDL-Homebrew/assets/img/blends/mb-blend-corner-inverted-small.png');
     --blend-corner-quarter: url('/SotDL-Homebrew/assets/img/blends/mb-blend-corner-quarter.png');
-    --blend-half-vertical-alt: url('/SotDL-Homebrew/assets/img/blends/mb-yellow-blend-half-vertical.png');
-    --blend-half-horizontal-alt: url('/SotDL-Homebrew/assets/img/blends/mb-yellow-blend-half-horizontal.png');
-    --blend-corner-alt: url('/SotDL-Homebrew/assets/img/blends/mb-yellow-blend-corner.png');
-    --blend-onethird-alt: url('/SotDL-Homebrew/assets/img/blends/mb-yellow-blend-onethird.png');
-    --blend-twothirds-alt: url('/SotDL-Homebrew/assets/img/blends/mb-yellow-blend-twothirds.png');
-    --blend-corner-inverted-alt: url('/SotDL-Homebrew/assets/img/blends/mb-yellow-blend-corner-inverted.png');
-    --blend-corner-inverted-small-alt: url('/SotDL-Homebrew/assets/img/blends/mb-yellow-blend-corner-inverted-small.png');
-    --blend-corner-quarter-alt: url('/SotDL-Homebrew/assets/img/blends/mb-yellow-blend-corner-quarter.png');
 }
 
 /** Global properties END **/
@@ -123,6 +115,8 @@
         width: 215.9mm; */
     }
 }
+
+/** Full-page image size: 559 x 794 **/
 
 .gmb {
     font-family: 'Alegreya';
@@ -293,27 +287,29 @@
 
 .gmb img.cover-logo {
     position: absolute;
-    width: 375px;
-    bottom: 50px;
-    left: 20px;
+    width: 140px;
+    bottom: 35px;
+    right: 20px;
     z-index: 5;
+    transform: rotate(10deg);
 }
 
 .gmb img.mb-logo {
     position: absolute;
-    width: 225px;
-    bottom: 15px;
-    right: 16px;
+    width: 140px;
+    bottom: 35px;
+    left: 20px;
     z-index: 5;
+    transform: rotate(-10deg);
 }
 
 .gmb p.cover-footer, .gmb p.cover-footer em {
     font-family: 'Alegreya';
-    bottom: 10px;
-    left: 25px;
-    text-align: left;
-    font-size: 10pt;
-    width: 550px;
+    bottom: 15px;
+    left: 180px;
+    text-align: justify;
+    font-size: 8pt;
+    width: 200px;
     color: #EEEEEE;
 }
 
