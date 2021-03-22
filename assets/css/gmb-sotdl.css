@@ -1014,7 +1014,7 @@ div#p1::after {
 
 .gmb div.ad-page div.grid {
     display: grid;
-    grid-template-columns: 150px 500px;
+    grid-template-columns: 150px 550px;
     grid-gap: 2rem;
 }
 
