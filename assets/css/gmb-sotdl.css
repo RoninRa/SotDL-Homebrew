@@ -413,6 +413,13 @@
     text-indent: 0;
 }
 
+.gmb blockquote footer {
+    color: var(--color-text-main);
+    font-family: Athelas;
+    line-height: 1.1em;
+    font-size: 1em;
+}
+
 /*** Blockquote END ***/
 
 /*** Note block ***/
