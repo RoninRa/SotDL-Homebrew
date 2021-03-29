@@ -413,7 +413,7 @@
     text-indent: 0;
 }
 
-.gmb blockquote footer {
+.gmb blockquote small {
     color: var(--color-text-main);
     font-family: Athelas;
     line-height: 1.1em;
