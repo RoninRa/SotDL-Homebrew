@@ -264,6 +264,7 @@
 
 .gmb div.placeholder-art p {
     flex: 0 0 30;
+    font-size: 20pt;
     font-weight: bold;
 }
 
