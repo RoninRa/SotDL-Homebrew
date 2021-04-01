@@ -264,11 +264,11 @@
 
 .gmb div.placeholder-art p {
     flex: 0 0 30;
-    font-size: 18pt;
+    font-size: 20pt;
     font-weight: bold;
 }
 
-.gmb div.placeholder-art p {
+.gmb div.placeholder-art h1 {
     font-size: 30pt;
     margin: 10px 0 0 0;
 }
