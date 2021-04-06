@@ -297,6 +297,69 @@
 
 /*** Bold END ***/
 
+/*** TOC ***/
+
+.gmb .toc li span:nth-child(2) {
+    /* Allow dot leaders to fill remaining space but not overlap */
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
+.gmb .toc li span:nth-child(2):after {
+    font-family: BookSanity;
+    /* Remove any header styles from dot leaders */
+    font-size: 1em;
+    font-weight: normal;
+    color: black;
+    content: " ........................................" "........................................." ".........................................";
+}
+
+.gmb .toc li span:first-child {
+    /* Remove any header styles from page numbers */
+    float: right;
+    font-family: BookSanity;
+    font-size: 1em;
+    font-weight: normal;
+    color: black;
+    margin-left: 0.5em;
+    /* Leaves a small space between page numbers and dot leaders */
+}
+
+.gmb .toc li h3 span:nth-child(2):after {
+    content: " ";
+    /* Remove dot leaders on h3 */
+}
+
+.gmb .toc li h3 {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    line-height: initial;
+}
+
+.gmb .toc li h3 span:first-child {
+    line-height: 2em;
+}
+
+.gmb .toc ul {
+    text-indent: initial;
+}
+
+.gmb .toc ul ul {
+    margin-left: 1em;
+}
+
+.gmb .toc>ul>li {
+    margin-bottom: initial;
+}
+
+.gmb .toc ul li ul li {
+    list-style-type: none;
+}
+
+/* TOC END */
+
 /* Tables */
 
 .gmb div.half-table table {
