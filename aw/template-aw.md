@@ -41,8 +41,8 @@ Use this to add a Creature to your submission.
 Remember to add some flavor and/or story to your Creature.
 
 ---
-> # Creature Name
-> ## Difficulty, digits only
+> ### Creature Name
+> #### Difficulty, digits only
 >*Size x type*
 > ___
 > - **Perception** 10(+0), special sight
@@ -51,24 +51,24 @@ Remember to add some flavor and/or story to your Creature.
 > - **Speed** 10;
 > - **Talent Name** Talent Description
 > 
->### Attack Options
+>##### Attack Options
 > ___
 > - **Attack** (melee/ranged) +0 with x boon (1d6)
 >
->### Special Attacks
+>##### Special Attacks
 > ___
 > - **Special Attack** Special Attack description.
 
-### Magic
+# Magic
 
 Use this to add a spell to your submission.
 
-#### Tradition
+## Tradition
 
 <div class="spell">
 
-# Spell Name
-## Tradition Type Rank
+### Spell Name
+#### Tradition Type Rank
 ---
 - **Target** Target details
 - **Duration** Duration details
@@ -81,19 +81,17 @@ Use this to add a spell to your submission.
 
 </div>
 
-### Ancestries
+# Ancestries
 
 Use these to add an ancestry to your submission.
 
-### Standard
-
-This is the standard ancestry.
-
-#### AncestryName
+## AncestryName
 
 Remember to add some flavor and/or story to your Ancestry.
 
-<h4 class="traits">Creating a AncestryName</h4>
+<div class="traits">
+
+#### Creating a AncestryName
 
 - **Attribute Scores** Strength 10, Agility 10, Intellect 10, Will 10
 - **Random Attribute Scores** Strength 8 + 1d3, Agility 8 + 1d3, Intellect 8 + 1d3, Will 8 + 1d3
@@ -113,7 +111,7 @@ Use this to add a powerful ancestry.
 
 Remember to add some flavor and/or story to your Powerful Ancestry.
 
-<h4 class="traits">Creating a AncestryName</h4>
+#### Creating a AncestryName
 
 - **Attribute Scores** X +1, Y +1
 - **Characteristics** Health, Power, Insanity, Corruption, Perception, Speed
@@ -121,27 +119,28 @@ Remember to add some flavor and/or story to your Powerful Ancestry.
 - **Placeholder** Placeholder.
 - **Powerful Ancestry** When your group attains level 1, you do not choose a novice path. Instead, whenever the Advancement table indicates you would gain benefits from a novice path, you gain the benefits from your ancestry for that level.  
 
-<h4 class="traits">Level 1 AncestryName</h4>
+#### Level 1 AncestryName
 
 - **Attributes** Increase two by 1
 - **Characteristics** Health, Power, Insanity, Corruption, Perception, Speed
 - **Placeholder** Placeholder.
 
-<h4 class="traits">Level 2 AncestryName</h4>
+#### Level 2 AncestryName
 
 - **Characteristics** Health, Power, Insanity, Corruption, Perception, Speed
 - **Placeholder** Placeholder.
 
-<h4 class="traits">Level 5 Expert AncestryName</h4>
+#### Level 5 Expert AncestryName
 
 - **Characteristics** Health, Power, Insanity, Corruption, Perception, Speed
 - **Placeholder** Placeholder.
 
-<h4 class="traits">Level 8 Master AncestryName</h4>
+#### Level 8 Master AncestryName
 
 - **Characteristics** Health, Power, Insanity, Corruption, Perception, Speed
 - **Placeholder** Placeholder.
 
+</div>
 ### Paths
 
 Use this to add a Path to your submission.
@@ -150,7 +149,9 @@ Use this to add a Path to your submission.
 
 Remember to add some flavor and/or story to your Novice Path.
 
-<h4 class="traits">Level 1 PathName</h4>
+<div class="traits">
+
+#### Level 1 PathName
 
 - **Attributes** Increase two by 1
 - **Characteristics** Health, Power, Insanity, Corruption
@@ -158,26 +159,30 @@ Remember to add some flavor and/or story to your Novice Path.
 - **Equipment** Placeholder.
 - **Placeholder** Placeholder.
 
-<h4 class="traits">Level 2 PathName</h4>
+#### Level 2 PathName
 
 - **Characteristics** Health, Power, Insanity, Corruption
 - **Placeholder** Placeholder.
 
-<h4 class="traits">Level 5 Expert Novice PathName</h4>
+#### Level 5 Expert Novice PathName
 
 - **Characteristics** Health, Power, Insanity, Corruption
 - **Placeholder** Placeholder.
 
-<h4 class="traits">Level 8 Master Novice PathName</h4>
+#### Level 8 Master Novice PathName
 
 - **Characteristics** Health, Power, Insanity, Corruption
 - **Placeholder** Placeholder.
+
+</div>
 
 ## Expert PathName
 
 Remember to add some flavor and/or story to your Expert Path.
 
-<h4 class=table>Expert PathName Story Development</h4>
+<div class=table>
+
+#### Expert PathName Story Development
 
 |  dX   | Story Development |
 | :---: | :---------------- |
@@ -185,7 +190,11 @@ Remember to add some flavor and/or story to your Expert Path.
 |   1   | Story             |
 |   1   | Story             |
 
-<h4 class="traits">Level 3 PathName</h4>
+</div>
+
+<div class="traits">
+
+#### Level 3 PathName
 
 - **Attributes** Increase two by 1
 - **Characteristics** Health, Power, Insanity, Corruption
@@ -193,45 +202,55 @@ Remember to add some flavor and/or story to your Expert Path.
 - **Equipment** Placeholder.
 - **Talent** Talent description.
 
-<h4 class="traits">Level 6 PathName</h4>
+#### Level 6 PathName
 
 - **Characteristics** Health, Power, Insanity, Corruption
 - **Talent** Talent description.
 
-<h4 class="traits">Level 9 Master PathName</h4>
+#### Level 9 Master PathName
 
 - **Characteristics** Health, Power, Insanity, Corruption
 - **Talent** Talent description.
+
+</div>
 
 ## Master PathName
 
 Remember to add some flavor and/or story to your Master Path.
 
-<h4 class="traits">Level 7 PathName</h4>
+<div class="traits">
+
+#### Level 7 PathName
 
 - **Attributes** Increase three by 1
 - **Characteristics** Health, Power, Insanity, Corruption
 - **Professions and Languages** Placeholder.
 - **Talent** Talent description.
 
-<h4 class="traits">Level 10 PathName</h4>
+#### Level 10 PathName
 
 - **Characteristics** Health, Power, Insanity, Corruption
 - **Talent** Talent description.
 
-### Equipment
+</div>
+
+# Equipment
 
 Use this to add equipment to your submission.
 
-#### Weapons
+## Weapons
 
 Here's an example table for Weapons. Just duplicate the example to add more.
 
-<h4 class="table">Type Weapons</h4>
+<div class="table">
+
+#### Type Weapons
 
 | Name        | Damage |    Hands    | Properties |      Price       | Avail.  |
 | :---------- | :----: | :---------: | :--------- | :--------------: | :-----: |
 | Weapon name | xd6+x  | One/Off/Two | Properties | xx bits/cp/ss/gc | C/U/R/E |
+
+</div>
 
 ##### Weapon Name
 
@@ -247,11 +266,15 @@ Add any properties for your weapons as a list here.
 
 Here's an example table for Gear. Just duplicate the example to add more.
 
-<h4 class="table">Gear</h4>
+<div class="table">
+
+#### Gear
 
 | Item      |      Price       | Avail.  |
 | :-------- | :--------------: | :-----: |
 | Gear name | xx bits/cp/ss/gc | C/U/R/E |
+
+</div>
 
 ##### Gear Name
 
