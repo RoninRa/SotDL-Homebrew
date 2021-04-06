@@ -1,4 +1,4 @@
-Submitted by: Add how you want to be credited here. If you have a logo, website, blog, patreon, youtube channel, what-have-you, feel free to add that too.
+- *Written by: Add how you want to be credited here. If you have a logo, website, blog, patreon, youtube channel, what-have-you, feel free to add that too.*
 
 ## Article Name
 
@@ -42,7 +42,7 @@ Remember to add some flavor and/or story to your Creature.
 
 ---
 > # Creature Name
-> ## Difficulty, digits only.
+> ## Difficulty, digits only
 >*Size x type*
 > ___
 > - **Perception** 10(+0), special sight
