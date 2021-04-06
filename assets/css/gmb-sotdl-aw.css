@@ -274,7 +274,7 @@
 }
 
 .gmb .toc li span:nth-child(2):after {
-    font-family: BookSanity;
+    font-family: "GothamBook";
     /* Remove any header styles from dot leaders */
     font-size: 1em;
     font-weight: normal;
@@ -285,7 +285,7 @@
 .gmb .toc li span:first-child {
     /* Remove any header styles from page numbers */
     float: right;
-    font-family: BookSanity;
+    font-family: "GothamBook";
     font-size: 1em;
     font-weight: normal;
     color: black;
@@ -318,6 +318,8 @@
 
 .gmb .toc>ul>li {
     margin-bottom: initial;
+    font-size: 15pt;
+    line-height: 1.1em;
 }
 
 .gmb .toc ul li ul li {
