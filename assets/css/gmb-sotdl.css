@@ -311,7 +311,7 @@
 .gmb .toc li span:nth-child(2):after {
     /* Remove any header styles from dot leaders */
     font-family: Athelas;
-    font-size: 0.35cm;
+    font-size: 0.4cm;
     font-weight: normal;
     color: black;
     content: " ........................................" "........................................." ".........................................";
@@ -321,7 +321,7 @@
     /* Remove any header styles from page numbers */
     float: right;
     font-family: Athelas;
-    font-size: 0.35cm;
+    font-size: 0.4cm;
     font-weight: normal;
     color: black;
     margin-left: 1px;
