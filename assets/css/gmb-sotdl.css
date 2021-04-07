@@ -310,7 +310,7 @@
 
 .gmb .toc li span:nth-child(2):after {
     /* Remove any header styles from dot leaders */
-    /* font-family: BookSanity; */
+    font-family: Athelas;
     font-size: 0.35cm;
     font-weight: normal;
     color: black;
@@ -320,19 +320,20 @@
 .gmb .toc li span:first-child {
     /* Remove any header styles from page numbers */
     float: right;
-    /* font-family: BookSanity; */
+    font-family: Athelas;
     font-size: 0.35cm;
     font-weight: normal;
     color: black;
     margin-left: 1px;
 }
 
-.gmb .toc li h3 span:nth-child(2):after {
+/* .gmb .toc li h3 span:nth-child(2):after {
     content: " ";
     /* Remove dot leaders on h3 */
+
 }
 
-.gmb .toc li h3 {
+*/ .gmb .toc li h3 {
     font-size: 15pt;
     margin-bottom: 4px;
     margin-top: 10px;
@@ -341,6 +342,11 @@
 
 .gmb .toc li h3 span:first-child {
     line-height: 1.8em;
+}
+
+.gmb .toc li h4, .gmb .toc li h5 {
+    text-transform: none;
+    font-family: Athelas;
 }
 
 .gmb .toc li h4 {
