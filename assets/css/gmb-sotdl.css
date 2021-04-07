@@ -268,9 +268,10 @@
     font-weight: bold;
 }
 
-.gmb div.placeholder-art h1 {
+.gmb div.placeholder-art h6 {
     font-size: 30pt;
     margin: 10px 0 0 0;
+    border-bottom: none;
 }
 
 /*** Layout END ***/
