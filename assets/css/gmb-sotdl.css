@@ -327,13 +327,7 @@
     margin-left: 1px;
 }
 
-/* .gmb .toc li h3 span:nth-child(2):after {
-    content: " ";
-    /* Remove dot leaders on h3 */
-
-}
-
-*/ .gmb .toc li h3 {
+.gmb .toc li h3 {
     font-size: 15pt;
     margin-bottom: 4px;
     margin-top: 10px;
