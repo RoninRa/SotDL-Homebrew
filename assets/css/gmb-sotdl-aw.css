@@ -274,8 +274,8 @@
 }
 
 .gmb .toc li span:nth-child(2):after {
-    font-family: "GothamBook";
     /* Remove any header styles from dot leaders */
+    font-family: BookSanity;
     font-size: 1em;
     font-weight: normal;
     color: black;
@@ -285,12 +285,11 @@
 .gmb .toc li span:first-child {
     /* Remove any header styles from page numbers */
     float: right;
-    font-family: "GothamBook";
+    font-family: BookSanity;
     font-size: 1em;
     font-weight: normal;
     color: black;
-    margin-left: 0.5em;
-    /* Leaves a small space between page numbers and dot leaders */
+    margin-left: 1px;
 }
 
 .gmb .toc li h3 span:nth-child(2):after {
@@ -299,13 +298,23 @@
 }
 
 .gmb .toc li h3 {
-    margin-bottom: 0.5em;
-    margin-top: 1em;
+    font-size: 15pt;
+    margin-bottom: 4px;
+    margin-top: 10px;
     line-height: initial;
 }
 
 .gmb .toc li h3 span:first-child {
-    line-height: 2em;
+    line-height: 1.8em;
+}
+
+.gmb .toc li h4 {
+    font-size: 13pt;
+}
+
+.gmb .toc li h5 {
+    font-size: 11pt;
+    border-bottom: none;
 }
 
 .gmb .toc ul {
@@ -313,13 +322,11 @@
 }
 
 .gmb .toc ul ul {
-    margin-left: 1em;
+    margin-left: 10px;
 }
 
 .gmb .toc>ul>li {
     margin-bottom: initial;
-    font-size: 15pt;
-    line-height: 1.1em;
 }
 
 .gmb .toc ul li ul li {
