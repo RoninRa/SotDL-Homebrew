@@ -330,7 +330,7 @@
 .gmb .toc li h3 {
     font-size: 12pt;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 
 .gmb .toc li h3 span:first-child {
@@ -350,7 +350,8 @@
 
 .gmb .toc li h5 {
     font-size: 10pt;
-    margin-top: -5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     border-bottom: none;
 }
 
