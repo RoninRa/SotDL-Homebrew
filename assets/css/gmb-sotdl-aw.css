@@ -275,8 +275,8 @@
 
 .gmb .toc li span:nth-child(2):after {
     /* Remove any header styles from dot leaders */
-    font-family: BookSanity;
-    font-size: 1em;
+    font-family: Athelas;
+    font-size: 0.4cm;
     font-weight: normal;
     color: black;
     content: " ........................................" "........................................." ".........................................";
@@ -285,20 +285,15 @@
 .gmb .toc li span:first-child {
     /* Remove any header styles from page numbers */
     float: right;
-    font-family: BookSanity;
-    font-size: 1em;
+    font-family: Athelas;
+    font-size: 0.4cm;
     font-weight: normal;
     color: black;
     margin-left: 1px;
 }
 
-.gmb .toc li h3 span:nth-child(2):after {
-    content: " ";
-    /* Remove dot leaders on h3 */
-}
-
 .gmb .toc li h3 {
-    font-size: 15pt;
+    font-size: 14pt;
     margin-bottom: 4px;
     margin-top: 10px;
     line-height: initial;
@@ -308,12 +303,18 @@
     line-height: 1.8em;
 }
 
+.gmb .toc li h4, .gmb .toc li h5 {
+    text-transform: none;
+    font-family: Athelas;
+}
+
 .gmb .toc li h4 {
-    font-size: 13pt;
+    font-size: 11pt;
+    font-weight: bold;
 }
 
 .gmb .toc li h5 {
-    font-size: 11pt;
+    font-size: 10pt;
     border-bottom: none;
 }
 
