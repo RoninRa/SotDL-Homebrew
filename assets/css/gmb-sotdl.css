@@ -345,7 +345,8 @@
 .gmb .toc li h4 {
     font-size: 10pt;
     font-weight: bold;
-    margin-top: 0px;
+    margin-top: 3px;
+    margin-bottom: 0px;
 }
 
 .gmb .toc li h5 {
