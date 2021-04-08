@@ -333,9 +333,9 @@
     margin-top: 5px;
 }
 
-.gmb .toc li h3 span:first-child {
+/* .gmb .toc li h3 span:first-child {
     line-height: 1.8em;
-}
+} */
 
 .gmb .toc li h4, .gmb .toc li h5 {
     text-transform: none;
