@@ -337,6 +337,10 @@
     line-height: 1.8em;
 } */
 
+/* .gmb .toc li h3+ul li:nth-child(1) h4 span {
+    margin-right:-7px;
+} */
+
 .gmb .toc li h4, .gmb .toc li h5 {
     text-transform: none;
     font-family: Athelas;
