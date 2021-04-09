@@ -914,6 +914,12 @@ div#p1::after {
     text-indent: 1em;
 }
 
+.gmb p.list-indent+ul li:first-of-type {
+    margin-left: 0;
+    line-height: 1em;
+    text-indent: 1em;
+}
+
 .gmb p, .gmb li, .gmb ol {
     font-family: 'Athelas';
     font-size: 11pt;
