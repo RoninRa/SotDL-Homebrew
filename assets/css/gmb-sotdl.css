@@ -900,7 +900,7 @@ div#p1::after {
     margin-top: 0px;
 }
 
-.gmb ul li div.column-break+p {
+.gmb ul li div.column-break+p, .gmb ul+div.column-break+p {
     text-indent: 1em;
 }
 
