@@ -947,7 +947,7 @@ div#p1::after {
     filter: none;
 }
 
-.gmb hr+section blockquote h1 {
+.gmb hr+section blockquote h3 {
     font-family: Athelas;
     background-color: var(--color-monster-h1-bg);
     background-image: none;
@@ -962,7 +962,7 @@ div#p1::after {
     text-transform: uppercase;
 }
 
-.gmb hr+section blockquote h2 {
+.gmb hr+section blockquote h4 {
     font-family: Athelas;
     font-weight: normal;
     font-size: 8pt;
@@ -977,7 +977,7 @@ div#p1::after {
     text-align: right;
 }
 
-.gmb hr+section blockquote h3 {
+.gmb hr+section blockquote h5 {
     font-family: Athelas;
     font-weight: bold;
     font-size: 9pt;
@@ -990,7 +990,7 @@ div#p1::after {
     text-transform: uppercase;
 }
 
-.gmb hr+section blockquote h2+p {
+.gmb hr+section blockquote h4+p {
     clear: both;
     font-family: Athelas;
     font-weight: bold;
@@ -1001,7 +1001,7 @@ div#p1::after {
     padding-left: 5px;
 }
 
-.gmb hr+section blockquote h2+p+hr, .gmb hr+section blockquote h3+hr {
+.gmb hr+section blockquote h4+p+hr, .gmb hr+section blockquote h5+hr {
     display: none;
 }
 
@@ -1028,17 +1028,17 @@ div#p1::after {
     border-color: #800000;
 }
 
-.gmb hr+section blockquote h1+hr {
+.gmb hr+section blockquote h3+hr {
     visibility: hidden;
     margin: 0;
     height: 0;
 }
 
-.gmb hr+section blockquote h1+hr+section h2:before {
+.gmb hr+section blockquote h3+hr+section h4:before {
     content: "";
 }
 
-.gmb hr+section blockquote h2:before {
+.gmb hr+section blockquote h4:before {
     content: "DIFFICULTY ";
 }
 
@@ -1046,7 +1046,7 @@ div#p1::after {
 
 /** Spells **/
 
-.gmb div.spell h1 {
+.gmb div.spell h3 {
     font-family: Athelas;
     font-size: 10pt;
     color: var(--color-headers-main);
@@ -1061,7 +1061,7 @@ div#p1::after {
     text-transform: uppercase;
 }
 
-.gmb div.spell h2 {
+.gmb div.spell h4 {
     font-family: Athelas;
     font-size: 7pt;
     color: var(--color-headers-main);
@@ -1084,7 +1084,7 @@ div#p1::after {
     position: relative;
 }
 
-.gmb div.spell h2+hr {
+.gmb div.spell h4+hr {
     border-width: 2px 0px 0px 0px;
     width: 100%;
 }
