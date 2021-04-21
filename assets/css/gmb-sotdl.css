@@ -1150,13 +1150,13 @@ div#p1::after {
 /*** Use defult theme disclaimer ***/
 
 .phb#p1 div.default-disclaimer::after {
-    font-size: 20pt;
+    font-size: 26pt;
     font-family: Athelas;
     color: white;
     position: absolute;
     top: 0px;
     left: 30px;
-    content: "Theme look weird? Click the cogs above, then check the 'Use default GM Binder Theme?' button.";
+    content: "Theme look weird? Click the cogs icon above, then check the 'Use default GM Binder Theme?' button.";
 }
 
 .gmb#p1 div.default-disclaimer::after {
