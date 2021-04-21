@@ -1146,3 +1146,16 @@ div#p1::after {
 }
 
 /*** Ad Page END***/
+
+/*** Use defult theme disclaimer ***/
+
+.phb#p1 div.default-disclaimer {
+    content: "Theme look weird? Click the cogs above, then check the 'Use default GM Binder Theme?' button.";
+    font-size: 40pt;
+    position: absolute;
+    top: 50px;
+}
+
+.gmb#p1 div.default-disclaimer {
+    content: "";
+}
