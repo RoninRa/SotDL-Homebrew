@@ -274,6 +274,10 @@
     border-bottom: none;
 }
 
+.gmb div.column-break+p, .gmb.ng-scope p {
+    text-indent: 1em;
+}
+
 /*** Layout END ***/
 
 /*** Bold ***/
