@@ -296,9 +296,9 @@
     font-weight: bold;
 }
 
-.gmb h5+p strong {
+/* .gmb h5+p strong {
     color: var(--color-strong);
-}
+} */
 
 /*** Bold END ***/
 
