@@ -726,6 +726,66 @@
 
 /*** Credits div END ***/
 
+/*** Full page Credits ***/
+
+.gmb div.full-page-credits {
+    column-span: all;
+    text-align: center;
+}
+
+.gmb div.full-page-credits h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gmb div.full-page-credits h2 {
+    text-align: center;
+    color: var(--color-text-main);
+    margin: 10px 0 10px 0;
+}
+
+.gmb div.full-page-credits h3 {
+    font-size: 16pt;
+}
+
+.gmb div.full-page-credits div.main-writer h3 {
+    font-size: 20pt;
+}
+
+.gmb div.full-page-credits div.main-writer p {
+    font-size: 16pt;
+}
+
+.gmb div.full-page-credits h3+p {
+    font-size: 13pt;
+    margin-left: 10px;
+}
+
+.gmb div.full-page-credits ul li {
+    font-size: 10pt;
+}
+
+.gmb div.full-page-credits h3, .gmb div.full-page-credits h3+p {
+    display: inline;
+}
+
+.gmb div.full-page-credits .acknowledgements h4 {
+    text-align: center;
+}
+
+.gmb div.full-page-credits .acknowledgements p {
+    font-size: 10pt;
+    text-align: center;
+}
+
+.gmb div.full-page-credits .acknowledgements em strong {
+    font-style: italic;
+    font-weight: bold;
+    color: var(--color-text-main);
+}
+
+/*** Full page Credits END ***/
+
 .gmb .descriptive {
     border: none;
     background-color: transparent;
