@@ -66,7 +66,7 @@
     -moz-column-width: 9cm;
 }
 
-.gmb a, .gmb .custom-external-link {
+.gmb a, .gmb .custom-external-link, .gmb .custom-internal-link {
     color: var(--color-link);
 }
 
