@@ -753,12 +753,13 @@
 }
 
 .gmb div.full-page-credits div.main-writer p {
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 .gmb div.full-page-credits h3+p {
     font-size: 13pt;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 .gmb div.full-page-credits ul li {
