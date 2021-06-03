@@ -114,6 +114,10 @@
     width: 63px;
 }
 
+.gmb p.leftnote+p, .gmb p.sidenote+p {
+    margin-top: inherit;
+}
+
 /*** Marginalia END ***/
 
 /** Monster Stat Block **/
