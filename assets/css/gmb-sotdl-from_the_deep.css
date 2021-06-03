@@ -84,18 +84,18 @@
 }
 
 .gmb:nth-child(odd) .pageNumber {
-    left: 27px;
+    left: 37px;
 }
 
 .gmb:nth-child(even) .pageNumber {
-    left: 720px;
+    left: 730px;
 }
 
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
     background-size: 100px 100px, 816px 1056px;
     background-position: 26px calc(100% - 20px), bottom;
     margin-bottom: unset;
-    margin-left: unset;
+    /* margin-left: unset; */
 }
 
 /*** Page number END ***/
