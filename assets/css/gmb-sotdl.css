@@ -682,7 +682,7 @@
     background-image: none;
 }
 
-.gmb div.full-page-credits h4, .gmb div.full-page-credits h4+p {
+.gmb div.credits h4, .gmb div.credits h4+p {
     display: inline;
 }
 
