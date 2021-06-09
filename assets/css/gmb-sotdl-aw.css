@@ -13,6 +13,11 @@
 
 /**  **/
 
+.gmb p, .gmb div.tables table td, .gmb ul li {
+    text-align: justify !important;
+    text-justify: inter-word;
+}
+
 .gmb:nth-child(even) {
     padding: 1.0cm 1.0cm 1.0cm 1.75cm;
     background: var(--img-main-bg-left);
@@ -54,11 +59,11 @@
 }
 
 .gmb h2 {
-    font-size: 25pt;
+    font-size: 20pt;
 }
 
 .gmb h3 {
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 .gmb h4 {
@@ -182,6 +187,10 @@
     min-width: 34px;
 }
 
+.gmb div.tables table td {
+    padding-right: 10px;
+}
+
 /*** Tables END ***/
 
 /*** Blockquote ***/
@@ -194,6 +203,24 @@
 }
 
 /*** Blockquote END ***/
+
+/*** Article ***/
+
+.gmb article.drop-cap p:first-child {
+    text-indent: 0;
+}
+
+.gmb article.drop-cap p:first-child:first-letter {
+    color: var(--color-headers-main);
+    color: black;
+    font-family: "gothic leaf";
+    float: left;
+    font-size: 80px;
+    line-height: 60px;
+    padding: 10px 4px 0 3px;
+}
+
+/*** Article END ***/
 
 /*** Div Article Credits block ***/
 
