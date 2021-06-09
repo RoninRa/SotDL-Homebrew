@@ -679,6 +679,7 @@
     text-align: center;
     border: none;
     column-span: none;
+    background-image: none;
 }
 
 .gmb div.credits p {
