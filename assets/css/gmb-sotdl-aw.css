@@ -4,33 +4,9 @@
 
 :root {
     --img-header-banner: url(../img/backgrounds/header-banner.png);
-    --img-main-bg: url(../img/backgrounds/sotdl_background.jpg);
-    --img-bg-border: url(../img/backgrounds/sotdl_background_border.png);
-    --img-bg-page-number: url(../img/backgrounds/pentagram.png);
-    --img-parchment: url(../img/backgrounds/parchment.png);
-    --img-parchment-long: url(../img/backgrounds/parchment-long.png);
+    --img-bg-border: none;
     --img-main-bg-right: url(https://roninra.github.io/SotDL-Homebrew/assets/img/ApocryphalWritings/background/bg-book.png);
     --img-main-bg-left: url(https://roninra.github.io/SotDL-Homebrew/assets/img/ApocryphalWritings/background/bg-book-left.png);
-    --color-headers-main: #800000;
-    --color-text-main: black;
-    --color-strong: black;
-    --color-strong-alt: #800000;
-    --color-monster-h1-bg: black;
-    --color-monster-h2-bg: #800000;
-    --color-monster-h3-bg: #A7A9AC;
-    --color-header-border: black;
-    --color-table-header-bg: black;
-    --color-table-main-bg: initial;
-    --color-table-alt-bg: white;
-    --color-link: #800000;
-    --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
-    --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
-    --blend-corner: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png');
-    --blend-onethird: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png');
-    --blend-twothirds: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png');
-    --blend-corner-inverted: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted.png');
-    --blend-corner-inverted-small: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted-small.png');
-    --blend-corner-quarter: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-quarter.png');
 }
 
 /** Global properties END **/
@@ -82,84 +58,26 @@
 }
 
 .gmb h3 {
-    border-bottom-style: none;
     font-size: 18pt;
-    padding: 0;
 }
 
 .gmb h4 {
     font-size: 13pt;
 }
 
-.gmb h4.traits {
-    font-size: 14pt;
-    text-align: center;
-    border-bottom-style: solid;
-    border-bottom-color: var(--color-header-border);
-    border-bottom-width: 1.1px;
-}
-
-.gmb h4.table {
-    font-size: 14pt;
-    text-align: center;
-}
-
 .gmb h5 {
     font-size: 12pt;
-    border-bottom-style: solid;
-    border-bottom-color: var(--color-header-border);
-    border-bottom-width: 1.1px;
-}
-
-.gmb h5.table {
-    font-size: 12pt;
-    text-align: center;
-    border-bottom-style: none;
-}
-
-.gmb h5.sidebar {
-    font-size: 12pt;
-    text-align: center;
 }
 
 .gmb h6 {
     font-size: 10pt;
-    border-bottom-style: solid;
-    border-bottom-color: var(--color-headers-main);
-    border-bottom-width: 1.1px;
 }
 
 /*** Headers END ***/
 
 /*** Cover ***/
 
-.gmb img.cover-logo {
-    position: absolute;
-    width: 375px;
-    bottom: 50px;
-    left: 20px;
-    z-index: 5;
-}
-
-.gmb img.dotdl {
-    position: absolute;
-    width: 225px;
-    bottom: 15px;
-    right: 16px;
-    z-index: 5;
-}
-
-.gmb p.cover-footer, .gmb p.cover-footer em {
-    font-family: Athelas;
-    bottom: 10px;
-    left: 25px;
-    text-align: left;
-    font-size: 10pt;
-    width: 550px;
-    color: #EEEEEE;
-}
-
-.gmb h1.cover {
+.gmb div.cover h1 {
     margin: 0;
     background-image: none;
     font-family: 'Poison Hope';
@@ -173,7 +91,7 @@
     -webkit-text-fill-color: #f3ebebd1;
 }
 
-.gmb h2.cover {
+.gmb div.cover h2 {
     font-family: 'Poison Hope';
     color: White;
     font-size: 18pt;
@@ -182,7 +100,7 @@
     text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
 }
 
-.gmb h3.issue-date {
+.gmb div.cover div.issue-date h3 {
     color: white;
     font-size: 13pt;
     position: absolute;
