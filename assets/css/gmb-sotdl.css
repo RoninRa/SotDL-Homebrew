@@ -1025,8 +1025,10 @@ div#p1::after {
     float: left;
     margin: 0px;
     width: 70%;
+    height: 28px;
     text-align: left;
     text-transform: uppercase;
+    border-bottom: none;
 }
 
 .gmb hr+section blockquote h4 {
