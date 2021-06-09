@@ -8,6 +8,8 @@
     --img-bg-page-number: url(../img/backgrounds/pentagram.png);
     --img-parchment: url(../img/backgrounds/parchment.png);
     --img-parchment-long: url(../img/backgrounds/parchment-long.png);
+    --img-main-bg-right: url(https://roninra.github.io/SotDL-Homebrew/assets/img/ApocryphalWritings/background/bg-book.png);
+    --img-main-bg-left: url(https://roninra.github.io/SotDL-Homebrew/assets/img/ApocryphalWritings/background/bg-book-left.png);
     --color-headers-main: #800000;
     --color-text-main: black;
     --color-strong: black;
@@ -34,51 +36,20 @@
 
 /**  **/
 
-.brewRenderer .pages>.gmb {
-    margin-bottom: 10px;
-}
-
-@media print {
-    .gmb {
-        margin: 0;
-        height: 279.4mm;
-        width: 215.9mm;
-    }
-}
-
 .gmb {
-    font-family: Athelas;
-    background: var(--img-main-bg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 279.4mm;
-    width: 215.9mm;
-    padding: 1.0cm 1.0cm 1.0cm 1.0cm;
-    column-fill: auto;
-    column-count: 2;
-    column-gap: 0.4cm;
-    column-width: 9cm;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 0.4cm;
-    -webkit-column-width: 9cm;
-    -moz-column-count: 2;
-    -moz-column-gap: 0.4cm;
-    -moz-column-width: 9cm;
+    padding: 1.0cm 1.75cm 1.0cm 1.75cm;
+    column-width: 8cm;
 }
 
-.gmb a, .gmb .custom-external-link {
-    color: var(--color-link);
+.gmb:nth-child(even) {
+    background: var(--img-main-bg-left);
+}
+
+.gmb:nth-child(odd) {
+    background: var(--img-main-bg-right);
 }
 
 /*** Headers ***/
-
-.gmb img.header-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-}
 
 .gmb h1 {
     background-image: var(--img-header-banner);
