@@ -669,17 +669,21 @@
 
 .gmb div.credits h3 {
     text-align: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .gmb div.credits h3 {
     font-family: 'Poison Hope';
     font-weight: normal;
-    font-size: 32pt;
+    font-size: 25pt;
     text-align: center;
     border: none;
     column-span: none;
     background-image: none;
+}
+
+.gmb div.credits h4 {
+    font-size: 20pt;
 }
 
 .gmb div.credits h4, .gmb div.credits h4+p {
