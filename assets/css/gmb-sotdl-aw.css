@@ -37,16 +37,13 @@
 
 /**  **/
 
-.gmb {
-    padding: 1.0cm 1.75cm 1.0cm 1.75cm;
-    column-width: 8cm;
-}
-
 .gmb:nth-child(even) {
+    padding: 1.0cm 1.0cm 1.0cm 1.75cm;
     background: var(--img-main-bg-left);
 }
 
 .gmb:nth-child(odd) {
+    padding: 1.0cm 1.75cm 1.0cm 1.0cm;
     background: var(--img-main-bg-right);
 }
 
