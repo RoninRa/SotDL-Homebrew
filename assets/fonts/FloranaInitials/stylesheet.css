@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'florana initials';
+    src: url('florana-webfont.woff2') format('woff2'),
+         url('florana-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

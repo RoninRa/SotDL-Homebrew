@@ -9,6 +9,7 @@
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Atlantis/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Billiard/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/BlackVelvet2/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/BlavickeCapitals/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Deadhead Classic/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Burvetica/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/CaliforniaFreestyle/stylesheet.css');
@@ -20,7 +21,10 @@
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Demonius/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Expert/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/FetteTrumpDeutsch/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/FloranaInitials/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Giant/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/GothicLeaf/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/GoudyInitialen/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Hillpark/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/History/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Hydrant/stylesheet.css');
@@ -41,10 +45,13 @@
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Ollie/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Pittsbrook/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Ravenholm/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Regal/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Riotic/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Rikiar/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RomantiqueInitials/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RomeoJuliet/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/RuasThin/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/SotDL/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Starla/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/TheMariamStory/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/TheMoney/stylesheet.css');
@@ -53,7 +60,7 @@
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Viliaris/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/VultronBlack/stylesheet.css');
 @import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/Watson/stylesheet.css');
-@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/SotDL/stylesheet.css');
+@import url('https://roninra.github.io/SotDL-Homebrew/assets/fonts/WolnoughCapitals/stylesheet.css');
 /** Global properties **/
 
 :root {

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'regal';
+    src: url('regal-vmje-webfont.woff2') format('woff2'),
+         url('regal-vmje-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

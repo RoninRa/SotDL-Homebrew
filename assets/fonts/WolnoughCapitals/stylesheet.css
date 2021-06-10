@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'wolnough capitals';
+    src: url('wolnough-webfont.woff2') format('woff2'),
+         url('wolnough-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
