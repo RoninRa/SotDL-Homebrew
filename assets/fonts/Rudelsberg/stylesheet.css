@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'rudelsberg regular';
+    src: url('rudelsberg-webfont.woff2') format('woff2'),
+         url('rudelsberg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rudelsberg alternate';
+    src: url('rudelsbergalternate-webfont.woff2') format('woff2'),
+         url('rudelsbergalternate-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rudelsberg initialen';
+    src: url('rudelsberg-initialen-webfont.woff2') format('woff2'),
+         url('rudelsberg-initialen-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rudelsberg plakatschrift';
+    src: url('rudelsberg-plakatschrift-webfont.woff2') format('woff2'),
+         url('rudelsberg-plakatschrift-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rudelsberg schmuck';
+    src: url('rudelsberg-schmuck-webfont.woff2') format('woff2'),
+         url('rudelsberg-schmuck-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rudelsberg titel';
+    src: url('rudelsberg-titel-webfont.woff2') format('woff2'),
+         url('rudelsberg-titel-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
