@@ -47,19 +47,18 @@
 /*** Headers ***/
 
 .gmb h1 {
-    background-image: var(--img-header-banner);
-    background-size: 100% 106%;
-    padding: 20px 0;
-    margin: -30px -40px 10px -40px;
+    background-size: 100% 100%;
+    padding: 0px 0px 0px 0px;
+    margin: -10px 0px 0px 0px;
     font-family: "First Order";
-    font-size: 50pt;
+    font-size: 45pt;
     text-align: center;
     font-weight: normal;
-    color: white;
+    color: black;
     text-transform: uppercase;
-    text-shadow: 0 1px 1px #bbb, 0 2px 0 #999, 0 3px 0 #888, 2px 6px 3px #000, 3px 7px 3px #000, 4px 8px 3px #000;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-fill-color: #f3ebebd1;
+    -webkit-text-fill-color: black;
+    border-bottom: double #333333;
+    border-top: double #333333;
 }
 
 .gmb h1+p::first-letter {
