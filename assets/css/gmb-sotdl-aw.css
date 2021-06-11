@@ -37,6 +37,10 @@
     text-justify: inter-word;
 }
 
+.gmb p strong {
+    color: var(--color-strong);
+}
+
 td[style="text-align:left"] {
     text-align: justify !important;
     text-justify: inter-word;
