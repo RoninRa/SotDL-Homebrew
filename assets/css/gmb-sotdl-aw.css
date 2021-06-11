@@ -37,10 +37,6 @@
     text-justify: inter-word;
 }
 
-.gmb p strong {
-    color: var(--color-strong);
-}
-
 td[style="text-align:left"] {
     text-align: justify !important;
     text-justify: inter-word;
@@ -183,21 +179,7 @@ td[style="text-align:left"] {
 
 /*** Bold ***/
 
-.gmb p strong {
-    font-family: "GothamBold";
-    font-weight: normal;
-    font-size: 10pt;
-    color: var(--color-strong-alt);
-    letter-spacing: -0.02em;
-}
-
-.gmb strong em, .gmb em strong {
-    color: var(--color-strong-alt);
-    font-style: normal;
-    font-weight: bold;
-}
-
-.gmb h5+p strong {
+.gmb p strong, .gmb h5+p strong {
     color: var(--color-strong);
 }
 
