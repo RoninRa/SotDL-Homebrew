@@ -23,6 +23,9 @@
     --img-bg-border: none;
     --img-main-bg-right: url(https://roninra.github.io/SotDL-Homebrew/assets/img/ApocryphalWritings/background/bg-book.png);
     --img-main-bg-left: url(https://roninra.github.io/SotDL-Homebrew/assets/img/ApocryphalWritings/background/bg-book-left.png);
+    --color-text-main: #362518;
+    --color-strong: #362518;
+    --color-headers-alt: black;
 }
 
 /** Global properties END **/
@@ -59,9 +62,9 @@ td[style="text-align:left"] {
     font-size: 45pt;
     text-align: center;
     font-weight: normal;
-    color: black;
+    color: var(--color-headers-alt);
     text-transform: uppercase;
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color: var(--color-headers-alt);
     border-bottom: double #333333;
     border-top: double #333333;
 }
@@ -141,7 +144,7 @@ td[style="text-align:left"] {
     font-family: Athelas;
     font-weight: bold;
     font-size: 11pt;
-    color: #9C0719;
+    color: var(--color-strong-alt);
     position: absolute;
     bottom: 20px;
     background-color: initial;
@@ -231,8 +234,7 @@ td[style="text-align:left"] {
 }
 
 .gmb article.drop-cap p:first-child:first-letter {
-    color: var(--color-headers-main);
-    color: black;
+    color: var(--color-text-main);
     font-family: "gothic leaf";
     float: left;
     font-size: 80px;
@@ -241,51 +243,6 @@ td[style="text-align:left"] {
 }
 
 /*** Article END ***/
-
-/*** Div Article Credits block ***/
-
-.gmb div.article-credits blockquote {
-    position: relative;
-    top: 10px;
-    width: 340px;
-    text-align: center;
-}
-
-.gmb div.article-credits blockquote p:last-child {
-    margin-bottom: 10px;
-}
-
-.gmb div.article-credits blockquote p {
-    font-size: 1em;
-}
-
-.gmb div.article-credits blockquote img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.gmb div.article-credits blockquote h1 {
-    margin: 5px 0px 5px 0px;
-    font-size: 18pt;
-    font-weight: bold;
-    padding: 0;
-}
-
-.gmb div.article-credits blockquote h2 {
-    margin: 5px 0px 5px 0px;
-    font-size: 13pt;
-    font-weight: normal;
-    text-align: center;
-    color: black;
-}
-
-.gmb div.article-credits blockquote div.column-container h6 {
-    margin: 0px 0px 0px 5px;
-}
-
-/*** Patreon Credits block END ***/
 
 /** Page number **/
 
