@@ -294,3 +294,16 @@ td[style="text-align:left"] {
 }
 
 /*** Ad Page END***/
+
+/*** Credits ***/
+
+.gmb div.credits h4 {
+    font-size: 20pt;
+}
+
+.gmb div.credits h4, .gmb div.credits h4+p {
+    display: block;
+    text-align: center;
+}
+
+/*** Credits END ***/
