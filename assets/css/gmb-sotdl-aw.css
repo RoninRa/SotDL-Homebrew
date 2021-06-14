@@ -310,6 +310,10 @@ td[style="text-align:left"] {
     text-align: center;
 }
 
+.gmb div.credits h3+p {
+    font-size: 20px;
+}
+
 /*** Credits END ***/
 
 /*** Code ***/
