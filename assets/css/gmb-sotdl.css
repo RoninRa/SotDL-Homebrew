@@ -727,8 +727,9 @@
 }
 
 .gmb div.credits .acknowledgements h4 {
-    text-align: center;
+    display: block;
     font-size: 11pt;
+    text-align: center;
 }
 
 .gmb div.credits img.credits-image {
