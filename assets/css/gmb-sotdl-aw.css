@@ -307,3 +307,17 @@ td[style="text-align:left"] {
 }
 
 /*** Credits END ***/
+
+/*** Code ***/
+
+.gmb pre, .gmb code {
+    -webkit-column-break-after: always;
+    break-after: always;
+    -moz-column-break-after: always;
+    display: inline;
+    background-color: rgba(132, 74, 51, 0.2);
+    color: #800000;
+    padding: 0;
+}
+
+/*** Code END ***/
