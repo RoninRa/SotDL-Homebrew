@@ -610,6 +610,32 @@
     border: none;
 }
 
+.gmb blockquote.credits h3+section>h4 {
+    color: black;
+    display: block;
+}
+
+.gmb blockquote.credits h4, .gmb blockquote.credits h4+p {
+    display: inline;
+}
+
+.gmb blockquote.credits h5 {
+    display: block;
+    font-weight: normal;
+}
+
+.gmb blockquote.credits h5+ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 10pt;
+}
+
+.gmb blockquote.credits div.acknowledgements h4 {
+    font-size: 11pt;
+    text-align: center;
+    display: block;
+}
+
 .gmb blockquote.credits p {
     font-family: 'Poison Hope';
     font-weight: normal;
@@ -626,10 +652,6 @@
     color: var(--color-strong);
     font-style: italic;
     font-weight: bold;
-}
-
-.gmb blockquote.credits p span.before-colon {
-    color: var(--color-headers-main);
 }
 
 .gmb blockquote.credits div.acknowledgements p {
