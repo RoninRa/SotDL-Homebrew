@@ -610,9 +610,12 @@
     border: none;
 }
 
-.gmb blockquote.credits h3+section>h4 {
-    color: black;
-    display: block;
+.gmb div.full-page-credits div.main-writer h3 {
+    font-size: 20pt;
+}
+
+.gmb div.full-page-credits div.main-writer p {
+    font-size: 18pt;
 }
 
 .gmb blockquote.credits h4, .gmb blockquote.credits h4+p {
