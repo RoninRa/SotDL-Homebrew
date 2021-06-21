@@ -700,6 +700,13 @@
     text-shadow: none;
 }
 
+.gmb div.credits blockquote {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    width: 50%;
+}
+
 .gmb div.credits h1 {
     font-size: 24pt;
     text-align: center;
@@ -744,10 +751,6 @@
     color: var(--color-strong);
     font-style: italic;
     font-weight: bold;
-}
-
-.gmb div.credits p span.before-colon {
-    color: var(--color-headers-main);
 }
 
 .gmb div.credits div.acknowledgements p {
