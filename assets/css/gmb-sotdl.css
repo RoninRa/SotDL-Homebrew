@@ -701,11 +701,11 @@
     text-shadow: none;
     bottom: 30px;
     right: 10px;
-    width: 50%;
+    width: 45%;
 }
 
 .gmb div.credits h1 {
-    font-size: 22pt;
+    font-size: 20pt;
     text-align: center;
 }
 
@@ -717,7 +717,7 @@
 .gmb div.credits h3 {
     font-family: 'Poison Hope';
     font-weight: normal;
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: center;
     border: none;
     column-span: none;
@@ -730,9 +730,9 @@
     text-align: center;
 }
 
-.gmb div.credits h3, .gmb div.credits h3+p {
+/* .gmb div.credits h3, .gmb div.credits h3+p {
     display: inline;
-}
+} */
 
 .gmb div.credits p {
     font-family: 'Poison Hope';
