@@ -3,7 +3,7 @@
 /* https://codepen.io/sosuke/pen/Pjoqqp
 /*** ---------------------------
 
-/*** Blending ***/
+/*** Images ***/
 
 img.corner-bottomright {
     position: absolute;
@@ -68,6 +68,10 @@ img.half-top {
     width: unset;
     z-index: -3;
 }
+
+/*** Images END ***/
+
+/*** Blending ***/
 
 .gmb .blend {
     position: absolute;
@@ -156,3 +160,5 @@ img.half-top {
 .twothirds-alt {
     background-image: var(--blend-twothirds-alt);
 }
+
+/*** Blending END ***/
