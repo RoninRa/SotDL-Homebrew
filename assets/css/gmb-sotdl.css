@@ -521,6 +521,14 @@
     font-size: 0.83em;
 }
 
+.gmb blockquote em {
+    font-family: Athelas;
+}
+
+.gmb blockquote strong em, .gmb blockquote em strong {
+    font-style: italic;
+}
+
 .gmb blockquote section ul li {
     list-style-type: disc;
     text-indent: 0;
