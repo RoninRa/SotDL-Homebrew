@@ -694,14 +694,11 @@
 /*** Credits div ***/
 
 .gmb div.credits {
+    position: absolute;
     border-image: none;
     border: none;
     padding: 20px 10px 20px 10px;
     text-shadow: none;
-}
-
-.gmb div.credits blockquote {
-    position: absolute;
     bottom: 30px;
     right: 10px;
     width: 50%;
