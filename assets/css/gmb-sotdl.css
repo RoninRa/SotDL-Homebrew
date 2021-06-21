@@ -1282,6 +1282,28 @@ div#p1::after {
 
 /*** Ad Page END***/
 
+/*** Ad Page Half ***/
+
+.gmb div.ad-page-half h3 {
+    color: var(--color-main);
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+.gmb div.ad-page-half div.grid {
+    display: grid;
+    grid-template-columns: 100px 250px;
+    grid-gap: 1.5rem;
+    margin-left: 0px;
+}
+
+.gmb div.ad-page-half div.grid img {
+    width: 100px;
+    box-shadow: 7px 7px 5px 1px #1A1B1B;
+}
+
+/*** Ad Page Half END***/
+
 /*** Use defult theme disclaimer ***/
 
 .phb#p1 div.default-disclaimer::after {
