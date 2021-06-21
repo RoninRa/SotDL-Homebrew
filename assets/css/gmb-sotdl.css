@@ -711,12 +711,13 @@
 
 .gmb div.credits h2 {
     font-size: 20pt;
+    text-align: center;
 }
 
 .gmb div.credits h3 {
     font-family: 'Poison Hope';
     font-weight: normal;
-    font-size: 18pt;
+    font-size: 16pt;
     text-align: center;
     border: none;
     column-span: none;
