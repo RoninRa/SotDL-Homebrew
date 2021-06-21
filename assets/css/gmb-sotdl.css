@@ -701,18 +701,18 @@
 }
 
 .gmb div.credits h1 {
-    font-size: 28pt;
+    font-size: 24pt;
     text-align: center;
 }
 
 .gmb div.credits h2 {
-    font-size: 25pt;
+    font-size: 20pt;
 }
 
 .gmb div.credits h3 {
     font-family: 'Poison Hope';
     font-weight: normal;
-    font-size: 20pt;
+    font-size: 18pt;
     text-align: center;
     border: none;
     column-span: none;
@@ -720,11 +720,12 @@
 }
 
 .gmb div.credits h4 {
-    font-size: 16pt;
+    font-size: 15pt;
     color: black;
+    text-align: center;
 }
 
-.gmb div.credits h4, .gmb div.credits h4+p {
+.gmb div.credits h3, .gmb div.credits h3+p {
     display: inline;
 }
 
