@@ -1284,6 +1284,10 @@ div#p1::after {
 
 /*** Ad Page Half ***/
 
+.gmb div.ad-page-half {
+    position: absolute;
+}
+
 .gmb div.ad-page-half h3 {
     color: var(--color-main);
     font-size: 14pt;
