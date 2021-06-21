@@ -1020,6 +1020,14 @@ div#p1::after {
     text-indent: 1em;
 }
 
+.gmb.ng-scope ul li p {
+    text-indent: -1em;
+}
+
+.gmb.ng-scope ul li p+p {
+    text-indent: 1em;
+}
+
 .gmb p+ul {
     margin-top: -0.8em;
 }
