@@ -238,12 +238,20 @@
 
 /*** Cover END ***/
 
-/*** Layout ***/
+/*** Containers ***/
 
-.gmb div.column-container {
+.gmb .text-container {
+    position: absolute;
+}
+
+.gmb .column-container {
     column-count: 2;
     column-span: all;
 }
+
+/*** Containers END***/
+
+/*** Layout ***/
 
 .gmb div.dual-tables {
     column-count: 2;
