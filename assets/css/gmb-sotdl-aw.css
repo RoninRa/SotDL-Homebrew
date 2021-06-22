@@ -329,3 +329,19 @@ td[style="text-align:left"] {
 }
 
 /*** Code END ***/
+
+/*** Toc ***/
+
+.gmb .toc {
+    position: absolute;
+    column-fill: auto;
+    column-count: 2;
+    column-gap: 0.4cm;
+    column-width: 8.25cm;
+}
+
+.gmb .toc h2 {
+    column-span: all;
+}
+
+/*** Toc END ***/
