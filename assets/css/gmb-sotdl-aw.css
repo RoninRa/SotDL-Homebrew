@@ -138,9 +138,9 @@ td[style="text-align:left"] {
 
 /*** Cover END ***/
 
-/*** Footer ***/
+/*** Footer issue no ***/
 
-.gmb div.footer {
+.gmb div.footer-issue-no {
     font-family: Athelas;
     font-weight: bold;
     font-size: 11pt;
@@ -154,15 +154,15 @@ td[style="text-align:left"] {
     justify-content: initial;
 }
 
-.gmb:nth-child(even) .footer {
+.gmb:nth-child(even) .footer-issue-no {
     left: 700px;
 }
 
-.gmb:nth-child(odd) .footer {
+.gmb:nth-child(odd) .footer-issue-no {
     left: 25px;
 }
 
-/*** Footer END ***/
+/*** Footer issue no END ***/
 
 /*** Layout ***/
 
