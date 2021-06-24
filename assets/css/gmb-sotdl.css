@@ -251,6 +251,10 @@
     column-count: 2;
 }
 
+.gmb div.dual-tables h4 {
+    margin-top: 0px;
+}
+
 .gmb div.placeholder-art {
     display: flex;
     flex-direction: column;
