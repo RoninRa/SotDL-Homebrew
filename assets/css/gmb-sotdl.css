@@ -827,6 +827,10 @@
 
 .gmb div.full-page-credits ul li {
     font-size: 10pt;
+    text-align: center;
+    font-size: 13pt;
+    width: 750px;
+    margin: 0 auto;
 }
 
 .gmb div.full-page-credits h3, .gmb div.full-page-credits h3+p {
@@ -848,6 +852,24 @@
     font-style: italic;
     font-weight: bold;
     color: var(--color-text-main);
+}
+
+.gmb .full-page-credits .version {
+    position: absolute;
+    bottom: 300px;
+}
+
+.gmb .full-page-credits .version ul {
+    column-count: 2;
+}
+
+.gmb .full-page-credits .version ul li {
+    margin: 0px 10px 0px 10px;
+}
+
+.gmb .full-page-credits .version h3 {
+    column-span: all;
+    font-size: 15pt;
 }
 
 /*** Full page Credits END ***/
