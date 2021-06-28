@@ -861,7 +861,7 @@
 
 .gmb .full-page-credits .version ul {
     text-indent: 0;
-    column-count: 2;
+    /* column-count: 2; */
     margin: 0;
     padding: 0;
     line-height: 1.3em;
