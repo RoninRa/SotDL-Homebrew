@@ -860,7 +860,13 @@
 }
 
 .gmb .full-page-credits .version ul {
+    text-indent: 0;
     column-count: 2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.3em;
+    list-style-position: outside;
+    list-style-type: none;
 }
 
 .gmb .full-page-credits .version ul li {
@@ -868,8 +874,10 @@
 }
 
 .gmb .full-page-credits .version h3 {
+    text-align: center;
     column-span: all;
     font-size: 15pt;
+    display: block;
 }
 
 /*** Full page Credits END ***/
