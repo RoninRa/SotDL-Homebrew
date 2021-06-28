@@ -26,3 +26,9 @@ Replace: #### $1$2
 
 Find: <span (\b.+?)></span>
 Replace: 
+
+## A href to Markdown link ##
+
+Find: <a href="(\b.+?)">(\b.+?)</a>
+OR: <a href="(\b.+?)">(.*?)</a>
+Replace: [$2]($1)
