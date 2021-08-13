@@ -1,0 +1,80 @@
+Submitted by: William Buxton
+## Bloodbourne Weapons
+*=Transforming a weapon from one form to another is a Minor Activity (unless noted otherwise)
+<br />
+
+
+
+###  **Holy Moonlight Blade** (Relic) 
+**Enchanted Blade**: As **Bastard Sword**, or **Greatsword** (Transformed*). When you attack with this weapon, you make the attack roll with 1 boon and the attack deals 1d6 extra damage. Damage counts as Celestial/Sunlight for purpose of effects, and gains +1 Boon & +1d6 damage against Undead (Hereto *Righteous Damage*)
+
+**Channel Abyssal Cosmos**: You have up to 3 charges/Dawn to use either of these abilities. As an action & spend 1 Charges to do one of the following:
+
+**Transformed Strike**: Make Attack w/Weapon deals +1d6 damage & target is prone on hit from the explosive impact of energy. Weapon Transforms Thereafter.
+
+**Lightwave**: Attack with weapon out to 10yds, deals 6d6 *Righteous Damage* instead.
+
+
+### **Tonitrus**: Morningstar, Special (Transformed) 
+
+**Effect**: **Morningstar** that Transforms (on a Trigger) enwrapped in Electricity for 1 Round, dealing 1d6 extra damage, weapon becoming lightning damage. At end of this time, Make a **Fate Roll**: **1-2**= Weapon Breaks, **3-5**=Effect Ends, **6**=Effect continues till End/Round, rerolling fate rolls. Additionally, 0 or worse on attack with this weapon breaks it. 
+
+#### Kirkhammer: Silvered Small Sword to **Maul** (Transformed). 
+
+
+ 
+\columnbreak
+### Bloodletter: **Mace** to **Halberd** w/+3 damage (Transformed-Trigger).  
+
+**Transform**: Upon Transformation (as a trigger) you suffer a health penalty equal to 1d6+Healing Rate (killing the user if the penalty causes incapacitation), the Transformation lasting as long as you have this penalty. You may instead do this as an action (as above), making an attack with the weapon w/1 Boon, upon target taking damage, you reduce your Penalty by 1d3 (Min 1). 
+
+**Effect**: While Transformed, targets struck must make Agi ch-roll or fall prone. 
+
+**3/Dawn Charges**. Expend 1, and action to do following: 
+
+**Frenzy Slam**: Strike the head of weapon into ground, erupting in bloody explosion 1yd radius/power (min 2yds), all in the area must make Agi-ch roll (for half) or take 3d6+5, gain 1 insanity, and fall prone (wielder takes 0 damage). 
+
+**Finisher Sweep**: Attack all Targets in Reach of the weapon, Transformation then ends. 
+
+ 
+
+
+### Whirligig Saw: Quarterstaff, Greataxe (Transformed). 
+
+**Effect**: 20+ Target takes +1d6 damage, and Suffers a Bleeding Wound, taking 1d6 damage at the end of every round that lasts until the target heals damage or until a creature uses an action to stanch the wound. 
+
+
+
+
+
+
+\pagebreak 
+## Characters from Balgrendia (Variant)
+
+Players who create characters from Balgrendia can use the following table in place of their ancestry
+background table to determine an important event from their past. This Variant uses information from various sources for its entries _Hunger In The Void_, _Kingdom of God_, _Terrible Beauty_ etc.
+
+|  d20   | Balgrendia Background |
+| :---: | :---------------- |
+|  1 |You were Captured and tortured by The Yellow Spears, a vast tribe of Beastmen, but you survived and escaped. You Start the Game with the Mad Story Complication (DLC) or a Quirk (SoTDL 201-202). |
+|  2   |A maelovent Faerie of Midnight lands held you Prisoner for 1d20 years. |  
+ |  3   | Plague wiped out your village as a child, you were rescued & raised by Sisters of Sorrow till you came of age.  |
+ | 4   | You are a follower of the New God, and received education from them. You Can Read/Write in Language you know.  |
+ | 5   | You traveled extensively. You speak one additional language.  |
+ | 6 | You were attacked by Reavers of the Skull King, who Peeled off your skin and tore out your heart. Somehow you came back to life, start the game as a Revenant (ToD 5) or gain 1d6 Insanity.   |
+ | 7 | You were seduced by a Devil of Midnight Lands, start the game with 1 Corruption.   |
+ | 8  | You worked on a Farm, working hard, & staying vigilant against horrors of the twisted woods. Add farmer to your list of professions.   |
+ | 9  | You're a Descendant of the Amri-tribe (Brown-haired, Dark Skinned), you speak Amrin & Balgrennish Languages.   |
+ | 10  | You're a Descendant of the warlike Bhal-Tribe (Dark-Haired, pale Skin), you speak Bhali & Balgrennish Languages.   |
+ |11  | You Follow the Tenets of the Old Faith, Add devotee of the Old Faith to your list of professions.   |
+ | 12  | Your Descendant followed the tenets of the Old Faith, but converted to the New God a generation ago. You count yourself among the faithful, but you often think about your ancestors and their beliefs.   |
+ | 13  | A faerie laid a curse on you for some wrong you committed. You can add the Cursed story complication (DLC 5)   |
+ | 14  | You Gained the Friendship of a Fey (Elf or Fey of Diff 10 or lower). Given a special Trinket (flute, 4-leaf Clover, seashell,etc) may use it as a minor activity to call upon their help, arriving immediately and helping you to the best of their ability, Trinket then breaks.  |
+ | 15  | You Traveled and got lost in the Midnight Lands for a time, finding only horror & Misery. Gain 1d3 Insanity  |
+ | 16  | Gained the Favor of Late King Frederick after committing of some great deed or service. Choose influence, information, or security. The character can provide the benefit to you once (“Connections” SoTDL 207). Come up with details about this favor, and nature of service/Deed with the GM.   |
+ | 17  | You have a small house in town or a farm in the wilderness. Work with the GM to determine the location of your property and assets that come with it.   |
+ | 18 | You came into money and start the game with 2d6 cp.   |
+ | 19  | Lived as a Hag's Thrall for 1d6 years, in return for completing her Obscene Activities, you parted with 1d3+1 Eyebright Ointments (Terrible Beauty pg 5), and gain 1 Insanity.   |
+ | 20  | Blessed by the Queen of Air and Darkness for Good Deeds of honoring the Old ways, or act of courage. you gain a random favor (Terrible Beauty, page 36), or Enchanted Object of the GM’s choice.   |
+
+
