@@ -17,8 +17,8 @@
     --color-monster-h3-bg: #A7A9AC;
     --color-header-border: black;
     --color-table-header-bg: black;
-    --color-table-main-bg: initial;
-    --color-table-alt-bg: white;
+    --color-table-main-bg: transparent;
+    --color-table-alt-bg: #F6E6D4;
     --color-link: #390500;
     --blend-half-vertical: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png');
     --blend-half-horizontal: url('/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png');
