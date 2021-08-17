@@ -924,10 +924,10 @@
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
     content: "";
     background: none;
-    background-image: var(--img-bg-page-number), var(--img-bg-border);
+    /* background-image: var(--img-bg-page-number), var(--img-bg-border);
     background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
-    background-position: 20px calc(100% - 5px), bottom;
+    background-position: 20px calc(100% - 5px), bottom; */
     margin-bottom: 10px;
     margin-left: 10px;
     left: -10px;
