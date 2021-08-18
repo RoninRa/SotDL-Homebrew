@@ -705,11 +705,15 @@
     position: absolute;
     border-image: none;
     border: none;
-    padding: 20px 10px 20px 10px;
+    padding: 0px;
     text-shadow: none;
-    bottom: 30px;
+    bottom: 20px;
     right: 10px;
     width: 50%;
+}
+
+.gmb div.credits blockquote {
+    padding: 25px 28px 25px 28px;
 }
 
 .gmb div.credits h1 {
