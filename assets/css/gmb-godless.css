@@ -5,7 +5,7 @@
 :root {
     --img-header-banner: url(../img/Godless/GodlessChapterHeading.png);
     --img-main-bg: url(../img/Godless/GodlessBG.png);
-    --img-bg-border: url(../img/backgrounds/sotdl_background_border.png);
+    --img-bg-border: url(../img/Godless/godless-border.png);
     --img-bg-page-number: url(../img/Godless/hubcap.png);
     --img-parchment: url(../img/Godless/GodlessNote.png);
     --img-parchment-long: url(../img/Godless/GodlessNote.png);
@@ -930,8 +930,7 @@
 .gmb:nth-child(odd)::after, .gmb:nth-child(even)::after {
     content: "";
     background: none;
-    /* background-image: var(--img-bg-page-number), var(--img-bg-border); */
-    background-image: var(--img-bg-page-number);
+    background-image: var(--img-bg-page-number), var(--img-bg-border);
     background-size: 100px 100px, 780px 1046px;
     background-repeat: no-repeat;
     background-position: 20px calc(100% - 5px), bottom;
