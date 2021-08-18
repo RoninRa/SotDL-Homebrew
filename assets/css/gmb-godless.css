@@ -94,7 +94,7 @@
 }
 
 .gmb div.title .banner h1 {
-    font-family: "First Order";
+    font-family: "hemi head";
     font-size: 50pt;
     text-align: center;
     font-weight: normal;
@@ -112,7 +112,7 @@
     position: absolute;
     left: 120px;
     top: 200px;
-    font-family: "First Order";
+    font-family: "hemi head";
     font-size: 60pt;
     text-align: center;
     font-weight: normal;
@@ -144,7 +144,7 @@
 }
 
 .gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
-    font-family: 'Poison Hope';
+    font-family: 'hemi head';
     font-weight: normal;
     text-align: left;
     color: var(--color-headers-main);
@@ -521,7 +521,7 @@
 }
 
 .gmb blockquote section h1, .gmb blockquote section h2, .gmb blockquote section h3, .gmb blockquote section h4, .gmb blockquote section h5, .gmb blockquote section h6 {
-    font-family: 'Poison Hope';
+    font-family: 'hemi head';
 }
 
 .gmb blockquote p {
@@ -618,7 +618,7 @@
 }
 
 .gmb blockquote.credits h1.credits {
-    font-family: 'Poison Hope';
+    font-family: 'hemi head';
     font-weight: normal;
     font-size: 18pt;
     text-align: center;
@@ -655,7 +655,7 @@
 }
 
 .gmb blockquote.credits p {
-    font-family: 'Poison Hope';
+    font-family: 'hemi head';
     font-weight: normal;
     font-size: 10pt;
     color: var(--color-text-main);
@@ -723,7 +723,7 @@
 }
 
 .gmb div.credits h3 {
-    font-family: 'Poison Hope';
+    font-family: 'hemi head';
     font-weight: normal;
     font-size: 14pt;
     text-align: center;
@@ -743,7 +743,7 @@
 } */
 
 .gmb div.credits p {
-    font-family: 'Poison Hope';
+    font-family: 'hemi head';
     font-weight: normal;
     font-size: 12pt;
     color: var(--color-text-main);
@@ -900,7 +900,7 @@
 /** Page number **/
 
 .gmb .pageNumber, .gmb .pageNumber.auto {
-    font-family: "Poison Hope";
+    font-family: "hemi head";
     font-size: 13pt;
     color: #ffffff;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
