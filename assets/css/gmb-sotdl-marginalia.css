@@ -1,10 +1,10 @@
 /** Import Fonts **/
 
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Rock+Salt&display=swap");
 /** Global properties **/
 
 :root {
-    --color-marginalia: #9C0719;
+  --color-marginalia: #9c0719;
 }
 
 /** Global properties END **/
@@ -12,77 +12,50 @@
 /**  **/
 
 .gmb {
-    padding: 1.0cm 2cm 1.5cm 2cm;
-    column-gap: 0.3cm;
-    column-width: 8cm;
-    -webkit-column-gap: 0.3cm;
-    -webkit-column-width: 8cm;
-    -moz-column-gap: 0.3cm;
-    -moz-column-width: 8cm;
+  padding: 1cm 2cm 1.5cm 2cm;
+  column-gap: 0.3cm;
+  column-width: 8cm;
+  -webkit-column-gap: 0.3cm;
+  -webkit-column-width: 8cm;
+  -moz-column-gap: 0.3cm;
+  -moz-column-width: 8cm;
 }
-
-/*** Cover ***/
-
-.gmb img.cover-footer {
-    background: url('/SotDL-Homebrew/assets/img/from_the_deep_cover_footer.png');
-    width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-}
-
-/*** Cover END ***/
 
 /*** Marginalia ***/
 
 .gmb p.sidenote {
-    color: var(--color-marginalia);
-    font-family: 'Rock Salt', cursive;
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 0.3px;
-    margin-right: 11px;
-    position: absolute;
-    right: 0;
-    top: auto;
-    width: 63px;
-    padding: 3px;
+  color: var(--color-marginalia);
+  font-family: "Rock Salt", cursive;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  margin-right: 11px;
+  position: absolute;
+  right: 0;
+  top: auto;
+  width: 63px;
+  padding: 3px;
 }
 
 .gmb p.leftnote {
-    color: var(--color-marginalia);
-    font-family: 'Rock Salt', cursive;
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 0.3px;
-    left: 0;
-    right: auto;
-    position: absolute;
-    margin-left: 20px;
-    margin-right: auto;
-    padding: 3px;
-    width: 61px;
+  color: var(--color-marginalia);
+  font-family: "Rock Salt", cursive;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  left: 0;
+  right: auto;
+  position: absolute;
+  margin-left: 20px;
+  margin-right: auto;
+  padding: 3px;
+  width: 61px;
+  text-indent: 0;
 }
 
 .gmb td p.leftnote {
-    margin-left: 25px;
-    width: 63px;
+  margin-left: 25px;
+  width: 63px;
 }
 
 /*** Marginalia END ***/
-
-/** Monster Stat Block **/
-
-.gmb hr+section blockquote h1 {
-    font-size: 11pt;
-    width: 69%;
-    min-height: 28px;
-}
-
-.gmb hr+section blockquote h2 {
-    width: 31%;
-    min-height: 28px;
-}
-
-/*** Monster Stats END ***/
