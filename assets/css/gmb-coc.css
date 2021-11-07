@@ -1,6 +1,19 @@
 @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/_globals.css");
 @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/_headings.css");
 
+@media print {
+  .gmb {
+    margin: 0;
+    height: 279.4mm;
+    width: 215.9mm;
+  }
+}
+
+.gmb {
+  height: 279.4mm;
+  width: 215.9mm;
+}
+
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 9pt;
