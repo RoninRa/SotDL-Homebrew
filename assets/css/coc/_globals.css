@@ -1,5 +1,6 @@
 /*** CoC Global properties ***/
 
 root: {
-  --color-headers-main: #000000;
+  --color-headers-main: #7d373a;
+  --color-text-main: black;
 }
