@@ -3,4 +3,6 @@
 root: {
   --color-headers-main: #7d373a;
   --color-text-main: black;
+  --color-bg-column: #f3f3f3;
+  --color-bg-main: #ffffff;
 }

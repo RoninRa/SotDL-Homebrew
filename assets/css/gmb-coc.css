@@ -10,6 +10,8 @@
 }
 
 .gmb {
+  background: none;
+  background-color: var(--color-bg-main);
   height: 279.4mm;
   width: 215.9mm;
 }
