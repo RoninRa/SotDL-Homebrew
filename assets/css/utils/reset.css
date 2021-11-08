@@ -46,3 +46,7 @@ textarea {
 .gmb:after {
   background-image: unset;
 }
+
+.gmb p {
+  text-indent: unset;
+}

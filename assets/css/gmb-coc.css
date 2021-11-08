@@ -22,11 +22,12 @@
 }
 
 .gmb p {
+  text-indent: 0.3cm;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 9pt;
   color: var(--color-text-main);
 }
 
-.gmb p:nth-child(2) {
-  text-indent: 0.3cm;
+.gmb p:first-child {
+  text-indent: 0;
 }
