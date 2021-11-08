@@ -28,6 +28,6 @@
   color: var(--color-text-main);
 }
 
-.gmb p:first-child {
+.gmb p:first {
   text-indent: 0;
 }
