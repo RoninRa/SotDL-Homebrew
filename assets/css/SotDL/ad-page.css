@@ -1,0 +1,51 @@
+/*** Shadow of the Demon Lord Ad Page ***/
+
+.gmb div.ad-page {
+  column-span: all;
+  -webkit-column-span: all;
+  -moz-column-span: all;
+}
+
+.gmb div.ad-page h3 {
+  color: var(--color-main);
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+
+.gmb div.ad-page div.grid {
+  display: grid;
+  grid-template-columns: 160px 550px;
+  grid-gap: 2rem;
+  margin-left: -15px;
+}
+
+.gmb div.ad-page div.grid img {
+  width: 150px;
+  box-shadow: 7px 7px 5px 1px #1a1b1b;
+}
+
+/*** Ad Page Half ***/
+
+.gmb div.ad-page-half {
+  position: absolute;
+}
+
+.gmb div.ad-page-half h3 {
+  color: var(--color-main);
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+
+.gmb div.ad-page-half div.grid {
+  display: grid;
+  grid-template-columns: 100px 250px;
+  grid-gap: 1.5rem;
+  margin-left: 0px;
+}
+
+.gmb div.ad-page-half div.grid img {
+  width: 100px;
+  box-shadow: 7px 7px 5px 1px #1a1b1b;
+}
+
+/*** Ad Page Half END***/

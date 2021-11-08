@@ -1,0 +1,61 @@
+/*** Shadow of the Demon Lord Blockquotes ***/
+
+.gmb blockquote {
+  border: 1px solid orange;
+  border-image-source: var(--img-parchment);
+  border-image-slice: 20 fill;
+  border-image-width: 20;
+  border-image-outset: 5;
+  border-image-repeat: round;
+  background-color: transparent;
+  background-size: 100% 100%;
+  padding: 10px 10px 20px 12px;
+  overflow: hidden;
+  box-shadow: unset;
+  margin-bottom: 0;
+}
+
+.gmb blockquote h5,
+.gmb blockquote h3 {
+  border: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.gmb blockquote h4 {
+  text-align: center;
+}
+
+.gmb blockquote section h1,
+.gmb blockquote section h2,
+.gmb blockquote section h3,
+.gmb blockquote section h4,
+.gmb blockquote section h5,
+.gmb blockquote section h6 {
+  font-family: var(--font-header);
+}
+
+.gmb blockquote p {
+  font-size: 0.83em;
+}
+
+.gmb blockquote em {
+  font-family: Athelas;
+}
+
+.gmb blockquote strong em,
+.gmb blockquote em strong {
+  font-style: italic;
+}
+
+.gmb blockquote section ul li {
+  list-style-type: disc;
+  text-indent: 0;
+}
+
+.gmb blockquote small {
+  color: var(--color-text-main);
+  font-family: var(--font-main);
+  line-height: 1.1em;
+  font-size: 0.83em;
+}

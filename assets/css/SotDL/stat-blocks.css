@@ -1,0 +1,109 @@
+/*** Shadow of the Demon Lord Monster Stat Blocks ***/
+
+.gmb hr + section blockquote {
+  padding: 0px;
+  box-shadow: none;
+  border-style: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.gmb hr + section blockquote h3 {
+  font-family: Athelas;
+  background-color: var(--color-monster-h1-bg);
+  background-image: none;
+  color: var(--color-quaternary);
+  font-weight: bold;
+  font-size: 12pt;
+  padding: 5px;
+  float: left;
+  margin: 0px;
+  width: 70%;
+  height: 28px;
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: none;
+}
+
+.gmb hr + section blockquote h4 {
+  font-family: Athelas;
+  font-weight: normal;
+  font-size: 8pt;
+  font-style: initial;
+  color: var(--color-quaternary);
+  background-color: var(--color-monster-h1-bg);
+  padding: 5px;
+  float: right;
+  width: 30%;
+  height: 28px;
+  margin: 0px;
+  text-align: right;
+}
+
+.gmb hr + section blockquote h5 {
+  font-family: Athelas;
+  font-weight: bold;
+  font-size: 9pt;
+  text-align: left;
+  color: var(--color-strong);
+  background-color: var(--color-monster-h3-bg);
+  padding: 3px;
+  padding-left: 5px;
+  border-style: none;
+  text-transform: uppercase;
+}
+
+.gmb hr + section blockquote h4 + p {
+  clear: both;
+  font-family: Athelas;
+  font-weight: bold;
+  font-size: 9pt;
+  color: var(--color-quaternary);
+  background-color: var(--color-monster-h2-bg);
+  padding: 3px;
+  padding-left: 5px;
+}
+
+.gmb hr + section blockquote h4 + p + hr,
+.gmb hr + section blockquote h5 + hr {
+  display: none;
+}
+
+.gmb hr + section blockquote section section ul li {
+  text-indent: inherit;
+  margin-bottom: 0px;
+}
+
+.gmb hr + section blockquote hr + ul li {
+  margin-left: 5px;
+  font-family: "GothamBook";
+  font-size: 8pt;
+  color: var(--color-text-main);
+}
+
+.gmb hr + section blockquote ul li strong {
+  font-family: "GothamBold";
+  font-weight: bold;
+  font-size: 8pt;
+  color: var(--color-strong);
+}
+
+.gmb hr + section blockquote ul + hr {
+  border-color: var(--color-secondary);
+}
+
+.gmb hr + section blockquote h3 + hr {
+  visibility: hidden;
+  margin: 0;
+  height: 0;
+}
+
+.gmb hr + section blockquote h3 + hr + section h4:before {
+  content: "";
+}
+
+.gmb hr + section blockquote h4:before {
+  content: "DIFFICULTY ";
+}

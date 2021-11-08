@@ -1,0 +1,73 @@
+/*** Shadow of the Demon Lord Spells ***/
+
+.gmb div.spell h3 {
+  font-family: var(--font-main);
+  font-size: 10pt;
+  color: var(--color-headers-main);
+  font-weight: bold;
+  background-image: none;
+  padding: 5px 0px 5px 0px;
+  float: left;
+  margin: 0px;
+  display: block;
+  text-align: left;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+.gmb div.spell h4 {
+  font-family: var(--font-main);
+  font-size: 7pt;
+  color: var(--color-headers-main);
+  font-weight: bold;
+  font-style: initial;
+  padding: 8px 0px 5px 0px;
+  float: right;
+  margin: 0px;
+  text-align: right;
+  display: block;
+  text-transform: uppercase;
+}
+
+.gmb div.spell hr {
+  background-image: none;
+  visibility: visible;
+  border-style: solid;
+  border-color: var(--color-text-main);
+  border-width: 1.1px 0px 0px 0px;
+  position: relative;
+}
+
+.gmb div.spell h4 + hr {
+  border-width: 2px 0px 0px 0px;
+  width: 100%;
+}
+
+.gmb div.spell p {
+  font-size: 9pt;
+}
+
+.gmb div.spell p strong {
+  font-size: 8pt;
+}
+
+.gmb div.spell ul {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  padding-left: 1em;
+  text-indent: initial;
+  list-style-type: none;
+}
+
+.gmb div.spell ul li {
+  font-family: var(--font-secondary);
+  font-size: 8pt;
+  list-style-type: none;
+}
+
+.gmb div.spell ul li strong {
+  font-family: var(--font-secondary-strong);
+  font-size: 8pt;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+}

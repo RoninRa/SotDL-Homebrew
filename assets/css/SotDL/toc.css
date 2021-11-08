@@ -1,0 +1,85 @@
+/*** Shadow of the Demon Lord TOC ***/
+
+.gmb .toc li span:nth-child(2) {
+  /* Allow dot leaders to fill remaining space but not overlap */
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+
+.gmb .toc li span:nth-child(2):after {
+  /* Remove any header styles from dot leaders */
+  font-family: var(--font-main);
+  font-size: 0.4cm;
+  font-weight: normal;
+  color: var(--color-text-main);
+  content: " ........................................"
+    "........................................."
+    ".........................................";
+}
+
+.gmb .toc li span:first-child {
+  /* Remove any header styles from page numbers */
+  float: right;
+  font-family: var(--font-main);
+  font-size: 0.4cm;
+  font-weight: normal;
+  color: var(--color-text-main);
+  margin-left: 1px;
+}
+
+.gmb .toc li h3 {
+  font-size: 12pt;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+/* .gmb .toc li h3 span:first-child {
+      line-height: 1.8em;
+  } */
+
+/* .gmb .toc li h3+ul li:nth-child(1) h4 span {
+      margin-right:-7px;
+  } */
+
+.gmb .toc li h4,
+.gmb .toc li h5 {
+  text-transform: none;
+  font-family: var(--font-main);
+}
+
+.gmb .toc li h4 {
+  font-size: 10pt;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.gmb .toc li h5 {
+  font-size: 10pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: none;
+}
+
+.gmb .toc ul {
+  text-indent: initial;
+}
+
+.gmb .toc ul ul {
+  margin-left: 1rem;
+}
+
+.gmb .toc > ul > li {
+  margin-bottom: initial;
+}
+
+.gmb .toc ul li ul li {
+  list-style-type: none;
+}
+
+.gmb .toc ul + div.column-break + ul li {
+  list-style-type: none;
+  margin-left: 0px;
+}

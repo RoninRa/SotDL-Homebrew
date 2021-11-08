@@ -1,0 +1,100 @@
+/*** Call of Cthulhu Tables ***/
+
+.gmb div.half-table table {
+  width: 50%;
+}
+
+.gmb div.tables table thead th,
+div.table section div table thead th,
+li p + table thead th,
+p + table thead th {
+  background-color: var(--color-table-header-bg);
+  color: var(--color-quaternary);
+  font-family: var(--font-secondary-strong);
+  font-size: 8pt;
+  padding: 3px 6px 3px 6px;
+  min-width: 34px;
+}
+
+.gmb div.tables div.column-break + table thead th {
+  padding: 0px;
+}
+
+.gmb.ng-scope table thead th {
+  padding: 0px;
+}
+
+.gmb table tbody tr {
+  font-family: var(--font-secondary);
+  font-size: 8pt;
+}
+
+.gmb table tbody tr:nth-child(odd) {
+  background-color: var(--color-table-main-bg);
+  font-family: var(--font-secondary);
+  font-size: 8pt;
+}
+
+.gmb table tbody tr:nth-child(even) {
+  background-color: var(--color-table-alt-bg);
+  font-family: var(--font-secondary);
+  font-size: 8pt;
+}
+
+.gmb table tbody tr td {
+  font-family: var(--font-secondary);
+  font-size: 8pt;
+  min-width: 34px;
+}
+
+.gmb table tbody tr td p {
+  font-family: var(--font-secondary);
+  font-size: 8pt;
+  text-indent: 1em;
+}
+
+.gmb table tbody tr td ul {
+  text-indent: -1em;
+  list-style-type: none;
+}
+
+.gmb table tbody tr td li {
+  margin-left: 5px;
+  font-family: var(--font-secondary);
+  font-size: 8pt;
+  color: var(--color-text-main);
+}
+
+.gmb table tbody tr td strong {
+  font-family: var(--font-secondary-strong);
+  font-weight: normal;
+  font-size: 8pt;
+  color: var(--color-strong);
+}
+
+.gmb table strong {
+  font-family: var(--font-secondary-strong);
+  font-size: 8pt;
+}
+
+.gmb table + ul {
+  line-height: 1em;
+  margin-top: -0.5em;
+}
+
+.gmb table + ul li {
+  font-size: 10pt;
+}
+
+.gmb table em {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+}
+
+.gmb ul li table {
+  margin: 2px 0 2px 0;
+}
+
+.gmb ul li table tbody tr td {
+  padding: 0.1em 0.1em;
+}

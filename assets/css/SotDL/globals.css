@@ -1,0 +1,54 @@
+/*** Shadow of the Demon Lord Global properties ***/
+
+:root {
+  /* Colors */
+  --color-primary: #000000;
+  --color-secondary: #800000;
+  --color-tertiary: #a7a9ac;
+  --color-quaternary: #ffffff;
+
+  /* Text */
+  --color-text-main: var(--color-primary);
+  --color-strong: var(--color-primary);
+  --color-strong-alt: var(--color-secondary);
+  --color-link: var(--color-secondary);
+
+  /* Fonts */
+  --font-main: "Athelas";
+  --font-header: "Poison Hope";
+  --font-title: "First Order";
+  --font-secondary: "GothamBook";
+  --font-secondary-strong: "GothamBold";
+
+  /* Headers */
+  --color-headers-main: var(--color-secondary);
+  --img-header-banner: url(../img/backgrounds/header-banner.png);
+  --color-header-border: var(--color-primary);
+
+  /* Backgrounds */
+  --img-main-bg: url(../img/backgrounds/sotdl_background.jpg);
+  --img-bg-border: url(../img/backgrounds/sotdl_background_border.png);
+  --img-bg-page-number: url(../img/backgrounds/pentagram.png);
+  --img-parchment: url(../img/backgrounds/parchment.png);
+  --img-parchment-long: url(../img/backgrounds/parchment-long.png);
+
+  /* Monster Stat Blocks */
+  --color-monster-h1-bg: var(--color-primary);
+  --color-monster-h2-bg: var(--color-secondary);
+  --color-monster-h3-bg: var(--color-tertiary);
+
+  /* Tables */
+  --color-table-header-bg: var(--color-primary);
+  --color-table-main-bg: initial;
+  --color-table-alt-bg: var(--color-quaternary);
+
+  /* Blends */
+  --blend-half-vertical: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-vertical.png");
+  --blend-half-horizontal: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-half-horizontal.png");
+  --blend-corner: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner.png");
+  --blend-onethird: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-onethird.png");
+  --blend-twothirds: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-twothirds.png");
+  --blend-corner-inverted: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted.png");
+  --blend-corner-inverted-small: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-inverted-small.png");
+  --blend-corner-quarter: url("/SotDL-Homebrew/assets/img/blends/sotdl-blend-corner-quarter.png");
+}
