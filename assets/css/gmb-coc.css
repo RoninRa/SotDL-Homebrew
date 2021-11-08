@@ -1,6 +1,6 @@
-@import url("./utils/_reset.css");
-@import url("./coc/_globals.css");
-@import url("./coc/_headings.css");
+@import url("./utils/reset.css");
+@import url("./coc/globals.css");
+@import url("./coc/headings.css");
 
 /* @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/utils/_reset.css");
 @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/_globals.css");
