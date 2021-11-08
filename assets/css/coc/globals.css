@@ -1,8 +1,27 @@
 /*** CoC Global properties ***/
 
 :root {
+  /* Headers */
   --color-headers-main: #7d373a;
-  --color-text-main: black;
+  --font-headers: "Trebuchet MS";
+  --font-header-secondary: Georgia;
+  --font-size-h1: 24pt;
+  --font-size-h2: 14pt;
+  --font-size-h3: 11pt;
+  --font-size-h4: 9pt;
+
+  /* Background */
   --color-bg-column: #f3f3f3;
-  --color-bg-main: #ffffff;
+  --color-bg-main: white;
+  --color-bg-blockquote: #e4e3d8;
+
+  /* Main Text */
+  --color-text-main: black;
+  --font-main: Georgia;
+  --font-size-main: 9pt;
+  --indent-main: 1em;
+
+  /* Tables */
+  --color-table-header: #5b4d3b;
+  --color-table-header-text: white;
 }

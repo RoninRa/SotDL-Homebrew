@@ -1,0 +1,13 @@
+/*** Call of Cthulhu Lists ***/
+
+.gmb ol,
+.gmb ul {
+  padding-left: var(--indent-main);
+}
+
+.gmb ol {
+  list-style-type: decimal;
+}
+.gmb ul {
+  list-style-type: disc;
+}

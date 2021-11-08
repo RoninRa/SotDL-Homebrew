@@ -6,9 +6,10 @@
 .gmb h4,
 .gmb h5,
 .gmb h6 {
-  font-family: "Trebuchet MS";
+  font-family: var(--font-header-main);
   font-weight: bold;
-  text-align: left;
+  text-align: justify;
+  text-align-last: left;
   color: var(--color-headers-main);
   text-transform: uppercase;
   margin-bottom: 5px;
@@ -16,22 +17,23 @@
 }
 
 .gmb h1 {
-  font-size: 24pt;
+  font-size: var(--font-size-h1);
 }
 
 .gmb h2 {
-  font-size: 14pt;
+  font-size: var(--font-size-h2);
 }
 
 .gmb h3,
 .gmb h4 {
-  font-family: Georgia;
+  font-family: var(--font-header-secondary);
 }
 
 .gmb h3 {
-  font-size: 11pt;
+  font-size: var(--font-size-h3);
 }
 
 .gmb h4 {
-  font-size: 9pt;
+  font-size: var(--font-size-h4);
+  font-style: italic;
 }

@@ -1,6 +1,10 @@
 @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/utils/reset.css");
 @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/globals.css");
 @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/headings.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/blockquotes.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/tables.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/lists.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/stat-blocks.css");
 
 /* @import url("./utils/reset.css");
 @import url("./coc/globals.css");
@@ -22,11 +26,11 @@
 }
 
 .gmb p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 9pt;
+  font-family: var(--font-main);
+  font-size: var(--font-size-main-text);
   color: var(--color-text-main);
 }
 
-.gmb p + p {
-  text-indent: 0.3cm;
+.gmb h1 + p .gmb p + p {
+  text-indent: var(--indent-main);
 }

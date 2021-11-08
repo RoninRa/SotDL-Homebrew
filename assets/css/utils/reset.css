@@ -1,4 +1,4 @@
-/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+/*** Based on the new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
 
 /* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
 *:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
@@ -49,4 +49,11 @@ textarea {
 
 .gmb p {
   text-indent: unset;
+}
+
+.gmb h1,
+.gmb h2,
+.gmb h3,
+.gmb h4 {
+  border: none;
 }

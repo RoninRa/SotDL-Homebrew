@@ -1,0 +1,9 @@
+/*** Call of Cthulhu NPC Stat Blocks ***/
+
+.stat-block ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1em;
+  justify-content: space-between;
+}
