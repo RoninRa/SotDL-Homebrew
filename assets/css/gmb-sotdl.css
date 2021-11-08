@@ -28,7 +28,7 @@
 }
 
 .gmb {
-  font-family: Athelas;
+  font-family: var(--font-main);
   background: var(--img-main-bg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -191,7 +191,7 @@
 
 .phb#p1 div.default-disclaimer::after {
   font-size: 26pt;
-  font-family: Athelas;
+  font-family: var(--font-main);
   color: white;
   position: absolute;
   top: 0px;
