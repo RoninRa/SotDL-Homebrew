@@ -43,7 +43,9 @@ textarea {
   white-space: revert;
 }
 
-.gmb:after {
+.gmb:after,
+.gmb:nth-child(even):after,
+.gmb:nth-child(odd):after {
   background-image: unset;
 }
 
