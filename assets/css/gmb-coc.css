@@ -19,6 +19,8 @@
   background-color: var(--color-bg-main);
   height: 279.4mm;
   width: 215.9mm;
+  column-gap: 2rem;
+  column-width: 28rem;
 }
 
 .gmb p {
