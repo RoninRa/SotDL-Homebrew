@@ -6,10 +6,6 @@
 @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/lists.css");
 @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/stat-blocks.css");
 
-/* @import url("./utils/reset.css");
-@import url("./coc/globals.css");
-@import url("./coc/headings.css"); */
-
 @media print {
   .gmb {
     margin: 0;
