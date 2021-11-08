@@ -11,6 +11,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 /*
@@ -18,21 +20,29 @@
     in case you use it with normalize.css
   */
 ol,
-ul {
+ul,
+.gmb ol,
+.gmb ul {
   list-style: none;
 }
 
 /* For images to not be able to exceed their container */
-img {
+img,
+.gmb img {
   max-width: 100%;
 }
 
 /* Removes spacing between cells in tables */
-table {
+table,
+.gmb table {
   border-collapse: collapse;
 }
 
 /* Revert the 'white-space' property for textarea elements on Safari */
 textarea {
   white-space: revert;
+}
+
+.gmb:after {
+  background-image: unset;
 }
