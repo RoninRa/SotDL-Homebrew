@@ -1,11 +1,11 @@
 /*** CoC Headings ***/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.gmb h1,
+.gmb h2,
+.gmb h3,
+.gmb h4,
+.gmb h5,
+.gmb h6 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: normal;
@@ -16,23 +16,23 @@ h6 {
   margin-top: 5px;
 }
 
-h1 {
+.gmb h1 {
   font-size: 24pt;
 }
 
-h2 {
+.gmb h2 {
   font-size: 14pt;
 }
 
-h3,
-h4 {
+.gmb h3,
+.gmb h4 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-h3 {
+.gmb h3 {
   font-size: 11pt;
 }
 
-h4 {
+.gmb h4 {
   font-size: 9pt;
 }

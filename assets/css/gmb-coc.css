@@ -1,10 +1,10 @@
-@import url("./utils/reset.css");
-@import url("./coc/globals.css");
-@import url("./coc/headings.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/utils/reset.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/globals.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/headings.css");
 
-/* @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/utils/_reset.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/_globals.css");
-@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/coc/_headings.css"); */
+/* @import url("./utils/reset.css");
+@import url("./coc/globals.css");
+@import url("./coc/headings.css"); */
 
 @media print {
   .gmb {
@@ -21,12 +21,12 @@
   width: 215.9mm;
 }
 
-p {
+.gmb p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 9pt;
   color: var(--color-text-main);
 }
 
-p:nth-child(2) {
+.gmb p:nth-child(2) {
   text-indent: 0.3cm;
 }
