@@ -1,0 +1,9 @@
+/*** Call of Cthulhu Cover ***/
+
+.coc-info {
+  content: "Call of Cthulhu is a Trademark of Chaosium Inc. and is used with their permission via the OBS Community Content program.  For more information please visit Chaosium’s website: www.chaosium.com";
+  position: absolute;
+  bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
