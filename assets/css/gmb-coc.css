@@ -25,6 +25,8 @@
 }
 
 .gmb p {
+  text-align: justify;
+  text-align-last: left;
   font-family: var(--font-main);
   font-size: var(--font-size-main-text);
   color: var(--color-text-main);
