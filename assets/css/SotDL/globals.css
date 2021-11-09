@@ -22,15 +22,15 @@
 
   /* Headers */
   --color-headers-main: var(--color-secondary);
-  --img-header-banner: url(../img/backgrounds/header-banner.png);
+  --img-header-banner: url(../../img/backgrounds/header-banner.png);
   --color-header-border: var(--color-primary);
 
   /* Backgrounds */
-  --img-main-bg: url(../img/backgrounds/sotdl_background.jpg);
-  --img-bg-border: url(../img/backgrounds/sotdl_background_border.png);
-  --img-bg-page-number: url(../img/backgrounds/pentagram.png);
-  --img-parchment: url(../img/backgrounds/parchment.png);
-  --img-parchment-long: url(../img/backgrounds/parchment-long.png);
+  --img-main-bg: url(../../img/backgrounds/sotdl_background.jpg);
+  --img-bg-border: url(../../img/backgrounds/sotdl_background_border.png);
+  --img-bg-page-number: url(../../img/backgrounds/pentagram.png);
+  --img-parchment: url(../../img/backgrounds/parchment.png);
+  --img-parchment-long: url(../../img/backgrounds/parchment-long.png);
 
   /* Monster Stat Blocks */
   --color-monster-h1-bg: var(--color-primary);
