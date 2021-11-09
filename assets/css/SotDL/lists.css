@@ -23,7 +23,7 @@
   display: inline-block;
   width: 1em;
   padding-right: 0.5em;
-  font-family: var(--font-strong);
+  font-family: var(--font-secondary-strong);
   font-weight: bold;
   font-size: 9pt;
   text-align: right;
@@ -33,7 +33,7 @@
 .gmb ul strong,
 .gmb ul p strong,
 .gmb ol strong {
-  font-family: var(--font-strong);
+  font-family: var(--font-secondary-strong);
   font-weight: normal;
   font-size: 10pt;
   letter-spacing: -0.02em;
@@ -61,7 +61,7 @@
 }
 
 .gmb p ul li strong {
-  font-family: var(--font-strong);
+  font-family: var(--font-secondary-strong);
   font-weight: normal;
   font-size: 10pt;
   color: var(--color-strong-alt);
@@ -70,7 +70,7 @@
 
 .gmb p ul li ul li strong,
 .gmb p + ul li strong {
-  font-family: var(--font-strong);
+  font-family: var(--font-secondary-strong);
   font-weight: normal;
   font-size: 10pt;
   color: var(--color-strong);
