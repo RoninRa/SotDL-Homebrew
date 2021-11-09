@@ -36,5 +36,5 @@
 @font-face {
   font-family: "Poison Symbols";
   src: local("Baskerville"), local("Palatino"), local("Book Antiqua");
-  unicode-range: U+7E, U+3A, U+2F;
+  unicode-range: U+007E, U+003A, U+002F;
 }
