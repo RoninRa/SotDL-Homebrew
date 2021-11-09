@@ -26,7 +26,7 @@
   --color-header-border: var(--color-primary);
 
   /* Backgrounds */
-  --img-main-bg: url(../../img/backgrounds/sotdl_background.jpg);
+  --img-main-bg: url(/SotDL-Homebrew/assets/img/backgrounds/sotdl_background.jpg);
   --img-bg-border: url(../../img/backgrounds/sotdl_background_border.png);
   --img-bg-page-number: url(../../img/backgrounds/pentagram.png);
   --img-parchment: url(../../img/backgrounds/parchment.png);
