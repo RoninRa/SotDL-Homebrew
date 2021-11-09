@@ -15,7 +15,7 @@
 
   /* Fonts */
   --font-main: "Athelas";
-  --font-header: "Poison Hope";
+  --font-header: "Poison Symbols", "Poison Hope";
   --font-title: "First Order";
   --font-secondary: "GothamBook";
   --font-secondary-strong: "GothamBold";
