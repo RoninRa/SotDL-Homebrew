@@ -5,7 +5,7 @@
 
 .gmb {
   background: none;
-  background-color: var(--color-bg-primary);
+  background-color: var(--color-gradient-main);
 }
 
 .gmb p {

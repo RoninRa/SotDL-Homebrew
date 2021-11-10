@@ -11,11 +11,13 @@
   --color-primary: #191919;
   --color-primary-glare: #d6ede6;
   --color-secondary: #ffe5af;
-  --color-tertiary: #a7a9ac;
-  --color-quaternary: #e4e3d8;
+  --color-tertiary: #37585b;
+  --color-quaternary: #333234;
+  --color-quaternary-glare: #515153;
   --color-quinary: #38212b;
-  --color-senary: #ffffff;
-  --color-septenary: #f3f3f3;
+  --color-quinary-glare: #55484f;
+  --color-senary: #251325;
+  --color-septenary: #473839;
 
   /* Fonts */
   --font-primary: "Raleway", sans-serif;
@@ -42,6 +44,26 @@
   /* Background */
   --color-bg-primary: var(--color-septenary);
   --color-bg-blockquote: var(--color-quaternary);
+  --color-gradient-main: linear-gradient(
+    90deg,
+    var(--color-quaternary) 0%,
+    var(--color-tertiary) 100%
+  );
+  --color-gradient-shade: linear-gradient(
+    90deg,
+    var(--color-quaternary) 0%,
+    var(--color-quaternary-glare) 100%
+  );
+  --color-gradient-alt: linear-gradient(
+    90deg,
+    rgba(56, 33, 43, 1) 0%,
+    rgba(85, 72, 79, 1) 100%
+  );
+  --color-gradient-alt-shade: linear-gradient(
+    90deg,
+    var(--color-senary) 0%,
+    var(--color-septenary) 100%
+  );
 
   /* Main Text */
   --font-text-primary: var(--font-primary);
