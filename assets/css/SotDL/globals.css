@@ -19,11 +19,28 @@
   --font-title: "First Order";
   --font-secondary: "GothamBook";
   --font-secondary-strong: "GothamBold";
+  --font-size-primary: 10pt;
+  --font-size-secondary: 12pt;
+  --font-size-tertiary: 14pt;
+  --font-size-quaternary: 18pt;
+  --font-size-quinary: 25pt;
+  --font-size-senary: 32pt;
+  --font-size-septenary: 50pt;
+  --font-size-octonary: 60pt;
 
   /* Headers */
   --color-headers-main: var(--color-secondary);
   --img-header-banner: url("/SotDL-Homebrew/assets/img/backgrounds/header-banner.png");
   --color-header-border: var(--color-primary);
+  --font-size-title: var(--font-size-octonary);
+  --font-size-title-banner: var(--font-size-septenary);
+  --font-size-subtitle: var(--font-size-tertiary);
+  --font-size-h1: var(--font-size-senary);
+  --font-size-h2: var(--font-size-quinary);
+  --font-size-h3: var(--font-size-quaternary);
+  --font-size-h4: var(--font-size-tertiary);
+  --font-size-h5: var(--font-size-secondary);
+  --font-size-h6: var(--font-size-primary);
 
   /* Backgrounds */
   --img-main-bg: url("/SotDL-Homebrew/assets/img/backgrounds/sotdl_background.jpg");
