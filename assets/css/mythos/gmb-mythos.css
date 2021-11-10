@@ -1,7 +1,13 @@
 @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/utils/reset.css");
 @import url("https://roninra.github.io/SotDL-Homebrew/assets/css/mythos/globals.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/css/mythos/headers.css");
 
 .gmb {
   background: none;
   background-color: var(--color-bg-main);
+}
+
+.gmb p {
+  font-family: var(--font-text-primary);
+  font-size: var(--font-size-main);
 }

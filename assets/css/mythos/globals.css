@@ -8,11 +8,12 @@
 
 :root {
   /* Colors */
-  --color-primary: #000000;
-  --color-secondary: #7d373a;
+  --color-primary: #191919;
+  --color-primary-glare: #d6ede6;
+  --color-secondary: #ffe5af;
   --color-tertiary: #a7a9ac;
   --color-quaternary: #e4e3d8;
-  --color-quinary: #5b4d3b;
+  --color-quinary: #38212b;
   --color-senary: #ffffff;
   --color-septenary: #f3f3f3;
 
@@ -42,5 +43,5 @@
 
   /* Tables */
   --color-table-header: var(--color-quinary);
-  --color-table-header-text: var(--color-senary);
+  --color-table-header-text: var(--color-secondary);
 }
