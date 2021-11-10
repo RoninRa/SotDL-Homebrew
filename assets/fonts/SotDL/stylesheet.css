@@ -31,10 +31,13 @@
   src: url("PoisonHope-Regular.ttf");
   font-weight: normal;
   font-style: normal;
+  unicode-range: U+0020-0022, U+0027-0029, U+002C-002E, U+0030-0039, U+003F-005A,
+    U+0061-007A;
 }
 
 @font-face {
   font-family: "Poison Symbols";
   src: local("Baskerville"), local("Palatino"), local("Book Antiqua");
-  unicode-range: U+007E, U+003A, U+2215;
+  unicode-range: U+0023-0026, U+002A-002B, U+002F, U+003A-003E, U+005B-0060,
+    U+007B-007F;
 }
