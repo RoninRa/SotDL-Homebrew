@@ -3,4 +3,5 @@
 
 .gmb {
   background: none;
+  background-color: var(--color-bg-main);
 }
