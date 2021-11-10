@@ -5,10 +5,10 @@
 
 .gmb {
   background: none;
-  background-color: var(--color-bg-main);
+  background-color: var(--color-bg-primary);
 }
 
 .gmb p {
   font-family: var(--font-text-primary);
-  font-size: var(--font-size-main);
+  font-size: var(--font-size-main-text);
 }

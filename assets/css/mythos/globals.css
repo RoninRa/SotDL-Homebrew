@@ -21,15 +21,23 @@
   --font-primary: "Raleway", sans-serif;
   --font-secondary: "MarketDeco";
   --font-tertiary: "Andesite";
+  --font-size-primary: 9pt;
+  --font-size-secondary: 11pt;
+  --font-size-tertiary: 14pt;
+  --font-size-quaternary: 24pt;
+  --font-size-quinary: 28pt;
+  --font-size-senary: 32pt;
 
   /* Headers */
   --font-title: var(--font-tertiary);
   --font-header-primary: var(--font-secondary);
   --color-header-primary: var(--color-secondary);
-  --font-size-h1: 24pt;
-  --font-size-h2: 14pt;
-  --font-size-h3: 11pt;
-  --font-size-h4: 9pt;
+  --font-size-h1: var(--font-size-quinary);
+  --font-size-h2: var(--font-size-quaternary);
+  --font-size-h3: var(--font-size-tertiary);
+  --font-size-h4: var(--font-size-secondary);
+  --font-size-h5: var(--font-size-secondary);
+  --font-size-h6: var(--font-size-secondary);
 
   /* Background */
   --color-bg-primary: var(--color-septenary);
@@ -38,7 +46,7 @@
   /* Main Text */
   --font-text-primary: var(--font-primary);
   --color-text-primary: var(--color-primary);
-  --font-size-primary: 9pt;
+  --font-size-main-text: var(--font-size-primary);
   --indent-main: 1em;
 
   /* Tables */
