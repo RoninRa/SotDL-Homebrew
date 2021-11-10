@@ -1,4 +1,10 @@
-/*** CoC Global properties ***/
+/*** Mythos Global properties ***/
+
+/** Font imports **/
+
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/fonts/Andesite/stylesheet.css");
+@import url("https://roninra.github.io/SotDL-Homebrew/assets/fonts/MarketDeco/stylesheet.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap");
 
 :root {
   /* Colors */
@@ -10,23 +16,28 @@
   --color-senary: #ffffff;
   --color-septenary: #f3f3f3;
 
+  /* Fonts */
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: "MarketDeco";
+  --font-tertiary: "Andesite";
+
   /* Headers */
-  --color-headers-main: var(--color-secondary);
-  --font-headers: "Trebuchet MS";
-  --font-header-secondary: Georgia;
+  --font-title: var(--font-tertiary);
+  --font-header-primary: var(--font-secondary);
+  --color-header-primary: var(--color-secondary);
   --font-size-h1: 24pt;
   --font-size-h2: 14pt;
   --font-size-h3: 11pt;
   --font-size-h4: 9pt;
 
   /* Background */
-  --color-bg-main: var(--color-septenary);
+  --color-bg-primary: var(--color-septenary);
   --color-bg-blockquote: var(--color-quaternary);
 
   /* Main Text */
-  --color-text-main: var(--color-primary);
-  --font-main: Georgia;
-  --font-size-main: 9pt;
+  --font-text-primary: var(--font-primary);
+  --color-text-primary: var(--color-primary);
+  --font-size-primary: 9pt;
   --indent-main: 1em;
 
   /* Tables */
