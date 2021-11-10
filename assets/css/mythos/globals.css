@@ -30,8 +30,8 @@
 
   /* Headers */
   --font-title: var(--font-tertiary);
-  --font-header-primary: var(--font-secondary);
-  --color-header-primary: var(--color-secondary);
+  --font-header-main: var(--font-secondary);
+  --color-header-main: var(--color-secondary);
   --font-size-h1: var(--font-size-quinary);
   --font-size-h2: var(--font-size-quaternary);
   --font-size-h3: var(--font-size-tertiary);

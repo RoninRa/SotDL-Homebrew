@@ -10,7 +10,7 @@
   font-weight: bold;
   text-align: justify;
   text-align-last: left;
-  color: var(--color-headers-main);
+  color: var(--color-header-main);
   text-transform: uppercase;
   margin-bottom: 5px;
   margin-top: 5px;
@@ -31,4 +31,15 @@
 .gmb h4 {
   font-size: var(--font-size-h4);
   font-style: italic;
+}
+
+.gmb h5 {
+  font-size: var(--font-size-h5);
+  border-bottom: 1px solid var(--color-header-main);
+}
+
+.gmb h6 {
+  font-size: var(--font-size-h6);
+  font-style: italic;
+  border-bottom: 1px solid var(--color-header-main);
 }
