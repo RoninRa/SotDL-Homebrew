@@ -5,7 +5,8 @@
 
 .gmb {
   background: none;
-  background-color: var(--color-gradient-main);
+  /* background: var(--color-gradient-main); */
+  background-color: var(--color-quaternary-glare);
 }
 
 .gmb p {
