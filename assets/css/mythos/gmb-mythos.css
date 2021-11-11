@@ -10,6 +10,7 @@
 }
 
 .gmb p {
+  color: var(--color-text-primary);
   font-family: var(--font-text-primary);
   font-size: var(--font-size-main-text);
 }
